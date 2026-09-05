@@ -13,35 +13,68 @@ const CFG_PATH = path.join(ROOT, 'notify.local.json');
 const loadCfg = () => (fs.existsSync(CFG_PATH) ? JSON.parse(fs.readFileSync(CFG_PATH, 'utf8')) : {});
 const saveCfg = c => fs.writeFileSync(CFG_PATH, JSON.stringify(c, null, 1), 'utf8');
 
+// برای تلگرام در ایران: عبور از پراکسی محلی فیلترشکن (مثلاً http://127.0.0.1:10809)
+// بدنه multipart به‌صورت دستی ساخته می‌شود تا وابسته به کلاس FormData هیچ نسخه‌ای نباشد.
+let U = null;
+try { U = await import('undici'); } catch {}
+const proxyAgents = new Map();
+function dispatcherFor(proxy) {
+  if (!proxyAgents.has(proxy)) proxyAgents.set(proxy, new U.ProxyAgent(proxy));
+  return proxyAgents.get(proxy);
+}
+
 // توکن ربات فقط این قالب را می‌تواند داشته باشد (ضد تزریق در مسیر URL)
 const botTokenOk = t => /^\d{5,14}:[A-Za-z0-9_-]{25,60}$/.test(String(t || '').trim());
-const chatIdOk = c => /^-?\d{3,20}$/.test(String(c || '').trim());
 
 const BASES = { telegram: 'https://api.telegram.org', bale: 'https://tapi.bale.ai' };
 
-async function botPost(channel, token, method, body) {
-  const base = BASES[channel];
-  const u = new URL(base + '/bot' + token + '/' + method); // token قبلاً با regex اعتبارسنجی شده
-  if (u.origin !== base) throw new Error('bad request target');
-  const r = await fetch(u, { method: 'POST', body, signal: AbortSignal.timeout(90000) });
+// fields: [{ name, value, filename?, contentType? }]
+function multipart(fields) {
+  const boundary = '----fardis' + Math.random().toString(36).slice(2) + Date.now().toString(36);
+  const parts = [];
+  for (const f of fields) {
+    let head = `--${boundary}\r\nContent-Disposition: form-data; name="${f.name}"`;
+    if (f.filename) head += `; filename="${f.filename.replace(/["\r\n]/g, '')}"`;
+    if (f.contentType) head += `\r\nContent-Type: ${f.contentType}`;
+    parts.push(Buffer.from(head + '\r\n\r\n'));
+    parts.push(Buffer.isBuffer(f.value) ? f.value : Buffer.from(String(f.value)));
+    parts.push(Buffer.from('\r\n'));
+  }
+  parts.push(Buffer.from(`--${boundary}--\r\n`));
+  return { body: Buffer.concat(parts), contentType: 'multipart/form-data; boundary=' + boundary };
+}
+
+async function parseBotJson(r) {
   const j = await r.json().catch(() => ({}));
   if (!j.ok) throw new Error(j.description || 'HTTP ' + r.status);
   return j.result;
 }
 
-async function sendFile(channel, cfg, cap, pdfPath, fileName) {
-  const fd = new FormData();
-  fd.append('chat_id', cfg.chatId);
-  fd.append('caption', cap.slice(0, 900));
-  fd.append('document', new Blob([fs.readFileSync(pdfPath)], { type: 'application/pdf' }), fileName);
-  return botPost(channel, cfg.token, 'sendDocument', fd);
+async function botPost(channel, token, method, fields) {
+  const base = BASES[channel];
+  const u = new URL(base + '/bot' + token + '/' + method); // token قبلاً با regex اعتبارسنجی شده
+  if (u.origin !== base) throw new Error('bad request target');
+  const { body, contentType } = multipart(fields);
+  const init = { method: 'POST', body, headers: { 'Content-Type': contentType }, signal: AbortSignal.timeout(120000) };
+  const r = (cfg[channel]?.proxy && U)
+    ? await U.fetch(u, { ...init, dispatcher: dispatcherFor(cfg[channel].proxy) })
+    : await fetch(u, init);
+  return parseBotJson(r);
 }
 
-async function sendText(channel, cfg, text) {
-  const fd = new FormData();
-  fd.append('chat_id', cfg.chatId);
-  fd.append('text', text.slice(0, 3500));
-  return botPost(channel, cfg.token, 'sendMessage', fd);
+async function sendFile(channel, c, cap, pdfPath, fileName) {
+  return botPost(channel, c.token, 'sendDocument', [
+    { name: 'chat_id', value: c.chatId },
+    { name: 'caption', value: cap.slice(0, 900) },
+    { name: 'document', value: fs.readFileSync(pdfPath), filename: fileName, contentType: 'application/pdf' },
+  ]);
+}
+
+async function sendText(channel, c, text) {
+  return botPost(channel, c.token, 'sendMessage', [
+    { name: 'chat_id', value: c.chatId },
+    { name: 'text', value: text.slice(0, 3500) },
+  ]);
 }
 
 async function sendMail(smtp, subject, text, pdfPath, fileName) {
@@ -95,7 +128,7 @@ if (args[0] === '--setup') {
   if (!botTokenOk(token)) { console.error('SETUP-ERROR token format looks wrong'); process.exit(1); }
   cfg[channel] = { ...(cfg[channel] || {}), token };
   saveCfg(cfg);
-  const j = await botPost(channel, token, 'getUpdates', new FormData());
+  const j = await botPost(channel, token, 'getUpdates', []);
   const chats = new Map();
   for (const u of j) {
     const m = u.message || u.edited_message || u.channel_post || u.my_chat_member?.chat;
@@ -118,7 +151,7 @@ if (args[0] === '--setup') {
     try { await sendMail(cfg.smtp, 'هشدار: گزارش روزانه فردیس', text, null); out.push('smtp=OK'); }
     catch (e) { out.push('smtp=FAIL(' + e.message + ')'); }
   }
-  console.log('ALERT ' + out.join(' ') || 'ALERT no-channels-configured');
+  console.log('ALERT ' + (out.join(' ') || 'no-channels-configured'));
 } else {
   const cap = buildCaption();
   const fileName = 'Fardis-Alborz-Tenders-' + todayJalaliHyphen() + '.pdf';

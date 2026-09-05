@@ -9,6 +9,7 @@
   "dependencies": {
     "nodemailer": "^7.0.13",
     "pdf-lib": "^1.17.1",
-    "playwright": "^1.62.1"
+    "playwright": "^1.62.1",
+    "undici": "^8.10.2"
   }
 }
