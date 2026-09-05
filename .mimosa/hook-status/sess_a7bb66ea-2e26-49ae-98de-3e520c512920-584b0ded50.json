@@ -1,9 +1,9 @@
 {
   "schemaVersion": "mimosa-hook-status/v1",
-  "recordedAt": "2026-09-05T19:33:44.506Z",
+  "recordedAt": "2026-09-05T19:42:44.614Z",
   "sessionId": "sess_a7bb66ea-2e26-49ae-98de-3e520c512920",
   "event": "PostToolUse",
-  "toolName": "Edit",
+  "toolName": "Write",
   "file": ".gitignore",
   "outcome": "clear",
   "coverage": "complete",
