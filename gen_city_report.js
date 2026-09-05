@@ -1,0 +1,478 @@
+// مولد عمومی گزارش PDF آگهی‌های یک شهر — کار با هر شهری بدون تغییر کد
+// ورودی: setadiran-data/<پوشه-شهر>/final_data.json (پوشه از LAST.txt خوانده می‌شود)
+// خروجی: report.html در پوشه کاری جاری — سپس: node measure.js → دوباره این اسکریپت → node render.js report.html report.pdf
+// تاریخ تهیه به‌صورت لحظه‌ای (تقویم شمسی سیستم) محاسبه می‌شود.
+const fs = require('fs');
+const path = require('path');
+
+const rootDir = path.join(process.cwd(), 'setadiran-data');
+const lastPath = path.join(rootDir, 'LAST.txt');
+if (!fs.existsSync(lastPath)) { throw new Error('first run fetch_announcements.js'); }
+const folder = fs.readFileSync(lastPath, 'utf8').trim();
+// فقط حروف/اعداد/خط تیره — و مرز صریح: مسیر نهایی همیشه داخل ریشه setadiran-data می‌ماند
+if (!/^[\p{L}\p{N}\-]{1,60}$/u.test(folder)) { throw new Error('bad folder name in LAST.txt'); }
+const dataDir = path.resolve(rootDir, folder);
+if (!dataDir.startsWith(rootDir + path.sep)) { throw new Error('bad folder path'); }
+const dataPath = path.join(dataDir, 'final_data.json');
+const prevPath = path.join(dataDir, 'prev_items.json');
+if (!fs.existsSync(dataPath)) { throw new Error('dataset not found: ' + dataPath + ' — اول fetch_details.js را اجرا کن'); }
+const items = JSON.parse(fs.readFileSync(dataPath, 'utf8'));
+const prevSet = fs.existsSync(prevPath)
+  ? new Set(JSON.parse(fs.readFileSync(prevPath, 'utf8')).map(i => String(i.number)))
+  : new Set();
+const isNew = it => prevSet.size > 0 && !prevSet.has(String(it.number));
+const added = items.filter(isNew);
+
+// تاریخچه اولین مشاهده ≈ زمان ارسال به صفحه اعلام عمومی (برای اگهی‌های جدیدِ پس از راه‌اندازی پایش)
+const histPath = path.join(dataDir, 'history.json');
+const hist = fs.existsSync(histPath) ? JSON.parse(fs.readFileSync(histPath, 'utf8')) : { firstSeen: {} };
+const isoToFa = iso => {
+  try {
+    const d = new Date(iso);
+    const date = new Intl.DateTimeFormat('fa-IR-u-ca-persian', { year: 'numeric', month: 'long', day: 'numeric' }).format(d);
+    const time = new Intl.DateTimeFormat('fa-IR', { hour: '2-digit', minute: '2-digit', hour12: false }).format(d);
+    return date + ' ' + time;
+  } catch (e) { return '—'; }
+};
+const publishFa = it => {
+  const rec = hist.firstSeen && hist.firstSeen[String(it.number)];
+  if (!rec || rec.baseline) return '—'; // پیش از شروع پایش منتشر شده؛ زمان دقیق در دسترس عمومی نیست
+  return isoToFa(rec.iso);
+};
+// امروز شمسی (برای تشخیص مهلت گذشته)
+function todayJalali() {
+  try {
+    const parts = new Intl.DateTimeFormat('en-US-u-ca-persian', { year: 'numeric', month: '2-digit', day: '2-digit' }).formatToParts(new Date());
+    const get = t => Number((parts.find(p => p.type === t) || {}).value);
+    return { y: get('year'), m: get('month'), d: get('day') };
+  } catch (e) { return null; }
+}
+const TODAY_J = todayJalali();
+const jNum = s => {
+  const m = String(s || '').match(/(\d{4})\/(\d{2})\/(\d{2})/);
+  return m ? Number(m[1] + m[2] + m[3]) : null;
+};
+// مهلت مؤثر: مهلت دریافت اسناد اگر هست، وگرنه مهلت ارسال پاسخ/پاکت
+const effDeadline = it => jNum(it.docDeadline && it.docDeadline !== ' - ' ? it.docDeadline : '') || jNum(it.sendDeadline);
+const isExpired = it => {
+  const dl = effDeadline(it);
+  return !!(dl && TODAY_J && dl < TODAY_J.y * 10000 + TODAY_J.m * 100 + TODAY_J.d);
+};
+
+// نام استان/شهر از خود داده‌ها (پرتکرارترین)
+const tallyBy = key => {
+  const t = {};
+  items.forEach(i => { const k = String(i[key] || '').trim(); if (k) t[k] = (t[k] || 0) + 1; });
+  const e = Object.entries(t).sort((a, b) => b[1] - a[1]);
+  return e.length ? e[0][0] : '—';
+};
+const CITY = tallyBy('city');
+const PROV = tallyBy('province');
+
+// تاریخ و ساعت لحظه‌ای (شمسی + میلادی)
+function todayFa() {
+  try {
+    const d = new Date();
+    const date = new Intl.DateTimeFormat('fa-IR-u-ca-persian', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' }).format(d);
+    const time = new Intl.DateTimeFormat('fa-IR', { hour: '2-digit', minute: '2-digit', hour12: false }).format(d);
+    const g = d.getFullYear() + '/' + String(d.getMonth() + 1).padStart(2, '0') + '/' + String(d.getDate()).padStart(2, '0');
+    return { date, time, g };
+  } catch (e) { return { date: '', time: '', g: '' }; }
+}
+const NOW = todayFa();
+
+// ---------- helpers ----------
+const FA = ['۰','۱','۲','۳','۴','۵','۶','۷','۸','۹'];
+const toFa = s => String(s).replace(/[0-9]/g, d => FA[+d]);
+const num = s => (s || '').toString().replace(/,/g, '').replace(/[^\d.-]/g, '');
+const fmt = s => {
+  const n = num(s);
+  if (!n || isNaN(+n)) return '';
+  return toFa((+n).toLocaleString('en-US'));
+};
+const rial = (s, approx = true) => {
+  const n = num(s);
+  if (!n || isNaN(+n) || +n === 0) return '—';
+  let out = fmt(n) + ' ریال';
+  if (approx) {
+    const t = +n / 10;
+    if (t >= 1e9) out += ' (≈ ' + toFa((t / 1e9).toFixed(1)) + ' میلیارد تومان)';
+    else if (t >= 1e6) out += ' (≈ ' + toFa(Math.round(t / 1e6).toLocaleString('en-US')) + ' میلیون تومان)';
+  }
+  return out;
+};
+const esc = s => (s || '').toString().replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+const dash = v => (v && String(v).trim() && String(v).trim() !== '--') ? esc(String(v).trim()) : '—';
+const faTitle = s => toFa(esc(s));
+// لینک فعال شماره اگهی: مناقصه/خرید → صفحه رسمی جزئیات؛ مزایده → جستجوی سامانه (نیازمند لاگین)
+const ETEND_SEARCH = 'https://etend.setadiran.ir/etend/indexPage.action';
+function linkNum(it) {
+  const url = it.url || (it.board === 'مزایده' ? ETEND_SEARCH : null);
+  const inner = toFa(it.number);
+  return url ? `<a class="nlink" href="${esc(url)}" target="_blank" rel="noopener">${inner}</a>` : inner;
+}
+
+const byNewest = (a, b) => {
+  const ra = typeof a.orderIdx === 'number' ? a.orderIdx : 999999;
+  const rb = typeof b.orderIdx === 'number' ? b.orderIdx : 999999;
+  if (ra !== rb) return ra - rb;                     // جدیدترین اول (ترتیب خود سامانه)
+  return String(b.number).localeCompare(String(a.number)); // سپس شماره بزرگ‌تر (نزولی)
+};
+const tenders = items.filter(i => i.board === 'مناقصه' && i.tender).sort(byNewest);
+const services = items.filter(i => i.board === 'خرید' && i.purchase && i.purchase.kind === 'خدمت').sort(byNewest);
+const counts = { total: items.length, tenders: tenders.length, services: services.length };
+const newTag = ' <span class="newtag">جدید</span>';
+const expTag = ' <span class="exptag">مهلت دریافت گذشته</span>';
+const expiredCount = tenders.filter(isExpired).length + services.filter(isExpired).length;
+
+// ---------- component builders ----------
+function kv(label, value) {
+  return `<div class="kv"><div class="k">${esc(label)}</div><div class="v">${value || '—'}</div></div>`;
+}
+function tenderCard(it, idx) {
+  const t = it.tender;
+  const domains = (t.domains && t.domains.length)
+    ? t.domains.map(d => `<div class="domrow"><b>${dash(d.cls)}</b> — ${dash(d.desc)}</div>`).join('')
+    : '';
+  return `
+  <div class="tcard" data-m="t${idx}">
+    <div class="thead">
+      <div class="tnum"><a class="nlink" href="${esc(it.url)}" target="_blank" rel="noopener">مناقصه ${toFa(idx)} — شماره ${toFa(it.number)}</a></div>
+      <div class="chips">${isNew(it) ? '<div class="tchip new">جدید — انتشار امروز</div>' : ''}${isExpired(it) ? '<div class="tchip exp">مهلت دریافت اسناد گذشته</div>' : ''}<div class="tchip">${dash(t.subject)}</div></div>
+    </div>
+    <div class="ttitle">${faTitle(it.title)}</div>
+    <div class="kv-grid">
+      ${kv('دستگاه مناقصه‌گزار', dash(it.org))}
+      ${kv('نوع فرآیند', dash(t.setupType))}
+      ${kv('استان / شهر عملیات', dash(t.operationProvince) + ' / ' + dash(t.operationCity))}
+      ${kv('حوزه فعالیت', dash(t.domainsDesc))}
+      ${kv('برآورد مالی', rial(t.financialEstimate))}
+      ${kv('تضمین شرکت در مناقصه', rial(t.guaranty))}
+      ${kv('هزینه خرید اسناد', rial(t.docsPrice, false))}
+      ${kv('حساب واریز هزینه اسناد', dash(t.docsAccount))}
+      ${kv('زمان ارسال به صفحه اعلام', esc(publishFa(it)))}
+      ${kv('مهلت دریافت اسناد', isExpired(it) ? '<span class="expired">' + toFa(dash(t.docDeadlineFull)) + '</span>' : toFa(dash(t.docDeadlineFull)))}
+      ${kv('مهلت ارسال پاکت پیشنهاد', toFa(dash(t.proposalDeadlineFull)))}
+      ${kv('زمان بازگشایی پاکت‌ها', toFa(dash(t.opening)))}
+      ${kv('اعتبار پیشنهاد تا', toFa(dash(t.validUntil)))}
+      ${kv('مسئول ثبت مناقصه', dash(t.registrar))}
+      ${kv('کد پستی', toFa(dash(t.postalCode)))}
+    </div>
+    <div class="trow"><span class="lbl">شرح:</span> ${faTitle(t.desc)}</div>
+    <div class="trow"><span class="lbl">آدرس:</span> ${faTitle(t.address)}</div>
+    ${t.guarantyDesc && t.guarantyDesc !== '*میزان مبلغ سپرده بر اساس محاسبه سامانه صحیح است*' ? `<div class="trow"><span class="lbl">توضیح تضمین:</span> ${dash(t.guarantyDesc)}</div>` : ''}
+    ${domains ? `<div class="trow"><span class="lbl">طبقه‌بندی حوزه‌های فعالیت:</span><div class="doms">${domains}</div></div>` : ''}
+    <div class="tlink"><a href="${esc(it.url)}" target="_blank" rel="noopener">لینک اگهی در سامانه: ${esc(it.url)}</a></div>
+  </div>`;
+}
+function serviceCard(it, idx) {
+  const p = it.purchase;
+  const itemRows = (p.items || []).map((r, n) =>
+    `<tr><td>${toFa(n + 1)}</td><td>${toFa(dash(r.code))}</td><td>${faTitle(r.name)}</td><td>${dash(r.unit)}</td><td>${dash(r.qty)}</td><td>${toFa(dash(r.date))}</td></tr>`).join('');
+  return `
+  <div class="tcard" data-m="s${idx}">
+    <div class="thead">
+      <div class="tnum"><a class="nlink" href="${esc(it.url)}" target="_blank" rel="noopener">استعلام خدمات ${toFa(idx)} — شماره ${toFa(it.number)}</a></div>
+      <div class="chips">${isNew(it) ? '<div class="tchip new">جدید — انتشار امروز</div>' : ''}<div class="tchip">پیمانکاری / خدمات</div></div>
+    </div>
+    <div class="ttitle">${faTitle(it.title.replace(/^نیاز خدمات[-–—]?\s*/, ''))}</div>
+    <div class="kv-grid kv3">
+      ${kv('دستگاه خریدار', dash(it.org))}
+      ${kv('مهلت ارسال پاسخ', isExpired(it) ? '<span class="expired">' + toFa(dash(it.sendDeadline)) + '</span>' : toFa(dash(it.sendDeadline)))}
+      ${kv('استان / شهر تحویل', dash(it.province) + ' / ' + dash(it.city))}
+      ${kv('زمان ارسال به صفحه اعلام', esc(publishFa(it)))}
+    </div>
+    <div class="trow"><span class="lbl">شرح کامل:</span> ${faTitle(p.desc)}</div>
+    ${itemRows ? `<table class="mini"><thead><tr><th>ردیف</th><th>کد خدمت</th><th>نام خدمت</th><th>واحد</th><th>تعداد/مقدار</th><th>تاریخ نیاز</th></tr></thead><tbody>${itemRows}</tbody></table>` : ''}
+    ${p.buyerNotes ? `<div class="trow note"><span class="lbl">توضیحات خریدار:</span> ${faTitle(p.buyerNotes)}</div>` : ''}
+    <div class="tlink"><a href="${esc(it.url)}" target="_blank" rel="noopener">لینک اگهی در سامانه: ${esc(it.url)}</a></div>
+  </div>`;
+}
+const HEAD_META = {
+  hB1: { t: 'بخش ۱ | مناقصات پیمانکاری و عمومی — مشخصات کامل اگهی (جدیدترین در بالا)', sub: toFa(tenders.length) + ' مناقصه فعال در محدوده ' + esc(CITY) + '؛ مرتب‌سازی بر اساس جدیدترین اگهی (سپس شماره فراخوان). مشخصات کامل هر اگهی از صفحه رسمی همان اگهی در سامانه استخراج شده است. نشان «جدید» = انتشار امروز؛ مهلت دریافت اسناد گذشته با رنگ قرمز.' },
+  hB2: { t: 'بخش ۲ | استعلام‌های خدمات و انتخاب پیمانکار — مشخصات کامل (جدیدترین در بالا)', sub: 'آگهی‌های خدماتی/پیمانکاری فعال؛ شرح کامل و اقلام خدمت از سامانه استخراج شده است. مهلت‌های گذشته با رنگ قرمز.' },
+};
+function methodNote() {
+  const addedList = added.length
+    ? ' نسبت به گزارش پیشین ' + toFa(added.length) + ' اگهی جدید اضافه شده است' +
+      (tenders.filter(isNew).length ? ' (مناقصات جدید با شماره فراخوان ' + toFa(tenders.filter(isNew).map(t => String(t.number).slice(-3)).join('، ')) + ')' : '') +
+      '.'
+    : '';
+  return `<div class="method" data-m="method">
+      <b>روش گردآوری:</b> داده‌ها مستقیماً از «تابلوی اعلانات مرکزی سامانه تدارکات الکترونیکی دولت» (fe.setadiran.ir/centralboard) با فیلتر استان ${esc(PROV)} و شهر ${esc(CITY)} و از صفحات رسمی جزئیات اگهی در سامانه‌های etend.setadiran.ir و eproc.setadiran.ir استخراج شده است. ترتیب همه بخش‌ها «جدیدترین در بالا» بر اساس ترتیب انتشار خود سامانه است و شماره فراخوان نیز لحاظ شده. شماره هر اگهی به صفحه رسمی همان اگهی لینک است (لینک مزایده‌ها پس از ورود به سامانه باز می‌شود). به درخواست کاربر، مزایده‌ها و استعلام‌های خرید کالا از این گزارش حذف شده و فقط مناقصات و استعلام‌های خدمات می‌آید. مهلت‌های دریافت/ارسال گذشته با رنگ قرمز مشخص شده‌اند. ستون «زمان ارسال به صفحه اعلام» از تاریخچه پایش ثبت می‌شود؛ برای اگهی‌های قدیمی‌تر از شروع پایش «—» درج شده چون زمان دقیق انتشار آن‌ها در دسترس عمومی سامانه نیست. تاریخ تهیه گزارش: ${esc(NOW.date)}، ساعت ${esc(NOW.time)} برابر ${esc(NOW.g)}.${addedList} برای مشاهده و دانلود اسناد کامل هر اگهی، ورود به حساب کاربری در سامانه ستاد ایران لازم است.
+    </div>`;
+}
+
+// ---------- گام ۱: measure.html ----------
+const heightsPath = path.join(process.cwd(), 'heights.json');
+const measurePath = path.join(process.cwd(), 'measure.html');
+if (!fs.existsSync(heightsPath)) {
+  const html = `<!DOCTYPE html>
+<html lang="fa" dir="rtl"><head><meta charset="UTF-8"><title>measure</title>
+<style>
+  @font-face { font-family: 'Vazirmatn'; src: url('fonts/Vazirmatn-Regular.woff2') format('woff2'); font-weight: 400; }
+  @font-face { font-family: 'Vazirmatn'; src: url('fonts/Vazirmatn-Medium.woff2') format('woff2'); font-weight: 500; }
+  @font-face { font-family: 'Vazirmatn'; src: url('fonts/Vazirmatn-SemiBold.woff2') format('woff2'); font-weight: 600; }
+  @font-face { font-family: 'Vazirmatn'; src: url('fonts/Vazirmatn-Bold.woff2') format('woff2'); font-weight: 700; }
+  @font-face { font-family: 'Vazirmatn'; src: url('fonts/Vazirmatn-ExtraBold.woff2') format('woff2'); font-weight: 800; }
+  :root { --ink:#0f172a; --muted:#5b6b7b; --line:#e3e9ef; --teal:#0f766e; --teal-ink:#0d5f58; --teal-tint:#eef8f4; --teal-line:#c4e6da; --amber-ink:#92400e; --amber-tint:#fdf6e8; --amber-line:#eeddb4; --red:#b91c1c; --red-ink:#991b1b; --red-tint:#fdf0ef; --red-line:#f3c9c4; }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { width: 186mm; background: #fff; font-family: 'Vazirmatn', 'Tahoma', sans-serif; color: var(--ink); }
+  .mhead { margin-bottom: 2mm; }
+  h2.sec { font-size: 11.5pt; font-weight: 700; margin-bottom: 2.2mm; display: flex; align-items: center; gap: 2.8mm; }
+  h2.sec::before { content: ''; width: 1.6mm; height: 5mm; border-radius: 1mm; background: var(--teal); display: inline-block; }
+  .secnote { font-size: 7.7pt; line-height: 1.75; color: var(--muted); margin-bottom: 2.4mm; }
+  td.num { direction: ltr; text-align: right; white-space: nowrap; font-size: 7.4pt; }
+  .tcard { border: 0.8px solid var(--teal-line); border-radius: 2.4mm; padding: 3mm 3.6mm 2.6mm; margin-bottom: 3.4mm; background: #fff; }
+  .thead { display: flex; justify-content: space-between; align-items: center; margin-bottom: 1.4mm; gap: 3mm; }
+  .tnum { font-size: 7.6pt; font-weight: 700; color: var(--muted); }
+  .chips { display: flex; gap: 1.6mm; align-items: center; }
+  .tchip { font-size: 7.2pt; font-weight: 700; color: var(--teal-ink); background: var(--teal-tint); border: 0.7px solid var(--teal-line); border-radius: 999px; padding: 0.8mm 3mm; white-space: nowrap; }
+  .tchip.new { color: var(--amber-ink); background: var(--amber-tint); border-color: var(--amber-line); }
+  .tchip.exp { color: var(--red-ink); background: var(--red-tint); border-color: var(--red-line); }
+  .expired { color: var(--red); font-weight: 700; }
+  .exptag { display: inline-block; font-size: 6.6pt; font-weight: 700; color: var(--red-ink); background: var(--red-tint); border: 0.6px solid var(--red-line); border-radius: 999px; padding: 0.2mm 2mm; vertical-align: middle; margin-right: 1mm; white-space: nowrap; }
+  .row-expired td { background: var(--red-tint) !important; }
+  .ttitle { font-size: 9.4pt; font-weight: 700; line-height: 1.7; margin-bottom: 2mm; }
+  .kv-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1mm 4mm; margin-bottom: 1.8mm; }
+  .kv-grid.kv3 { grid-template-columns: 1fr 1fr 1fr; }
+  .kv { display: flex; gap: 2mm; align-items: baseline; border-bottom: 0.5px dashed var(--line); padding: 0.65mm 0; }
+  .kv .k { font-size: 7.3pt; color: var(--muted); flex: 0 0 auto; white-space: nowrap; }
+  .kv .v { font-size: 7.7pt; font-weight: 600; line-height: 1.6; }
+  .trow { font-size: 7.8pt; line-height: 1.8; margin-top: 1mm; }
+  .trow .lbl { font-weight: 700; color: var(--teal-ink); }
+  .trow.note { background: var(--amber-tint); border: 0.7px solid var(--amber-line); border-radius: 1.6mm; padding: 1.6mm 2.4mm; color: var(--amber-ink); }
+  .domrow { font-size: 7.6pt; line-height: 1.75; color: var(--muted); }
+  .domrow b { color: var(--ink); }
+  .tlink { font-size: 6.8pt; color: var(--muted); direction: ltr; text-align: left; margin-top: 1.4mm; border-top: 0.5px dashed var(--line); padding-top: 1.1mm; word-break: break-all; }
+  table.pen { width: 100%; border-collapse: collapse; font-size: 7.2pt; }
+  table.pen th { background: var(--teal-tint); color: var(--teal-ink); font-weight: 700; font-size: 7.2pt; padding: 1.4mm 1.6mm; border: 0.6px solid var(--teal-line); text-align: right; }
+  table.pen td { padding: 1.2mm 1.6mm; border: 0.6px solid var(--line); vertical-align: top; line-height: 1.6; }
+  table.mini { width: 100%; border-collapse: collapse; font-size: 7.2pt; margin: 1.6mm 0; }
+  table.mini th { background: var(--teal-tint); color: var(--teal-ink); font-weight: 700; padding: 1.3mm 1.6mm; border: 0.6px solid var(--teal-line); text-align: right; }
+  table.mini td { padding: 1.2mm 1.6mm; border: 0.6px solid var(--line); }
+  .method { background: #f7f9fb; border: 0.7px solid var(--line); border-radius: 2.4mm; padding: 3.2mm 4mm; font-size: 8pt; line-height: 1.95; }
+</style></head><body>
+<div class="mhead" data-m="hB1"><h2 class="sec">${esc(HEAD_META.hB1.t)}</h2><p class="secnote">${esc(HEAD_META.hB1.sub)}</p></div>
+${tenders.map((t, i) => tenderCard(t, i + 1)).join('')}
+<div class="mhead" data-m="hB2"><h2 class="sec">${esc(HEAD_META.hB2.t)}</h2><p class="secnote">${esc(HEAD_META.hB2.sub)}</p></div>
+${services.map((t, i) => serviceCard(t, i + 1)).join('')}
+${methodNote()}
+</body></html>`;
+  fs.writeFileSync(measurePath, html, 'utf8');
+  console.log('MEASURE_FIRST: run "node measure.js" then re-run this script');
+  process.exit(0);
+}
+
+// ---------- گام ۲: bin-packing ----------
+const H = JSON.parse(fs.readFileSync(heightsPath, 'utf8'));
+const BUDGET = 915;
+const BUDGET_TABLE = 845; // صفحات جدول‌دار: جای سربرگ تکرارشونده (که خودش ممکن است دوخطی شود) کنار گذاشته می‌شود
+const hOf = id => { if (H[id] == null) throw new Error('no height for ' + id); return H[id]; };
+const budgetFor = sec => (sec.includes('مزایده') || sec.includes('کالا')) ? BUDGET_TABLE : BUDGET;
+
+const seq = [];
+seq.push({ id: 'hB1', kind: 'head', sec: 'بخش ۱ | مناقصات — مشخصات کامل' });
+tenders.forEach((t, i) => seq.push({ id: 't' + (i + 1), kind: 'tender', sec: 'بخش ۱ | مناقصات — مشخصات کامل' }));
+seq.push({ id: 'hB2', kind: 'head', sec: 'بخش ۲ | استعلام‌های خدمات و پیمانکاری' });
+services.forEach((t, i) => seq.push({ id: 's' + (i + 1), kind: 'svc', sec: 'بخش ۲ | استعلام‌های خدمات و پیمانکاری' }));
+seq.push({ id: 'method', kind: 'method', sec: 'بخش ۲ | استعلام‌های خدمات و پیمانکاری' });
+
+const pages = [];
+let cur = null;
+for (const it of seq) {
+  const h = hOf(it.id);
+  if (!cur || cur.sec !== it.sec || cur.used + h > budgetFor(it.sec)) {
+    if (cur && cur.items.length && cur.items[cur.items.length - 1].kind === 'head') {
+      const orphan = cur.items.pop();
+      cur.used -= hOf(orphan.id);
+      pages.push(cur);
+      cur = { sec: it.sec, used: hOf(orphan.id), items: [orphan] };
+    } else if (cur) { pages.push(cur); cur = null; }
+    if (!cur) cur = { sec: it.sec, used: 0, items: [] };
+  }
+  cur.items.push(it);
+  cur.used += h;
+}
+if (cur && cur.items.length) pages.push(cur);
+
+function renderItem(it) {
+  switch (it.kind) {
+    case 'tender': return tenderCard(tenders[parseInt(it.id.slice(1)) - 1], parseInt(it.id.slice(1)));
+    case 'svc': return serviceCard(services[parseInt(it.id.slice(1)) - 1], parseInt(it.id.slice(1)));
+    case 'method': return methodNote();
+    default: return '';
+  }
+}
+const totalN = pages.length + 1;
+const footHtml = n => `<div class="foot"><span>گزارش آگهی‌های تدارکات دولتی — شهر ${esc(CITY)} (استان ${esc(PROV)}) | تاریخ تهیه: ${esc(NOW.date)}، ساعت ${esc(NOW.time)} (${esc(NOW.g)})</span><span>صفحه ${toFa(n)} از ${toFa(totalN)}</span></div>`;
+
+const innerPages = pages.map((pg, pi) => {
+  let body = '';
+  for (const it of pg.items) {
+    if (it.kind === 'head') {
+      const meta = HEAD_META[it.id];
+      const headId = { hB1: 'sec-b1', hB2: 'sec-b2' }[it.id] || '';
+      body += `<h2 class="sec"${headId ? ` id="${headId}"` : ''}>${esc(meta.t)}</h2>${meta.sub ? `<p class="secnote">${esc(meta.sub)}</p>` : ''}`;
+      continue;
+    }
+    body += renderItem(it);
+  }
+  return `
+<div class="page">
+  <div class="runhead"><div class="t">آگهی‌های تدارکات دولتی — شهر ${esc(CITY)} (استان ${esc(PROV)})</div><div class="s">${esc(pg.sec)}</div></div>
+  <div class="content">${body}</div>
+  ${footHtml(pi + 2)}
+</div>`;
+}).join('');
+
+// ---------- جلد ----------
+// فهرست خلاصه جلد محدود می‌شود تا صفحه جلد در هر حجم داده‌ای سرریز نکند
+const COVER_TENDER_CAP = 8;
+const coverTenders = tenders.slice(0, COVER_TENDER_CAP);
+const byOrg = {};
+items.forEach(i => { byOrg[i.org] = (byOrg[i.org] || 0) + 1; });
+const topOrgs = Object.entries(byOrg).sort((a, b) => b[1] - a[1]).slice(0, 4);
+const cover = `
+<div class="page">
+  <div class="meta-row"><div class="kicker">سامانه تدارکات الکترونیکی دولت — ستاد ایران</div><div class="meta-year">${esc(NOW.date)}</div></div>
+  <div class="hairline"></div>
+  <div class="quicknav">
+    <span class="qn-label">پرش سریع:</span>
+    <a href="#sec-b1">مناقصات پیمانکاری</a>
+    <a href="#sec-b2">استعلام‌های خدمات</a>
+  </div>
+  <h1>آگهی‌های <span class="accent">مناقصات و استعلام‌های پیمانکاری</span> شهر ${esc(CITY)} — استان ${esc(PROV)}</h1>
+  <p class="lead">گزارش مناقصات و استعلام‌های خدمات و پیمانکاری فعال «تابلوی اعلانات مرکزی تدارکات الکترونیکی دولت» در محدوده شهر ${esc(CITY)}؛ مرتب‌سازی «جدیدترین در بالا» بر اساس ترتیب انتشار سامانه با لحاظ شماره فراخوان؛ نشان «جدید» یعنی انتشار امروز؛ مهلت‌های گذشته با رنگ قرمز. (به درخواست کاربر، مزایده‌ها و استعلام‌های کالا در این گزارش نمی‌آید.)</p>
+  <div class="stats">
+    <div class="stat"><div class="n">${toFa(counts.total)}</div><div class="l">کل آگهی‌های فعال</div></div>
+    <div class="stat"><div class="n">${toFa(counts.tenders)}</div><div class="l">مناقصه عمومی</div></div>
+    <div class="stat"><div class="n">${toFa(counts.services)}</div><div class="l">استعلام خدمات/پیمانکاری</div></div>
+    <div class="stat"><div class="n">${toFa(counts.tenders + counts.services)}</div><div class="l">مجموع اگهی‌های این گزارش</div></div>
+  </div>
+  <div class="rates">
+    <div class="rt">دستگاه‌های اصلی اگهی‌گذار:</div>
+    <div class="rd">${topOrgs.map(([o, c]) => '<b>' + faTitle(o) + '</b> (' + toFa(c) + ' آگهی)').join('، ')}</div>
+  </div>
+  <div class="phase">
+    <div class="phead"><div class="pnum">۱</div><div class="ptitle">فهرست مناقصات (خلاصه)</div><div class="psub">جزئیات کامل در بخش ۱</div></div>
+    <p class="secnote">${tenders.length > COVER_TENDER_CAP ? 'نمایش ' + toFa(COVER_TENDER_CAP) + ' مناقصه از ' + toFa(tenders.length) + ' مناقصه فعال — فهرست کامل با مشخصات کامل هر اگهی در بخش ۱ آمده است.' : ''}</p>
+    <table class="pen">
+      <thead><tr><th style="width:7mm">#</th><th style="width:23mm">شماره مناقصه</th><th>موضوع</th><th style="width:26mm">دستگاه</th><th style="width:24mm">مهلت دریافت اسناد</th><th style="width:23mm">مهلت ارسال پاکت</th><th style="width:25mm">زمان ارسال به صفحه اعلام</th></tr></thead>
+      <tbody>${coverTenders.map((t, i) => `<tr${isExpired(t) ? ' class="row-expired"' : ''}><td>${toFa(i + 1)}</td><td class="num">${linkNum(t)}</td><td>${faTitle(t.title.replace(/^مناقصه عمومی (یک مرحله ای|دو مرحله ای) ?/, ''))}${isNew(t) ? newTag : ''}${isExpired(t) ? expTag : ''}</td><td>${dash(t.org)}</td><td>${isExpired(t) ? '<span class="expired">' + toFa(dash(t.docDeadline)) + '</span>' : toFa(dash(t.docDeadline))}</td><td>${toFa(dash(t.sendDeadline))}</td><td>${esc(publishFa(t))}</td></tr>`).join('')}</tbody>
+    </table>
+  </div>
+  <div class="phase">
+    <div class="phead"><div class="pnum">۲</div><div class="ptitle">فهرست استعلام‌های خدمات و پیمانکاری</div><div class="psub">جزئیات کامل در بخش ۲</div></div>
+    <p class="secnote">${toFa(services.length)} استعلام خدمات فعال. مشخصات کامل هر اگهی همراه با شرح کامل، اقلام خدمت و توضیحات خریدار در بخش ۲ آمده است.</p>
+  </div>
+  ${footHtml(1)}
+</div>`;
+
+// ---------- CSS و مونتاژ نهایی ----------
+const html = `<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<title>آگهی‌های مناقصات و پیمانکاری شهر ${esc(CITY)} — استان ${esc(PROV)}</title>
+<style>
+  @font-face { font-family: 'Vazirmatn'; src: url('fonts/Vazirmatn-Regular.woff2') format('woff2'); font-weight: 400; }
+  @font-face { font-family: 'Vazirmatn'; src: url('fonts/Vazirmatn-Medium.woff2') format('woff2'); font-weight: 500; }
+  @font-face { font-family: 'Vazirmatn'; src: url('fonts/Vazirmatn-SemiBold.woff2') format('woff2'); font-weight: 600; }
+  @font-face { font-family: 'Vazirmatn'; src: url('fonts/Vazirmatn-Bold.woff2') format('woff2'); font-weight: 700; }
+  @font-face { font-family: 'Vazirmatn'; src: url('fonts/Vazirmatn-ExtraBold.woff2') format('woff2'); font-weight: 800; }
+  :root {
+    --ink: #0f172a; --muted: #5b6b7b; --line: #e3e9ef;
+    --teal: #0f766e; --teal-ink: #0d5f58; --teal-tint: #eef8f4; --teal-line: #c4e6da;
+    --amber-ink: #92400e; --amber-tint: #fdf6e8; --amber-line: #eeddb4;
+    --red: #b91c1c; --red-ink: #991b1b; --red-tint: #fdf0ef; --red-line: #f3c9c4;
+  }
+  @page { size: A4; margin: 0; }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body { background: #ffffff; }
+  body { font-family: 'Vazirmatn', 'Tahoma', sans-serif; color: var(--ink); -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .page { width: 210mm; height: 297mm; padding: 10mm 12mm 8mm; page-break-after: always; display: flex; flex-direction: column; background: #fff; position: relative; }
+  .page:last-child { page-break-after: auto; }
+  .content { flex: 1 1 auto; display: flex; flex-direction: column; min-height: 0; }
+  .runhead { display: flex; justify-content: space-between; align-items: baseline; border-bottom: 0.6px solid var(--line); padding-bottom: 2.2mm; margin-bottom: 4.5mm; flex: 0 0 auto; }
+  .runhead .t { font-size: 8pt; font-weight: 600; color: var(--teal-ink); }
+  .runhead .s { font-size: 7.4pt; color: var(--muted); }
+  .foot { border-top: 0.6px solid var(--line); padding-top: 2.2mm; margin-top: 4mm; display: flex; justify-content: space-between; font-size: 7.2pt; color: var(--muted); flex: 0 0 auto; }
+  .meta-row { display: flex; justify-content: space-between; align-items: baseline; }
+  .kicker { font-size: 8.5pt; font-weight: 600; color: var(--teal); letter-spacing: 0.12em; }
+  .meta-year { font-size: 8pt; color: var(--muted); }
+  .hairline { border-top: 0.7px solid var(--teal-line); margin: 2mm 0 3.4mm; }
+  .quicknav { display: flex; gap: 2mm; align-items: center; margin-bottom: 2.8mm; flex-wrap: wrap; }
+  .quicknav .qn-label { font-size: 7.4pt; font-weight: 700; color: var(--muted); }
+  .quicknav a { font-size: 7.6pt; font-weight: 700; color: var(--teal-ink); background: var(--teal-tint); border: 0.7px solid var(--teal-line); border-radius: 999px; padding: 1mm 3.4mm; text-decoration: none; }
+  .nlink { color: inherit; text-decoration: none; }
+  .tlink a { color: inherit; }
+  h1 { font-size: 16.5pt; font-weight: 800; line-height: 1.4; }
+  h1 .accent { color: var(--teal); }
+  .lead { margin-top: 2mm; font-size: 8.4pt; line-height: 1.75; color: var(--muted); }
+  .stats { display: flex; gap: 2.6mm; margin: 3.2mm 0; }
+  .stat { flex: 1; background: var(--teal-tint); border: 0.7px solid var(--teal-line); border-radius: 2.2mm; padding: 2mm 2.6mm; }
+  .stat .n { font-size: 12pt; font-weight: 800; color: var(--teal-ink); line-height: 1.2; }
+  .stat .l { font-size: 6.7pt; color: var(--muted); margin-top: 0.5mm; line-height: 1.4; }
+  .rates { background: #f7f9fb; border: 0.7px solid var(--line); border-radius: 2.2mm; padding: 2mm 2.8mm; margin-bottom: 3mm; display: flex; gap: 2.6mm; align-items: baseline; }
+  .rates .rt { font-size: 7.8pt; font-weight: 700; white-space: nowrap; }
+  .rates .rd { font-size: 7.3pt; line-height: 1.7; color: var(--muted); }
+  .rates b { color: var(--teal-ink); font-weight: 700; }
+  .phase { margin-bottom: 2.8mm; }
+  .phase table.pen { font-size: 6.8pt; }
+  .phase table.pen th { font-size: 6.8pt; padding: 1.1mm 1.4mm; }
+  .phase table.pen td { padding: 0.9mm 1.4mm; line-height: 1.55; }
+  .phead { display: flex; align-items: center; gap: 2.6mm; padding-bottom: 1.4mm; margin-bottom: 1.2mm; border-bottom: 1.1px solid var(--teal-line); }
+  .pnum { width: 6.4mm; height: 6.4mm; border-radius: 1.8mm; flex: 0 0 auto; background: var(--teal); color: #fff; font-size: 9pt; font-weight: 800; display: flex; align-items: center; justify-content: center; }
+  .ptitle { font-size: 10pt; font-weight: 700; }
+  .psub { margin-right: auto; font-size: 7pt; font-weight: 600; color: var(--teal-ink); background: var(--teal-tint); border: 0.7px solid var(--teal-line); border-radius: 999px; padding: 0.8mm 2.8mm; white-space: nowrap; }
+  h2.sec { font-size: 11.5pt; font-weight: 700; margin-bottom: 2.8mm; display: flex; align-items: center; gap: 2.8mm; }
+  h2.sec::before { content: ''; width: 1.6mm; height: 5mm; border-radius: 1mm; background: var(--teal); display: inline-block; }
+  .secnote { font-size: 7.7pt; line-height: 1.75; color: var(--muted); margin: -1.2mm 0 2.8mm; }
+  table.pen { width: 100%; border-collapse: collapse; font-size: 7.2pt; }
+  table.pen th { background: var(--teal-tint); color: var(--teal-ink); font-weight: 700; font-size: 7.2pt; padding: 1.4mm 1.6mm; border: 0.6px solid var(--teal-line); text-align: right; }
+  table.pen td { padding: 1.2mm 1.6mm; border: 0.6px solid var(--line); vertical-align: top; line-height: 1.6; }
+  table.pen tbody tr:nth-child(even) { background: #fafcfd; }
+  td.num { direction: ltr; text-align: right; white-space: nowrap; font-size: 7.4pt; }
+  .tcard { border: 0.8px solid var(--teal-line); border-radius: 2.4mm; padding: 3mm 3.6mm 2.6mm; margin-bottom: 3.4mm; break-inside: avoid; background: #fff; }
+  .thead { display: flex; justify-content: space-between; align-items: center; margin-bottom: 1.4mm; gap: 3mm; }
+  .tnum { font-size: 7.6pt; font-weight: 700; color: var(--muted); }
+  .chips { display: flex; gap: 1.6mm; align-items: center; }
+  .tchip { font-size: 7.2pt; font-weight: 700; color: var(--teal-ink); background: var(--teal-tint); border: 0.7px solid var(--teal-line); border-radius: 999px; padding: 0.8mm 3mm; white-space: nowrap; }
+  .tchip.new { color: var(--amber-ink); background: var(--amber-tint); border-color: var(--amber-line); }
+  .tchip.exp { color: var(--red-ink); background: var(--red-tint); border-color: var(--red-line); }
+  .expired { color: var(--red); font-weight: 700; }
+  .exptag { display: inline-block; font-size: 6.6pt; font-weight: 700; color: var(--red-ink); background: var(--red-tint); border: 0.6px solid var(--red-line); border-radius: 999px; padding: 0.2mm 2mm; vertical-align: middle; margin-right: 1mm; white-space: nowrap; }
+  .row-expired td { background: var(--red-tint) !important; }
+  .newtag { display: inline-block; font-size: 6.6pt; font-weight: 700; color: var(--amber-ink); background: var(--amber-tint); border: 0.6px solid var(--amber-line); border-radius: 999px; padding: 0.2mm 2mm; vertical-align: middle; margin-right: 1mm; white-space: nowrap; }
+  .ttitle { font-size: 9.4pt; font-weight: 700; line-height: 1.7; margin-bottom: 2mm; }
+  .kv-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1mm 4mm; margin-bottom: 1.8mm; }
+  .kv-grid.kv3 { grid-template-columns: 1fr 1fr 1fr; }
+  .kv { display: flex; gap: 2mm; align-items: baseline; border-bottom: 0.5px dashed var(--line); padding: 0.65mm 0; }
+  .kv .k { font-size: 7.3pt; color: var(--muted); flex: 0 0 auto; white-space: nowrap; }
+  .kv .v { font-size: 7.7pt; font-weight: 600; line-height: 1.6; }
+  .trow { font-size: 7.8pt; line-height: 1.8; color: var(--ink); margin-top: 1mm; }
+  .trow .lbl { font-weight: 700; color: var(--teal-ink); }
+  .trow.note { background: var(--amber-tint); border: 0.7px solid var(--amber-line); border-radius: 1.6mm; padding: 1.6mm 2.4mm; color: var(--amber-ink); }
+  .doms { margin-top: 0.6mm; }
+  .domrow { font-size: 7.6pt; line-height: 1.75; color: var(--muted); }
+  .domrow b { color: var(--ink); }
+  .tlink { font-size: 6.8pt; color: var(--muted); direction: ltr; text-align: left; margin-top: 1.4mm; border-top: 0.5px dashed var(--line); padding-top: 1.1mm; word-break: break-all; }
+  table.mini { width: 100%; border-collapse: collapse; font-size: 7.2pt; margin: 1.6mm 0; }
+  table.mini th { background: var(--teal-tint); color: var(--teal-ink); font-weight: 700; padding: 1.3mm 1.6mm; border: 0.6px solid var(--teal-line); text-align: right; }
+  table.mini td { padding: 1.2mm 1.6mm; border: 0.6px solid var(--line); }
+  .method { margin-top: 4.5mm; background: #f7f9fb; border: 0.7px solid var(--line); border-radius: 2.4mm; padding: 3.2mm 4mm; font-size: 8pt; line-height: 1.95; color: var(--ink); }
+  .method b { color: var(--teal-ink); }
+</style>
+</head>
+<body>
+${cover}
+${innerPages}
+</body>
+</html>`;
+
+const outPath = path.join(process.cwd(), 'report.html');
+fs.writeFileSync(outPath, html, 'utf8');
+console.log('WROTE', outPath, '| city =', CITY, '| province =', PROV, '| pages =', totalN,
+  '| tenders =', tenders.length, 'services =', services.length,
+  '| new =', added.length, '| expired =', expiredCount);

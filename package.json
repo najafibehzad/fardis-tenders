@@ -1,0 +1,13 @@
+{
+  "name": "fardis-tenders",
+  "version": "1.0.0",
+  "private": true,
+  "description": "گزارش روزانه آگهی‌های مناقصات و استعلام‌های خدمات شهر فردیس از سامانه تدارکات الکترونیکی دولت (ستاد ایران)",
+  "scripts": {
+    "pipeline": "node run_pipeline.mjs"
+  },
+  "dependencies": {
+    "pdf-lib": "^1.17.1",
+    "playwright": "^1.62.1"
+  }
+}

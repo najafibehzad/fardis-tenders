@@ -1,0 +1,115 @@
+#!/usr/bin/env node
+// فهرست آگهی‌های تابلوی اعلانات مرکزی ستاد ایران برای یک شهر
+// Usage: node fetch_announcements.js "البرز" "فردیس"
+// خروجی: setadiran-data/<استان-شهر>/all_items.json (+ prev_items.json از اجرای قبل برای نشان «جدید»)
+const https = require('https');
+const fs = require('fs');
+const path = require('path');
+
+const UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/126.0 Safari/537.36';
+// میزبان API ثابت است؛ توابع درخواست فقط «مسیر» می‌گیرند و اوریجن هرگز از ورودی نمی‌آید
+const API_ORIGIN = 'https://gw.setadiran.ir';
+
+function request(u) {
+  return new Promise((res, rej) => {
+    const r = https.get(u, { headers: { 'User-Agent': UA } }, x => {
+      let d = ''; x.on('data', c => d += c);
+      x.on('end', () => res(d));
+    });
+    r.on('error', rej); r.setTimeout(40000, () => { r.destroy(); rej(new Error('timeout: ' + u.href)); });
+  });
+}
+function apiGet(pathname, params) {
+  const u = new URL(API_ORIGIN + pathname);
+  if (u.origin !== API_ORIGIN || u.protocol !== 'https:') throw new Error('bad request target');
+  for (const [k, v] of Object.entries(params || {})) u.searchParams.set(k, v);
+  return request(u);
+}
+
+const province = process.argv[2];
+const city = process.argv[3] || null;
+if (!province) { console.error('Usage: node fetch_announcements.js "<استان>" "<شهر>"'); process.exit(1); }
+// نام پوشه فقط از حروف/اعداد/خط تیره (جلوگیری از مسیر ناخواسته)
+const safe = s => String(s).replace(/[^\p{L}\p{N}\-]+/gu, '-').replace(/^-+|-+$/g, '');
+const dataRoot = path.join(process.cwd(), 'setadiran-data');
+const folder = safe([province, city].filter(Boolean).join('-'));
+const outDir = path.resolve(dataRoot, folder);
+// مرز صریح: خروجی همیشه داخل ریشه setadiran-data می‌ماند
+if (!outDir.startsWith(dataRoot + path.sep)) { console.error('bad folder path'); process.exit(1); }
+fs.mkdirSync(outDir, { recursive: true });
+
+const norm = s => String(s || '').replace(/\u200c/g, ' ').replace(/\s+/g, ' ').trim();
+const sleep = ms => new Promise(r => setTimeout(r, ms));
+
+(async () => {
+  // ۱) کد استان و شهر
+  const raw = JSON.parse(await apiGet('/api/centralboard/cards/setadCity', { pageNumber: '', pageSize: '', sort: 'id,desc' }));
+  const rows = Array.isArray(raw) ? raw : (raw.content || []);
+  const pick = (r, keys) => { for (const k of keys) if (r[k] != null) return r[k]; return undefined; };
+  const nameOf = r => norm(pick(r, ['cityName', 'name', 'title', 'locName']));
+  // فقط شناسه عددی تمیز قبول است — از پاسخ API قبل از ساختن مسیر اعتبارسنجی می‌شود
+  const idOf = r => {
+    const v = pick(r, ['locId', 'id', 'loc_id']);
+    const s = String(v == null ? '' : v).trim();
+    return /^\d{1,12}$/.test(s) ? s : undefined;
+  };
+  const parentOf = r => pick(r, ['parentLocId', 'parentId', 'parent_id']);
+
+  const provRow = rows.find(r => nameOf(r) === norm(province))
+    || rows.find(r => nameOf(r).includes(norm(province)));
+  if (!provRow) { console.error('PROVINCE NOT FOUND. Sample rows:'); console.error(JSON.stringify(rows.slice(0, 10), null, 1)); process.exit(2); }
+  const provId = idOf(provRow);
+  if (!provId) { console.error('bad province id'); process.exit(2); }
+
+  let cityId = null;
+  if (city) {
+    let kids;
+    try { kids = JSON.parse(await apiGet('/api/centralboard/cards/setadCity', { parentLocId: provId, pageNumber: '', pageSize: '', sort: 'id,desc' })); }
+    catch (e) { kids = null; }
+    const kidRows = Array.isArray(kids) ? kids : ((kids && kids.content) || []);
+    const pool = kidRows.length ? kidRows : rows.filter(r => String(parentOf(r)) === String(provId));
+    const cityRow = pool.find(r => nameOf(r) === norm(city)) || pool.find(r => nameOf(r).includes(norm(city)));
+    if (!cityRow) { console.error('CITY NOT FOUND in:', pool.map(nameOf).join(' | ')); process.exit(2); }
+    cityId = idOf(cityRow);
+    if (!cityId) { console.error('bad city id'); process.exit(2); }
+  }
+  const selectedCities = cityId != null ? provId + '-' + cityId : String(provId);
+  console.log('selectedCities =', selectedCities);
+
+  // ۲) صفحه‌بندی فهرست (سقف pageSize=10)
+  const seen = new Set(); const out = [];
+  for (let p = 0; p < 200; p++) {
+    const j = JSON.parse(await apiGet('/api/centralboard/cards/', {
+      searchTypeCode: '0', selectedCities: selectedCities, queryText: '',
+      pageNumber: String(p), pageSize: '10', sort: 'insertDate,desc',
+    }));
+    for (const it of (j.content || [])) if (!seen.has(it.number)) { seen.add(it.number); out.push(it); }
+    if (out.length >= j.totalElements || !(j.content || []).length) break;
+    await sleep(300);
+  }
+
+  // ۳) نسخه قبلی برای نشان «جدید» + تاریخچه اولین مشاهده (زمان انتشار تقریبی) + ترتیب جدابت
+  const itemsPath = path.join(outDir, 'all_items.json');
+  const hadPrev = fs.existsSync(itemsPath);
+  if (hadPrev) {
+    fs.copyFileSync(itemsPath, path.join(outDir, 'prev_items.json'));
+    console.log('prev snapshot saved');
+  }
+  // تاریخچه: اولین باری که این اگهی را دیده‌ایم = زمان انتشار از دید پایش ما
+  const histPath = path.join(outDir, 'history.json');
+  let hist = fs.existsSync(histPath) ? JSON.parse(fs.readFileSync(histPath, 'utf8')) : { runs: 0, firstSeen: {} };
+  hist.runs += 1;
+  const nowIso = new Date().toISOString();
+  for (const it of out) {
+    const k = String(it.number);
+    if (!hist.firstSeen[k]) hist.firstSeen[k] = { iso: nowIso, run: hist.runs, baseline: !hadPrev };
+  }
+  fs.writeFileSync(histPath, JSON.stringify(hist, null, 1), 'utf8');
+  // ترتیب بازیابی = insertDate نزولی سامانه (جدیدترین در بالا)
+  out.forEach((it, i) => { it.orderIdx = i; });
+  fs.writeFileSync(path.join(dataRoot, 'LAST.txt'), folder, 'utf8');
+  fs.writeFileSync(itemsPath, JSON.stringify(out, null, 1), 'utf8');
+  const by = {}; out.forEach(i => by[i.boardName] = (by[i.boardName] || 0) + 1);
+  console.log('TOTAL UNIQUE:', out.length, '| BY BOARD:', JSON.stringify(by));
+  console.log('WROTE', itemsPath);
+})().catch(e => { console.error(e); process.exit(1); });

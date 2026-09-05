@@ -1,0 +1,6527 @@
+[
+ {
+  "number": 3105108818000069,
+  "title": "حراج فروش پلاک ثبتی به شماره 49602 فرعی از 162 اصلی",
+  "boardCode": 3,
+  "basePrice": 56000000000,
+  "orgName": "دفتر شعبه اول اجرای احکام مدنی فردیس البرز",
+  "score": 87,
+  "cityName": "فردیس",
+  "insertDate": null,
+  "boardName": "مزایده",
+  "provinceName": "البرز",
+  "jalaliSendDeadlineDate": "1405/06/28 - 12:00",
+  "jalaliLastEditDate": null,
+  "jalaliDocumentDeadlineDate": " - ",
+  "tableId": 501835,
+  "tagCode": 341,
+  "needType": null,
+  "reqId": null,
+  "jalaliFromProposalDate": "1405/06/28 - 08:00",
+  "partyNumber": "1323187",
+  "orgId": 41710,
+  "aucState": 1116,
+  "cartId": 4227626,
+  "categoryId": 224,
+  "categoryName": "زمین، ساختمان‌ و معابر",
+  "locId": null,
+  "ticketId": "",
+  "aggregations": {
+   "by_boardCode": {
+    "buckets": [
+     {
+      "doc_count": 56,
+      "key": "3"
+     },
+     {
+      "doc_count": 16,
+      "key": "2"
+     },
+     {
+      "doc_count": 15,
+      "key": "1"
+     }
+    ]
+   },
+   "by_tagCode": {
+    "buckets": [
+     {
+      "doc_count": 49,
+      "key": "33"
+     },
+     {
+      "doc_count": 14,
+      "key": "4121"
+     },
+     {
+      "doc_count": 8,
+      "key": "1431"
+     },
+     {
+      "doc_count": 7,
+      "key": "1432"
+     },
+     {
+      "doc_count": 7,
+      "key": "341"
+     },
+     {
+      "doc_count": 2,
+      "key": "4128"
+     }
+    ]
+   }
+  },
+  "orderIdx": 0
+ },
+ {
+  "number": 3105108818000068,
+  "title": "حراج فروش 14.78 سهم از یکصد سهم مشاع از پلاک ثبتی به شماره 35380فرعی از 163 اصلی",
+  "boardCode": 3,
+  "basePrice": 16992150000,
+  "orgName": "دفتر شعبه اول اجرای احکام مدنی فردیس البرز",
+  "score": 87,
+  "cityName": "فردیس",
+  "insertDate": null,
+  "boardName": "مزایده",
+  "provinceName": "البرز",
+  "jalaliSendDeadlineDate": "1405/06/28 - 12:00",
+  "jalaliLastEditDate": null,
+  "jalaliDocumentDeadlineDate": " - ",
+  "tableId": 501709,
+  "tagCode": 341,
+  "needType": null,
+  "reqId": null,
+  "jalaliFromProposalDate": "1405/06/28 - 08:00",
+  "partyNumber": "1323021",
+  "orgId": 41710,
+  "aucState": 1116,
+  "cartId": 4226611,
+  "categoryId": 224,
+  "categoryName": "زمین، ساختمان‌ و معابر",
+  "locId": null,
+  "ticketId": "",
+  "aggregations": {
+   "by_boardCode": {
+    "buckets": [
+     {
+      "doc_count": 56,
+      "key": "3"
+     },
+     {
+      "doc_count": 16,
+      "key": "2"
+     },
+     {
+      "doc_count": 15,
+      "key": "1"
+     }
+    ]
+   },
+   "by_tagCode": {
+    "buckets": [
+     {
+      "doc_count": 49,
+      "key": "33"
+     },
+     {
+      "doc_count": 14,
+      "key": "4121"
+     },
+     {
+      "doc_count": 8,
+      "key": "1431"
+     },
+     {
+      "doc_count": 7,
+      "key": "1432"
+     },
+     {
+      "doc_count": 7,
+      "key": "341"
+     },
+     {
+      "doc_count": 2,
+      "key": "4128"
+     }
+    ]
+   }
+  },
+  "orderIdx": 1
+ },
+ {
+  "number": 2005050288000066,
+  "title": "مناقصه عمومی یک مرحله ای رنگ آمیزی ترافیکی بلوک های عابر پیاده و سرعتکاه ها در معابر سطح منطقه یک شهرداری فردیس",
+  "boardCode": 2,
+  "basePrice": null,
+  "orgName": "شهرداری فردیس استان البرز",
+  "score": 87,
+  "cityName": "فردیس",
+  "insertDate": null,
+  "boardName": "مناقصه",
+  "provinceName": "البرز",
+  "jalaliSendDeadlineDate": "1405/07/01 - 13:00",
+  "jalaliLastEditDate": "-",
+  "jalaliDocumentDeadlineDate": "1405/06/21 - 13:00",
+  "tableId": 664261,
+  "tagCode": 4121,
+  "needType": null,
+  "reqId": null,
+  "jalaliFromProposalDate": null,
+  "partyNumber": null,
+  "orgId": 12263,
+  "aucState": null,
+  "cartId": 0,
+  "categoryId": null,
+  "categoryName": null,
+  "locId": null,
+  "ticketId": null,
+  "aggregations": {
+   "by_boardCode": {
+    "buckets": [
+     {
+      "doc_count": 56,
+      "key": "3"
+     },
+     {
+      "doc_count": 16,
+      "key": "2"
+     },
+     {
+      "doc_count": 15,
+      "key": "1"
+     }
+    ]
+   },
+   "by_tagCode": {
+    "buckets": [
+     {
+      "doc_count": 49,
+      "key": "33"
+     },
+     {
+      "doc_count": 14,
+      "key": "4121"
+     },
+     {
+      "doc_count": 8,
+      "key": "1431"
+     },
+     {
+      "doc_count": 7,
+      "key": "1432"
+     },
+     {
+      "doc_count": 7,
+      "key": "341"
+     },
+     {
+      "doc_count": 2,
+      "key": "4128"
+     }
+    ]
+   }
+  },
+  "orderIdx": 2
+ },
+ {
+  "number": 2005050288000067,
+  "title": "مناقصه عمومی یک مرحله ای بهبود عبور و مرور شهری(جدولگذاری، پیاده رو سازی) معابر سطح منطقه دو",
+  "boardCode": 2,
+  "basePrice": null,
+  "orgName": "شهرداری فردیس استان البرز",
+  "score": 87,
+  "cityName": "فردیس",
+  "insertDate": null,
+  "boardName": "مناقصه",
+  "provinceName": "البرز",
+  "jalaliSendDeadlineDate": "1405/07/01 - 13:00",
+  "jalaliLastEditDate": "-",
+  "jalaliDocumentDeadlineDate": "1405/06/21 - 13:00",
+  "tableId": 664300,
+  "tagCode": 4121,
+  "needType": null,
+  "reqId": null,
+  "jalaliFromProposalDate": null,
+  "partyNumber": null,
+  "orgId": 12263,
+  "aucState": null,
+  "cartId": 0,
+  "categoryId": null,
+  "categoryName": null,
+  "locId": null,
+  "ticketId": null,
+  "aggregations": {
+   "by_boardCode": {
+    "buckets": [
+     {
+      "doc_count": 56,
+      "key": "3"
+     },
+     {
+      "doc_count": 16,
+      "key": "2"
+     },
+     {
+      "doc_count": 15,
+      "key": "1"
+     }
+    ]
+   },
+   "by_tagCode": {
+    "buckets": [
+     {
+      "doc_count": 49,
+      "key": "33"
+     },
+     {
+      "doc_count": 14,
+      "key": "4121"
+     },
+     {
+      "doc_count": 8,
+      "key": "1431"
+     },
+     {
+      "doc_count": 7,
+      "key": "1432"
+     },
+     {
+      "doc_count": 7,
+      "key": "341"
+     },
+     {
+      "doc_count": 2,
+      "key": "4128"
+     }
+    ]
+   }
+  },
+  "orderIdx": 3
+ },
+ {
+  "number": 2005050288000068,
+  "title": "مناقصه عمومی یک مرحله ای ساماندهی و جمع آوری تابلو های غیر مجاز و حذف زوائد بصری در سطح شهر ",
+  "boardCode": 2,
+  "basePrice": null,
+  "orgName": "شهرداری فردیس استان البرز",
+  "score": 87,
+  "cityName": "فردیس",
+  "insertDate": null,
+  "boardName": "مناقصه",
+  "provinceName": "البرز",
+  "jalaliSendDeadlineDate": "1405/07/01 - 13:00",
+  "jalaliLastEditDate": "-",
+  "jalaliDocumentDeadlineDate": "1405/06/21 - 13:00",
+  "tableId": 664316,
+  "tagCode": 4121,
+  "needType": null,
+  "reqId": null,
+  "jalaliFromProposalDate": null,
+  "partyNumber": null,
+  "orgId": 12263,
+  "aucState": null,
+  "cartId": 0,
+  "categoryId": null,
+  "categoryName": null,
+  "locId": null,
+  "ticketId": null,
+  "aggregations": {
+   "by_boardCode": {
+    "buckets": [
+     {
+      "doc_count": 56,
+      "key": "3"
+     },
+     {
+      "doc_count": 16,
+      "key": "2"
+     },
+     {
+      "doc_count": 15,
+      "key": "1"
+     }
+    ]
+   },
+   "by_tagCode": {
+    "buckets": [
+     {
+      "doc_count": 49,
+      "key": "33"
+     },
+     {
+      "doc_count": 14,
+      "key": "4121"
+     },
+     {
+      "doc_count": 8,
+      "key": "1431"
+     },
+     {
+      "doc_count": 7,
+      "key": "1432"
+     },
+     {
+      "doc_count": 7,
+      "key": "341"
+     },
+     {
+      "doc_count": 2,
+      "key": "4128"
+     }
+    ]
+   }
+  },
+  "orderIdx": 4
+ },
+ {
+  "number": 2005050288000069,
+  "title": "مناقصه عمومی یک مرحله ای پاکسازی،نقاشی و تزئینات خاص بصری جداره های سطح شهر",
+  "boardCode": 2,
+  "basePrice": null,
+  "orgName": "شهرداری فردیس استان البرز",
+  "score": 87,
+  "cityName": "فردیس",
+  "insertDate": null,
+  "boardName": "مناقصه",
+  "provinceName": "البرز",
+  "jalaliSendDeadlineDate": "1405/07/01 - 13:00",
+  "jalaliLastEditDate": "-",
+  "jalaliDocumentDeadlineDate": "1405/06/21 - 13:00",
+  "tableId": 664326,
+  "tagCode": 4121,
+  "needType": null,
+  "reqId": null,
+  "jalaliFromProposalDate": null,
+  "partyNumber": null,
+  "orgId": 12263,
+  "aucState": null,
+  "cartId": 0,
+  "categoryId": null,
+  "categoryName": null,
+  "locId": null,
+  "ticketId": null,
+  "aggregations": {
+   "by_boardCode": {
+    "buckets": [
+     {
+      "doc_count": 56,
+      "key": "3"
+     },
+     {
+      "doc_count": 16,
+      "key": "2"
+     },
+     {
+      "doc_count": 15,
+      "key": "1"
+     }
+    ]
+   },
+   "by_tagCode": {
+    "buckets": [
+     {
+      "doc_count": 49,
+      "key": "33"
+     },
+     {
+      "doc_count": 14,
+      "key": "4121"
+     },
+     {
+      "doc_count": 8,
+      "key": "1431"
+     },
+     {
+      "doc_count": 7,
+      "key": "1432"
+     },
+     {
+      "doc_count": 7,
+      "key": "341"
+     },
+     {
+      "doc_count": 2,
+      "key": "4128"
+     }
+    ]
+   }
+  },
+  "orderIdx": 5
+ },
+ {
+  "number": 1105000351000559,
+  "title": "نیاز کالا-محلول ضد عفونی-بر اساس لیست پیوست",
+  "boardCode": 1,
+  "basePrice": null,
+  "orgName": "شبکه بهداشت و درمان فردیس",
+  "score": 87,
+  "cityName": "فردیس",
+  "insertDate": null,
+  "boardName": "خرید",
+  "provinceName": "البرز",
+  "jalaliSendDeadlineDate": "1405/06/17 - 10:00",
+  "jalaliLastEditDate": null,
+  "jalaliDocumentDeadlineDate": null,
+  "tableId": 5334706,
+  "tagCode": 1431,
+  "needType": "1431",
+  "reqId": "7422108",
+  "jalaliFromProposalDate": null,
+  "partyNumber": null,
+  "orgId": 10378,
+  "aucState": null,
+  "cartId": 0,
+  "categoryId": null,
+  "categoryName": null,
+  "locId": null,
+  "ticketId": null,
+  "aggregations": {
+   "by_boardCode": {
+    "buckets": [
+     {
+      "doc_count": 56,
+      "key": "3"
+     },
+     {
+      "doc_count": 16,
+      "key": "2"
+     },
+     {
+      "doc_count": 15,
+      "key": "1"
+     }
+    ]
+   },
+   "by_tagCode": {
+    "buckets": [
+     {
+      "doc_count": 49,
+      "key": "33"
+     },
+     {
+      "doc_count": 14,
+      "key": "4121"
+     },
+     {
+      "doc_count": 8,
+      "key": "1431"
+     },
+     {
+      "doc_count": 7,
+      "key": "1432"
+     },
+     {
+      "doc_count": 7,
+      "key": "341"
+     },
+     {
+      "doc_count": 2,
+      "key": "4128"
+     }
+    ]
+   }
+  },
+  "orderIdx": 6
+ },
+ {
+  "number": 1105050288000135,
+  "title": "نیاز خدمات-سازمان آتشنشانی وخدمات ایمنی شهرداری فردیس در نظر دارد نسبت به انتخاب پیمانکار در خصوص پروژه حفظ و نگهداری تاسیسات و ابنیه به شرح پیوست اقدام نماید ",
+  "boardCode": 1,
+  "basePrice": null,
+  "orgName": "شهرداری فردیس استان البرز",
+  "score": 87,
+  "cityName": "فردیس",
+  "insertDate": null,
+  "boardName": "خرید",
+  "provinceName": "البرز",
+  "jalaliSendDeadlineDate": "1405/06/18 - 12:00",
+  "jalaliLastEditDate": null,
+  "jalaliDocumentDeadlineDate": null,
+  "tableId": 5333837,
+  "tagCode": 1432,
+  "needType": "1432",
+  "reqId": "7420756",
+  "jalaliFromProposalDate": null,
+  "partyNumber": null,
+  "orgId": 12263,
+  "aucState": null,
+  "cartId": 0,
+  "categoryId": null,
+  "categoryName": null,
+  "locId": null,
+  "ticketId": null,
+  "aggregations": {
+   "by_boardCode": {
+    "buckets": [
+     {
+      "doc_count": 56,
+      "key": "3"
+     },
+     {
+      "doc_count": 16,
+      "key": "2"
+     },
+     {
+      "doc_count": 15,
+      "key": "1"
+     }
+    ]
+   },
+   "by_tagCode": {
+    "buckets": [
+     {
+      "doc_count": 49,
+      "key": "33"
+     },
+     {
+      "doc_count": 14,
+      "key": "4121"
+     },
+     {
+      "doc_count": 8,
+      "key": "1431"
+     },
+     {
+      "doc_count": 7,
+      "key": "1432"
+     },
+     {
+      "doc_count": 7,
+      "key": "341"
+     },
+     {
+      "doc_count": 2,
+      "key": "4128"
+     }
+    ]
+   }
+  },
+  "orderIdx": 7
+ },
+ {
+  "number": 1105050288000134,
+  "title": "نیاز خدمات-سازمان آتشنشانی وخدمات ایمنی شهرداری فردیس در نظر دارد نسبت به انتخاب پیمانکار در خصوص پروژه تهیه غذای گرم به شرح پیوست اقدام نماید",
+  "boardCode": 1,
+  "basePrice": null,
+  "orgName": "شهرداری فردیس استان البرز",
+  "score": 87,
+  "cityName": "فردیس",
+  "insertDate": null,
+  "boardName": "خرید",
+  "provinceName": "البرز",
+  "jalaliSendDeadlineDate": "1405/06/18 - 11:00",
+  "jalaliLastEditDate": null,
+  "jalaliDocumentDeadlineDate": null,
+  "tableId": 5333681,
+  "tagCode": 1432,
+  "needType": "1432",
+  "reqId": "7420530",
+  "jalaliFromProposalDate": null,
+  "partyNumber": null,
+  "orgId": 12263,
+  "aucState": null,
+  "cartId": 0,
+  "categoryId": null,
+  "categoryName": null,
+  "locId": null,
+  "ticketId": null,
+  "aggregations": {
+   "by_boardCode": {
+    "buckets": [
+     {
+      "doc_count": 56,
+      "key": "3"
+     },
+     {
+      "doc_count": 16,
+      "key": "2"
+     },
+     {
+      "doc_count": 15,
+      "key": "1"
+     }
+    ]
+   },
+   "by_tagCode": {
+    "buckets": [
+     {
+      "doc_count": 49,
+      "key": "33"
+     },
+     {
+      "doc_count": 14,
+      "key": "4121"
+     },
+     {
+      "doc_count": 8,
+      "key": "1431"
+     },
+     {
+      "doc_count": 7,
+      "key": "1432"
+     },
+     {
+      "doc_count": 7,
+      "key": "341"
+     },
+     {
+      "doc_count": 2,
+      "key": "4128"
+     }
+    ]
+   }
+  },
+  "orderIdx": 8
+ },
+ {
+  "number": 1105005221001787,
+  "title": "نیاز خدمات-احداث پارکینگ مدیریت برق شهرستان فردیس ",
+  "boardCode": 1,
+  "basePrice": null,
+  "orgName": "شرکت توزیع نیروی برق استان البرز",
+  "score": 87,
+  "cityName": "فردیس",
+  "insertDate": null,
+  "boardName": "خرید",
+  "provinceName": "البرز",
+  "jalaliSendDeadlineDate": "1405/06/18 - 10:00",
+  "jalaliLastEditDate": null,
+  "jalaliDocumentDeadlineDate": null,
+  "tableId": 5332407,
+  "tagCode": 1432,
+  "needType": "1432",
+  "reqId": "7418602",
+  "jalaliFromProposalDate": null,
+  "partyNumber": null,
+  "orgId": 8458,
+  "aucState": null,
+  "cartId": 0,
+  "categoryId": null,
+  "categoryName": null,
+  "locId": null,
+  "ticketId": null,
+  "aggregations": {
+   "by_boardCode": {
+    "buckets": [
+     {
+      "doc_count": 56,
+      "key": "3"
+     },
+     {
+      "doc_count": 16,
+      "key": "2"
+     },
+     {
+      "doc_count": 15,
+      "key": "1"
+     }
+    ]
+   },
+   "by_tagCode": {
+    "buckets": [
+     {
+      "doc_count": 49,
+      "key": "33"
+     },
+     {
+      "doc_count": 14,
+      "key": "4121"
+     },
+     {
+      "doc_count": 8,
+      "key": "1431"
+     },
+     {
+      "doc_count": 7,
+      "key": "1432"
+     },
+     {
+      "doc_count": 7,
+      "key": "341"
+     },
+     {
+      "doc_count": 2,
+      "key": "4128"
+     }
+    ]
+   }
+  },
+  "orderIdx": 9
+ },
+ {
+  "number": 5105050288000020,
+  "title": "اجاره سالن ورزشی شهدای اهری( به مدت 12 ماه 0 روز)",
+  "boardCode": 3,
+  "basePrice": 12000000000,
+  "orgName": "شهرداری فردیس استان البرز",
+  "score": 87,
+  "cityName": "فردیس",
+  "insertDate": null,
+  "boardName": "مزایده",
+  "provinceName": "البرز",
+  "jalaliSendDeadlineDate": "1405/07/01 - 13:00",
+  "jalaliLastEditDate": "1405/06/14 - 14:40",
+  "jalaliDocumentDeadlineDate": "1405/06/21 - 13:00",
+  "tableId": 501976,
+  "tagCode": 33,
+  "needType": null,
+  "reqId": null,
+  "jalaliFromProposalDate": null,
+  "partyNumber": "1323408",
+  "orgId": 12263,
+  "aucState": 1116,
+  "cartId": 0,
+  "categoryId": null,
+  "categoryName": null,
+  "locId": null,
+  "ticketId": null,
+  "aggregations": {
+   "by_boardCode": {
+    "buckets": [
+     {
+      "doc_count": 56,
+      "key": "3"
+     },
+     {
+      "doc_count": 16,
+      "key": "2"
+     },
+     {
+      "doc_count": 15,
+      "key": "1"
+     }
+    ]
+   },
+   "by_tagCode": {
+    "buckets": [
+     {
+      "doc_count": 49,
+      "key": "33"
+     },
+     {
+      "doc_count": 14,
+      "key": "4121"
+     },
+     {
+      "doc_count": 8,
+      "key": "1431"
+     },
+     {
+      "doc_count": 7,
+      "key": "1432"
+     },
+     {
+      "doc_count": 7,
+      "key": "341"
+     },
+     {
+      "doc_count": 2,
+      "key": "4128"
+     }
+    ]
+   }
+  },
+  "orderIdx": 10
+ },
+ {
+  "number": 1105050288000133,
+  "title": "نیاز خدمات-شهرداری منطقه دو فردیس درنظر دارد نسبت به پروژه تهیه، بارگیری، حمل، باراندازی و اعمال دیوار پیش ساخته ماد 110 به شرح شرایط و مشخصات پیوست اقدام نماید.",
+  "boardCode": 1,
+  "basePrice": null,
+  "orgName": "شهرداری فردیس استان البرز",
+  "score": 87,
+  "cityName": "فردیس",
+  "insertDate": null,
+  "boardName": "خرید",
+  "provinceName": "البرز",
+  "jalaliSendDeadlineDate": "1405/06/17 - 07:30",
+  "jalaliLastEditDate": null,
+  "jalaliDocumentDeadlineDate": null,
+  "tableId": 5332128,
+  "tagCode": 1432,
+  "needType": "1432",
+  "reqId": "7418179",
+  "jalaliFromProposalDate": null,
+  "partyNumber": null,
+  "orgId": 12263,
+  "aucState": null,
+  "cartId": 0,
+  "categoryId": null,
+  "categoryName": null,
+  "locId": null,
+  "ticketId": null,
+  "aggregations": {
+   "by_boardCode": {
+    "buckets": [
+     {
+      "doc_count": 56,
+      "key": "3"
+     },
+     {
+      "doc_count": 16,
+      "key": "2"
+     },
+     {
+      "doc_count": 15,
+      "key": "1"
+     }
+    ]
+   },
+   "by_tagCode": {
+    "buckets": [
+     {
+      "doc_count": 49,
+      "key": "33"
+     },
+     {
+      "doc_count": 14,
+      "key": "4121"
+     },
+     {
+      "doc_count": 8,
+      "key": "1431"
+     },
+     {
+      "doc_count": 7,
+      "key": "1432"
+     },
+     {
+      "doc_count": 7,
+      "key": "341"
+     },
+     {
+      "doc_count": 2,
+      "key": "4128"
+     }
+    ]
+   }
+  },
+  "orderIdx": 11
+ },
+ {
+  "number": 1105003523000400,
+  "title": "نیاز کالا-فرش ماشینی 9 متری_طبق مشخصات فنی فایل پیوست_ایران کدانتخابی مشابه است_قیمت نهایی فاکتور بدون ارزش افزوده وپیش فاکتور با مهر درسامانه درج شود",
+  "boardCode": 1,
+  "basePrice": null,
+  "orgName": "اداره کل زندان ها و اقدامات تامینی و تربیتی استان البرز",
+  "score": 87,
+  "cityName": "فردیس",
+  "insertDate": null,
+  "boardName": "خرید",
+  "provinceName": "البرز",
+  "jalaliSendDeadlineDate": "1405/06/15 - 08:30",
+  "jalaliLastEditDate": null,
+  "jalaliDocumentDeadlineDate": null,
+  "tableId": 5331255,
+  "tagCode": 1431,
+  "needType": "1431",
+  "reqId": "7416774",
+  "jalaliFromProposalDate": null,
+  "partyNumber": null,
+  "orgId": 8331,
+  "aucState": null,
+  "cartId": 0,
+  "categoryId": null,
+  "categoryName": null,
+  "locId": null,
+  "ticketId": null,
+  "aggregations": {
+   "by_boardCode": {
+    "buckets": [
+     {
+      "doc_count": 56,
+      "key": "3"
+     },
+     {
+      "doc_count": 16,
+      "key": "2"
+     },
+     {
+      "doc_count": 15,
+      "key": "1"
+     }
+    ]
+   },
+   "by_tagCode": {
+    "buckets": [
+     {
+      "doc_count": 49,
+      "key": "33"
+     },
+     {
+      "doc_count": 14,
+      "key": "4121"
+     },
+     {
+      "doc_count": 8,
+      "key": "1431"
+     },
+     {
+      "doc_count": 7,
+      "key": "1432"
+     },
+     {
+      "doc_count": 7,
+      "key": "341"
+     },
+     {
+      "doc_count": 2,
+      "key": "4128"
+     }
+    ]
+   }
+  },
+  "orderIdx": 12
+ },
+ {
+  "number": 1105000351000558,
+  "title": "نیاز کالا-دستگاه تصفیه آب-بر اساس لیست پیوست",
+  "boardCode": 1,
+  "basePrice": null,
+  "orgName": "شبکه بهداشت و درمان فردیس",
+  "score": 87,
+  "cityName": "فردیس",
+  "insertDate": null,
+  "boardName": "خرید",
+  "provinceName": "البرز",
+  "jalaliSendDeadlineDate": "1405/06/16 - 10:00",
+  "jalaliLastEditDate": null,
+  "jalaliDocumentDeadlineDate": null,
+  "tableId": 5331219,
+  "tagCode": 1431,
+  "needType": "1431",
+  "reqId": "7416732",
+  "jalaliFromProposalDate": null,
+  "partyNumber": null,
+  "orgId": 10378,
+  "aucState": null,
+  "cartId": 0,
+  "categoryId": null,
+  "categoryName": null,
+  "locId": null,
+  "ticketId": null,
+  "aggregations": {
+   "by_boardCode": {
+    "buckets": [
+     {
+      "doc_count": 56,
+      "key": "3"
+     },
+     {
+      "doc_count": 16,
+      "key": "2"
+     },
+     {
+      "doc_count": 15,
+      "key": "1"
+     }
+    ]
+   },
+   "by_tagCode": {
+    "buckets": [
+     {
+      "doc_count": 49,
+      "key": "33"
+     },
+     {
+      "doc_count": 14,
+      "key": "4121"
+     },
+     {
+      "doc_count": 8,
+      "key": "1431"
+     },
+     {
+      "doc_count": 7,
+      "key": "1432"
+     },
+     {
+      "doc_count": 7,
+      "key": "341"
+     },
+     {
+      "doc_count": 2,
+      "key": "4128"
+     }
+    ]
+   }
+  },
+  "orderIdx": 13
+ },
+ {
+  "number": 1105000351000557,
+  "title": "نیاز کالا-لیوان یکبار مصرف-بر اساس لیست پیوست",
+  "boardCode": 1,
+  "basePrice": null,
+  "orgName": "شبکه بهداشت و درمان فردیس",
+  "score": 87,
+  "cityName": "فردیس",
+  "insertDate": null,
+  "boardName": "خرید",
+  "provinceName": "البرز",
+  "jalaliSendDeadlineDate": "1405/06/16 - 10:00",
+  "jalaliLastEditDate": null,
+  "jalaliDocumentDeadlineDate": null,
+  "tableId": 5331198,
+  "tagCode": 1431,
+  "needType": "1431",
+  "reqId": "7416710",
+  "jalaliFromProposalDate": null,
+  "partyNumber": null,
+  "orgId": 10378,
+  "aucState": null,
+  "cartId": 0,
+  "categoryId": null,
+  "categoryName": null,
+  "locId": null,
+  "ticketId": null,
+  "aggregations": {
+   "by_boardCode": {
+    "buckets": [
+     {
+      "doc_count": 56,
+      "key": "3"
+     },
+     {
+      "doc_count": 16,
+      "key": "2"
+     },
+     {
+      "doc_count": 15,
+      "key": "1"
+     }
+    ]
+   },
+   "by_tagCode": {
+    "buckets": [
+     {
+      "doc_count": 49,
+      "key": "33"
+     },
+     {
+      "doc_count": 14,
+      "key": "4121"
+     },
+     {
+      "doc_count": 8,
+      "key": "1431"
+     },
+     {
+      "doc_count": 7,
+      "key": "1432"
+     },
+     {
+      "doc_count": 7,
+      "key": "341"
+     },
+     {
+      "doc_count": 2,
+      "key": "4128"
+     }
+    ]
+   }
+  },
+  "orderIdx": 14
+ },
+ {
+  "number": 2005050288000063,
+  "title": "مناقصه عمومی یک مرحله ای تهیه و تعویض درزهای انبساط و نصب پوشش و حفاظ بصری پل روگذر نهم دی(بصیرت)",
+  "boardCode": 2,
+  "basePrice": null,
+  "orgName": "شهرداری فردیس استان البرز",
+  "score": 87,
+  "cityName": "فردیس",
+  "insertDate": null,
+  "boardName": "مناقصه",
+  "provinceName": "البرز",
+  "jalaliSendDeadlineDate": "1405/06/31 - 13:00",
+  "jalaliLastEditDate": "1405/06/14 - 13:55",
+  "jalaliDocumentDeadlineDate": "1405/06/21 - 13:00",
+  "tableId": 663937,
+  "tagCode": 4121,
+  "needType": null,
+  "reqId": null,
+  "jalaliFromProposalDate": null,
+  "partyNumber": null,
+  "orgId": 12263,
+  "aucState": null,
+  "cartId": 0,
+  "categoryId": null,
+  "categoryName": null,
+  "locId": null,
+  "ticketId": null,
+  "aggregations": {
+   "by_boardCode": {
+    "buckets": [
+     {
+      "doc_count": 56,
+      "key": "3"
+     },
+     {
+      "doc_count": 16,
+      "key": "2"
+     },
+     {
+      "doc_count": 15,
+      "key": "1"
+     }
+    ]
+   },
+   "by_tagCode": {
+    "buckets": [
+     {
+      "doc_count": 49,
+      "key": "33"
+     },
+     {
+      "doc_count": 14,
+      "key": "4121"
+     },
+     {
+      "doc_count": 8,
+      "key": "1431"
+     },
+     {
+      "doc_count": 7,
+      "key": "1432"
+     },
+     {
+      "doc_count": 7,
+      "key": "341"
+     },
+     {
+      "doc_count": 2,
+      "key": "4128"
+     }
+    ]
+   }
+  },
+  "orderIdx": 15
+ },
+ {
+  "number": 2005050288000064,
+  "title": "مناقصه عمومی یک مرحله ای مناقصه احداث آشیانه(پارکینگ خودرو های سنگین)ایستگاه های آتـش نشانی سطح شهر",
+  "boardCode": 2,
+  "basePrice": null,
+  "orgName": "شهرداری فردیس استان البرز",
+  "score": 87,
+  "cityName": "فردیس",
+  "insertDate": null,
+  "boardName": "مناقصه",
+  "provinceName": "البرز",
+  "jalaliSendDeadlineDate": "1405/06/31 - 13:00",
+  "jalaliLastEditDate": "1405/06/14 - 13:57",
+  "jalaliDocumentDeadlineDate": "1405/06/21 - 13:00",
+  "tableId": 663940,
+  "tagCode": 4121,
+  "needType": null,
+  "reqId": null,
+  "jalaliFromProposalDate": null,
+  "partyNumber": null,
+  "orgId": 12263,
+  "aucState": null,
+  "cartId": 0,
+  "categoryId": null,
+  "categoryName": null,
+  "locId": null,
+  "ticketId": null,
+  "aggregations": {
+   "by_boardCode": {
+    "buckets": [
+     {
+      "doc_count": 56,
+      "key": "3"
+     },
+     {
+      "doc_count": 16,
+      "key": "2"
+     },
+     {
+      "doc_count": 15,
+      "key": "1"
+     }
+    ]
+   },
+   "by_tagCode": {
+    "buckets": [
+     {
+      "doc_count": 49,
+      "key": "33"
+     },
+     {
+      "doc_count": 14,
+      "key": "4121"
+     },
+     {
+      "doc_count": 8,
+      "key": "1431"
+     },
+     {
+      "doc_count": 7,
+      "key": "1432"
+     },
+     {
+      "doc_count": 7,
+      "key": "341"
+     },
+     {
+      "doc_count": 2,
+      "key": "4128"
+     }
+    ]
+   }
+  },
+  "orderIdx": 16
+ },
+ {
+  "number": 2005050288000065,
+  "title": "مناقصه عمومی یک مرحله ای تعمیر و،مرمت و هدایت آب های سطحی پل شهید کلانتری(سرحدآباد)",
+  "boardCode": 2,
+  "basePrice": null,
+  "orgName": "شهرداری فردیس استان البرز",
+  "score": 87,
+  "cityName": "فردیس",
+  "insertDate": null,
+  "boardName": "مناقصه",
+  "provinceName": "البرز",
+  "jalaliSendDeadlineDate": "1405/06/31 - 13:00",
+  "jalaliLastEditDate": "1405/06/14 - 14:06",
+  "jalaliDocumentDeadlineDate": "1405/06/21 - 13:00",
+  "tableId": 663942,
+  "tagCode": 4121,
+  "needType": null,
+  "reqId": null,
+  "jalaliFromProposalDate": null,
+  "partyNumber": null,
+  "orgId": 12263,
+  "aucState": null,
+  "cartId": 0,
+  "categoryId": null,
+  "categoryName": null,
+  "locId": null,
+  "ticketId": null,
+  "aggregations": {
+   "by_boardCode": {
+    "buckets": [
+     {
+      "doc_count": 56,
+      "key": "3"
+     },
+     {
+      "doc_count": 16,
+      "key": "2"
+     },
+     {
+      "doc_count": 15,
+      "key": "1"
+     }
+    ]
+   },
+   "by_tagCode": {
+    "buckets": [
+     {
+      "doc_count": 49,
+      "key": "33"
+     },
+     {
+      "doc_count": 14,
+      "key": "4121"
+     },
+     {
+      "doc_count": 8,
+      "key": "1431"
+     },
+     {
+      "doc_count": 7,
+      "key": "1432"
+     },
+     {
+      "doc_count": 7,
+      "key": "341"
+     },
+     {
+      "doc_count": 2,
+      "key": "4128"
+     }
+    ]
+   }
+  },
+  "orderIdx": 17
+ },
+ {
+  "number": 1105003062000159,
+  "title": "نیاز کالا-خرید ملزومات ورزشی به شرح لیست پیوست",
+  "boardCode": 1,
+  "basePrice": null,
+  "orgName": "سازمان سنجش و اموزش کشور",
+  "score": 87,
+  "cityName": "فردیس",
+  "insertDate": null,
+  "boardName": "خرید",
+  "provinceName": "البرز",
+  "jalaliSendDeadlineDate": "1405/06/15 - 11:00",
+  "jalaliLastEditDate": null,
+  "jalaliDocumentDeadlineDate": null,
+  "tableId": 5329231,
+  "tagCode": 1431,
+  "needType": "1431",
+  "reqId": "7413954",
+  "jalaliFromProposalDate": null,
+  "partyNumber": null,
+  "orgId": 5092,
+  "aucState": null,
+  "cartId": 0,
+  "categoryId": null,
+  "categoryName": null,
+  "locId": null,
+  "ticketId": null,
+  "aggregations": {
+   "by_boardCode": {
+    "buckets": [
+     {
+      "doc_count": 56,
+      "key": "3"
+     },
+     {
+      "doc_count": 16,
+      "key": "2"
+     },
+     {
+      "doc_count": 15,
+      "key": "1"
+     }
+    ]
+   },
+   "by_tagCode": {
+    "buckets": [
+     {
+      "doc_count": 49,
+      "key": "33"
+     },
+     {
+      "doc_count": 14,
+      "key": "4121"
+     },
+     {
+      "doc_count": 8,
+      "key": "1431"
+     },
+     {
+      "doc_count": 7,
+      "key": "1432"
+     },
+     {
+      "doc_count": 7,
+      "key": "341"
+     },
+     {
+      "doc_count": 2,
+      "key": "4128"
+     }
+    ]
+   }
+  },
+  "orderIdx": 18
+ },
+ {
+  "number": 2005005186000105,
+  "title": "مناقصه عمومی همزمان با ارزیابی (یکپارچه) یک مرحله ای اجرای عملیات تهیه و نصب دیوار پیش ساخته در پارک جهان نما",
+  "boardCode": 2,
+  "basePrice": null,
+  "orgName": "شرکت آب و فاضلاب استان البرز",
+  "score": 87,
+  "cityName": "فردیس",
+  "insertDate": null,
+  "boardName": "مناقصه",
+  "provinceName": "البرز",
+  "jalaliSendDeadlineDate": "1405/06/31 - 09:00",
+  "jalaliLastEditDate": "-",
+  "jalaliDocumentDeadlineDate": "1405/06/16 - 19:00",
+  "tableId": 663692,
+  "tagCode": 4128,
+  "needType": null,
+  "reqId": null,
+  "jalaliFromProposalDate": null,
+  "partyNumber": null,
+  "orgId": 8298,
+  "aucState": null,
+  "cartId": 0,
+  "categoryId": null,
+  "categoryName": null,
+  "locId": null,
+  "ticketId": null,
+  "aggregations": {
+   "by_boardCode": {
+    "buckets": [
+     {
+      "doc_count": 56,
+      "key": "3"
+     },
+     {
+      "doc_count": 16,
+      "key": "2"
+     },
+     {
+      "doc_count": 15,
+      "key": "1"
+     }
+    ]
+   },
+   "by_tagCode": {
+    "buckets": [
+     {
+      "doc_count": 49,
+      "key": "33"
+     },
+     {
+      "doc_count": 14,
+      "key": "4121"
+     },
+     {
+      "doc_count": 8,
+      "key": "1431"
+     },
+     {
+      "doc_count": 7,
+      "key": "1432"
+     },
+     {
+      "doc_count": 7,
+      "key": "341"
+     },
+     {
+      "doc_count": 2,
+      "key": "4128"
+     }
+    ]
+   }
+  },
+  "orderIdx": 19
+ },
+ {
+  "number": 5105050288000019,
+  "title": "اجاره واگذاری حق بهره برداری از سرسره بادی پارک تندرستی-تجدید( به مدت 12 ماه 0 روز)",
+  "boardCode": 3,
+  "basePrice": 2400000000,
+  "orgName": "شهرداری فردیس استان البرز",
+  "score": 87,
+  "cityName": "فردیس",
+  "insertDate": null,
+  "boardName": "مزایده",
+  "provinceName": "البرز",
+  "jalaliSendDeadlineDate": "1405/06/31 - 13:00",
+  "jalaliLastEditDate": "1405/06/11 - 12:00",
+  "jalaliDocumentDeadlineDate": "1405/06/21 - 13:00",
+  "tableId": 500896,
+  "tagCode": 33,
+  "needType": null,
+  "reqId": null,
+  "jalaliFromProposalDate": null,
+  "partyNumber": "1321645",
+  "orgId": 12263,
+  "aucState": 1116,
+  "cartId": 0,
+  "categoryId": null,
+  "categoryName": null,
+  "locId": null,
+  "ticketId": null,
+  "aggregations": {
+   "by_boardCode": {
+    "buckets": [
+     {
+      "doc_count": 56,
+      "key": "3"
+     },
+     {
+      "doc_count": 16,
+      "key": "2"
+     },
+     {
+      "doc_count": 15,
+      "key": "1"
+     }
+    ]
+   },
+   "by_tagCode": {
+    "buckets": [
+     {
+      "doc_count": 49,
+      "key": "33"
+     },
+     {
+      "doc_count": 14,
+      "key": "4121"
+     },
+     {
+      "doc_count": 8,
+      "key": "1431"
+     },
+     {
+      "doc_count": 7,
+      "key": "1432"
+     },
+     {
+      "doc_count": 7,
+      "key": "341"
+     },
+     {
+      "doc_count": 2,
+      "key": "4128"
+     }
+    ]
+   }
+  },
+  "orderIdx": 20
+ },
+ {
+  "number": 5105050288000017,
+  "title": "اجاره -( به مدت 12 ماه 0 روز)",
+  "boardCode": 3,
+  "basePrice": 3000000000,
+  "orgName": "شهرداری فردیس استان البرز",
+  "score": 87,
+  "cityName": "فردیس",
+  "insertDate": null,
+  "boardName": "مزایده",
+  "provinceName": "البرز",
+  "jalaliSendDeadlineDate": "1405/06/31 - 13:00",
+  "jalaliLastEditDate": "1405/06/11 - 17:09",
+  "jalaliDocumentDeadlineDate": "1405/06/21 - 13:00",
+  "tableId": 500823,
+  "tagCode": 33,
+  "needType": null,
+  "reqId": null,
+  "jalaliFromProposalDate": null,
+  "partyNumber": "1321550",
+  "orgId": 12263,
+  "aucState": 1116,
+  "cartId": 0,
+  "categoryId": null,
+  "categoryName": null,
+  "locId": null,
+  "ticketId": null,
+  "aggregations": {
+   "by_boardCode": {
+    "buckets": [
+     {
+      "doc_count": 56,
+      "key": "3"
+     },
+     {
+      "doc_count": 16,
+      "key": "2"
+     },
+     {
+      "doc_count": 15,
+      "key": "1"
+     }
+    ]
+   },
+   "by_tagCode": {
+    "buckets": [
+     {
+      "doc_count": 49,
+      "key": "33"
+     },
+     {
+      "doc_count": 14,
+      "key": "4121"
+     },
+     {
+      "doc_count": 8,
+      "key": "1431"
+     },
+     {
+      "doc_count": 7,
+      "key": "1432"
+     },
+     {
+      "doc_count": 7,
+      "key": "341"
+     },
+     {
+      "doc_count": 2,
+      "key": "4128"
+     }
+    ]
+   }
+  },
+  "orderIdx": 21
+ },
+ {
+  "number": 5105050288000018,
+  "title": "اجاره -( به مدت 12 ماه 0 روز)",
+  "boardCode": 3,
+  "basePrice": 2760000000,
+  "orgName": "شهرداری فردیس استان البرز",
+  "score": 87,
+  "cityName": "فردیس",
+  "insertDate": null,
+  "boardName": "مزایده",
+  "provinceName": "البرز",
+  "jalaliSendDeadlineDate": "1405/06/31 - 13:00",
+  "jalaliLastEditDate": "1405/06/11 - 17:07",
+  "jalaliDocumentDeadlineDate": "1405/06/21 - 13:00",
+  "tableId": 500856,
+  "tagCode": 33,
+  "needType": null,
+  "reqId": null,
+  "jalaliFromProposalDate": null,
+  "partyNumber": "1321585",
+  "orgId": 12263,
+  "aucState": 1116,
+  "cartId": 0,
+  "categoryId": null,
+  "categoryName": null,
+  "locId": null,
+  "ticketId": null,
+  "aggregations": {
+   "by_boardCode": {
+    "buckets": [
+     {
+      "doc_count": 56,
+      "key": "3"
+     },
+     {
+      "doc_count": 16,
+      "key": "2"
+     },
+     {
+      "doc_count": 15,
+      "key": "1"
+     }
+    ]
+   },
+   "by_tagCode": {
+    "buckets": [
+     {
+      "doc_count": 49,
+      "key": "33"
+     },
+     {
+      "doc_count": 14,
+      "key": "4121"
+     },
+     {
+      "doc_count": 8,
+      "key": "1431"
+     },
+     {
+      "doc_count": 7,
+      "key": "1432"
+     },
+     {
+      "doc_count": 7,
+      "key": "341"
+     },
+     {
+      "doc_count": 2,
+      "key": "4128"
+     }
+    ]
+   }
+  },
+  "orderIdx": 22
+ },
+ {
+  "number": 1105003062000158,
+  "title": "نیاز کالا-خرید کیس کامل کامپیوتر به تعداد 20 عدد سرهم بندی شده(اسمبل) طبق لیست پیوست -پرداخت به صورت اسناد خزانه می باشد -",
+  "boardCode": 1,
+  "basePrice": null,
+  "orgName": "سازمان سنجش و اموزش کشور",
+  "score": 87,
+  "cityName": "فردیس",
+  "insertDate": null,
+  "boardName": "خرید",
+  "provinceName": "البرز",
+  "jalaliSendDeadlineDate": "1405/06/15 - 12:00",
+  "jalaliLastEditDate": null,
+  "jalaliDocumentDeadlineDate": null,
+  "tableId": 5326737,
+  "tagCode": 1431,
+  "needType": "1431",
+  "reqId": "7410128",
+  "jalaliFromProposalDate": null,
+  "partyNumber": null,
+  "orgId": 5092,
+  "aucState": null,
+  "cartId": 0,
+  "categoryId": null,
+  "categoryName": null,
+  "locId": null,
+  "ticketId": null,
+  "aggregations": {
+   "by_boardCode": {
+    "buckets": [
+     {
+      "doc_count": 56,
+      "key": "3"
+     },
+     {
+      "doc_count": 16,
+      "key": "2"
+     },
+     {
+      "doc_count": 15,
+      "key": "1"
+     }
+    ]
+   },
+   "by_tagCode": {
+    "buckets": [
+     {
+      "doc_count": 49,
+      "key": "33"
+     },
+     {
+      "doc_count": 14,
+      "key": "4121"
+     },
+     {
+      "doc_count": 8,
+      "key": "1431"
+     },
+     {
+      "doc_count": 7,
+      "key": "1432"
+     },
+     {
+      "doc_count": 7,
+      "key": "341"
+     },
+     {
+      "doc_count": 2,
+      "key": "4128"
+     }
+    ]
+   }
+  },
+  "orderIdx": 23
+ },
+ {
+  "number": 1105000351000555,
+  "title": "نیاز کالا-اقلام مصرفی پزشکی ",
+  "boardCode": 1,
+  "basePrice": null,
+  "orgName": "شبکه بهداشت و درمان فردیس",
+  "score": 87,
+  "cityName": "فردیس",
+  "insertDate": null,
+  "boardName": "خرید",
+  "provinceName": "البرز",
+  "jalaliSendDeadlineDate": "1405/06/15 - 11:00",
+  "jalaliLastEditDate": null,
+  "jalaliDocumentDeadlineDate": null,
+  "tableId": 5326640,
+  "tagCode": 1431,
+  "needType": "1431",
+  "reqId": "7409976",
+  "jalaliFromProposalDate": null,
+  "partyNumber": null,
+  "orgId": 10378,
+  "aucState": null,
+  "cartId": 0,
+  "categoryId": null,
+  "categoryName": null,
+  "locId": null,
+  "ticketId": null,
+  "aggregations": {
+   "by_boardCode": {
+    "buckets": [
+     {
+      "doc_count": 56,
+      "key": "3"
+     },
+     {
+      "doc_count": 16,
+      "key": "2"
+     },
+     {
+      "doc_count": 15,
+      "key": "1"
+     }
+    ]
+   },
+   "by_tagCode": {
+    "buckets": [
+     {
+      "doc_count": 49,
+      "key": "33"
+     },
+     {
+      "doc_count": 14,
+      "key": "4121"
+     },
+     {
+      "doc_count": 8,
+      "key": "1431"
+     },
+     {
+      "doc_count": 7,
+      "key": "1432"
+     },
+     {
+      "doc_count": 7,
+      "key": "341"
+     },
+     {
+      "doc_count": 2,
+      "key": "4128"
+     }
+    ]
+   }
+  },
+  "orderIdx": 24
+ },
+ {
+  "number": 1105000351000554,
+  "title": "نیاز کالا-خرید لوازم التحریر ",
+  "boardCode": 1,
+  "basePrice": null,
+  "orgName": "شبکه بهداشت و درمان فردیس",
+  "score": 87,
+  "cityName": "فردیس",
+  "insertDate": null,
+  "boardName": "خرید",
+  "provinceName": "البرز",
+  "jalaliSendDeadlineDate": "1405/06/15 - 11:30",
+  "jalaliLastEditDate": null,
+  "jalaliDocumentDeadlineDate": null,
+  "tableId": 5326602,
+  "tagCode": 1431,
+  "needType": "1431",
+  "reqId": "7409922",
+  "jalaliFromProposalDate": null,
+  "partyNumber": null,
+  "orgId": 10378,
+  "aucState": null,
+  "cartId": 0,
+  "categoryId": null,
+  "categoryName": null,
+  "locId": null,
+  "ticketId": null,
+  "aggregations": {
+   "by_boardCode": {
+    "buckets": [
+     {
+      "doc_count": 56,
+      "key": "3"
+     },
+     {
+      "doc_count": 16,
+      "key": "2"
+     },
+     {
+      "doc_count": 15,
+      "key": "1"
+     }
+    ]
+   },
+   "by_tagCode": {
+    "buckets": [
+     {
+      "doc_count": 49,
+      "key": "33"
+     },
+     {
+      "doc_count": 14,
+      "key": "4121"
+     },
+     {
+      "doc_count": 8,
+      "key": "1431"
+     },
+     {
+      "doc_count": 7,
+      "key": "1432"
+     },
+     {
+      "doc_count": 7,
+      "key": "341"
+     },
+     {
+      "doc_count": 2,
+      "key": "4128"
+     }
+    ]
+   }
+  },
+  "orderIdx": 25
+ },
+ {
+  "number": 1105050288000132,
+  "title": "نیاز خدمات-شهرداری فردیس در نظر دارد نسبت به پروژه تهیه و خرید نیمکت بتنی به شرح و مشخصات پیوست اقدام نماید./",
+  "boardCode": 1,
+  "basePrice": null,
+  "orgName": "شهرداری فردیس استان البرز",
+  "score": 87,
+  "cityName": "فردیس",
+  "insertDate": null,
+  "boardName": "خرید",
+  "provinceName": "البرز",
+  "jalaliSendDeadlineDate": "1405/06/15 - 11:59",
+  "jalaliLastEditDate": null,
+  "jalaliDocumentDeadlineDate": null,
+  "tableId": 5326357,
+  "tagCode": 1432,
+  "needType": "1432",
+  "reqId": "7409552",
+  "jalaliFromProposalDate": null,
+  "partyNumber": null,
+  "orgId": 12263,
+  "aucState": null,
+  "cartId": 0,
+  "categoryId": null,
+  "categoryName": null,
+  "locId": null,
+  "ticketId": null,
+  "aggregations": {
+   "by_boardCode": {
+    "buckets": [
+     {
+      "doc_count": 56,
+      "key": "3"
+     },
+     {
+      "doc_count": 16,
+      "key": "2"
+     },
+     {
+      "doc_count": 15,
+      "key": "1"
+     }
+    ]
+   },
+   "by_tagCode": {
+    "buckets": [
+     {
+      "doc_count": 49,
+      "key": "33"
+     },
+     {
+      "doc_count": 14,
+      "key": "4121"
+     },
+     {
+      "doc_count": 8,
+      "key": "1431"
+     },
+     {
+      "doc_count": 7,
+      "key": "1432"
+     },
+     {
+      "doc_count": 7,
+      "key": "341"
+     },
+     {
+      "doc_count": 2,
+      "key": "4128"
+     }
+    ]
+   }
+  },
+  "orderIdx": 26
+ },
+ {
+  "number": 1105000351000553,
+  "title": "نیاز خدمات-بی خطر سازی پسماند های عفونی-بر اساس لیست پیوست",
+  "boardCode": 1,
+  "basePrice": null,
+  "orgName": "شبکه بهداشت و درمان فردیس",
+  "score": 87,
+  "cityName": "فردیس",
+  "insertDate": null,
+  "boardName": "خرید",
+  "provinceName": "البرز",
+  "jalaliSendDeadlineDate": "1405/06/15 - 12:00",
+  "jalaliLastEditDate": null,
+  "jalaliDocumentDeadlineDate": null,
+  "tableId": 5325982,
+  "tagCode": 1432,
+  "needType": "1432",
+  "reqId": "7408982",
+  "jalaliFromProposalDate": null,
+  "partyNumber": null,
+  "orgId": 10378,
+  "aucState": null,
+  "cartId": 0,
+  "categoryId": null,
+  "categoryName": null,
+  "locId": null,
+  "ticketId": null,
+  "aggregations": {
+   "by_boardCode": {
+    "buckets": [
+     {
+      "doc_count": 56,
+      "key": "3"
+     },
+     {
+      "doc_count": 16,
+      "key": "2"
+     },
+     {
+      "doc_count": 15,
+      "key": "1"
+     }
+    ]
+   },
+   "by_tagCode": {
+    "buckets": [
+     {
+      "doc_count": 49,
+      "key": "33"
+     },
+     {
+      "doc_count": 14,
+      "key": "4121"
+     },
+     {
+      "doc_count": 8,
+      "key": "1431"
+     },
+     {
+      "doc_count": 7,
+      "key": "1432"
+     },
+     {
+      "doc_count": 7,
+      "key": "341"
+     },
+     {
+      "doc_count": 2,
+      "key": "4128"
+     }
+    ]
+   }
+  },
+  "orderIdx": 27
+ },
+ {
+  "number": 1105050288000130,
+  "title": "نیاز خدمات-شهرداری فردیس در نظر دارد نسبت به پروژه رنگ آمیزی پارک های سطح شهر فردیس به شرح و مشخصات به پیوست اقدام نماید./",
+  "boardCode": 1,
+  "basePrice": null,
+  "orgName": "شهرداری فردیس استان البرز",
+  "score": 87,
+  "cityName": "فردیس",
+  "insertDate": null,
+  "boardName": "خرید",
+  "provinceName": "البرز",
+  "jalaliSendDeadlineDate": "1405/06/15 - 08:45",
+  "jalaliLastEditDate": null,
+  "jalaliDocumentDeadlineDate": null,
+  "tableId": 5324800,
+  "tagCode": 1432,
+  "needType": "1432",
+  "reqId": "7407156",
+  "jalaliFromProposalDate": null,
+  "partyNumber": null,
+  "orgId": 12263,
+  "aucState": null,
+  "cartId": 0,
+  "categoryId": null,
+  "categoryName": null,
+  "locId": null,
+  "ticketId": null,
+  "aggregations": {
+   "by_boardCode": {
+    "buckets": [
+     {
+      "doc_count": 56,
+      "key": "3"
+     },
+     {
+      "doc_count": 16,
+      "key": "2"
+     },
+     {
+      "doc_count": 15,
+      "key": "1"
+     }
+    ]
+   },
+   "by_tagCode": {
+    "buckets": [
+     {
+      "doc_count": 49,
+      "key": "33"
+     },
+     {
+      "doc_count": 14,
+      "key": "4121"
+     },
+     {
+      "doc_count": 8,
+      "key": "1431"
+     },
+     {
+      "doc_count": 7,
+      "key": "1432"
+     },
+     {
+      "doc_count": 7,
+      "key": "341"
+     },
+     {
+      "doc_count": 2,
+      "key": "4128"
+     }
+    ]
+   }
+  },
+  "orderIdx": 28
+ },
+ {
+  "number": 3105108922000041,
+  "title": "حراج خط همراه اول",
+  "boardCode": 3,
+  "basePrice": 1100000000,
+  "orgName": "دفتر شعبه سوم اجرای احکام مدنی فردیس البرز",
+  "score": 87,
+  "cityName": "فردیس",
+  "insertDate": null,
+  "boardName": "مزایده",
+  "provinceName": "البرز",
+  "jalaliSendDeadlineDate": "1405/06/21 - 12:00",
+  "jalaliLastEditDate": null,
+  "jalaliDocumentDeadlineDate": " - ",
+  "tableId": 499517,
+  "tagCode": 341,
+  "needType": null,
+  "reqId": null,
+  "jalaliFromProposalDate": "1405/06/21 - 08:00",
+  "partyNumber": "1319511",
+  "orgId": 41712,
+  "aucState": 1116,
+  "cartId": 4206358,
+  "categoryId": 190,
+  "categoryName": "تجهیزات مخابراتی، کامپیوتر، موبایل، ملزومات جانبی و شبکه",
+  "locId": null,
+  "ticketId": "",
+  "aggregations": {
+   "by_boardCode": {
+    "buckets": [
+     {
+      "doc_count": 56,
+      "key": "3"
+     },
+     {
+      "doc_count": 16,
+      "key": "2"
+     },
+     {
+      "doc_count": 15,
+      "key": "1"
+     }
+    ]
+   },
+   "by_tagCode": {
+    "buckets": [
+     {
+      "doc_count": 49,
+      "key": "33"
+     },
+     {
+      "doc_count": 14,
+      "key": "4121"
+     },
+     {
+      "doc_count": 8,
+      "key": "1431"
+     },
+     {
+      "doc_count": 7,
+      "key": "1432"
+     },
+     {
+      "doc_count": 7,
+      "key": "341"
+     },
+     {
+      "doc_count": 2,
+      "key": "4128"
+     }
+    ]
+   }
+  },
+  "orderIdx": 29
+ },
+ {
+  "number": 2005095121000007,
+  "title": "مناقصه عمومی یک مرحله ای احداث پیاده رو سازی خیابان گلزار شهدا",
+  "boardCode": 2,
+  "basePrice": null,
+  "orgName": "دهیاری فرخ اباد بخش مشکین دشت شهرستان فردیس",
+  "score": 87,
+  "cityName": "فردیس",
+  "insertDate": null,
+  "boardName": "مناقصه",
+  "provinceName": "البرز",
+  "jalaliSendDeadlineDate": "1405/06/22 - 19:00",
+  "jalaliLastEditDate": "-",
+  "jalaliDocumentDeadlineDate": "1405/06/12 - 19:00",
+  "tableId": 662460,
+  "tagCode": 4121,
+  "needType": null,
+  "reqId": null,
+  "jalaliFromProposalDate": null,
+  "partyNumber": null,
+  "orgId": 20797,
+  "aucState": null,
+  "cartId": 0,
+  "categoryId": null,
+  "categoryName": null,
+  "locId": null,
+  "ticketId": null,
+  "aggregations": {
+   "by_boardCode": {
+    "buckets": [
+     {
+      "doc_count": 56,
+      "key": "3"
+     },
+     {
+      "doc_count": 16,
+      "key": "2"
+     },
+     {
+      "doc_count": 15,
+      "key": "1"
+     }
+    ]
+   },
+   "by_tagCode": {
+    "buckets": [
+     {
+      "doc_count": 49,
+      "key": "33"
+     },
+     {
+      "doc_count": 14,
+      "key": "4121"
+     },
+     {
+      "doc_count": 8,
+      "key": "1431"
+     },
+     {
+      "doc_count": 7,
+      "key": "1432"
+     },
+     {
+      "doc_count": 7,
+      "key": "341"
+     },
+     {
+      "doc_count": 2,
+      "key": "4128"
+     }
+    ]
+   }
+  },
+  "orderIdx": 30
+ },
+ {
+  "number": 3105108818000064,
+  "title": "حراج ملک (زمین) قولنامه ای به شرح مندرج در نظریه کارشناسی پیوست",
+  "boardCode": 3,
+  "basePrice": 37710000000,
+  "orgName": "دفتر شعبه اول اجرای احکام مدنی فردیس البرز",
+  "score": 87,
+  "cityName": "فردیس",
+  "insertDate": null,
+  "boardName": "مزایده",
+  "provinceName": "البرز",
+  "jalaliSendDeadlineDate": "1405/06/17 - 12:00",
+  "jalaliLastEditDate": null,
+  "jalaliDocumentDeadlineDate": " - ",
+  "tableId": 494314,
+  "tagCode": 341,
+  "needType": null,
+  "reqId": null,
+  "jalaliFromProposalDate": "1405/06/17 - 08:00",
+  "partyNumber": "1307830",
+  "orgId": 41710,
+  "aucState": 1116,
+  "cartId": 4160482,
+  "categoryId": 224,
+  "categoryName": "زمین، ساختمان‌ و معابر",
+  "locId": null,
+  "ticketId": "",
+  "aggregations": {
+   "by_boardCode": {
+    "buckets": [
+     {
+      "doc_count": 56,
+      "key": "3"
+     },
+     {
+      "doc_count": 16,
+      "key": "2"
+     },
+     {
+      "doc_count": 15,
+      "key": "1"
+     }
+    ]
+   },
+   "by_tagCode": {
+    "buckets": [
+     {
+      "doc_count": 49,
+      "key": "33"
+     },
+     {
+      "doc_count": 14,
+      "key": "4121"
+     },
+     {
+      "doc_count": 8,
+      "key": "1431"
+     },
+     {
+      "doc_count": 7,
+      "key": "1432"
+     },
+     {
+      "doc_count": 7,
+      "key": "341"
+     },
+     {
+      "doc_count": 2,
+      "key": "4128"
+     }
+    ]
+   }
+  },
+  "orderIdx": 31
+ },
+ {
+  "number": 3105108818000067,
+  "title": "حراج فروش یک دستگاه خودروی سواری پژو 206 مدل 1389",
+  "boardCode": 3,
+  "basePrice": 5500000000,
+  "orgName": "دفتر شعبه اول اجرای احکام مدنی فردیس البرز",
+  "score": 87,
+  "cityName": "فردیس",
+  "insertDate": null,
+  "boardName": "مزایده",
+  "provinceName": "البرز",
+  "jalaliSendDeadlineDate": "1405/06/18 - 12:00",
+  "jalaliLastEditDate": null,
+  "jalaliDocumentDeadlineDate": " - ",
+  "tableId": 495838,
+  "tagCode": 341,
+  "needType": null,
+  "reqId": null,
+  "jalaliFromProposalDate": "1405/06/18 - 08:00",
+  "partyNumber": "1310318",
+  "orgId": 41710,
+  "aucState": 1116,
+  "cartId": 4173360,
+  "categoryId": 180,
+  "categoryName": "وسایل نقلیه، قطعات و لوازم جانبی",
+  "locId": null,
+  "ticketId": "",
+  "aggregations": {
+   "by_boardCode": {
+    "buckets": [
+     {
+      "doc_count": 56,
+      "key": "3"
+     },
+     {
+      "doc_count": 16,
+      "key": "2"
+     },
+     {
+      "doc_count": 15,
+      "key": "1"
+     }
+    ]
+   },
+   "by_tagCode": {
+    "buckets": [
+     {
+      "doc_count": 49,
+      "key": "33"
+     },
+     {
+      "doc_count": 14,
+      "key": "4121"
+     },
+     {
+      "doc_count": 8,
+      "key": "1431"
+     },
+     {
+      "doc_count": 7,
+      "key": "1432"
+     },
+     {
+      "doc_count": 7,
+      "key": "341"
+     },
+     {
+      "doc_count": 2,
+      "key": "4128"
+     }
+    ]
+   }
+  },
+  "orderIdx": 32
+ },
+ {
+  "number": 3105108818000066,
+  "title": "حراج فروش یک دستگاه خودروی سواری پژو 405 مدل 1386 ",
+  "boardCode": 3,
+  "basePrice": 5300000000,
+  "orgName": "دفتر شعبه اول اجرای احکام مدنی فردیس البرز",
+  "score": 87,
+  "cityName": "فردیس",
+  "insertDate": null,
+  "boardName": "مزایده",
+  "provinceName": "البرز",
+  "jalaliSendDeadlineDate": "1405/06/17 - 12:00",
+  "jalaliLastEditDate": null,
+  "jalaliDocumentDeadlineDate": " - ",
+  "tableId": 494665,
+  "tagCode": 341,
+  "needType": null,
+  "reqId": null,
+  "jalaliFromProposalDate": "1405/06/17 - 08:00",
+  "partyNumber": "1308263",
+  "orgId": 41710,
+  "aucState": 1116,
+  "cartId": 4162562,
+  "categoryId": 180,
+  "categoryName": "وسایل نقلیه، قطعات و لوازم جانبی",
+  "locId": null,
+  "ticketId": "",
+  "aggregations": {
+   "by_boardCode": {
+    "buckets": [
+     {
+      "doc_count": 56,
+      "key": "3"
+     },
+     {
+      "doc_count": 16,
+      "key": "2"
+     },
+     {
+      "doc_count": 15,
+      "key": "1"
+     }
+    ]
+   },
+   "by_tagCode": {
+    "buckets": [
+     {
+      "doc_count": 49,
+      "key": "33"
+     },
+     {
+      "doc_count": 14,
+      "key": "4121"
+     },
+     {
+      "doc_count": 8,
+      "key": "1431"
+     },
+     {
+      "doc_count": 7,
+      "key": "1432"
+     },
+     {
+      "doc_count": 7,
+      "key": "341"
+     },
+     {
+      "doc_count": 2,
+      "key": "4128"
+     }
+    ]
+   }
+  },
+  "orderIdx": 33
+ },
+ {
+  "number": 3105108818000065,
+  "title": "حراج فروش پلاک ثبتی 34763فرعی از 163 اصلی ",
+  "boardCode": 3,
+  "basePrice": 46000000000,
+  "orgName": "دفتر شعبه اول اجرای احکام مدنی فردیس البرز",
+  "score": 87,
+  "cityName": "فردیس",
+  "insertDate": null,
+  "boardName": "مزایده",
+  "provinceName": "البرز",
+  "jalaliSendDeadlineDate": "1405/06/17 - 12:00",
+  "jalaliLastEditDate": null,
+  "jalaliDocumentDeadlineDate": " - ",
+  "tableId": 494502,
+  "tagCode": 341,
+  "needType": null,
+  "reqId": null,
+  "jalaliFromProposalDate": "1405/06/17 - 08:00",
+  "partyNumber": "1308051",
+  "orgId": 41710,
+  "aucState": 1116,
+  "cartId": 4161271,
+  "categoryId": 224,
+  "categoryName": "زمین، ساختمان‌ و معابر",
+  "locId": null,
+  "ticketId": "",
+  "aggregations": {
+   "by_boardCode": {
+    "buckets": [
+     {
+      "doc_count": 56,
+      "key": "3"
+     },
+     {
+      "doc_count": 16,
+      "key": "2"
+     },
+     {
+      "doc_count": 15,
+      "key": "1"
+     }
+    ]
+   },
+   "by_tagCode": {
+    "buckets": [
+     {
+      "doc_count": 49,
+      "key": "33"
+     },
+     {
+      "doc_count": 14,
+      "key": "4121"
+     },
+     {
+      "doc_count": 8,
+      "key": "1431"
+     },
+     {
+      "doc_count": 7,
+      "key": "1432"
+     },
+     {
+      "doc_count": 7,
+      "key": "341"
+     },
+     {
+      "doc_count": 2,
+      "key": "4128"
+     }
+    ]
+   }
+  },
+  "orderIdx": 34
+ },
+ {
+  "number": 2005095121000006,
+  "title": "مناقصه عمومی یک مرحله ای احداث میدان شهدا و المان روستای فرخ آباد و زیبادشت",
+  "boardCode": 2,
+  "basePrice": null,
+  "orgName": "دهیاری فرخ اباد بخش مشکین دشت شهرستان فردیس",
+  "score": 87,
+  "cityName": "فردیس",
+  "insertDate": null,
+  "boardName": "مناقصه",
+  "provinceName": "البرز",
+  "jalaliSendDeadlineDate": "1405/06/19 - 19:00",
+  "jalaliLastEditDate": "1405/06/07 - 10:30",
+  "jalaliDocumentDeadlineDate": "1405/06/09 - 19:00",
+  "tableId": 662406,
+  "tagCode": 4121,
+  "needType": null,
+  "reqId": null,
+  "jalaliFromProposalDate": null,
+  "partyNumber": null,
+  "orgId": 20797,
+  "aucState": null,
+  "cartId": 0,
+  "categoryId": null,
+  "categoryName": null,
+  "locId": null,
+  "ticketId": null,
+  "aggregations": {
+   "by_boardCode": {
+    "buckets": [
+     {
+      "doc_count": 56,
+      "key": "3"
+     },
+     {
+      "doc_count": 16,
+      "key": "2"
+     },
+     {
+      "doc_count": 15,
+      "key": "1"
+     }
+    ]
+   },
+   "by_tagCode": {
+    "buckets": [
+     {
+      "doc_count": 49,
+      "key": "33"
+     },
+     {
+      "doc_count": 14,
+      "key": "4121"
+     },
+     {
+      "doc_count": 8,
+      "key": "1431"
+     },
+     {
+      "doc_count": 7,
+      "key": "1432"
+     },
+     {
+      "doc_count": 7,
+      "key": "341"
+     },
+     {
+      "doc_count": 2,
+      "key": "4128"
+     }
+    ]
+   }
+  },
+  "orderIdx": 35
+ },
+ {
+  "number": 5105000228000019,
+  "title": "اجاره پیش دبستانی امید آینده پسرانه( به مدت 12 ماه 0 روز)",
+  "boardCode": 3,
+  "basePrice": 156000000,
+  "orgName": "مدیریت اموزش و پرورش کرج .ناحیه 2",
+  "score": 87,
+  "cityName": "فردیس",
+  "insertDate": null,
+  "boardName": "مزایده",
+  "provinceName": "البرز",
+  "jalaliSendDeadlineDate": "1405/06/19 - 18:00",
+  "jalaliLastEditDate": "1405/06/11 - 16:35",
+  "jalaliDocumentDeadlineDate": "1405/06/07 - 18:00",
+  "tableId": 496162,
+  "tagCode": 33,
+  "needType": null,
+  "reqId": null,
+  "jalaliFromProposalDate": null,
+  "partyNumber": "1310983",
+  "orgId": 9201,
+  "aucState": 1116,
+  "cartId": 0,
+  "categoryId": null,
+  "categoryName": null,
+  "locId": null,
+  "ticketId": null,
+  "aggregations": {
+   "by_boardCode": {
+    "buckets": [
+     {
+      "doc_count": 56,
+      "key": "3"
+     },
+     {
+      "doc_count": 16,
+      "key": "2"
+     },
+     {
+      "doc_count": 15,
+      "key": "1"
+     }
+    ]
+   },
+   "by_tagCode": {
+    "buckets": [
+     {
+      "doc_count": 49,
+      "key": "33"
+     },
+     {
+      "doc_count": 14,
+      "key": "4121"
+     },
+     {
+      "doc_count": 8,
+      "key": "1431"
+     },
+     {
+      "doc_count": 7,
+      "key": "1432"
+     },
+     {
+      "doc_count": 7,
+      "key": "341"
+     },
+     {
+      "doc_count": 2,
+      "key": "4128"
+     }
+    ]
+   }
+  },
+  "orderIdx": 36
+ },
+ {
+  "number": 5105000228000020,
+  "title": "اجاره پیش دبستانی امید آینده دخترانه( به مدت 12 ماه 0 روز)",
+  "boardCode": 3,
+  "basePrice": 138000000,
+  "orgName": "مدیریت اموزش و پرورش کرج .ناحیه 2",
+  "score": 87,
+  "cityName": "فردیس",
+  "insertDate": null,
+  "boardName": "مزایده",
+  "provinceName": "البرز",
+  "jalaliSendDeadlineDate": "1405/06/19 - 18:00",
+  "jalaliLastEditDate": "1405/06/11 - 16:35",
+  "jalaliDocumentDeadlineDate": "1405/06/07 - 18:00",
+  "tableId": 496162,
+  "tagCode": 33,
+  "needType": null,
+  "reqId": null,
+  "jalaliFromProposalDate": null,
+  "partyNumber": "1310987",
+  "orgId": 9201,
+  "aucState": 1116,
+  "cartId": 0,
+  "categoryId": null,
+  "categoryName": null,
+  "locId": null,
+  "ticketId": null,
+  "aggregations": {
+   "by_boardCode": {
+    "buckets": [
+     {
+      "doc_count": 56,
+      "key": "3"
+     },
+     {
+      "doc_count": 16,
+      "key": "2"
+     },
+     {
+      "doc_count": 15,
+      "key": "1"
+     }
+    ]
+   },
+   "by_tagCode": {
+    "buckets": [
+     {
+      "doc_count": 49,
+      "key": "33"
+     },
+     {
+      "doc_count": 14,
+      "key": "4121"
+     },
+     {
+      "doc_count": 8,
+      "key": "1431"
+     },
+     {
+      "doc_count": 7,
+      "key": "1432"
+     },
+     {
+      "doc_count": 7,
+      "key": "341"
+     },
+     {
+      "doc_count": 2,
+      "key": "4128"
+     }
+    ]
+   }
+  },
+  "orderIdx": 37
+ },
+ {
+  "number": 5105000228000011,
+  "title": "اجاره پیش دبستانی ابرار 2( به مدت 12 ماه 0 روز)",
+  "boardCode": 3,
+  "basePrice": 110400000,
+  "orgName": "مدیریت اموزش و پرورش کرج .ناحیه 2",
+  "score": 87,
+  "cityName": "فردیس",
+  "insertDate": null,
+  "boardName": "مزایده",
+  "provinceName": "البرز",
+  "jalaliSendDeadlineDate": "1405/06/19 - 18:00",
+  "jalaliLastEditDate": "1405/06/11 - 16:35",
+  "jalaliDocumentDeadlineDate": "1405/06/07 - 18:00",
+  "tableId": 496162,
+  "tagCode": 33,
+  "needType": null,
+  "reqId": null,
+  "jalaliFromProposalDate": null,
+  "partyNumber": "1310894",
+  "orgId": 9201,
+  "aucState": 1116,
+  "cartId": 0,
+  "categoryId": null,
+  "categoryName": null,
+  "locId": null,
+  "ticketId": null,
+  "aggregations": {
+   "by_boardCode": {
+    "buckets": [
+     {
+      "doc_count": 56,
+      "key": "3"
+     },
+     {
+      "doc_count": 16,
+      "key": "2"
+     },
+     {
+      "doc_count": 15,
+      "key": "1"
+     }
+    ]
+   },
+   "by_tagCode": {
+    "buckets": [
+     {
+      "doc_count": 49,
+      "key": "33"
+     },
+     {
+      "doc_count": 14,
+      "key": "4121"
+     },
+     {
+      "doc_count": 8,
+      "key": "1431"
+     },
+     {
+      "doc_count": 7,
+      "key": "1432"
+     },
+     {
+      "doc_count": 7,
+      "key": "341"
+     },
+     {
+      "doc_count": 2,
+      "key": "4128"
+     }
+    ]
+   }
+  },
+  "orderIdx": 38
+ },
+ {
+  "number": 5105000228000014,
+  "title": "اجاره پیش دبستانی اطهر( به مدت 12 ماه 0 روز)",
+  "boardCode": 3,
+  "basePrice": 96600000,
+  "orgName": "مدیریت اموزش و پرورش کرج .ناحیه 2",
+  "score": 87,
+  "cityName": "فردیس",
+  "insertDate": null,
+  "boardName": "مزایده",
+  "provinceName": "البرز",
+  "jalaliSendDeadlineDate": "1405/06/19 - 18:00",
+  "jalaliLastEditDate": "1405/06/11 - 16:35",
+  "jalaliDocumentDeadlineDate": "1405/06/07 - 18:00",
+  "tableId": 496162,
+  "tagCode": 33,
+  "needType": null,
+  "reqId": null,
+  "jalaliFromProposalDate": null,
+  "partyNumber": "1310916",
+  "orgId": 9201,
+  "aucState": 1116,
+  "cartId": 0,
+  "categoryId": null,
+  "categoryName": null,
+  "locId": null,
+  "ticketId": null,
+  "aggregations": {
+   "by_boardCode": {
+    "buckets": [
+     {
+      "doc_count": 56,
+      "key": "3"
+     },
+     {
+      "doc_count": 16,
+      "key": "2"
+     },
+     {
+      "doc_count": 15,
+      "key": "1"
+     }
+    ]
+   },
+   "by_tagCode": {
+    "buckets": [
+     {
+      "doc_count": 49,
+      "key": "33"
+     },
+     {
+      "doc_count": 14,
+      "key": "4121"
+     },
+     {
+      "doc_count": 8,
+      "key": "1431"
+     },
+     {
+      "doc_count": 7,
+      "key": "1432"
+     },
+     {
+      "doc_count": 7,
+      "key": "341"
+     },
+     {
+      "doc_count": 2,
+      "key": "4128"
+     }
+    ]
+   }
+  },
+  "orderIdx": 39
+ },
+ {
+  "number": 5105000228000026,
+  "title": "اجاره پیش دبستانی بیست فروردین دخترانه( به مدت 12 ماه 0 روز)",
+  "boardCode": 3,
+  "basePrice": 138000000,
+  "orgName": "مدیریت اموزش و پرورش کرج .ناحیه 2",
+  "score": 87,
+  "cityName": "فردیس",
+  "insertDate": null,
+  "boardName": "مزایده",
+  "provinceName": "البرز",
+  "jalaliSendDeadlineDate": "1405/06/19 - 18:00",
+  "jalaliLastEditDate": "1405/06/11 - 16:35",
+  "jalaliDocumentDeadlineDate": "1405/06/07 - 18:00",
+  "tableId": 496162,
+  "tagCode": 33,
+  "needType": null,
+  "reqId": null,
+  "jalaliFromProposalDate": null,
+  "partyNumber": "1311028",
+  "orgId": 9201,
+  "aucState": 1116,
+  "cartId": 0,
+  "categoryId": null,
+  "categoryName": null,
+  "locId": null,
+  "ticketId": null,
+  "aggregations": {
+   "by_boardCode": {
+    "buckets": [
+     {
+      "doc_count": 56,
+      "key": "3"
+     },
+     {
+      "doc_count": 16,
+      "key": "2"
+     },
+     {
+      "doc_count": 15,
+      "key": "1"
+     }
+    ]
+   },
+   "by_tagCode": {
+    "buckets": [
+     {
+      "doc_count": 49,
+      "key": "33"
+     },
+     {
+      "doc_count": 14,
+      "key": "4121"
+     },
+     {
+      "doc_count": 8,
+      "key": "1431"
+     },
+     {
+      "doc_count": 7,
+      "key": "1432"
+     },
+     {
+      "doc_count": 7,
+      "key": "341"
+     },
+     {
+      "doc_count": 2,
+      "key": "4128"
+     }
+    ]
+   }
+  },
+  "orderIdx": 40
+ },
+ {
+  "number": 5105000228000031,
+  "title": "اجاره پیش دبستانی پور کاشانی فرخ آباد دخترانه( به مدت 12 ماه 0 روز)",
+  "boardCode": 3,
+  "basePrice": 138000000,
+  "orgName": "مدیریت اموزش و پرورش کرج .ناحیه 2",
+  "score": 87,
+  "cityName": "فردیس",
+  "insertDate": null,
+  "boardName": "مزایده",
+  "provinceName": "البرز",
+  "jalaliSendDeadlineDate": "1405/06/19 - 18:00",
+  "jalaliLastEditDate": "1405/06/11 - 16:35",
+  "jalaliDocumentDeadlineDate": "1405/06/07 - 18:00",
+  "tableId": 496162,
+  "tagCode": 33,
+  "needType": null,
+  "reqId": null,
+  "jalaliFromProposalDate": null,
+  "partyNumber": "1311063",
+  "orgId": 9201,
+  "aucState": 1116,
+  "cartId": 0,
+  "categoryId": null,
+  "categoryName": null,
+  "locId": null,
+  "ticketId": null,
+  "aggregations": {
+   "by_boardCode": {
+    "buckets": [
+     {
+      "doc_count": 56,
+      "key": "3"
+     },
+     {
+      "doc_count": 16,
+      "key": "2"
+     },
+     {
+      "doc_count": 15,
+      "key": "1"
+     }
+    ]
+   },
+   "by_tagCode": {
+    "buckets": [
+     {
+      "doc_count": 49,
+      "key": "33"
+     },
+     {
+      "doc_count": 14,
+      "key": "4121"
+     },
+     {
+      "doc_count": 8,
+      "key": "1431"
+     },
+     {
+      "doc_count": 7,
+      "key": "1432"
+     },
+     {
+      "doc_count": 7,
+      "key": "341"
+     },
+     {
+      "doc_count": 2,
+      "key": "4128"
+     }
+    ]
+   }
+  },
+  "orderIdx": 41
+ },
+ {
+  "number": 5105000228000038,
+  "title": "اجاره پیش دبستانی دخترانه خدیجه کبری( به مدت 12 ماه 0 روز)",
+  "boardCode": 3,
+  "basePrice": 828000000,
+  "orgName": "مدیریت اموزش و پرورش کرج .ناحیه 2",
+  "score": 87,
+  "cityName": "فردیس",
+  "insertDate": null,
+  "boardName": "مزایده",
+  "provinceName": "البرز",
+  "jalaliSendDeadlineDate": "1405/06/19 - 18:00",
+  "jalaliLastEditDate": "1405/06/11 - 16:35",
+  "jalaliDocumentDeadlineDate": "1405/06/07 - 18:00",
+  "tableId": 496162,
+  "tagCode": 33,
+  "needType": null,
+  "reqId": null,
+  "jalaliFromProposalDate": null,
+  "partyNumber": "1311119",
+  "orgId": 9201,
+  "aucState": 1116,
+  "cartId": 0,
+  "categoryId": null,
+  "categoryName": null,
+  "locId": null,
+  "ticketId": null,
+  "aggregations": {
+   "by_boardCode": {
+    "buckets": [
+     {
+      "doc_count": 56,
+      "key": "3"
+     },
+     {
+      "doc_count": 16,
+      "key": "2"
+     },
+     {
+      "doc_count": 15,
+      "key": "1"
+     }
+    ]
+   },
+   "by_tagCode": {
+    "buckets": [
+     {
+      "doc_count": 49,
+      "key": "33"
+     },
+     {
+      "doc_count": 14,
+      "key": "4121"
+     },
+     {
+      "doc_count": 8,
+      "key": "1431"
+     },
+     {
+      "doc_count": 7,
+      "key": "1432"
+     },
+     {
+      "doc_count": 7,
+      "key": "341"
+     },
+     {
+      "doc_count": 2,
+      "key": "4128"
+     }
+    ]
+   }
+  },
+  "orderIdx": 42
+ },
+ {
+  "number": 5105000228000033,
+  "title": "اجاره پیش دبستانی ابرار 2 دخترانه( به مدت 12 ماه 0 روز)",
+  "boardCode": 3,
+  "basePrice": 138000000,
+  "orgName": "مدیریت اموزش و پرورش کرج .ناحیه 2",
+  "score": 87,
+  "cityName": "فردیس",
+  "insertDate": null,
+  "boardName": "مزایده",
+  "provinceName": "البرز",
+  "jalaliSendDeadlineDate": "1405/06/19 - 18:00",
+  "jalaliLastEditDate": "1405/06/11 - 16:35",
+  "jalaliDocumentDeadlineDate": "1405/06/07 - 18:00",
+  "tableId": 496162,
+  "tagCode": 33,
+  "needType": null,
+  "reqId": null,
+  "jalaliFromProposalDate": null,
+  "partyNumber": "1311078",
+  "orgId": 9201,
+  "aucState": 1116,
+  "cartId": 0,
+  "categoryId": null,
+  "categoryName": null,
+  "locId": null,
+  "ticketId": null,
+  "aggregations": {
+   "by_boardCode": {
+    "buckets": [
+     {
+      "doc_count": 56,
+      "key": "3"
+     },
+     {
+      "doc_count": 16,
+      "key": "2"
+     },
+     {
+      "doc_count": 15,
+      "key": "1"
+     }
+    ]
+   },
+   "by_tagCode": {
+    "buckets": [
+     {
+      "doc_count": 49,
+      "key": "33"
+     },
+     {
+      "doc_count": 14,
+      "key": "4121"
+     },
+     {
+      "doc_count": 8,
+      "key": "1431"
+     },
+     {
+      "doc_count": 7,
+      "key": "1432"
+     },
+     {
+      "doc_count": 7,
+      "key": "341"
+     },
+     {
+      "doc_count": 2,
+      "key": "4128"
+     }
+    ]
+   }
+  },
+  "orderIdx": 43
+ },
+ {
+  "number": 5105000228000035,
+  "title": "اجاره پیش دبستانی دخترانه حافظ( به مدت 12 ماه 0 روز)",
+  "boardCode": 3,
+  "basePrice": 248400000,
+  "orgName": "مدیریت اموزش و پرورش کرج .ناحیه 2",
+  "score": 87,
+  "cityName": "فردیس",
+  "insertDate": null,
+  "boardName": "مزایده",
+  "provinceName": "البرز",
+  "jalaliSendDeadlineDate": "1405/06/19 - 18:00",
+  "jalaliLastEditDate": "1405/06/11 - 16:35",
+  "jalaliDocumentDeadlineDate": "1405/06/07 - 18:00",
+  "tableId": 496162,
+  "tagCode": 33,
+  "needType": null,
+  "reqId": null,
+  "jalaliFromProposalDate": null,
+  "partyNumber": "1311095",
+  "orgId": 9201,
+  "aucState": 1116,
+  "cartId": 0,
+  "categoryId": null,
+  "categoryName": null,
+  "locId": null,
+  "ticketId": null,
+  "aggregations": {
+   "by_boardCode": {
+    "buckets": [
+     {
+      "doc_count": 56,
+      "key": "3"
+     },
+     {
+      "doc_count": 16,
+      "key": "2"
+     },
+     {
+      "doc_count": 15,
+      "key": "1"
+     }
+    ]
+   },
+   "by_tagCode": {
+    "buckets": [
+     {
+      "doc_count": 49,
+      "key": "33"
+     },
+     {
+      "doc_count": 14,
+      "key": "4121"
+     },
+     {
+      "doc_count": 8,
+      "key": "1431"
+     },
+     {
+      "doc_count": 7,
+      "key": "1432"
+     },
+     {
+      "doc_count": 7,
+      "key": "341"
+     },
+     {
+      "doc_count": 2,
+      "key": "4128"
+     }
+    ]
+   }
+  },
+  "orderIdx": 44
+ },
+ {
+  "number": 5105000228000053,
+  "title": "اجاره پیش دبستانی شهید کشوری پسرانه( به مدت 12 ماه 0 روز)",
+  "boardCode": 3,
+  "basePrice": 138000000,
+  "orgName": "مدیریت اموزش و پرورش کرج .ناحیه 2",
+  "score": 87,
+  "cityName": "فردیس",
+  "insertDate": null,
+  "boardName": "مزایده",
+  "provinceName": "البرز",
+  "jalaliSendDeadlineDate": "1405/06/19 - 18:00",
+  "jalaliLastEditDate": "1405/06/11 - 16:35",
+  "jalaliDocumentDeadlineDate": "1405/06/07 - 18:00",
+  "tableId": 496162,
+  "tagCode": 33,
+  "needType": null,
+  "reqId": null,
+  "jalaliFromProposalDate": null,
+  "partyNumber": "1311208",
+  "orgId": 9201,
+  "aucState": 1116,
+  "cartId": 0,
+  "categoryId": null,
+  "categoryName": null,
+  "locId": null,
+  "ticketId": null,
+  "aggregations": {
+   "by_boardCode": {
+    "buckets": [
+     {
+      "doc_count": 56,
+      "key": "3"
+     },
+     {
+      "doc_count": 16,
+      "key": "2"
+     },
+     {
+      "doc_count": 15,
+      "key": "1"
+     }
+    ]
+   },
+   "by_tagCode": {
+    "buckets": [
+     {
+      "doc_count": 49,
+      "key": "33"
+     },
+     {
+      "doc_count": 14,
+      "key": "4121"
+     },
+     {
+      "doc_count": 8,
+      "key": "1431"
+     },
+     {
+      "doc_count": 7,
+      "key": "1432"
+     },
+     {
+      "doc_count": 7,
+      "key": "341"
+     },
+     {
+      "doc_count": 2,
+      "key": "4128"
+     }
+    ]
+   }
+  },
+  "orderIdx": 45
+ },
+ {
+  "number": 5105000228000056,
+  "title": "اجاره پیش دبستانی دخترانه نکونام( به مدت 12 ماه 0 روز)",
+  "boardCode": 3,
+  "basePrice": 96600000,
+  "orgName": "مدیریت اموزش و پرورش کرج .ناحیه 2",
+  "score": 87,
+  "cityName": "فردیس",
+  "insertDate": null,
+  "boardName": "مزایده",
+  "provinceName": "البرز",
+  "jalaliSendDeadlineDate": "1405/06/19 - 18:00",
+  "jalaliLastEditDate": "1405/06/11 - 16:35",
+  "jalaliDocumentDeadlineDate": "1405/06/07 - 18:00",
+  "tableId": 496162,
+  "tagCode": 33,
+  "needType": null,
+  "reqId": null,
+  "jalaliFromProposalDate": null,
+  "partyNumber": "1311227",
+  "orgId": 9201,
+  "aucState": 1116,
+  "cartId": 0,
+  "categoryId": null,
+  "categoryName": null,
+  "locId": null,
+  "ticketId": null,
+  "aggregations": {
+   "by_boardCode": {
+    "buckets": [
+     {
+      "doc_count": 56,
+      "key": "3"
+     },
+     {
+      "doc_count": 16,
+      "key": "2"
+     },
+     {
+      "doc_count": 15,
+      "key": "1"
+     }
+    ]
+   },
+   "by_tagCode": {
+    "buckets": [
+     {
+      "doc_count": 49,
+      "key": "33"
+     },
+     {
+      "doc_count": 14,
+      "key": "4121"
+     },
+     {
+      "doc_count": 8,
+      "key": "1431"
+     },
+     {
+      "doc_count": 7,
+      "key": "1432"
+     },
+     {
+      "doc_count": 7,
+      "key": "341"
+     },
+     {
+      "doc_count": 2,
+      "key": "4128"
+     }
+    ]
+   }
+  },
+  "orderIdx": 46
+ },
+ {
+  "number": 5105000228000057,
+  "title": "اجاره پیش دبستانی شهدای کربلا دخترانه 1( به مدت 12 ماه 0 روز)",
+  "boardCode": 3,
+  "basePrice": 96600000,
+  "orgName": "مدیریت اموزش و پرورش کرج .ناحیه 2",
+  "score": 87,
+  "cityName": "فردیس",
+  "insertDate": null,
+  "boardName": "مزایده",
+  "provinceName": "البرز",
+  "jalaliSendDeadlineDate": "1405/06/19 - 18:00",
+  "jalaliLastEditDate": "1405/06/11 - 16:35",
+  "jalaliDocumentDeadlineDate": "1405/06/07 - 18:00",
+  "tableId": 496162,
+  "tagCode": 33,
+  "needType": null,
+  "reqId": null,
+  "jalaliFromProposalDate": null,
+  "partyNumber": "1311231",
+  "orgId": 9201,
+  "aucState": 1116,
+  "cartId": 0,
+  "categoryId": null,
+  "categoryName": null,
+  "locId": null,
+  "ticketId": null,
+  "aggregations": {
+   "by_boardCode": {
+    "buckets": [
+     {
+      "doc_count": 56,
+      "key": "3"
+     },
+     {
+      "doc_count": 16,
+      "key": "2"
+     },
+     {
+      "doc_count": 15,
+      "key": "1"
+     }
+    ]
+   },
+   "by_tagCode": {
+    "buckets": [
+     {
+      "doc_count": 49,
+      "key": "33"
+     },
+     {
+      "doc_count": 14,
+      "key": "4121"
+     },
+     {
+      "doc_count": 8,
+      "key": "1431"
+     },
+     {
+      "doc_count": 7,
+      "key": "1432"
+     },
+     {
+      "doc_count": 7,
+      "key": "341"
+     },
+     {
+      "doc_count": 2,
+      "key": "4128"
+     }
+    ]
+   }
+  },
+  "orderIdx": 47
+ },
+ {
+  "number": 5105000228000064,
+  "title": "اجاره کوثر پسرانه( به مدت 12 ماه 0 روز)",
+  "boardCode": 3,
+  "basePrice": 151800000,
+  "orgName": "مدیریت اموزش و پرورش کرج .ناحیه 2",
+  "score": 87,
+  "cityName": "فردیس",
+  "insertDate": null,
+  "boardName": "مزایده",
+  "provinceName": "البرز",
+  "jalaliSendDeadlineDate": "1405/06/19 - 18:00",
+  "jalaliLastEditDate": "1405/06/11 - 16:35",
+  "jalaliDocumentDeadlineDate": "1405/06/07 - 18:00",
+  "tableId": 496162,
+  "tagCode": 33,
+  "needType": null,
+  "reqId": null,
+  "jalaliFromProposalDate": null,
+  "partyNumber": "1311249",
+  "orgId": 9201,
+  "aucState": 1116,
+  "cartId": 0,
+  "categoryId": null,
+  "categoryName": null,
+  "locId": null,
+  "ticketId": null,
+  "aggregations": {
+   "by_boardCode": {
+    "buckets": [
+     {
+      "doc_count": 56,
+      "key": "3"
+     },
+     {
+      "doc_count": 16,
+      "key": "2"
+     },
+     {
+      "doc_count": 15,
+      "key": "1"
+     }
+    ]
+   },
+   "by_tagCode": {
+    "buckets": [
+     {
+      "doc_count": 49,
+      "key": "33"
+     },
+     {
+      "doc_count": 14,
+      "key": "4121"
+     },
+     {
+      "doc_count": 8,
+      "key": "1431"
+     },
+     {
+      "doc_count": 7,
+      "key": "1432"
+     },
+     {
+      "doc_count": 7,
+      "key": "341"
+     },
+     {
+      "doc_count": 2,
+      "key": "4128"
+     }
+    ]
+   }
+  },
+  "orderIdx": 48
+ },
+ {
+  "number": 5105000228000058,
+  "title": "اجاره پیش دبستانی دخترانه شهدای کربلا 2( به مدت 12 ماه 0 روز)",
+  "boardCode": 3,
+  "basePrice": 179400000,
+  "orgName": "مدیریت اموزش و پرورش کرج .ناحیه 2",
+  "score": 87,
+  "cityName": "فردیس",
+  "insertDate": null,
+  "boardName": "مزایده",
+  "provinceName": "البرز",
+  "jalaliSendDeadlineDate": "1405/06/19 - 18:00",
+  "jalaliLastEditDate": "1405/06/11 - 16:35",
+  "jalaliDocumentDeadlineDate": "1405/06/07 - 18:00",
+  "tableId": 496162,
+  "tagCode": 33,
+  "needType": null,
+  "reqId": null,
+  "jalaliFromProposalDate": null,
+  "partyNumber": "1311235",
+  "orgId": 9201,
+  "aucState": 1116,
+  "cartId": 0,
+  "categoryId": null,
+  "categoryName": null,
+  "locId": null,
+  "ticketId": null,
+  "aggregations": {
+   "by_boardCode": {
+    "buckets": [
+     {
+      "doc_count": 56,
+      "key": "3"
+     },
+     {
+      "doc_count": 16,
+      "key": "2"
+     },
+     {
+      "doc_count": 15,
+      "key": "1"
+     }
+    ]
+   },
+   "by_tagCode": {
+    "buckets": [
+     {
+      "doc_count": 49,
+      "key": "33"
+     },
+     {
+      "doc_count": 14,
+      "key": "4121"
+     },
+     {
+      "doc_count": 8,
+      "key": "1431"
+     },
+     {
+      "doc_count": 7,
+      "key": "1432"
+     },
+     {
+      "doc_count": 7,
+      "key": "341"
+     },
+     {
+      "doc_count": 2,
+      "key": "4128"
+     }
+    ]
+   }
+  },
+  "orderIdx": 49
+ },
+ {
+  "number": 5105000228000074,
+  "title": "اجاره کاشانی پور پسرانه( به مدت 12 ماه 0 روز)",
+  "boardCode": 3,
+  "basePrice": 103500000,
+  "orgName": "مدیریت اموزش و پرورش کرج .ناحیه 2",
+  "score": 87,
+  "cityName": "فردیس",
+  "insertDate": null,
+  "boardName": "مزایده",
+  "provinceName": "البرز",
+  "jalaliSendDeadlineDate": "1405/06/19 - 18:00",
+  "jalaliLastEditDate": "1405/06/11 - 16:35",
+  "jalaliDocumentDeadlineDate": "1405/06/07 - 18:00",
+  "tableId": 496162,
+  "tagCode": 33,
+  "needType": null,
+  "reqId": null,
+  "jalaliFromProposalDate": null,
+  "partyNumber": "1311275",
+  "orgId": 9201,
+  "aucState": 1116,
+  "cartId": 0,
+  "categoryId": null,
+  "categoryName": null,
+  "locId": null,
+  "ticketId": null,
+  "aggregations": {
+   "by_boardCode": {
+    "buckets": [
+     {
+      "doc_count": 56,
+      "key": "3"
+     },
+     {
+      "doc_count": 16,
+      "key": "2"
+     },
+     {
+      "doc_count": 15,
+      "key": "1"
+     }
+    ]
+   },
+   "by_tagCode": {
+    "buckets": [
+     {
+      "doc_count": 49,
+      "key": "33"
+     },
+     {
+      "doc_count": 14,
+      "key": "4121"
+     },
+     {
+      "doc_count": 8,
+      "key": "1431"
+     },
+     {
+      "doc_count": 7,
+      "key": "1432"
+     },
+     {
+      "doc_count": 7,
+      "key": "341"
+     },
+     {
+      "doc_count": 2,
+      "key": "4128"
+     }
+    ]
+   }
+  },
+  "orderIdx": 50
+ },
+ {
+  "number": 5105000228000017,
+  "title": "اجاره پیش دبستانی امیر کبیر 1 دخترانه( به مدت 12 ماه 0 روز)",
+  "boardCode": 3,
+  "basePrice": 107640000,
+  "orgName": "مدیریت اموزش و پرورش کرج .ناحیه 2",
+  "score": 87,
+  "cityName": "فردیس",
+  "insertDate": null,
+  "boardName": "مزایده",
+  "provinceName": "البرز",
+  "jalaliSendDeadlineDate": "1405/06/19 - 18:00",
+  "jalaliLastEditDate": "1405/06/11 - 16:35",
+  "jalaliDocumentDeadlineDate": "1405/06/07 - 18:00",
+  "tableId": 496162,
+  "tagCode": 33,
+  "needType": null,
+  "reqId": null,
+  "jalaliFromProposalDate": null,
+  "partyNumber": "1310942",
+  "orgId": 9201,
+  "aucState": 1116,
+  "cartId": 0,
+  "categoryId": null,
+  "categoryName": null,
+  "locId": null,
+  "ticketId": null,
+  "aggregations": {
+   "by_boardCode": {
+    "buckets": [
+     {
+      "doc_count": 56,
+      "key": "3"
+     },
+     {
+      "doc_count": 16,
+      "key": "2"
+     },
+     {
+      "doc_count": 15,
+      "key": "1"
+     }
+    ]
+   },
+   "by_tagCode": {
+    "buckets": [
+     {
+      "doc_count": 49,
+      "key": "33"
+     },
+     {
+      "doc_count": 14,
+      "key": "4121"
+     },
+     {
+      "doc_count": 8,
+      "key": "1431"
+     },
+     {
+      "doc_count": 7,
+      "key": "1432"
+     },
+     {
+      "doc_count": 7,
+      "key": "341"
+     },
+     {
+      "doc_count": 2,
+      "key": "4128"
+     }
+    ]
+   }
+  },
+  "orderIdx": 51
+ },
+ {
+  "number": 5105000228000027,
+  "title": "اجاره پیش دبستانی بیست فروردین پسرانه( به مدت 12 ماه 0 روز)",
+  "boardCode": 3,
+  "basePrice": 138000000,
+  "orgName": "مدیریت اموزش و پرورش کرج .ناحیه 2",
+  "score": 87,
+  "cityName": "فردیس",
+  "insertDate": null,
+  "boardName": "مزایده",
+  "provinceName": "البرز",
+  "jalaliSendDeadlineDate": "1405/06/19 - 18:00",
+  "jalaliLastEditDate": "1405/06/11 - 16:35",
+  "jalaliDocumentDeadlineDate": "1405/06/07 - 18:00",
+  "tableId": 496162,
+  "tagCode": 33,
+  "needType": null,
+  "reqId": null,
+  "jalaliFromProposalDate": null,
+  "partyNumber": "1311036",
+  "orgId": 9201,
+  "aucState": 1116,
+  "cartId": 0,
+  "categoryId": null,
+  "categoryName": null,
+  "locId": null,
+  "ticketId": null,
+  "aggregations": {
+   "by_boardCode": {
+    "buckets": [
+     {
+      "doc_count": 56,
+      "key": "3"
+     },
+     {
+      "doc_count": 16,
+      "key": "2"
+     },
+     {
+      "doc_count": 15,
+      "key": "1"
+     }
+    ]
+   },
+   "by_tagCode": {
+    "buckets": [
+     {
+      "doc_count": 49,
+      "key": "33"
+     },
+     {
+      "doc_count": 14,
+      "key": "4121"
+     },
+     {
+      "doc_count": 8,
+      "key": "1431"
+     },
+     {
+      "doc_count": 7,
+      "key": "1432"
+     },
+     {
+      "doc_count": 7,
+      "key": "341"
+     },
+     {
+      "doc_count": 2,
+      "key": "4128"
+     }
+    ]
+   }
+  },
+  "orderIdx": 52
+ },
+ {
+  "number": 5105000228000044,
+  "title": "اجاره پیش دبستانی دخترانه سید الشهدا 1( به مدت 12 ماه 0 روز)",
+  "boardCode": 3,
+  "basePrice": 107640000,
+  "orgName": "مدیریت اموزش و پرورش کرج .ناحیه 2",
+  "score": 87,
+  "cityName": "فردیس",
+  "insertDate": null,
+  "boardName": "مزایده",
+  "provinceName": "البرز",
+  "jalaliSendDeadlineDate": "1405/06/19 - 18:00",
+  "jalaliLastEditDate": "1405/06/11 - 16:35",
+  "jalaliDocumentDeadlineDate": "1405/06/07 - 18:00",
+  "tableId": 496162,
+  "tagCode": 33,
+  "needType": null,
+  "reqId": null,
+  "jalaliFromProposalDate": null,
+  "partyNumber": "1311160",
+  "orgId": 9201,
+  "aucState": 1116,
+  "cartId": 0,
+  "categoryId": null,
+  "categoryName": null,
+  "locId": null,
+  "ticketId": null,
+  "aggregations": {
+   "by_boardCode": {
+    "buckets": [
+     {
+      "doc_count": 56,
+      "key": "3"
+     },
+     {
+      "doc_count": 16,
+      "key": "2"
+     },
+     {
+      "doc_count": 15,
+      "key": "1"
+     }
+    ]
+   },
+   "by_tagCode": {
+    "buckets": [
+     {
+      "doc_count": 49,
+      "key": "33"
+     },
+     {
+      "doc_count": 14,
+      "key": "4121"
+     },
+     {
+      "doc_count": 8,
+      "key": "1431"
+     },
+     {
+      "doc_count": 7,
+      "key": "1432"
+     },
+     {
+      "doc_count": 7,
+      "key": "341"
+     },
+     {
+      "doc_count": 2,
+      "key": "4128"
+     }
+    ]
+   }
+  },
+  "orderIdx": 53
+ },
+ {
+  "number": 5105000228000036,
+  "title": "اجاره پیش دبستانی حافظ فرخ آباد پسرانه( به مدت 12 ماه 0 روز)",
+  "boardCode": 3,
+  "basePrice": 240000000,
+  "orgName": "مدیریت اموزش و پرورش کرج .ناحیه 2",
+  "score": 87,
+  "cityName": "فردیس",
+  "insertDate": null,
+  "boardName": "مزایده",
+  "provinceName": "البرز",
+  "jalaliSendDeadlineDate": "1405/06/19 - 18:00",
+  "jalaliLastEditDate": "1405/06/11 - 16:35",
+  "jalaliDocumentDeadlineDate": "1405/06/07 - 18:00",
+  "tableId": 496162,
+  "tagCode": 33,
+  "needType": null,
+  "reqId": null,
+  "jalaliFromProposalDate": null,
+  "partyNumber": "1311104",
+  "orgId": 9201,
+  "aucState": 1116,
+  "cartId": 0,
+  "categoryId": null,
+  "categoryName": null,
+  "locId": null,
+  "ticketId": null,
+  "aggregations": {
+   "by_boardCode": {
+    "buckets": [
+     {
+      "doc_count": 56,
+      "key": "3"
+     },
+     {
+      "doc_count": 16,
+      "key": "2"
+     },
+     {
+      "doc_count": 15,
+      "key": "1"
+     }
+    ]
+   },
+   "by_tagCode": {
+    "buckets": [
+     {
+      "doc_count": 49,
+      "key": "33"
+     },
+     {
+      "doc_count": 14,
+      "key": "4121"
+     },
+     {
+      "doc_count": 8,
+      "key": "1431"
+     },
+     {
+      "doc_count": 7,
+      "key": "1432"
+     },
+     {
+      "doc_count": 7,
+      "key": "341"
+     },
+     {
+      "doc_count": 2,
+      "key": "4128"
+     }
+    ]
+   }
+  },
+  "orderIdx": 54
+ },
+ {
+  "number": 5105000228000048,
+  "title": "اجاره پیش دبستانی پناهی ها 1( به مدت 12 ماه 0 روز)",
+  "boardCode": 3,
+  "basePrice": 124200000,
+  "orgName": "مدیریت اموزش و پرورش کرج .ناحیه 2",
+  "score": 87,
+  "cityName": "فردیس",
+  "insertDate": null,
+  "boardName": "مزایده",
+  "provinceName": "البرز",
+  "jalaliSendDeadlineDate": "1405/06/19 - 18:00",
+  "jalaliLastEditDate": "1405/06/11 - 16:35",
+  "jalaliDocumentDeadlineDate": "1405/06/07 - 18:00",
+  "tableId": 496162,
+  "tagCode": 33,
+  "needType": null,
+  "reqId": null,
+  "jalaliFromProposalDate": null,
+  "partyNumber": "1311187",
+  "orgId": 9201,
+  "aucState": 1116,
+  "cartId": 0,
+  "categoryId": null,
+  "categoryName": null,
+  "locId": null,
+  "ticketId": null,
+  "aggregations": {
+   "by_boardCode": {
+    "buckets": [
+     {
+      "doc_count": 56,
+      "key": "3"
+     },
+     {
+      "doc_count": 16,
+      "key": "2"
+     },
+     {
+      "doc_count": 15,
+      "key": "1"
+     }
+    ]
+   },
+   "by_tagCode": {
+    "buckets": [
+     {
+      "doc_count": 49,
+      "key": "33"
+     },
+     {
+      "doc_count": 14,
+      "key": "4121"
+     },
+     {
+      "doc_count": 8,
+      "key": "1431"
+     },
+     {
+      "doc_count": 7,
+      "key": "1432"
+     },
+     {
+      "doc_count": 7,
+      "key": "341"
+     },
+     {
+      "doc_count": 2,
+      "key": "4128"
+     }
+    ]
+   }
+  },
+  "orderIdx": 55
+ },
+ {
+  "number": 5105000228000054,
+  "title": "اجاره پیش دبستانی پسرانه قاسم سلیمانی( به مدت 12 ماه 0 روز)",
+  "boardCode": 3,
+  "basePrice": 138000000,
+  "orgName": "مدیریت اموزش و پرورش کرج .ناحیه 2",
+  "score": 87,
+  "cityName": "فردیس",
+  "insertDate": null,
+  "boardName": "مزایده",
+  "provinceName": "البرز",
+  "jalaliSendDeadlineDate": "1405/06/19 - 18:00",
+  "jalaliLastEditDate": "1405/06/11 - 16:35",
+  "jalaliDocumentDeadlineDate": "1405/06/07 - 18:00",
+  "tableId": 496162,
+  "tagCode": 33,
+  "needType": null,
+  "reqId": null,
+  "jalaliFromProposalDate": null,
+  "partyNumber": "1311213",
+  "orgId": 9201,
+  "aucState": 1116,
+  "cartId": 0,
+  "categoryId": null,
+  "categoryName": null,
+  "locId": null,
+  "ticketId": null,
+  "aggregations": {
+   "by_boardCode": {
+    "buckets": [
+     {
+      "doc_count": 56,
+      "key": "3"
+     },
+     {
+      "doc_count": 16,
+      "key": "2"
+     },
+     {
+      "doc_count": 15,
+      "key": "1"
+     }
+    ]
+   },
+   "by_tagCode": {
+    "buckets": [
+     {
+      "doc_count": 49,
+      "key": "33"
+     },
+     {
+      "doc_count": 14,
+      "key": "4121"
+     },
+     {
+      "doc_count": 8,
+      "key": "1431"
+     },
+     {
+      "doc_count": 7,
+      "key": "1432"
+     },
+     {
+      "doc_count": 7,
+      "key": "341"
+     },
+     {
+      "doc_count": 2,
+      "key": "4128"
+     }
+    ]
+   }
+  },
+  "orderIdx": 56
+ },
+ {
+  "number": 5105000228000065,
+  "title": "اجاره کوثر دخترانه( به مدت 12 ماه 0 روز)",
+  "boardCode": 3,
+  "basePrice": 110400000,
+  "orgName": "مدیریت اموزش و پرورش کرج .ناحیه 2",
+  "score": 87,
+  "cityName": "فردیس",
+  "insertDate": null,
+  "boardName": "مزایده",
+  "provinceName": "البرز",
+  "jalaliSendDeadlineDate": "1405/06/19 - 18:00",
+  "jalaliLastEditDate": "1405/06/11 - 16:35",
+  "jalaliDocumentDeadlineDate": "1405/06/07 - 18:00",
+  "tableId": 496162,
+  "tagCode": 33,
+  "needType": null,
+  "reqId": null,
+  "jalaliFromProposalDate": null,
+  "partyNumber": "1311253",
+  "orgId": 9201,
+  "aucState": 1116,
+  "cartId": 0,
+  "categoryId": null,
+  "categoryName": null,
+  "locId": null,
+  "ticketId": null,
+  "aggregations": {
+   "by_boardCode": {
+    "buckets": [
+     {
+      "doc_count": 56,
+      "key": "3"
+     },
+     {
+      "doc_count": 16,
+      "key": "2"
+     },
+     {
+      "doc_count": 15,
+      "key": "1"
+     }
+    ]
+   },
+   "by_tagCode": {
+    "buckets": [
+     {
+      "doc_count": 49,
+      "key": "33"
+     },
+     {
+      "doc_count": 14,
+      "key": "4121"
+     },
+     {
+      "doc_count": 8,
+      "key": "1431"
+     },
+     {
+      "doc_count": 7,
+      "key": "1432"
+     },
+     {
+      "doc_count": 7,
+      "key": "341"
+     },
+     {
+      "doc_count": 2,
+      "key": "4128"
+     }
+    ]
+   }
+  },
+  "orderIdx": 57
+ },
+ {
+  "number": 5105000228000059,
+  "title": "اجاره صدیقه الزهرا 1 پسرانه( به مدت 12 ماه 0 روز)",
+  "boardCode": 3,
+  "basePrice": 179400000,
+  "orgName": "مدیریت اموزش و پرورش کرج .ناحیه 2",
+  "score": 87,
+  "cityName": "فردیس",
+  "insertDate": null,
+  "boardName": "مزایده",
+  "provinceName": "البرز",
+  "jalaliSendDeadlineDate": "1405/06/19 - 18:00",
+  "jalaliLastEditDate": "1405/06/11 - 16:35",
+  "jalaliDocumentDeadlineDate": "1405/06/07 - 18:00",
+  "tableId": 496162,
+  "tagCode": 33,
+  "needType": null,
+  "reqId": null,
+  "jalaliFromProposalDate": null,
+  "partyNumber": "1311236",
+  "orgId": 9201,
+  "aucState": 1116,
+  "cartId": 0,
+  "categoryId": null,
+  "categoryName": null,
+  "locId": null,
+  "ticketId": null,
+  "aggregations": {
+   "by_boardCode": {
+    "buckets": [
+     {
+      "doc_count": 56,
+      "key": "3"
+     },
+     {
+      "doc_count": 16,
+      "key": "2"
+     },
+     {
+      "doc_count": 15,
+      "key": "1"
+     }
+    ]
+   },
+   "by_tagCode": {
+    "buckets": [
+     {
+      "doc_count": 49,
+      "key": "33"
+     },
+     {
+      "doc_count": 14,
+      "key": "4121"
+     },
+     {
+      "doc_count": 8,
+      "key": "1431"
+     },
+     {
+      "doc_count": 7,
+      "key": "1432"
+     },
+     {
+      "doc_count": 7,
+      "key": "341"
+     },
+     {
+      "doc_count": 2,
+      "key": "4128"
+     }
+    ]
+   }
+  },
+  "orderIdx": 58
+ },
+ {
+  "number": 5105000228000018,
+  "title": "اجاره پیش دبستانی امیرکبیر 2 دخترانه( به مدت 12 ماه 0 روز)",
+  "boardCode": 3,
+  "basePrice": 156000000,
+  "orgName": "مدیریت اموزش و پرورش کرج .ناحیه 2",
+  "score": 87,
+  "cityName": "فردیس",
+  "insertDate": null,
+  "boardName": "مزایده",
+  "provinceName": "البرز",
+  "jalaliSendDeadlineDate": "1405/06/19 - 18:00",
+  "jalaliLastEditDate": "1405/06/11 - 16:35",
+  "jalaliDocumentDeadlineDate": "1405/06/07 - 18:00",
+  "tableId": 496162,
+  "tagCode": 33,
+  "needType": null,
+  "reqId": null,
+  "jalaliFromProposalDate": null,
+  "partyNumber": "1310975",
+  "orgId": 9201,
+  "aucState": 1116,
+  "cartId": 0,
+  "categoryId": null,
+  "categoryName": null,
+  "locId": null,
+  "ticketId": null,
+  "aggregations": {
+   "by_boardCode": {
+    "buckets": [
+     {
+      "doc_count": 56,
+      "key": "3"
+     },
+     {
+      "doc_count": 16,
+      "key": "2"
+     },
+     {
+      "doc_count": 15,
+      "key": "1"
+     }
+    ]
+   },
+   "by_tagCode": {
+    "buckets": [
+     {
+      "doc_count": 49,
+      "key": "33"
+     },
+     {
+      "doc_count": 14,
+      "key": "4121"
+     },
+     {
+      "doc_count": 8,
+      "key": "1431"
+     },
+     {
+      "doc_count": 7,
+      "key": "1432"
+     },
+     {
+      "doc_count": 7,
+      "key": "341"
+     },
+     {
+      "doc_count": 2,
+      "key": "4128"
+     }
+    ]
+   }
+  },
+  "orderIdx": 59
+ },
+ {
+  "number": 5105000228000022,
+  "title": "اجاره پیش دبستانی ایلیایی 2 دخترانه( به مدت 12 ماه 0 روز)",
+  "boardCode": 3,
+  "basePrice": 138000000,
+  "orgName": "مدیریت اموزش و پرورش کرج .ناحیه 2",
+  "score": 87,
+  "cityName": "فردیس",
+  "insertDate": null,
+  "boardName": "مزایده",
+  "provinceName": "البرز",
+  "jalaliSendDeadlineDate": "1405/06/19 - 18:00",
+  "jalaliLastEditDate": "1405/06/11 - 16:35",
+  "jalaliDocumentDeadlineDate": "1405/06/07 - 18:00",
+  "tableId": 496162,
+  "tagCode": 33,
+  "needType": null,
+  "reqId": null,
+  "jalaliFromProposalDate": null,
+  "partyNumber": "1311000",
+  "orgId": 9201,
+  "aucState": 1116,
+  "cartId": 0,
+  "categoryId": null,
+  "categoryName": null,
+  "locId": null,
+  "ticketId": null,
+  "aggregations": {
+   "by_boardCode": {
+    "buckets": [
+     {
+      "doc_count": 56,
+      "key": "3"
+     },
+     {
+      "doc_count": 16,
+      "key": "2"
+     },
+     {
+      "doc_count": 15,
+      "key": "1"
+     }
+    ]
+   },
+   "by_tagCode": {
+    "buckets": [
+     {
+      "doc_count": 49,
+      "key": "33"
+     },
+     {
+      "doc_count": 14,
+      "key": "4121"
+     },
+     {
+      "doc_count": 8,
+      "key": "1431"
+     },
+     {
+      "doc_count": 7,
+      "key": "1432"
+     },
+     {
+      "doc_count": 7,
+      "key": "341"
+     },
+     {
+      "doc_count": 2,
+      "key": "4128"
+     }
+    ]
+   }
+  },
+  "orderIdx": 60
+ },
+ {
+  "number": 5105000228000028,
+  "title": "اجاره پیش دبستانی بینش 1( به مدت 12 ماه 0 روز)",
+  "boardCode": 3,
+  "basePrice": 131100000,
+  "orgName": "مدیریت اموزش و پرورش کرج .ناحیه 2",
+  "score": 87,
+  "cityName": "فردیس",
+  "insertDate": null,
+  "boardName": "مزایده",
+  "provinceName": "البرز",
+  "jalaliSendDeadlineDate": "1405/06/19 - 18:00",
+  "jalaliLastEditDate": "1405/06/11 - 16:35",
+  "jalaliDocumentDeadlineDate": "1405/06/07 - 18:00",
+  "tableId": 496162,
+  "tagCode": 33,
+  "needType": null,
+  "reqId": null,
+  "jalaliFromProposalDate": null,
+  "partyNumber": "1311040",
+  "orgId": 9201,
+  "aucState": 1116,
+  "cartId": 0,
+  "categoryId": null,
+  "categoryName": null,
+  "locId": null,
+  "ticketId": null,
+  "aggregations": {
+   "by_boardCode": {
+    "buckets": [
+     {
+      "doc_count": 56,
+      "key": "3"
+     },
+     {
+      "doc_count": 16,
+      "key": "2"
+     },
+     {
+      "doc_count": 15,
+      "key": "1"
+     }
+    ]
+   },
+   "by_tagCode": {
+    "buckets": [
+     {
+      "doc_count": 49,
+      "key": "33"
+     },
+     {
+      "doc_count": 14,
+      "key": "4121"
+     },
+     {
+      "doc_count": 8,
+      "key": "1431"
+     },
+     {
+      "doc_count": 7,
+      "key": "1432"
+     },
+     {
+      "doc_count": 7,
+      "key": "341"
+     },
+     {
+      "doc_count": 2,
+      "key": "4128"
+     }
+    ]
+   }
+  },
+  "orderIdx": 61
+ },
+ {
+  "number": 5105000228000032,
+  "title": "اجاره پیش دبستانی ثارا..1 دخترانه( به مدت 12 ماه 0 روز)",
+  "boardCode": 3,
+  "basePrice": 144000000,
+  "orgName": "مدیریت اموزش و پرورش کرج .ناحیه 2",
+  "score": 87,
+  "cityName": "فردیس",
+  "insertDate": null,
+  "boardName": "مزایده",
+  "provinceName": "البرز",
+  "jalaliSendDeadlineDate": "1405/06/19 - 18:00",
+  "jalaliLastEditDate": "1405/06/11 - 16:35",
+  "jalaliDocumentDeadlineDate": "1405/06/07 - 18:00",
+  "tableId": 496162,
+  "tagCode": 33,
+  "needType": null,
+  "reqId": null,
+  "jalaliFromProposalDate": null,
+  "partyNumber": "1311072",
+  "orgId": 9201,
+  "aucState": 1116,
+  "cartId": 0,
+  "categoryId": null,
+  "categoryName": null,
+  "locId": null,
+  "ticketId": null,
+  "aggregations": {
+   "by_boardCode": {
+    "buckets": [
+     {
+      "doc_count": 56,
+      "key": "3"
+     },
+     {
+      "doc_count": 16,
+      "key": "2"
+     },
+     {
+      "doc_count": 15,
+      "key": "1"
+     }
+    ]
+   },
+   "by_tagCode": {
+    "buckets": [
+     {
+      "doc_count": 49,
+      "key": "33"
+     },
+     {
+      "doc_count": 14,
+      "key": "4121"
+     },
+     {
+      "doc_count": 8,
+      "key": "1431"
+     },
+     {
+      "doc_count": 7,
+      "key": "1432"
+     },
+     {
+      "doc_count": 7,
+      "key": "341"
+     },
+     {
+      "doc_count": 2,
+      "key": "4128"
+     }
+    ]
+   }
+  },
+  "orderIdx": 62
+ },
+ {
+  "number": 5105000228000034,
+  "title": "اجاره پیش دبستانی جنت دخترانه( به مدت 12 ماه 0 روز)",
+  "boardCode": 3,
+  "basePrice": 131100000,
+  "orgName": "مدیریت اموزش و پرورش کرج .ناحیه 2",
+  "score": 87,
+  "cityName": "فردیس",
+  "insertDate": null,
+  "boardName": "مزایده",
+  "provinceName": "البرز",
+  "jalaliSendDeadlineDate": "1405/06/19 - 18:00",
+  "jalaliLastEditDate": "1405/06/11 - 16:35",
+  "jalaliDocumentDeadlineDate": "1405/06/07 - 18:00",
+  "tableId": 496162,
+  "tagCode": 33,
+  "needType": null,
+  "reqId": null,
+  "jalaliFromProposalDate": null,
+  "partyNumber": "1311085",
+  "orgId": 9201,
+  "aucState": 1116,
+  "cartId": 0,
+  "categoryId": null,
+  "categoryName": null,
+  "locId": null,
+  "ticketId": null,
+  "aggregations": {
+   "by_boardCode": {
+    "buckets": [
+     {
+      "doc_count": 56,
+      "key": "3"
+     },
+     {
+      "doc_count": 16,
+      "key": "2"
+     },
+     {
+      "doc_count": 15,
+      "key": "1"
+     }
+    ]
+   },
+   "by_tagCode": {
+    "buckets": [
+     {
+      "doc_count": 49,
+      "key": "33"
+     },
+     {
+      "doc_count": 14,
+      "key": "4121"
+     },
+     {
+      "doc_count": 8,
+      "key": "1431"
+     },
+     {
+      "doc_count": 7,
+      "key": "1432"
+     },
+     {
+      "doc_count": 7,
+      "key": "341"
+     },
+     {
+      "doc_count": 2,
+      "key": "4128"
+     }
+    ]
+   }
+  },
+  "orderIdx": 63
+ },
+ {
+  "number": 5105000228000042,
+  "title": "اجاره پیش دبستانی دخترانه زمزم (منتظر قائم)( به مدت 12 ماه 0 روز)",
+  "boardCode": 3,
+  "basePrice": 345000000,
+  "orgName": "مدیریت اموزش و پرورش کرج .ناحیه 2",
+  "score": 87,
+  "cityName": "فردیس",
+  "insertDate": null,
+  "boardName": "مزایده",
+  "provinceName": "البرز",
+  "jalaliSendDeadlineDate": "1405/06/19 - 18:00",
+  "jalaliLastEditDate": "1405/06/11 - 16:35",
+  "jalaliDocumentDeadlineDate": "1405/06/07 - 18:00",
+  "tableId": 496162,
+  "tagCode": 33,
+  "needType": null,
+  "reqId": null,
+  "jalaliFromProposalDate": null,
+  "partyNumber": "1311156",
+  "orgId": 9201,
+  "aucState": 1116,
+  "cartId": 0,
+  "categoryId": null,
+  "categoryName": null,
+  "locId": null,
+  "ticketId": null,
+  "aggregations": {
+   "by_boardCode": {
+    "buckets": [
+     {
+      "doc_count": 56,
+      "key": "3"
+     },
+     {
+      "doc_count": 16,
+      "key": "2"
+     },
+     {
+      "doc_count": 15,
+      "key": "1"
+     }
+    ]
+   },
+   "by_tagCode": {
+    "buckets": [
+     {
+      "doc_count": 49,
+      "key": "33"
+     },
+     {
+      "doc_count": 14,
+      "key": "4121"
+     },
+     {
+      "doc_count": 8,
+      "key": "1431"
+     },
+     {
+      "doc_count": 7,
+      "key": "1432"
+     },
+     {
+      "doc_count": 7,
+      "key": "341"
+     },
+     {
+      "doc_count": 2,
+      "key": "4128"
+     }
+    ]
+   }
+  },
+  "orderIdx": 64
+ },
+ {
+  "number": 5105000228000043,
+  "title": "اجاره پیش دبستانی دخترانه زمزم 2( به مدت 12 ماه 0 روز)",
+  "boardCode": 3,
+  "basePrice": 345000000,
+  "orgName": "مدیریت اموزش و پرورش کرج .ناحیه 2",
+  "score": 87,
+  "cityName": "فردیس",
+  "insertDate": null,
+  "boardName": "مزایده",
+  "provinceName": "البرز",
+  "jalaliSendDeadlineDate": "1405/06/19 - 18:00",
+  "jalaliLastEditDate": "1405/06/11 - 16:35",
+  "jalaliDocumentDeadlineDate": "1405/06/07 - 18:00",
+  "tableId": 496162,
+  "tagCode": 33,
+  "needType": null,
+  "reqId": null,
+  "jalaliFromProposalDate": null,
+  "partyNumber": "1311158",
+  "orgId": 9201,
+  "aucState": 1116,
+  "cartId": 0,
+  "categoryId": null,
+  "categoryName": null,
+  "locId": null,
+  "ticketId": null,
+  "aggregations": {
+   "by_boardCode": {
+    "buckets": [
+     {
+      "doc_count": 56,
+      "key": "3"
+     },
+     {
+      "doc_count": 16,
+      "key": "2"
+     },
+     {
+      "doc_count": 15,
+      "key": "1"
+     }
+    ]
+   },
+   "by_tagCode": {
+    "buckets": [
+     {
+      "doc_count": 49,
+      "key": "33"
+     },
+     {
+      "doc_count": 14,
+      "key": "4121"
+     },
+     {
+      "doc_count": 8,
+      "key": "1431"
+     },
+     {
+      "doc_count": 7,
+      "key": "1432"
+     },
+     {
+      "doc_count": 7,
+      "key": "341"
+     },
+     {
+      "doc_count": 2,
+      "key": "4128"
+     }
+    ]
+   }
+  },
+  "orderIdx": 65
+ },
+ {
+  "number": 5105000228000045,
+  "title": "اجاره پیش دبستانی سید الشهدا 2 دخترانه( به مدت 12 ماه 0 روز)",
+  "boardCode": 3,
+  "basePrice": 82800000,
+  "orgName": "مدیریت اموزش و پرورش کرج .ناحیه 2",
+  "score": 87,
+  "cityName": "فردیس",
+  "insertDate": null,
+  "boardName": "مزایده",
+  "provinceName": "البرز",
+  "jalaliSendDeadlineDate": "1405/06/19 - 18:00",
+  "jalaliLastEditDate": "1405/06/11 - 16:35",
+  "jalaliDocumentDeadlineDate": "1405/06/07 - 18:00",
+  "tableId": 496162,
+  "tagCode": 33,
+  "needType": null,
+  "reqId": null,
+  "jalaliFromProposalDate": null,
+  "partyNumber": "1311169",
+  "orgId": 9201,
+  "aucState": 1116,
+  "cartId": 0,
+  "categoryId": null,
+  "categoryName": null,
+  "locId": null,
+  "ticketId": null,
+  "aggregations": {
+   "by_boardCode": {
+    "buckets": [
+     {
+      "doc_count": 56,
+      "key": "3"
+     },
+     {
+      "doc_count": 16,
+      "key": "2"
+     },
+     {
+      "doc_count": 15,
+      "key": "1"
+     }
+    ]
+   },
+   "by_tagCode": {
+    "buckets": [
+     {
+      "doc_count": 49,
+      "key": "33"
+     },
+     {
+      "doc_count": 14,
+      "key": "4121"
+     },
+     {
+      "doc_count": 8,
+      "key": "1431"
+     },
+     {
+      "doc_count": 7,
+      "key": "1432"
+     },
+     {
+      "doc_count": 7,
+      "key": "341"
+     },
+     {
+      "doc_count": 2,
+      "key": "4128"
+     }
+    ]
+   }
+  },
+  "orderIdx": 66
+ },
+ {
+  "number": 5105000228000047,
+  "title": "اجاره پیش دبستانی دخترانه رحیم رهنمائیان( به مدت 12 ماه 0 روز)",
+  "boardCode": 3,
+  "basePrice": 138000000,
+  "orgName": "مدیریت اموزش و پرورش کرج .ناحیه 2",
+  "score": 87,
+  "cityName": "فردیس",
+  "insertDate": null,
+  "boardName": "مزایده",
+  "provinceName": "البرز",
+  "jalaliSendDeadlineDate": "1405/06/19 - 18:00",
+  "jalaliLastEditDate": "1405/06/11 - 16:35",
+  "jalaliDocumentDeadlineDate": "1405/06/07 - 18:00",
+  "tableId": 496162,
+  "tagCode": 33,
+  "needType": null,
+  "reqId": null,
+  "jalaliFromProposalDate": null,
+  "partyNumber": "1311181",
+  "orgId": 9201,
+  "aucState": 1116,
+  "cartId": 0,
+  "categoryId": null,
+  "categoryName": null,
+  "locId": null,
+  "ticketId": null,
+  "aggregations": {
+   "by_boardCode": {
+    "buckets": [
+     {
+      "doc_count": 56,
+      "key": "3"
+     },
+     {
+      "doc_count": 16,
+      "key": "2"
+     },
+     {
+      "doc_count": 15,
+      "key": "1"
+     }
+    ]
+   },
+   "by_tagCode": {
+    "buckets": [
+     {
+      "doc_count": 49,
+      "key": "33"
+     },
+     {
+      "doc_count": 14,
+      "key": "4121"
+     },
+     {
+      "doc_count": 8,
+      "key": "1431"
+     },
+     {
+      "doc_count": 7,
+      "key": "1432"
+     },
+     {
+      "doc_count": 7,
+      "key": "341"
+     },
+     {
+      "doc_count": 2,
+      "key": "4128"
+     }
+    ]
+   }
+  },
+  "orderIdx": 67
+ },
+ {
+  "number": 5105000228000049,
+  "title": "اجاره پیش دبستانی پنا هی ها 2 دخترانه( به مدت 12 ماه 0 روز)",
+  "boardCode": 3,
+  "basePrice": 110400000,
+  "orgName": "مدیریت اموزش و پرورش کرج .ناحیه 2",
+  "score": 87,
+  "cityName": "فردیس",
+  "insertDate": null,
+  "boardName": "مزایده",
+  "provinceName": "البرز",
+  "jalaliSendDeadlineDate": "1405/06/19 - 18:00",
+  "jalaliLastEditDate": "1405/06/11 - 16:35",
+  "jalaliDocumentDeadlineDate": "1405/06/07 - 18:00",
+  "tableId": 496162,
+  "tagCode": 33,
+  "needType": null,
+  "reqId": null,
+  "jalaliFromProposalDate": null,
+  "partyNumber": "1311193",
+  "orgId": 9201,
+  "aucState": 1116,
+  "cartId": 0,
+  "categoryId": null,
+  "categoryName": null,
+  "locId": null,
+  "ticketId": null,
+  "aggregations": {
+   "by_boardCode": {
+    "buckets": [
+     {
+      "doc_count": 56,
+      "key": "3"
+     },
+     {
+      "doc_count": 16,
+      "key": "2"
+     },
+     {
+      "doc_count": 15,
+      "key": "1"
+     }
+    ]
+   },
+   "by_tagCode": {
+    "buckets": [
+     {
+      "doc_count": 49,
+      "key": "33"
+     },
+     {
+      "doc_count": 14,
+      "key": "4121"
+     },
+     {
+      "doc_count": 8,
+      "key": "1431"
+     },
+     {
+      "doc_count": 7,
+      "key": "1432"
+     },
+     {
+      "doc_count": 7,
+      "key": "341"
+     },
+     {
+      "doc_count": 2,
+      "key": "4128"
+     }
+    ]
+   }
+  },
+  "orderIdx": 68
+ },
+ {
+  "number": 5105000228000055,
+  "title": "اجاره پیش دبستانی دخترانه شهدای اقتدار( به مدت 12 ماه 0 روز)",
+  "boardCode": 3,
+  "basePrice": 103500000,
+  "orgName": "مدیریت اموزش و پرورش کرج .ناحیه 2",
+  "score": 87,
+  "cityName": "فردیس",
+  "insertDate": null,
+  "boardName": "مزایده",
+  "provinceName": "البرز",
+  "jalaliSendDeadlineDate": "1405/06/19 - 18:00",
+  "jalaliLastEditDate": "1405/06/11 - 16:35",
+  "jalaliDocumentDeadlineDate": "1405/06/07 - 18:00",
+  "tableId": 496162,
+  "tagCode": 33,
+  "needType": null,
+  "reqId": null,
+  "jalaliFromProposalDate": null,
+  "partyNumber": "1311224",
+  "orgId": 9201,
+  "aucState": 1116,
+  "cartId": 0,
+  "categoryId": null,
+  "categoryName": null,
+  "locId": null,
+  "ticketId": null,
+  "aggregations": {
+   "by_boardCode": {
+    "buckets": [
+     {
+      "doc_count": 56,
+      "key": "3"
+     },
+     {
+      "doc_count": 16,
+      "key": "2"
+     },
+     {
+      "doc_count": 15,
+      "key": "1"
+     }
+    ]
+   },
+   "by_tagCode": {
+    "buckets": [
+     {
+      "doc_count": 49,
+      "key": "33"
+     },
+     {
+      "doc_count": 14,
+      "key": "4121"
+     },
+     {
+      "doc_count": 8,
+      "key": "1431"
+     },
+     {
+      "doc_count": 7,
+      "key": "1432"
+     },
+     {
+      "doc_count": 7,
+      "key": "341"
+     },
+     {
+      "doc_count": 2,
+      "key": "4128"
+     }
+    ]
+   }
+  },
+  "orderIdx": 69
+ },
+ {
+  "number": 5105000228000061,
+  "title": "اجاره علم و ادب پسرانه 1( به مدت 12 ماه 0 روز)",
+  "boardCode": 3,
+  "basePrice": 144000000,
+  "orgName": "مدیریت اموزش و پرورش کرج .ناحیه 2",
+  "score": 87,
+  "cityName": "فردیس",
+  "insertDate": null,
+  "boardName": "مزایده",
+  "provinceName": "البرز",
+  "jalaliSendDeadlineDate": "1405/06/19 - 18:00",
+  "jalaliLastEditDate": "1405/06/11 - 16:35",
+  "jalaliDocumentDeadlineDate": "1405/06/07 - 18:00",
+  "tableId": 496162,
+  "tagCode": 33,
+  "needType": null,
+  "reqId": null,
+  "jalaliFromProposalDate": null,
+  "partyNumber": "1311242",
+  "orgId": 9201,
+  "aucState": 1116,
+  "cartId": 0,
+  "categoryId": null,
+  "categoryName": null,
+  "locId": null,
+  "ticketId": null,
+  "aggregations": {
+   "by_boardCode": {
+    "buckets": [
+     {
+      "doc_count": 56,
+      "key": "3"
+     },
+     {
+      "doc_count": 16,
+      "key": "2"
+     },
+     {
+      "doc_count": 15,
+      "key": "1"
+     }
+    ]
+   },
+   "by_tagCode": {
+    "buckets": [
+     {
+      "doc_count": 49,
+      "key": "33"
+     },
+     {
+      "doc_count": 14,
+      "key": "4121"
+     },
+     {
+      "doc_count": 8,
+      "key": "1431"
+     },
+     {
+      "doc_count": 7,
+      "key": "1432"
+     },
+     {
+      "doc_count": 7,
+      "key": "341"
+     },
+     {
+      "doc_count": 2,
+      "key": "4128"
+     }
+    ]
+   }
+  },
+  "orderIdx": 70
+ },
+ {
+  "number": 5105000228000062,
+  "title": "اجاره علم و ادب 2 پسرانه فرشته آریل( به مدت 12 ماه 0 روز)",
+  "boardCode": 3,
+  "basePrice": 165600000,
+  "orgName": "مدیریت اموزش و پرورش کرج .ناحیه 2",
+  "score": 87,
+  "cityName": "فردیس",
+  "insertDate": null,
+  "boardName": "مزایده",
+  "provinceName": "البرز",
+  "jalaliSendDeadlineDate": "1405/06/19 - 18:00",
+  "jalaliLastEditDate": "1405/06/11 - 16:35",
+  "jalaliDocumentDeadlineDate": "1405/06/07 - 18:00",
+  "tableId": 496162,
+  "tagCode": 33,
+  "needType": null,
+  "reqId": null,
+  "jalaliFromProposalDate": null,
+  "partyNumber": "1311245",
+  "orgId": 9201,
+  "aucState": 1116,
+  "cartId": 0,
+  "categoryId": null,
+  "categoryName": null,
+  "locId": null,
+  "ticketId": null,
+  "aggregations": {
+   "by_boardCode": {
+    "buckets": [
+     {
+      "doc_count": 56,
+      "key": "3"
+     },
+     {
+      "doc_count": 16,
+      "key": "2"
+     },
+     {
+      "doc_count": 15,
+      "key": "1"
+     }
+    ]
+   },
+   "by_tagCode": {
+    "buckets": [
+     {
+      "doc_count": 49,
+      "key": "33"
+     },
+     {
+      "doc_count": 14,
+      "key": "4121"
+     },
+     {
+      "doc_count": 8,
+      "key": "1431"
+     },
+     {
+      "doc_count": 7,
+      "key": "1432"
+     },
+     {
+      "doc_count": 7,
+      "key": "341"
+     },
+     {
+      "doc_count": 2,
+      "key": "4128"
+     }
+    ]
+   }
+  },
+  "orderIdx": 71
+ },
+ {
+  "number": 5105000228000063,
+  "title": "اجاره پیش دبستانی کمال پسرانه( به مدت 12 ماه 0 روز)",
+  "boardCode": 3,
+  "basePrice": 151800000,
+  "orgName": "مدیریت اموزش و پرورش کرج .ناحیه 2",
+  "score": 87,
+  "cityName": "فردیس",
+  "insertDate": null,
+  "boardName": "مزایده",
+  "provinceName": "البرز",
+  "jalaliSendDeadlineDate": "1405/06/19 - 18:00",
+  "jalaliLastEditDate": "1405/06/11 - 16:35",
+  "jalaliDocumentDeadlineDate": "1405/06/07 - 18:00",
+  "tableId": 496162,
+  "tagCode": 33,
+  "needType": null,
+  "reqId": null,
+  "jalaliFromProposalDate": null,
+  "partyNumber": "1311247",
+  "orgId": 9201,
+  "aucState": 1116,
+  "cartId": 0,
+  "categoryId": null,
+  "categoryName": null,
+  "locId": null,
+  "ticketId": null,
+  "aggregations": {
+   "by_boardCode": {
+    "buckets": [
+     {
+      "doc_count": 56,
+      "key": "3"
+     },
+     {
+      "doc_count": 16,
+      "key": "2"
+     },
+     {
+      "doc_count": 15,
+      "key": "1"
+     }
+    ]
+   },
+   "by_tagCode": {
+    "buckets": [
+     {
+      "doc_count": 49,
+      "key": "33"
+     },
+     {
+      "doc_count": 14,
+      "key": "4121"
+     },
+     {
+      "doc_count": 8,
+      "key": "1431"
+     },
+     {
+      "doc_count": 7,
+      "key": "1432"
+     },
+     {
+      "doc_count": 7,
+      "key": "341"
+     },
+     {
+      "doc_count": 2,
+      "key": "4128"
+     }
+    ]
+   }
+  },
+  "orderIdx": 72
+ },
+ {
+  "number": 5105000228000066,
+  "title": "اجاره معلم دخترانه( به مدت 12 ماه 0 روز)",
+  "boardCode": 3,
+  "basePrice": 110400000,
+  "orgName": "مدیریت اموزش و پرورش کرج .ناحیه 2",
+  "score": 87,
+  "cityName": "فردیس",
+  "insertDate": null,
+  "boardName": "مزایده",
+  "provinceName": "البرز",
+  "jalaliSendDeadlineDate": "1405/06/19 - 18:00",
+  "jalaliLastEditDate": "1405/06/11 - 16:35",
+  "jalaliDocumentDeadlineDate": "1405/06/07 - 18:00",
+  "tableId": 496162,
+  "tagCode": 33,
+  "needType": null,
+  "reqId": null,
+  "jalaliFromProposalDate": null,
+  "partyNumber": "1311256",
+  "orgId": 9201,
+  "aucState": 1116,
+  "cartId": 0,
+  "categoryId": null,
+  "categoryName": null,
+  "locId": null,
+  "ticketId": null,
+  "aggregations": {
+   "by_boardCode": {
+    "buckets": [
+     {
+      "doc_count": 56,
+      "key": "3"
+     },
+     {
+      "doc_count": 16,
+      "key": "2"
+     },
+     {
+      "doc_count": 15,
+      "key": "1"
+     }
+    ]
+   },
+   "by_tagCode": {
+    "buckets": [
+     {
+      "doc_count": 49,
+      "key": "33"
+     },
+     {
+      "doc_count": 14,
+      "key": "4121"
+     },
+     {
+      "doc_count": 8,
+      "key": "1431"
+     },
+     {
+      "doc_count": 7,
+      "key": "1432"
+     },
+     {
+      "doc_count": 7,
+      "key": "341"
+     },
+     {
+      "doc_count": 2,
+      "key": "4128"
+     }
+    ]
+   }
+  },
+  "orderIdx": 73
+ },
+ {
+  "number": 5105000228000067,
+  "title": "اجاره معلم 2 دخترانه بشری( به مدت 12 ماه 0 روز)",
+  "boardCode": 3,
+  "basePrice": 82800000,
+  "orgName": "مدیریت اموزش و پرورش کرج .ناحیه 2",
+  "score": 87,
+  "cityName": "فردیس",
+  "insertDate": null,
+  "boardName": "مزایده",
+  "provinceName": "البرز",
+  "jalaliSendDeadlineDate": "1405/06/19 - 18:00",
+  "jalaliLastEditDate": "1405/06/11 - 16:35",
+  "jalaliDocumentDeadlineDate": "1405/06/07 - 18:00",
+  "tableId": 496162,
+  "tagCode": 33,
+  "needType": null,
+  "reqId": null,
+  "jalaliFromProposalDate": null,
+  "partyNumber": "1311261",
+  "orgId": 9201,
+  "aucState": 1116,
+  "cartId": 0,
+  "categoryId": null,
+  "categoryName": null,
+  "locId": null,
+  "ticketId": null,
+  "aggregations": {
+   "by_boardCode": {
+    "buckets": [
+     {
+      "doc_count": 56,
+      "key": "3"
+     },
+     {
+      "doc_count": 16,
+      "key": "2"
+     },
+     {
+      "doc_count": 15,
+      "key": "1"
+     }
+    ]
+   },
+   "by_tagCode": {
+    "buckets": [
+     {
+      "doc_count": 49,
+      "key": "33"
+     },
+     {
+      "doc_count": 14,
+      "key": "4121"
+     },
+     {
+      "doc_count": 8,
+      "key": "1431"
+     },
+     {
+      "doc_count": 7,
+      "key": "1432"
+     },
+     {
+      "doc_count": 7,
+      "key": "341"
+     },
+     {
+      "doc_count": 2,
+      "key": "4128"
+     }
+    ]
+   }
+  },
+  "orderIdx": 74
+ },
+ {
+  "number": 5105000228000060,
+  "title": "اجاره صدیقه الزهرا 2 دخترانه( به مدت 12 ماه 0 روز)",
+  "boardCode": 3,
+  "basePrice": 144000000,
+  "orgName": "مدیریت اموزش و پرورش کرج .ناحیه 2",
+  "score": 87,
+  "cityName": "فردیس",
+  "insertDate": null,
+  "boardName": "مزایده",
+  "provinceName": "البرز",
+  "jalaliSendDeadlineDate": "1405/06/19 - 18:00",
+  "jalaliLastEditDate": "1405/06/11 - 16:35",
+  "jalaliDocumentDeadlineDate": "1405/06/07 - 18:00",
+  "tableId": 496162,
+  "tagCode": 33,
+  "needType": null,
+  "reqId": null,
+  "jalaliFromProposalDate": null,
+  "partyNumber": "1311239",
+  "orgId": 9201,
+  "aucState": 1116,
+  "cartId": 0,
+  "categoryId": null,
+  "categoryName": null,
+  "locId": null,
+  "ticketId": null,
+  "aggregations": {
+   "by_boardCode": {
+    "buckets": [
+     {
+      "doc_count": 56,
+      "key": "3"
+     },
+     {
+      "doc_count": 16,
+      "key": "2"
+     },
+     {
+      "doc_count": 15,
+      "key": "1"
+     }
+    ]
+   },
+   "by_tagCode": {
+    "buckets": [
+     {
+      "doc_count": 49,
+      "key": "33"
+     },
+     {
+      "doc_count": 14,
+      "key": "4121"
+     },
+     {
+      "doc_count": 8,
+      "key": "1431"
+     },
+     {
+      "doc_count": 7,
+      "key": "1432"
+     },
+     {
+      "doc_count": 7,
+      "key": "341"
+     },
+     {
+      "doc_count": 2,
+      "key": "4128"
+     }
+    ]
+   }
+  },
+  "orderIdx": 75
+ },
+ {
+  "number": 5105000228000070,
+  "title": "اجاره نوبهار دخترانه( به مدت 12 ماه 0 روز)",
+  "boardCode": 3,
+  "basePrice": 89700000,
+  "orgName": "مدیریت اموزش و پرورش کرج .ناحیه 2",
+  "score": 87,
+  "cityName": "فردیس",
+  "insertDate": null,
+  "boardName": "مزایده",
+  "provinceName": "البرز",
+  "jalaliSendDeadlineDate": "1405/06/19 - 18:00",
+  "jalaliLastEditDate": "1405/06/11 - 16:35",
+  "jalaliDocumentDeadlineDate": "1405/06/07 - 18:00",
+  "tableId": 496162,
+  "tagCode": 33,
+  "needType": null,
+  "reqId": null,
+  "jalaliFromProposalDate": null,
+  "partyNumber": "1311269",
+  "orgId": 9201,
+  "aucState": 1116,
+  "cartId": 0,
+  "categoryId": null,
+  "categoryName": null,
+  "locId": null,
+  "ticketId": null,
+  "aggregations": {
+   "by_boardCode": {
+    "buckets": [
+     {
+      "doc_count": 56,
+      "key": "3"
+     },
+     {
+      "doc_count": 16,
+      "key": "2"
+     },
+     {
+      "doc_count": 15,
+      "key": "1"
+     }
+    ]
+   },
+   "by_tagCode": {
+    "buckets": [
+     {
+      "doc_count": 49,
+      "key": "33"
+     },
+     {
+      "doc_count": 14,
+      "key": "4121"
+     },
+     {
+      "doc_count": 8,
+      "key": "1431"
+     },
+     {
+      "doc_count": 7,
+      "key": "1432"
+     },
+     {
+      "doc_count": 7,
+      "key": "341"
+     },
+     {
+      "doc_count": 2,
+      "key": "4128"
+     }
+    ]
+   }
+  },
+  "orderIdx": 76
+ },
+ {
+  "number": 5105000228000075,
+  "title": "اجاره صدیقه طاهره دخترانه( به مدت 12 ماه 0 روز)",
+  "boardCode": 3,
+  "basePrice": 120000000,
+  "orgName": "مدیریت اموزش و پرورش کرج .ناحیه 2",
+  "score": 87,
+  "cityName": "فردیس",
+  "insertDate": null,
+  "boardName": "مزایده",
+  "provinceName": "البرز",
+  "jalaliSendDeadlineDate": "1405/06/19 - 18:00",
+  "jalaliLastEditDate": "1405/06/11 - 16:35",
+  "jalaliDocumentDeadlineDate": "1405/06/07 - 18:00",
+  "tableId": 496162,
+  "tagCode": 33,
+  "needType": null,
+  "reqId": null,
+  "jalaliFromProposalDate": null,
+  "partyNumber": "1311276",
+  "orgId": 9201,
+  "aucState": 1116,
+  "cartId": 0,
+  "categoryId": null,
+  "categoryName": null,
+  "locId": null,
+  "ticketId": null,
+  "aggregations": {
+   "by_boardCode": {
+    "buckets": [
+     {
+      "doc_count": 56,
+      "key": "3"
+     },
+     {
+      "doc_count": 16,
+      "key": "2"
+     },
+     {
+      "doc_count": 15,
+      "key": "1"
+     }
+    ]
+   },
+   "by_tagCode": {
+    "buckets": [
+     {
+      "doc_count": 49,
+      "key": "33"
+     },
+     {
+      "doc_count": 14,
+      "key": "4121"
+     },
+     {
+      "doc_count": 8,
+      "key": "1431"
+     },
+     {
+      "doc_count": 7,
+      "key": "1432"
+     },
+     {
+      "doc_count": 7,
+      "key": "341"
+     },
+     {
+      "doc_count": 2,
+      "key": "4128"
+     }
+    ]
+   }
+  },
+  "orderIdx": 77
+ },
+ {
+  "number": 5105000228000071,
+  "title": "اجاره هفده شهریور دخترانه( به مدت 12 ماه 0 روز)",
+  "boardCode": 3,
+  "basePrice": 131100000,
+  "orgName": "مدیریت اموزش و پرورش کرج .ناحیه 2",
+  "score": 87,
+  "cityName": "فردیس",
+  "insertDate": null,
+  "boardName": "مزایده",
+  "provinceName": "البرز",
+  "jalaliSendDeadlineDate": "1405/06/19 - 18:00",
+  "jalaliLastEditDate": "1405/06/11 - 16:35",
+  "jalaliDocumentDeadlineDate": "1405/06/07 - 18:00",
+  "tableId": 496162,
+  "tagCode": 33,
+  "needType": null,
+  "reqId": null,
+  "jalaliFromProposalDate": null,
+  "partyNumber": "1311271",
+  "orgId": 9201,
+  "aucState": 1116,
+  "cartId": 0,
+  "categoryId": null,
+  "categoryName": null,
+  "locId": null,
+  "ticketId": null,
+  "aggregations": {
+   "by_boardCode": {
+    "buckets": [
+     {
+      "doc_count": 56,
+      "key": "3"
+     },
+     {
+      "doc_count": 16,
+      "key": "2"
+     },
+     {
+      "doc_count": 15,
+      "key": "1"
+     }
+    ]
+   },
+   "by_tagCode": {
+    "buckets": [
+     {
+      "doc_count": 49,
+      "key": "33"
+     },
+     {
+      "doc_count": 14,
+      "key": "4121"
+     },
+     {
+      "doc_count": 8,
+      "key": "1431"
+     },
+     {
+      "doc_count": 7,
+      "key": "1432"
+     },
+     {
+      "doc_count": 7,
+      "key": "341"
+     },
+     {
+      "doc_count": 2,
+      "key": "4128"
+     }
+    ]
+   }
+  },
+  "orderIdx": 78
+ },
+ {
+  "number": 5105000228000072,
+  "title": "اجاره ارم 1 پسرانه( به مدت 12 ماه 0 روز)",
+  "boardCode": 3,
+  "basePrice": 96600000,
+  "orgName": "مدیریت اموزش و پرورش کرج .ناحیه 2",
+  "score": 87,
+  "cityName": "فردیس",
+  "insertDate": null,
+  "boardName": "مزایده",
+  "provinceName": "البرز",
+  "jalaliSendDeadlineDate": "1405/06/19 - 18:00",
+  "jalaliLastEditDate": "1405/06/11 - 16:35",
+  "jalaliDocumentDeadlineDate": "1405/06/07 - 18:00",
+  "tableId": 496162,
+  "tagCode": 33,
+  "needType": null,
+  "reqId": null,
+  "jalaliFromProposalDate": null,
+  "partyNumber": "1311272",
+  "orgId": 9201,
+  "aucState": 1116,
+  "cartId": 0,
+  "categoryId": null,
+  "categoryName": null,
+  "locId": null,
+  "ticketId": null,
+  "aggregations": {
+   "by_boardCode": {
+    "buckets": [
+     {
+      "doc_count": 56,
+      "key": "3"
+     },
+     {
+      "doc_count": 16,
+      "key": "2"
+     },
+     {
+      "doc_count": 15,
+      "key": "1"
+     }
+    ]
+   },
+   "by_tagCode": {
+    "buckets": [
+     {
+      "doc_count": 49,
+      "key": "33"
+     },
+     {
+      "doc_count": 14,
+      "key": "4121"
+     },
+     {
+      "doc_count": 8,
+      "key": "1431"
+     },
+     {
+      "doc_count": 7,
+      "key": "1432"
+     },
+     {
+      "doc_count": 7,
+      "key": "341"
+     },
+     {
+      "doc_count": 2,
+      "key": "4128"
+     }
+    ]
+   }
+  },
+  "orderIdx": 79
+ },
+ {
+  "number": 5105000228000073,
+  "title": "اجاره ارم پسرانه 2( به مدت 12 ماه 0 روز)",
+  "boardCode": 3,
+  "basePrice": 103500000,
+  "orgName": "مدیریت اموزش و پرورش کرج .ناحیه 2",
+  "score": 87,
+  "cityName": "فردیس",
+  "insertDate": null,
+  "boardName": "مزایده",
+  "provinceName": "البرز",
+  "jalaliSendDeadlineDate": "1405/06/19 - 18:00",
+  "jalaliLastEditDate": "1405/06/11 - 16:35",
+  "jalaliDocumentDeadlineDate": "1405/06/07 - 18:00",
+  "tableId": 496162,
+  "tagCode": 33,
+  "needType": null,
+  "reqId": null,
+  "jalaliFromProposalDate": null,
+  "partyNumber": "1311273",
+  "orgId": 9201,
+  "aucState": 1116,
+  "cartId": 0,
+  "categoryId": null,
+  "categoryName": null,
+  "locId": null,
+  "ticketId": null,
+  "aggregations": {
+   "by_boardCode": {
+    "buckets": [
+     {
+      "doc_count": 56,
+      "key": "3"
+     },
+     {
+      "doc_count": 16,
+      "key": "2"
+     },
+     {
+      "doc_count": 15,
+      "key": "1"
+     }
+    ]
+   },
+   "by_tagCode": {
+    "buckets": [
+     {
+      "doc_count": 49,
+      "key": "33"
+     },
+     {
+      "doc_count": 14,
+      "key": "4121"
+     },
+     {
+      "doc_count": 8,
+      "key": "1431"
+     },
+     {
+      "doc_count": 7,
+      "key": "1432"
+     },
+     {
+      "doc_count": 7,
+      "key": "341"
+     },
+     {
+      "doc_count": 2,
+      "key": "4128"
+     }
+    ]
+   }
+  },
+  "orderIdx": 80
+ },
+ {
+  "number": 2005050288000062,
+  "title": "مناقصه عمومی یک مرحله ای رنگ آمیزی ترافیکی(خط کشی محوری،بلوک عابر پیاده و سرعتکاه)در معابر سطح شهر",
+  "boardCode": 2,
+  "basePrice": null,
+  "orgName": "شهرداری فردیس استان البرز",
+  "score": 87,
+  "cityName": "فردیس",
+  "insertDate": null,
+  "boardName": "مناقصه",
+  "provinceName": "البرز",
+  "jalaliSendDeadlineDate": "1405/06/21 - 13:00",
+  "jalaliLastEditDate": "1405/06/07 - 12:51",
+  "jalaliDocumentDeadlineDate": "1405/06/09 - 13:00",
+  "tableId": 661620,
+  "tagCode": 4121,
+  "needType": null,
+  "reqId": null,
+  "jalaliFromProposalDate": null,
+  "partyNumber": null,
+  "orgId": 12263,
+  "aucState": null,
+  "cartId": 0,
+  "categoryId": null,
+  "categoryName": null,
+  "locId": null,
+  "ticketId": null,
+  "aggregations": {
+   "by_boardCode": {
+    "buckets": [
+     {
+      "doc_count": 56,
+      "key": "3"
+     },
+     {
+      "doc_count": 16,
+      "key": "2"
+     },
+     {
+      "doc_count": 15,
+      "key": "1"
+     }
+    ]
+   },
+   "by_tagCode": {
+    "buckets": [
+     {
+      "doc_count": 49,
+      "key": "33"
+     },
+     {
+      "doc_count": 14,
+      "key": "4121"
+     },
+     {
+      "doc_count": 8,
+      "key": "1431"
+     },
+     {
+      "doc_count": 7,
+      "key": "1432"
+     },
+     {
+      "doc_count": 7,
+      "key": "341"
+     },
+     {
+      "doc_count": 2,
+      "key": "4128"
+     }
+    ]
+   }
+  },
+  "orderIdx": 81
+ },
+ {
+  "number": 2005050288000061,
+  "title": "مناقصه عمومی یک مرحله ای اصلاح هندسی معابر سطح شهر",
+  "boardCode": 2,
+  "basePrice": null,
+  "orgName": "شهرداری فردیس استان البرز",
+  "score": 87,
+  "cityName": "فردیس",
+  "insertDate": null,
+  "boardName": "مناقصه",
+  "provinceName": "البرز",
+  "jalaliSendDeadlineDate": "1405/06/21 - 13:00",
+  "jalaliLastEditDate": "1405/06/03 - 08:19",
+  "jalaliDocumentDeadlineDate": "1405/06/09 - 13:00",
+  "tableId": 661586,
+  "tagCode": 4121,
+  "needType": null,
+  "reqId": null,
+  "jalaliFromProposalDate": null,
+  "partyNumber": null,
+  "orgId": 12263,
+  "aucState": null,
+  "cartId": 0,
+  "categoryId": null,
+  "categoryName": null,
+  "locId": null,
+  "ticketId": null,
+  "aggregations": {
+   "by_boardCode": {
+    "buckets": [
+     {
+      "doc_count": 56,
+      "key": "3"
+     },
+     {
+      "doc_count": 16,
+      "key": "2"
+     },
+     {
+      "doc_count": 15,
+      "key": "1"
+     }
+    ]
+   },
+   "by_tagCode": {
+    "buckets": [
+     {
+      "doc_count": 49,
+      "key": "33"
+     },
+     {
+      "doc_count": 14,
+      "key": "4121"
+     },
+     {
+      "doc_count": 8,
+      "key": "1431"
+     },
+     {
+      "doc_count": 7,
+      "key": "1432"
+     },
+     {
+      "doc_count": 7,
+      "key": "341"
+     },
+     {
+      "doc_count": 2,
+      "key": "4128"
+     }
+    ]
+   }
+  },
+  "orderIdx": 82
+ },
+ {
+  "number": 2005050288000059,
+  "title": "مناقصه عمومی یک مرحله ای خرید،حمل،بارگیری و تحویل رنگ جداول سطح شهر-تجدید",
+  "boardCode": 2,
+  "basePrice": null,
+  "orgName": "شهرداری فردیس استان البرز",
+  "score": 87,
+  "cityName": "فردیس",
+  "insertDate": null,
+  "boardName": "مناقصه",
+  "provinceName": "البرز",
+  "jalaliSendDeadlineDate": "1405/06/21 - 13:00",
+  "jalaliLastEditDate": "1405/06/07 - 12:52",
+  "jalaliDocumentDeadlineDate": "1405/06/09 - 13:00",
+  "tableId": 661557,
+  "tagCode": 4121,
+  "needType": null,
+  "reqId": null,
+  "jalaliFromProposalDate": null,
+  "partyNumber": null,
+  "orgId": 12263,
+  "aucState": null,
+  "cartId": 0,
+  "categoryId": null,
+  "categoryName": null,
+  "locId": null,
+  "ticketId": null,
+  "aggregations": {
+   "by_boardCode": {
+    "buckets": [
+     {
+      "doc_count": 56,
+      "key": "3"
+     },
+     {
+      "doc_count": 16,
+      "key": "2"
+     },
+     {
+      "doc_count": 15,
+      "key": "1"
+     }
+    ]
+   },
+   "by_tagCode": {
+    "buckets": [
+     {
+      "doc_count": 49,
+      "key": "33"
+     },
+     {
+      "doc_count": 14,
+      "key": "4121"
+     },
+     {
+      "doc_count": 8,
+      "key": "1431"
+     },
+     {
+      "doc_count": 7,
+      "key": "1432"
+     },
+     {
+      "doc_count": 7,
+      "key": "341"
+     },
+     {
+      "doc_count": 2,
+      "key": "4128"
+     }
+    ]
+   }
+  },
+  "orderIdx": 83
+ },
+ {
+  "number": 2005050288000058,
+  "title": "مناقصه عمومی یک مرحله ای خرید، تراش و روکش آسفالت معابر سطح منطقه دو-تجدید",
+  "boardCode": 2,
+  "basePrice": null,
+  "orgName": "شهرداری فردیس استان البرز",
+  "score": 87,
+  "cityName": "فردیس",
+  "insertDate": null,
+  "boardName": "مناقصه",
+  "provinceName": "البرز",
+  "jalaliSendDeadlineDate": "1405/06/21 - 13:00",
+  "jalaliLastEditDate": "-",
+  "jalaliDocumentDeadlineDate": "1405/06/09 - 13:00",
+  "tableId": 661541,
+  "tagCode": 4121,
+  "needType": null,
+  "reqId": null,
+  "jalaliFromProposalDate": null,
+  "partyNumber": null,
+  "orgId": 12263,
+  "aucState": null,
+  "cartId": 0,
+  "categoryId": null,
+  "categoryName": null,
+  "locId": null,
+  "ticketId": null,
+  "aggregations": {
+   "by_boardCode": {
+    "buckets": [
+     {
+      "doc_count": 56,
+      "key": "3"
+     },
+     {
+      "doc_count": 16,
+      "key": "2"
+     },
+     {
+      "doc_count": 15,
+      "key": "1"
+     }
+    ]
+   },
+   "by_tagCode": {
+    "buckets": [
+     {
+      "doc_count": 49,
+      "key": "33"
+     },
+     {
+      "doc_count": 14,
+      "key": "4121"
+     },
+     {
+      "doc_count": 8,
+      "key": "1431"
+     },
+     {
+      "doc_count": 7,
+      "key": "1432"
+     },
+     {
+      "doc_count": 7,
+      "key": "341"
+     },
+     {
+      "doc_count": 2,
+      "key": "4128"
+     }
+    ]
+   }
+  },
+  "orderIdx": 84
+ },
+ {
+  "number": 2005050288000060,
+  "title": "مناقصه عمومی یک مرحله ای خرید و نصب و بازسازی تابلو ها و علائم چراغ های راهنمایی و رانندگی (فرماندهی و چشمک زن)-تجدید",
+  "boardCode": 2,
+  "basePrice": null,
+  "orgName": "شهرداری فردیس استان البرز",
+  "score": 87,
+  "cityName": "فردیس",
+  "insertDate": null,
+  "boardName": "مناقصه",
+  "provinceName": "البرز",
+  "jalaliSendDeadlineDate": "1405/06/21 - 13:00",
+  "jalaliLastEditDate": "-",
+  "jalaliDocumentDeadlineDate": "1405/06/09 - 13:00",
+  "tableId": 661575,
+  "tagCode": 4121,
+  "needType": null,
+  "reqId": null,
+  "jalaliFromProposalDate": null,
+  "partyNumber": null,
+  "orgId": 12263,
+  "aucState": null,
+  "cartId": 0,
+  "categoryId": null,
+  "categoryName": null,
+  "locId": null,
+  "ticketId": null,
+  "aggregations": {
+   "by_boardCode": {
+    "buckets": [
+     {
+      "doc_count": 56,
+      "key": "3"
+     },
+     {
+      "doc_count": 16,
+      "key": "2"
+     },
+     {
+      "doc_count": 15,
+      "key": "1"
+     }
+    ]
+   },
+   "by_tagCode": {
+    "buckets": [
+     {
+      "doc_count": 49,
+      "key": "33"
+     },
+     {
+      "doc_count": 14,
+      "key": "4121"
+     },
+     {
+      "doc_count": 8,
+      "key": "1431"
+     },
+     {
+      "doc_count": 7,
+      "key": "1432"
+     },
+     {
+      "doc_count": 7,
+      "key": "341"
+     },
+     {
+      "doc_count": 2,
+      "key": "4128"
+     }
+    ]
+   }
+  },
+  "orderIdx": 85
+ },
+ {
+  "number": 2005005186000094,
+  "title": "مناقصه عمومی همزمان با ارزیابی (یکپارچه) یک مرحله ای بهره برداری, تعمیرات و نگهداری از کلیه تاسیسات فردیس و مشکین دشت",
+  "boardCode": 2,
+  "basePrice": null,
+  "orgName": "شرکت آب و فاضلاب استان البرز",
+  "score": 87,
+  "cityName": "فردیس",
+  "insertDate": null,
+  "boardName": "مناقصه",
+  "provinceName": "البرز",
+  "jalaliSendDeadlineDate": "1405/06/21 - 19:00",
+  "jalaliLastEditDate": "-",
+  "jalaliDocumentDeadlineDate": "1405/06/03 - 19:00",
+  "tableId": 660373,
+  "tagCode": 4128,
+  "needType": null,
+  "reqId": null,
+  "jalaliFromProposalDate": null,
+  "partyNumber": null,
+  "orgId": 8298,
+  "aucState": null,
+  "cartId": 0,
+  "categoryId": null,
+  "categoryName": null,
+  "locId": null,
+  "ticketId": null,
+  "aggregations": {
+   "by_boardCode": {
+    "buckets": [
+     {
+      "doc_count": 56,
+      "key": "3"
+     },
+     {
+      "doc_count": 16,
+      "key": "2"
+     },
+     {
+      "doc_count": 15,
+      "key": "1"
+     }
+    ]
+   },
+   "by_tagCode": {
+    "buckets": [
+     {
+      "doc_count": 49,
+      "key": "33"
+     },
+     {
+      "doc_count": 14,
+      "key": "4121"
+     },
+     {
+      "doc_count": 8,
+      "key": "1431"
+     },
+     {
+      "doc_count": 7,
+      "key": "1432"
+     },
+     {
+      "doc_count": 7,
+      "key": "341"
+     },
+     {
+      "doc_count": 2,
+      "key": "4128"
+     }
+    ]
+   }
+  },
+  "orderIdx": 86
+ }
+]
