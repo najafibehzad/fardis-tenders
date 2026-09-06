@@ -93,7 +93,7 @@ async function handle(text, reply) {
   }
   if (t.startsWith('گزارش') || t === '/report') {
     const job = { id: Date.now() + '-' + Math.random().toString(36).slice(2, 7), text: text.trim(), from: 'telegram', ts: new Date().toISOString() };
-    await contentsUpdate(QUEUE_PATH, 'bale-cloud: queue job [skip ci]',
+    await contentsUpdate(QUEUE_PATH, 'bale-cloud: queue job',
       cur => [...(Array.isArray(cur) ? cur.filter(j => Date.now() - Date.parse(j.ts || 0) < 86400000) : []), job]);
     return reply('در صف گذاشتم ✅ لپ‌تاپ به‌محض روشن شدن اجرا می‌کند و نتیجه را در بله می‌فرستد. (اجرای ابری واکشی ستادیران ممکن نیست — بلاک IP خارجی)');
   }
@@ -119,7 +119,7 @@ async function main() {
     } catch (e) { log('update ERR: ' + e.message); }
     lastId = up.update_id + 1;
   }
-  if (lastId) await contentsUpdate(STATE_PATH, 'bale-cloud: offset [skip ci]', () => ({ offset: lastId }));
+  if (lastId) await contentsUpdate(STATE_PATH, 'bale-cloud: offset', () => ({ offset: lastId }));
   log(`cloud poll n=${ups.length} replies=${replies}`);
 }
 main().catch(e => { console.error('FATAL: ' + e.message); process.exit(1); });
