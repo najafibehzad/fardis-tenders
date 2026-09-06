@@ -1,0 +1,25 @@
+name: bale-cloud
+on:
+  schedule:
+    - cron: '*/5 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: read
+
+concurrency:
+  group: bale-cloud
+  cancel-in-progress: false
+
+jobs:
+  bot:
+    runs-on: ubuntu-latest
+    timeout-minutes: 6
+    steps:
+      - uses: actions/checkout@v4
+      - name: run cloud bot
+        env:
+          TGTOKEN: ${{ secrets.TGTOKEN }}
+          GITHUB_TOKEN: ${{ github.token }}
+        run: node cloud_bot.mjs
