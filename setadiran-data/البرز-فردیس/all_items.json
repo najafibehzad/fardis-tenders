@@ -1,11 +1,311 @@
 [
  {
+  "number": 1105003062000161,
+  "title": "نیاز کالا-خرید، تأمین، حمل، تخلیه، نصب، راه‌اندازی، برنامه‌ریزی، تنظیم، کالیبراسیون، تست، آموزش و تحویل ۷ دستگاه استند دیجیتال طبق شرایط پیوست",
+  "boardCode": 1,
+  "basePrice": null,
+  "orgName": "سازمان سنجش و اموزش کشور",
+  "score": 83,
+  "cityName": "فردیس",
+  "insertDate": null,
+  "boardName": "خرید",
+  "provinceName": "البرز",
+  "jalaliSendDeadlineDate": "1405/06/18 - 12:00",
+  "jalaliLastEditDate": null,
+  "jalaliDocumentDeadlineDate": null,
+  "tableId": 5338568,
+  "tagCode": 1431,
+  "needType": "1431",
+  "reqId": "7427928",
+  "jalaliFromProposalDate": null,
+  "partyNumber": null,
+  "orgId": 5092,
+  "aucState": null,
+  "cartId": 0,
+  "categoryId": null,
+  "categoryName": null,
+  "locId": null,
+  "ticketId": null,
+  "aggregations": {
+   "by_boardCode": {
+    "buckets": [
+     {
+      "doc_count": 56,
+      "key": "3"
+     },
+     {
+      "doc_count": 16,
+      "key": "2"
+     },
+     {
+      "doc_count": 11,
+      "key": "1"
+     }
+    ]
+   },
+   "by_tagCode": {
+    "buckets": [
+     {
+      "doc_count": 49,
+      "key": "33"
+     },
+     {
+      "doc_count": 14,
+      "key": "4121"
+     },
+     {
+      "doc_count": 7,
+      "key": "341"
+     },
+     {
+      "doc_count": 6,
+      "key": "1432"
+     },
+     {
+      "doc_count": 5,
+      "key": "1431"
+     },
+     {
+      "doc_count": 2,
+      "key": "4128"
+     }
+    ]
+   }
+  },
+  "orderIdx": 0
+ },
+ {
+  "number": 1105000351000560,
+  "title": "نیاز خدمات-قرارداد تاسیسات نگهداری پشتیبانی ",
+  "boardCode": 1,
+  "basePrice": null,
+  "orgName": "شبکه بهداشت و درمان فردیس",
+  "score": 83,
+  "cityName": "فردیس",
+  "insertDate": null,
+  "boardName": "خرید",
+  "provinceName": "البرز",
+  "jalaliSendDeadlineDate": "1405/06/21 - 10:00",
+  "jalaliLastEditDate": null,
+  "jalaliDocumentDeadlineDate": null,
+  "tableId": 5338296,
+  "tagCode": 1432,
+  "needType": "1432",
+  "reqId": "7427540",
+  "jalaliFromProposalDate": null,
+  "partyNumber": null,
+  "orgId": 10378,
+  "aucState": null,
+  "cartId": 0,
+  "categoryId": null,
+  "categoryName": null,
+  "locId": null,
+  "ticketId": null,
+  "aggregations": {
+   "by_boardCode": {
+    "buckets": [
+     {
+      "doc_count": 56,
+      "key": "3"
+     },
+     {
+      "doc_count": 16,
+      "key": "2"
+     },
+     {
+      "doc_count": 11,
+      "key": "1"
+     }
+    ]
+   },
+   "by_tagCode": {
+    "buckets": [
+     {
+      "doc_count": 49,
+      "key": "33"
+     },
+     {
+      "doc_count": 14,
+      "key": "4121"
+     },
+     {
+      "doc_count": 7,
+      "key": "341"
+     },
+     {
+      "doc_count": 6,
+      "key": "1432"
+     },
+     {
+      "doc_count": 5,
+      "key": "1431"
+     },
+     {
+      "doc_count": 2,
+      "key": "4128"
+     }
+    ]
+   }
+  },
+  "orderIdx": 1
+ },
+ {
+  "number": 1105005186000282,
+  "title": "نیاز خدمات-بهره برداری از کلیه تاسیسات منابع تولید، سامانه های گندزدایی و تاسیسات برقی در محدوده شهری و روستایی امورهای آب و فاضلاب فردیس و مشکین دشت",
+  "boardCode": 1,
+  "basePrice": null,
+  "orgName": "شرکت آب و فاضلاب استان البرز",
+  "score": 83,
+  "cityName": "فردیس",
+  "insertDate": null,
+  "boardName": "خرید",
+  "provinceName": "البرز",
+  "jalaliSendDeadlineDate": "1405/06/18 - 12:30",
+  "jalaliLastEditDate": null,
+  "jalaliDocumentDeadlineDate": null,
+  "tableId": 5337996,
+  "tagCode": 1432,
+  "needType": "1432",
+  "reqId": "7427097",
+  "jalaliFromProposalDate": null,
+  "partyNumber": null,
+  "orgId": 8298,
+  "aucState": null,
+  "cartId": 0,
+  "categoryId": null,
+  "categoryName": null,
+  "locId": null,
+  "ticketId": null,
+  "aggregations": {
+   "by_boardCode": {
+    "buckets": [
+     {
+      "doc_count": 56,
+      "key": "3"
+     },
+     {
+      "doc_count": 16,
+      "key": "2"
+     },
+     {
+      "doc_count": 11,
+      "key": "1"
+     }
+    ]
+   },
+   "by_tagCode": {
+    "buckets": [
+     {
+      "doc_count": 49,
+      "key": "33"
+     },
+     {
+      "doc_count": 14,
+      "key": "4121"
+     },
+     {
+      "doc_count": 7,
+      "key": "341"
+     },
+     {
+      "doc_count": 6,
+      "key": "1432"
+     },
+     {
+      "doc_count": 5,
+      "key": "1431"
+     },
+     {
+      "doc_count": 2,
+      "key": "4128"
+     }
+    ]
+   }
+  },
+  "orderIdx": 2
+ },
+ {
+  "number": 1105003062000160,
+  "title": "نیاز کالا-1- لاستیک فوتک پرفکت (یک پله)500 عدد 2- لاستیک فوتک قرمز تختmm 0.8*13*32 به تعداد 1000 عدد",
+  "boardCode": 1,
+  "basePrice": null,
+  "orgName": "سازمان سنجش و اموزش کشور",
+  "score": 83,
+  "cityName": "فردیس",
+  "insertDate": null,
+  "boardName": "خرید",
+  "provinceName": "البرز",
+  "jalaliSendDeadlineDate": "1405/06/17 - 14:00",
+  "jalaliLastEditDate": null,
+  "jalaliDocumentDeadlineDate": null,
+  "tableId": 5336692,
+  "tagCode": 1431,
+  "needType": "1431",
+  "reqId": "7425083",
+  "jalaliFromProposalDate": null,
+  "partyNumber": null,
+  "orgId": 5092,
+  "aucState": null,
+  "cartId": 0,
+  "categoryId": null,
+  "categoryName": null,
+  "locId": null,
+  "ticketId": null,
+  "aggregations": {
+   "by_boardCode": {
+    "buckets": [
+     {
+      "doc_count": 56,
+      "key": "3"
+     },
+     {
+      "doc_count": 16,
+      "key": "2"
+     },
+     {
+      "doc_count": 11,
+      "key": "1"
+     }
+    ]
+   },
+   "by_tagCode": {
+    "buckets": [
+     {
+      "doc_count": 49,
+      "key": "33"
+     },
+     {
+      "doc_count": 14,
+      "key": "4121"
+     },
+     {
+      "doc_count": 7,
+      "key": "341"
+     },
+     {
+      "doc_count": 6,
+      "key": "1432"
+     },
+     {
+      "doc_count": 5,
+      "key": "1431"
+     },
+     {
+      "doc_count": 2,
+      "key": "4128"
+     }
+    ]
+   }
+  },
+  "orderIdx": 3
+ },
+ {
   "number": 3105108818000069,
   "title": "حراج فروش پلاک ثبتی به شماره 49602 فرعی از 162 اصلی",
   "boardCode": 3,
   "basePrice": 56000000000,
   "orgName": "دفتر شعبه اول اجرای احکام مدنی فردیس البرز",
-  "score": 87,
+  "score": 83,
   "cityName": "فردیس",
   "insertDate": null,
   "boardName": "مزایده",
@@ -38,7 +338,7 @@
       "key": "2"
      },
      {
-      "doc_count": 15,
+      "doc_count": 11,
       "key": "1"
      }
     ]
@@ -54,16 +354,16 @@
       "key": "4121"
      },
      {
-      "doc_count": 8,
-      "key": "1431"
+      "doc_count": 7,
+      "key": "341"
      },
      {
-      "doc_count": 7,
+      "doc_count": 6,
       "key": "1432"
      },
      {
-      "doc_count": 7,
-      "key": "341"
+      "doc_count": 5,
+      "key": "1431"
      },
      {
       "doc_count": 2,
@@ -72,7 +372,7 @@
     ]
    }
   },
-  "orderIdx": 0
+  "orderIdx": 4
  },
  {
   "number": 3105108818000068,
@@ -80,7 +380,7 @@
   "boardCode": 3,
   "basePrice": 16992150000,
   "orgName": "دفتر شعبه اول اجرای احکام مدنی فردیس البرز",
-  "score": 87,
+  "score": 83,
   "cityName": "فردیس",
   "insertDate": null,
   "boardName": "مزایده",
@@ -113,7 +413,7 @@
       "key": "2"
      },
      {
-      "doc_count": 15,
+      "doc_count": 11,
       "key": "1"
      }
     ]
@@ -129,16 +429,16 @@
       "key": "4121"
      },
      {
-      "doc_count": 8,
-      "key": "1431"
+      "doc_count": 7,
+      "key": "341"
      },
      {
-      "doc_count": 7,
+      "doc_count": 6,
       "key": "1432"
      },
      {
-      "doc_count": 7,
-      "key": "341"
+      "doc_count": 5,
+      "key": "1431"
      },
      {
       "doc_count": 2,
@@ -147,7 +447,7 @@
     ]
    }
   },
-  "orderIdx": 1
+  "orderIdx": 5
  },
  {
   "number": 2005050288000066,
@@ -155,7 +455,7 @@
   "boardCode": 2,
   "basePrice": null,
   "orgName": "شهرداری فردیس استان البرز",
-  "score": 87,
+  "score": 83,
   "cityName": "فردیس",
   "insertDate": null,
   "boardName": "مناقصه",
@@ -188,7 +488,7 @@
       "key": "2"
      },
      {
-      "doc_count": 15,
+      "doc_count": 11,
       "key": "1"
      }
     ]
@@ -204,16 +504,16 @@
       "key": "4121"
      },
      {
-      "doc_count": 8,
-      "key": "1431"
+      "doc_count": 7,
+      "key": "341"
      },
      {
-      "doc_count": 7,
+      "doc_count": 6,
       "key": "1432"
      },
      {
-      "doc_count": 7,
-      "key": "341"
+      "doc_count": 5,
+      "key": "1431"
      },
      {
       "doc_count": 2,
@@ -222,7 +522,7 @@
     ]
    }
   },
-  "orderIdx": 2
+  "orderIdx": 6
  },
  {
   "number": 2005050288000067,
@@ -230,7 +530,7 @@
   "boardCode": 2,
   "basePrice": null,
   "orgName": "شهرداری فردیس استان البرز",
-  "score": 87,
+  "score": 83,
   "cityName": "فردیس",
   "insertDate": null,
   "boardName": "مناقصه",
@@ -263,7 +563,7 @@
       "key": "2"
      },
      {
-      "doc_count": 15,
+      "doc_count": 11,
       "key": "1"
      }
     ]
@@ -279,16 +579,16 @@
       "key": "4121"
      },
      {
-      "doc_count": 8,
-      "key": "1431"
+      "doc_count": 7,
+      "key": "341"
      },
      {
-      "doc_count": 7,
+      "doc_count": 6,
       "key": "1432"
      },
      {
-      "doc_count": 7,
-      "key": "341"
+      "doc_count": 5,
+      "key": "1431"
      },
      {
       "doc_count": 2,
@@ -297,7 +597,7 @@
     ]
    }
   },
-  "orderIdx": 3
+  "orderIdx": 7
  },
  {
   "number": 2005050288000068,
@@ -305,7 +605,7 @@
   "boardCode": 2,
   "basePrice": null,
   "orgName": "شهرداری فردیس استان البرز",
-  "score": 87,
+  "score": 83,
   "cityName": "فردیس",
   "insertDate": null,
   "boardName": "مناقصه",
@@ -338,7 +638,7 @@
       "key": "2"
      },
      {
-      "doc_count": 15,
+      "doc_count": 11,
       "key": "1"
      }
     ]
@@ -354,16 +654,16 @@
       "key": "4121"
      },
      {
-      "doc_count": 8,
-      "key": "1431"
+      "doc_count": 7,
+      "key": "341"
      },
      {
-      "doc_count": 7,
+      "doc_count": 6,
       "key": "1432"
      },
      {
-      "doc_count": 7,
-      "key": "341"
+      "doc_count": 5,
+      "key": "1431"
      },
      {
       "doc_count": 2,
@@ -372,7 +672,7 @@
     ]
    }
   },
-  "orderIdx": 4
+  "orderIdx": 8
  },
  {
   "number": 2005050288000069,
@@ -380,7 +680,7 @@
   "boardCode": 2,
   "basePrice": null,
   "orgName": "شهرداری فردیس استان البرز",
-  "score": 87,
+  "score": 83,
   "cityName": "فردیس",
   "insertDate": null,
   "boardName": "مناقصه",
@@ -413,7 +713,7 @@
       "key": "2"
      },
      {
-      "doc_count": 15,
+      "doc_count": 11,
       "key": "1"
      }
     ]
@@ -429,16 +729,16 @@
       "key": "4121"
      },
      {
-      "doc_count": 8,
-      "key": "1431"
+      "doc_count": 7,
+      "key": "341"
      },
      {
-      "doc_count": 7,
+      "doc_count": 6,
       "key": "1432"
      },
      {
-      "doc_count": 7,
-      "key": "341"
+      "doc_count": 5,
+      "key": "1431"
      },
      {
       "doc_count": 2,
@@ -447,7 +747,7 @@
     ]
    }
   },
-  "orderIdx": 5
+  "orderIdx": 9
  },
  {
   "number": 1105000351000559,
@@ -455,7 +755,7 @@
   "boardCode": 1,
   "basePrice": null,
   "orgName": "شبکه بهداشت و درمان فردیس",
-  "score": 87,
+  "score": 83,
   "cityName": "فردیس",
   "insertDate": null,
   "boardName": "خرید",
@@ -488,7 +788,7 @@
       "key": "2"
      },
      {
-      "doc_count": 15,
+      "doc_count": 11,
       "key": "1"
      }
     ]
@@ -504,16 +804,16 @@
       "key": "4121"
      },
      {
-      "doc_count": 8,
-      "key": "1431"
+      "doc_count": 7,
+      "key": "341"
      },
      {
-      "doc_count": 7,
+      "doc_count": 6,
       "key": "1432"
      },
      {
-      "doc_count": 7,
-      "key": "341"
+      "doc_count": 5,
+      "key": "1431"
      },
      {
       "doc_count": 2,
@@ -522,7 +822,7 @@
     ]
    }
   },
-  "orderIdx": 6
+  "orderIdx": 10
  },
  {
   "number": 1105050288000135,
@@ -530,7 +830,7 @@
   "boardCode": 1,
   "basePrice": null,
   "orgName": "شهرداری فردیس استان البرز",
-  "score": 87,
+  "score": 83,
   "cityName": "فردیس",
   "insertDate": null,
   "boardName": "خرید",
@@ -563,7 +863,7 @@
       "key": "2"
      },
      {
-      "doc_count": 15,
+      "doc_count": 11,
       "key": "1"
      }
     ]
@@ -579,16 +879,16 @@
       "key": "4121"
      },
      {
-      "doc_count": 8,
-      "key": "1431"
+      "doc_count": 7,
+      "key": "341"
      },
      {
-      "doc_count": 7,
+      "doc_count": 6,
       "key": "1432"
      },
      {
-      "doc_count": 7,
-      "key": "341"
+      "doc_count": 5,
+      "key": "1431"
      },
      {
       "doc_count": 2,
@@ -597,7 +897,7 @@
     ]
    }
   },
-  "orderIdx": 7
+  "orderIdx": 11
  },
  {
   "number": 1105050288000134,
@@ -605,7 +905,7 @@
   "boardCode": 1,
   "basePrice": null,
   "orgName": "شهرداری فردیس استان البرز",
-  "score": 87,
+  "score": 83,
   "cityName": "فردیس",
   "insertDate": null,
   "boardName": "خرید",
@@ -638,7 +938,7 @@
       "key": "2"
      },
      {
-      "doc_count": 15,
+      "doc_count": 11,
       "key": "1"
      }
     ]
@@ -654,16 +954,16 @@
       "key": "4121"
      },
      {
-      "doc_count": 8,
-      "key": "1431"
+      "doc_count": 7,
+      "key": "341"
      },
      {
-      "doc_count": 7,
+      "doc_count": 6,
       "key": "1432"
      },
      {
-      "doc_count": 7,
-      "key": "341"
+      "doc_count": 5,
+      "key": "1431"
      },
      {
       "doc_count": 2,
@@ -672,7 +972,7 @@
     ]
    }
   },
-  "orderIdx": 8
+  "orderIdx": 12
  },
  {
   "number": 1105005221001787,
@@ -680,7 +980,7 @@
   "boardCode": 1,
   "basePrice": null,
   "orgName": "شرکت توزیع نیروی برق استان البرز",
-  "score": 87,
+  "score": 83,
   "cityName": "فردیس",
   "insertDate": null,
   "boardName": "خرید",
@@ -713,7 +1013,7 @@
       "key": "2"
      },
      {
-      "doc_count": 15,
+      "doc_count": 11,
       "key": "1"
      }
     ]
@@ -729,16 +1029,16 @@
       "key": "4121"
      },
      {
-      "doc_count": 8,
-      "key": "1431"
+      "doc_count": 7,
+      "key": "341"
      },
      {
-      "doc_count": 7,
+      "doc_count": 6,
       "key": "1432"
      },
      {
-      "doc_count": 7,
-      "key": "341"
+      "doc_count": 5,
+      "key": "1431"
      },
      {
       "doc_count": 2,
@@ -747,7 +1047,7 @@
     ]
    }
   },
-  "orderIdx": 9
+  "orderIdx": 13
  },
  {
   "number": 5105050288000020,
@@ -755,7 +1055,7 @@
   "boardCode": 3,
   "basePrice": 12000000000,
   "orgName": "شهرداری فردیس استان البرز",
-  "score": 87,
+  "score": 83,
   "cityName": "فردیس",
   "insertDate": null,
   "boardName": "مزایده",
@@ -788,7 +1088,7 @@
       "key": "2"
      },
      {
-      "doc_count": 15,
+      "doc_count": 11,
       "key": "1"
      }
     ]
@@ -804,16 +1104,16 @@
       "key": "4121"
      },
      {
-      "doc_count": 8,
-      "key": "1431"
+      "doc_count": 7,
+      "key": "341"
      },
      {
-      "doc_count": 7,
+      "doc_count": 6,
       "key": "1432"
      },
      {
-      "doc_count": 7,
-      "key": "341"
+      "doc_count": 5,
+      "key": "1431"
      },
      {
       "doc_count": 2,
@@ -822,7 +1122,7 @@
     ]
    }
   },
-  "orderIdx": 10
+  "orderIdx": 14
  },
  {
   "number": 1105050288000133,
@@ -830,7 +1130,7 @@
   "boardCode": 1,
   "basePrice": null,
   "orgName": "شهرداری فردیس استان البرز",
-  "score": 87,
+  "score": 83,
   "cityName": "فردیس",
   "insertDate": null,
   "boardName": "خرید",
@@ -863,7 +1163,7 @@
       "key": "2"
      },
      {
-      "doc_count": 15,
+      "doc_count": 11,
       "key": "1"
      }
     ]
@@ -879,16 +1179,16 @@
       "key": "4121"
      },
      {
-      "doc_count": 8,
-      "key": "1431"
+      "doc_count": 7,
+      "key": "341"
      },
      {
-      "doc_count": 7,
+      "doc_count": 6,
       "key": "1432"
      },
      {
-      "doc_count": 7,
-      "key": "341"
+      "doc_count": 5,
+      "key": "1431"
      },
      {
       "doc_count": 2,
@@ -897,82 +1197,7 @@
     ]
    }
   },
-  "orderIdx": 11
- },
- {
-  "number": 1105003523000400,
-  "title": "نیاز کالا-فرش ماشینی 9 متری_طبق مشخصات فنی فایل پیوست_ایران کدانتخابی مشابه است_قیمت نهایی فاکتور بدون ارزش افزوده وپیش فاکتور با مهر درسامانه درج شود",
-  "boardCode": 1,
-  "basePrice": null,
-  "orgName": "اداره کل زندان ها و اقدامات تامینی و تربیتی استان البرز",
-  "score": 87,
-  "cityName": "فردیس",
-  "insertDate": null,
-  "boardName": "خرید",
-  "provinceName": "البرز",
-  "jalaliSendDeadlineDate": "1405/06/15 - 08:30",
-  "jalaliLastEditDate": null,
-  "jalaliDocumentDeadlineDate": null,
-  "tableId": 5331255,
-  "tagCode": 1431,
-  "needType": "1431",
-  "reqId": "7416774",
-  "jalaliFromProposalDate": null,
-  "partyNumber": null,
-  "orgId": 8331,
-  "aucState": null,
-  "cartId": 0,
-  "categoryId": null,
-  "categoryName": null,
-  "locId": null,
-  "ticketId": null,
-  "aggregations": {
-   "by_boardCode": {
-    "buckets": [
-     {
-      "doc_count": 56,
-      "key": "3"
-     },
-     {
-      "doc_count": 16,
-      "key": "2"
-     },
-     {
-      "doc_count": 15,
-      "key": "1"
-     }
-    ]
-   },
-   "by_tagCode": {
-    "buckets": [
-     {
-      "doc_count": 49,
-      "key": "33"
-     },
-     {
-      "doc_count": 14,
-      "key": "4121"
-     },
-     {
-      "doc_count": 8,
-      "key": "1431"
-     },
-     {
-      "doc_count": 7,
-      "key": "1432"
-     },
-     {
-      "doc_count": 7,
-      "key": "341"
-     },
-     {
-      "doc_count": 2,
-      "key": "4128"
-     }
-    ]
-   }
-  },
-  "orderIdx": 12
+  "orderIdx": 15
  },
  {
   "number": 1105000351000558,
@@ -980,7 +1205,7 @@
   "boardCode": 1,
   "basePrice": null,
   "orgName": "شبکه بهداشت و درمان فردیس",
-  "score": 87,
+  "score": 83,
   "cityName": "فردیس",
   "insertDate": null,
   "boardName": "خرید",
@@ -1013,7 +1238,7 @@
       "key": "2"
      },
      {
-      "doc_count": 15,
+      "doc_count": 11,
       "key": "1"
      }
     ]
@@ -1029,16 +1254,16 @@
       "key": "4121"
      },
      {
-      "doc_count": 8,
-      "key": "1431"
+      "doc_count": 7,
+      "key": "341"
      },
      {
-      "doc_count": 7,
+      "doc_count": 6,
       "key": "1432"
      },
      {
-      "doc_count": 7,
-      "key": "341"
+      "doc_count": 5,
+      "key": "1431"
      },
      {
       "doc_count": 2,
@@ -1047,7 +1272,7 @@
     ]
    }
   },
-  "orderIdx": 13
+  "orderIdx": 16
  },
  {
   "number": 1105000351000557,
@@ -1055,7 +1280,7 @@
   "boardCode": 1,
   "basePrice": null,
   "orgName": "شبکه بهداشت و درمان فردیس",
-  "score": 87,
+  "score": 83,
   "cityName": "فردیس",
   "insertDate": null,
   "boardName": "خرید",
@@ -1088,7 +1313,7 @@
       "key": "2"
      },
      {
-      "doc_count": 15,
+      "doc_count": 11,
       "key": "1"
      }
     ]
@@ -1104,16 +1329,16 @@
       "key": "4121"
      },
      {
-      "doc_count": 8,
-      "key": "1431"
+      "doc_count": 7,
+      "key": "341"
      },
      {
-      "doc_count": 7,
+      "doc_count": 6,
       "key": "1432"
      },
      {
-      "doc_count": 7,
-      "key": "341"
+      "doc_count": 5,
+      "key": "1431"
      },
      {
       "doc_count": 2,
@@ -1122,7 +1347,7 @@
     ]
    }
   },
-  "orderIdx": 14
+  "orderIdx": 17
  },
  {
   "number": 2005050288000063,
@@ -1130,7 +1355,7 @@
   "boardCode": 2,
   "basePrice": null,
   "orgName": "شهرداری فردیس استان البرز",
-  "score": 87,
+  "score": 83,
   "cityName": "فردیس",
   "insertDate": null,
   "boardName": "مناقصه",
@@ -1163,7 +1388,7 @@
       "key": "2"
      },
      {
-      "doc_count": 15,
+      "doc_count": 11,
       "key": "1"
      }
     ]
@@ -1179,16 +1404,16 @@
       "key": "4121"
      },
      {
-      "doc_count": 8,
-      "key": "1431"
+      "doc_count": 7,
+      "key": "341"
      },
      {
-      "doc_count": 7,
+      "doc_count": 6,
       "key": "1432"
      },
      {
-      "doc_count": 7,
-      "key": "341"
+      "doc_count": 5,
+      "key": "1431"
      },
      {
       "doc_count": 2,
@@ -1197,7 +1422,7 @@
     ]
    }
   },
-  "orderIdx": 15
+  "orderIdx": 18
  },
  {
   "number": 2005050288000064,
@@ -1205,7 +1430,7 @@
   "boardCode": 2,
   "basePrice": null,
   "orgName": "شهرداری فردیس استان البرز",
-  "score": 87,
+  "score": 83,
   "cityName": "فردیس",
   "insertDate": null,
   "boardName": "مناقصه",
@@ -1238,7 +1463,7 @@
       "key": "2"
      },
      {
-      "doc_count": 15,
+      "doc_count": 11,
       "key": "1"
      }
     ]
@@ -1254,16 +1479,16 @@
       "key": "4121"
      },
      {
-      "doc_count": 8,
-      "key": "1431"
+      "doc_count": 7,
+      "key": "341"
      },
      {
-      "doc_count": 7,
+      "doc_count": 6,
       "key": "1432"
      },
      {
-      "doc_count": 7,
-      "key": "341"
+      "doc_count": 5,
+      "key": "1431"
      },
      {
       "doc_count": 2,
@@ -1272,7 +1497,7 @@
     ]
    }
   },
-  "orderIdx": 16
+  "orderIdx": 19
  },
  {
   "number": 2005050288000065,
@@ -1280,7 +1505,7 @@
   "boardCode": 2,
   "basePrice": null,
   "orgName": "شهرداری فردیس استان البرز",
-  "score": 87,
+  "score": 83,
   "cityName": "فردیس",
   "insertDate": null,
   "boardName": "مناقصه",
@@ -1313,7 +1538,7 @@
       "key": "2"
      },
      {
-      "doc_count": 15,
+      "doc_count": 11,
       "key": "1"
      }
     ]
@@ -1329,16 +1554,16 @@
       "key": "4121"
      },
      {
-      "doc_count": 8,
-      "key": "1431"
+      "doc_count": 7,
+      "key": "341"
      },
      {
-      "doc_count": 7,
+      "doc_count": 6,
       "key": "1432"
      },
      {
-      "doc_count": 7,
-      "key": "341"
+      "doc_count": 5,
+      "key": "1431"
      },
      {
       "doc_count": 2,
@@ -1347,82 +1572,7 @@
     ]
    }
   },
-  "orderIdx": 17
- },
- {
-  "number": 1105003062000159,
-  "title": "نیاز کالا-خرید ملزومات ورزشی به شرح لیست پیوست",
-  "boardCode": 1,
-  "basePrice": null,
-  "orgName": "سازمان سنجش و اموزش کشور",
-  "score": 87,
-  "cityName": "فردیس",
-  "insertDate": null,
-  "boardName": "خرید",
-  "provinceName": "البرز",
-  "jalaliSendDeadlineDate": "1405/06/15 - 11:00",
-  "jalaliLastEditDate": null,
-  "jalaliDocumentDeadlineDate": null,
-  "tableId": 5329231,
-  "tagCode": 1431,
-  "needType": "1431",
-  "reqId": "7413954",
-  "jalaliFromProposalDate": null,
-  "partyNumber": null,
-  "orgId": 5092,
-  "aucState": null,
-  "cartId": 0,
-  "categoryId": null,
-  "categoryName": null,
-  "locId": null,
-  "ticketId": null,
-  "aggregations": {
-   "by_boardCode": {
-    "buckets": [
-     {
-      "doc_count": 56,
-      "key": "3"
-     },
-     {
-      "doc_count": 16,
-      "key": "2"
-     },
-     {
-      "doc_count": 15,
-      "key": "1"
-     }
-    ]
-   },
-   "by_tagCode": {
-    "buckets": [
-     {
-      "doc_count": 49,
-      "key": "33"
-     },
-     {
-      "doc_count": 14,
-      "key": "4121"
-     },
-     {
-      "doc_count": 8,
-      "key": "1431"
-     },
-     {
-      "doc_count": 7,
-      "key": "1432"
-     },
-     {
-      "doc_count": 7,
-      "key": "341"
-     },
-     {
-      "doc_count": 2,
-      "key": "4128"
-     }
-    ]
-   }
-  },
-  "orderIdx": 18
+  "orderIdx": 20
  },
  {
   "number": 2005005186000105,
@@ -1430,7 +1580,7 @@
   "boardCode": 2,
   "basePrice": null,
   "orgName": "شرکت آب و فاضلاب استان البرز",
-  "score": 87,
+  "score": 83,
   "cityName": "فردیس",
   "insertDate": null,
   "boardName": "مناقصه",
@@ -1463,7 +1613,7 @@
       "key": "2"
      },
      {
-      "doc_count": 15,
+      "doc_count": 11,
       "key": "1"
      }
     ]
@@ -1479,16 +1629,16 @@
       "key": "4121"
      },
      {
-      "doc_count": 8,
-      "key": "1431"
+      "doc_count": 7,
+      "key": "341"
      },
      {
-      "doc_count": 7,
+      "doc_count": 6,
       "key": "1432"
      },
      {
-      "doc_count": 7,
-      "key": "341"
+      "doc_count": 5,
+      "key": "1431"
      },
      {
       "doc_count": 2,
@@ -1497,7 +1647,7 @@
     ]
    }
   },
-  "orderIdx": 19
+  "orderIdx": 21
  },
  {
   "number": 5105050288000019,
@@ -1505,7 +1655,7 @@
   "boardCode": 3,
   "basePrice": 2400000000,
   "orgName": "شهرداری فردیس استان البرز",
-  "score": 87,
+  "score": 83,
   "cityName": "فردیس",
   "insertDate": null,
   "boardName": "مزایده",
@@ -1538,7 +1688,7 @@
       "key": "2"
      },
      {
-      "doc_count": 15,
+      "doc_count": 11,
       "key": "1"
      }
     ]
@@ -1554,16 +1704,16 @@
       "key": "4121"
      },
      {
-      "doc_count": 8,
-      "key": "1431"
+      "doc_count": 7,
+      "key": "341"
      },
      {
-      "doc_count": 7,
+      "doc_count": 6,
       "key": "1432"
      },
      {
-      "doc_count": 7,
-      "key": "341"
+      "doc_count": 5,
+      "key": "1431"
      },
      {
       "doc_count": 2,
@@ -1572,7 +1722,7 @@
     ]
    }
   },
-  "orderIdx": 20
+  "orderIdx": 22
  },
  {
   "number": 5105050288000017,
@@ -1580,7 +1730,7 @@
   "boardCode": 3,
   "basePrice": 3000000000,
   "orgName": "شهرداری فردیس استان البرز",
-  "score": 87,
+  "score": 83,
   "cityName": "فردیس",
   "insertDate": null,
   "boardName": "مزایده",
@@ -1613,7 +1763,7 @@
       "key": "2"
      },
      {
-      "doc_count": 15,
+      "doc_count": 11,
       "key": "1"
      }
     ]
@@ -1629,16 +1779,16 @@
       "key": "4121"
      },
      {
-      "doc_count": 8,
-      "key": "1431"
+      "doc_count": 7,
+      "key": "341"
      },
      {
-      "doc_count": 7,
+      "doc_count": 6,
       "key": "1432"
      },
      {
-      "doc_count": 7,
-      "key": "341"
+      "doc_count": 5,
+      "key": "1431"
      },
      {
       "doc_count": 2,
@@ -1647,7 +1797,7 @@
     ]
    }
   },
-  "orderIdx": 21
+  "orderIdx": 23
  },
  {
   "number": 5105050288000018,
@@ -1655,7 +1805,7 @@
   "boardCode": 3,
   "basePrice": 2760000000,
   "orgName": "شهرداری فردیس استان البرز",
-  "score": 87,
+  "score": 83,
   "cityName": "فردیس",
   "insertDate": null,
   "boardName": "مزایده",
@@ -1688,7 +1838,7 @@
       "key": "2"
      },
      {
-      "doc_count": 15,
+      "doc_count": 11,
       "key": "1"
      }
     ]
@@ -1704,166 +1854,16 @@
       "key": "4121"
      },
      {
-      "doc_count": 8,
-      "key": "1431"
-     },
-     {
-      "doc_count": 7,
-      "key": "1432"
-     },
-     {
       "doc_count": 7,
       "key": "341"
      },
      {
-      "doc_count": 2,
-      "key": "4128"
-     }
-    ]
-   }
-  },
-  "orderIdx": 22
- },
- {
-  "number": 1105003062000158,
-  "title": "نیاز کالا-خرید کیس کامل کامپیوتر به تعداد 20 عدد سرهم بندی شده(اسمبل) طبق لیست پیوست -پرداخت به صورت اسناد خزانه می باشد -",
-  "boardCode": 1,
-  "basePrice": null,
-  "orgName": "سازمان سنجش و اموزش کشور",
-  "score": 87,
-  "cityName": "فردیس",
-  "insertDate": null,
-  "boardName": "خرید",
-  "provinceName": "البرز",
-  "jalaliSendDeadlineDate": "1405/06/15 - 12:00",
-  "jalaliLastEditDate": null,
-  "jalaliDocumentDeadlineDate": null,
-  "tableId": 5326737,
-  "tagCode": 1431,
-  "needType": "1431",
-  "reqId": "7410128",
-  "jalaliFromProposalDate": null,
-  "partyNumber": null,
-  "orgId": 5092,
-  "aucState": null,
-  "cartId": 0,
-  "categoryId": null,
-  "categoryName": null,
-  "locId": null,
-  "ticketId": null,
-  "aggregations": {
-   "by_boardCode": {
-    "buckets": [
-     {
-      "doc_count": 56,
-      "key": "3"
-     },
-     {
-      "doc_count": 16,
-      "key": "2"
-     },
-     {
-      "doc_count": 15,
-      "key": "1"
-     }
-    ]
-   },
-   "by_tagCode": {
-    "buckets": [
-     {
-      "doc_count": 49,
-      "key": "33"
-     },
-     {
-      "doc_count": 14,
-      "key": "4121"
-     },
-     {
-      "doc_count": 8,
-      "key": "1431"
-     },
-     {
-      "doc_count": 7,
+      "doc_count": 6,
       "key": "1432"
      },
      {
-      "doc_count": 7,
-      "key": "341"
-     },
-     {
-      "doc_count": 2,
-      "key": "4128"
-     }
-    ]
-   }
-  },
-  "orderIdx": 23
- },
- {
-  "number": 1105000351000555,
-  "title": "نیاز کالا-اقلام مصرفی پزشکی ",
-  "boardCode": 1,
-  "basePrice": null,
-  "orgName": "شبکه بهداشت و درمان فردیس",
-  "score": 87,
-  "cityName": "فردیس",
-  "insertDate": null,
-  "boardName": "خرید",
-  "provinceName": "البرز",
-  "jalaliSendDeadlineDate": "1405/06/15 - 11:00",
-  "jalaliLastEditDate": null,
-  "jalaliDocumentDeadlineDate": null,
-  "tableId": 5326640,
-  "tagCode": 1431,
-  "needType": "1431",
-  "reqId": "7409976",
-  "jalaliFromProposalDate": null,
-  "partyNumber": null,
-  "orgId": 10378,
-  "aucState": null,
-  "cartId": 0,
-  "categoryId": null,
-  "categoryName": null,
-  "locId": null,
-  "ticketId": null,
-  "aggregations": {
-   "by_boardCode": {
-    "buckets": [
-     {
-      "doc_count": 56,
-      "key": "3"
-     },
-     {
-      "doc_count": 16,
-      "key": "2"
-     },
-     {
-      "doc_count": 15,
-      "key": "1"
-     }
-    ]
-   },
-   "by_tagCode": {
-    "buckets": [
-     {
-      "doc_count": 49,
-      "key": "33"
-     },
-     {
-      "doc_count": 14,
-      "key": "4121"
-     },
-     {
-      "doc_count": 8,
+      "doc_count": 5,
       "key": "1431"
-     },
-     {
-      "doc_count": 7,
-      "key": "1432"
-     },
-     {
-      "doc_count": 7,
-      "key": "341"
      },
      {
       "doc_count": 2,
@@ -1875,312 +1875,12 @@
   "orderIdx": 24
  },
  {
-  "number": 1105000351000554,
-  "title": "نیاز کالا-خرید لوازم التحریر ",
-  "boardCode": 1,
-  "basePrice": null,
-  "orgName": "شبکه بهداشت و درمان فردیس",
-  "score": 87,
-  "cityName": "فردیس",
-  "insertDate": null,
-  "boardName": "خرید",
-  "provinceName": "البرز",
-  "jalaliSendDeadlineDate": "1405/06/15 - 11:30",
-  "jalaliLastEditDate": null,
-  "jalaliDocumentDeadlineDate": null,
-  "tableId": 5326602,
-  "tagCode": 1431,
-  "needType": "1431",
-  "reqId": "7409922",
-  "jalaliFromProposalDate": null,
-  "partyNumber": null,
-  "orgId": 10378,
-  "aucState": null,
-  "cartId": 0,
-  "categoryId": null,
-  "categoryName": null,
-  "locId": null,
-  "ticketId": null,
-  "aggregations": {
-   "by_boardCode": {
-    "buckets": [
-     {
-      "doc_count": 56,
-      "key": "3"
-     },
-     {
-      "doc_count": 16,
-      "key": "2"
-     },
-     {
-      "doc_count": 15,
-      "key": "1"
-     }
-    ]
-   },
-   "by_tagCode": {
-    "buckets": [
-     {
-      "doc_count": 49,
-      "key": "33"
-     },
-     {
-      "doc_count": 14,
-      "key": "4121"
-     },
-     {
-      "doc_count": 8,
-      "key": "1431"
-     },
-     {
-      "doc_count": 7,
-      "key": "1432"
-     },
-     {
-      "doc_count": 7,
-      "key": "341"
-     },
-     {
-      "doc_count": 2,
-      "key": "4128"
-     }
-    ]
-   }
-  },
-  "orderIdx": 25
- },
- {
-  "number": 1105050288000132,
-  "title": "نیاز خدمات-شهرداری فردیس در نظر دارد نسبت به پروژه تهیه و خرید نیمکت بتنی به شرح و مشخصات پیوست اقدام نماید./",
-  "boardCode": 1,
-  "basePrice": null,
-  "orgName": "شهرداری فردیس استان البرز",
-  "score": 87,
-  "cityName": "فردیس",
-  "insertDate": null,
-  "boardName": "خرید",
-  "provinceName": "البرز",
-  "jalaliSendDeadlineDate": "1405/06/15 - 11:59",
-  "jalaliLastEditDate": null,
-  "jalaliDocumentDeadlineDate": null,
-  "tableId": 5326357,
-  "tagCode": 1432,
-  "needType": "1432",
-  "reqId": "7409552",
-  "jalaliFromProposalDate": null,
-  "partyNumber": null,
-  "orgId": 12263,
-  "aucState": null,
-  "cartId": 0,
-  "categoryId": null,
-  "categoryName": null,
-  "locId": null,
-  "ticketId": null,
-  "aggregations": {
-   "by_boardCode": {
-    "buckets": [
-     {
-      "doc_count": 56,
-      "key": "3"
-     },
-     {
-      "doc_count": 16,
-      "key": "2"
-     },
-     {
-      "doc_count": 15,
-      "key": "1"
-     }
-    ]
-   },
-   "by_tagCode": {
-    "buckets": [
-     {
-      "doc_count": 49,
-      "key": "33"
-     },
-     {
-      "doc_count": 14,
-      "key": "4121"
-     },
-     {
-      "doc_count": 8,
-      "key": "1431"
-     },
-     {
-      "doc_count": 7,
-      "key": "1432"
-     },
-     {
-      "doc_count": 7,
-      "key": "341"
-     },
-     {
-      "doc_count": 2,
-      "key": "4128"
-     }
-    ]
-   }
-  },
-  "orderIdx": 26
- },
- {
-  "number": 1105000351000553,
-  "title": "نیاز خدمات-بی خطر سازی پسماند های عفونی-بر اساس لیست پیوست",
-  "boardCode": 1,
-  "basePrice": null,
-  "orgName": "شبکه بهداشت و درمان فردیس",
-  "score": 87,
-  "cityName": "فردیس",
-  "insertDate": null,
-  "boardName": "خرید",
-  "provinceName": "البرز",
-  "jalaliSendDeadlineDate": "1405/06/15 - 12:00",
-  "jalaliLastEditDate": null,
-  "jalaliDocumentDeadlineDate": null,
-  "tableId": 5325982,
-  "tagCode": 1432,
-  "needType": "1432",
-  "reqId": "7408982",
-  "jalaliFromProposalDate": null,
-  "partyNumber": null,
-  "orgId": 10378,
-  "aucState": null,
-  "cartId": 0,
-  "categoryId": null,
-  "categoryName": null,
-  "locId": null,
-  "ticketId": null,
-  "aggregations": {
-   "by_boardCode": {
-    "buckets": [
-     {
-      "doc_count": 56,
-      "key": "3"
-     },
-     {
-      "doc_count": 16,
-      "key": "2"
-     },
-     {
-      "doc_count": 15,
-      "key": "1"
-     }
-    ]
-   },
-   "by_tagCode": {
-    "buckets": [
-     {
-      "doc_count": 49,
-      "key": "33"
-     },
-     {
-      "doc_count": 14,
-      "key": "4121"
-     },
-     {
-      "doc_count": 8,
-      "key": "1431"
-     },
-     {
-      "doc_count": 7,
-      "key": "1432"
-     },
-     {
-      "doc_count": 7,
-      "key": "341"
-     },
-     {
-      "doc_count": 2,
-      "key": "4128"
-     }
-    ]
-   }
-  },
-  "orderIdx": 27
- },
- {
-  "number": 1105050288000130,
-  "title": "نیاز خدمات-شهرداری فردیس در نظر دارد نسبت به پروژه رنگ آمیزی پارک های سطح شهر فردیس به شرح و مشخصات به پیوست اقدام نماید./",
-  "boardCode": 1,
-  "basePrice": null,
-  "orgName": "شهرداری فردیس استان البرز",
-  "score": 87,
-  "cityName": "فردیس",
-  "insertDate": null,
-  "boardName": "خرید",
-  "provinceName": "البرز",
-  "jalaliSendDeadlineDate": "1405/06/15 - 08:45",
-  "jalaliLastEditDate": null,
-  "jalaliDocumentDeadlineDate": null,
-  "tableId": 5324800,
-  "tagCode": 1432,
-  "needType": "1432",
-  "reqId": "7407156",
-  "jalaliFromProposalDate": null,
-  "partyNumber": null,
-  "orgId": 12263,
-  "aucState": null,
-  "cartId": 0,
-  "categoryId": null,
-  "categoryName": null,
-  "locId": null,
-  "ticketId": null,
-  "aggregations": {
-   "by_boardCode": {
-    "buckets": [
-     {
-      "doc_count": 56,
-      "key": "3"
-     },
-     {
-      "doc_count": 16,
-      "key": "2"
-     },
-     {
-      "doc_count": 15,
-      "key": "1"
-     }
-    ]
-   },
-   "by_tagCode": {
-    "buckets": [
-     {
-      "doc_count": 49,
-      "key": "33"
-     },
-     {
-      "doc_count": 14,
-      "key": "4121"
-     },
-     {
-      "doc_count": 8,
-      "key": "1431"
-     },
-     {
-      "doc_count": 7,
-      "key": "1432"
-     },
-     {
-      "doc_count": 7,
-      "key": "341"
-     },
-     {
-      "doc_count": 2,
-      "key": "4128"
-     }
-    ]
-   }
-  },
-  "orderIdx": 28
- },
- {
   "number": 3105108922000041,
   "title": "حراج خط همراه اول",
   "boardCode": 3,
   "basePrice": 1100000000,
   "orgName": "دفتر شعبه سوم اجرای احکام مدنی فردیس البرز",
-  "score": 87,
+  "score": 83,
   "cityName": "فردیس",
   "insertDate": null,
   "boardName": "مزایده",
@@ -2213,7 +1913,7 @@
       "key": "2"
      },
      {
-      "doc_count": 15,
+      "doc_count": 11,
       "key": "1"
      }
     ]
@@ -2229,16 +1929,16 @@
       "key": "4121"
      },
      {
-      "doc_count": 8,
-      "key": "1431"
+      "doc_count": 7,
+      "key": "341"
      },
      {
-      "doc_count": 7,
+      "doc_count": 6,
       "key": "1432"
      },
      {
-      "doc_count": 7,
-      "key": "341"
+      "doc_count": 5,
+      "key": "1431"
      },
      {
       "doc_count": 2,
@@ -2247,7 +1947,7 @@
     ]
    }
   },
-  "orderIdx": 29
+  "orderIdx": 25
  },
  {
   "number": 2005095121000007,
@@ -2255,7 +1955,7 @@
   "boardCode": 2,
   "basePrice": null,
   "orgName": "دهیاری فرخ اباد بخش مشکین دشت شهرستان فردیس",
-  "score": 87,
+  "score": 83,
   "cityName": "فردیس",
   "insertDate": null,
   "boardName": "مناقصه",
@@ -2288,7 +1988,7 @@
       "key": "2"
      },
      {
-      "doc_count": 15,
+      "doc_count": 11,
       "key": "1"
      }
     ]
@@ -2304,16 +2004,16 @@
       "key": "4121"
      },
      {
-      "doc_count": 8,
-      "key": "1431"
+      "doc_count": 7,
+      "key": "341"
      },
      {
-      "doc_count": 7,
+      "doc_count": 6,
       "key": "1432"
      },
      {
-      "doc_count": 7,
-      "key": "341"
+      "doc_count": 5,
+      "key": "1431"
      },
      {
       "doc_count": 2,
@@ -2322,7 +2022,7 @@
     ]
    }
   },
-  "orderIdx": 30
+  "orderIdx": 26
  },
  {
   "number": 3105108818000064,
@@ -2330,7 +2030,7 @@
   "boardCode": 3,
   "basePrice": 37710000000,
   "orgName": "دفتر شعبه اول اجرای احکام مدنی فردیس البرز",
-  "score": 87,
+  "score": 83,
   "cityName": "فردیس",
   "insertDate": null,
   "boardName": "مزایده",
@@ -2363,7 +2063,7 @@
       "key": "2"
      },
      {
-      "doc_count": 15,
+      "doc_count": 11,
       "key": "1"
      }
     ]
@@ -2379,16 +2079,16 @@
       "key": "4121"
      },
      {
-      "doc_count": 8,
-      "key": "1431"
+      "doc_count": 7,
+      "key": "341"
      },
      {
-      "doc_count": 7,
+      "doc_count": 6,
       "key": "1432"
      },
      {
-      "doc_count": 7,
-      "key": "341"
+      "doc_count": 5,
+      "key": "1431"
      },
      {
       "doc_count": 2,
@@ -2397,7 +2097,7 @@
     ]
    }
   },
-  "orderIdx": 31
+  "orderIdx": 27
  },
  {
   "number": 3105108818000067,
@@ -2405,7 +2105,7 @@
   "boardCode": 3,
   "basePrice": 5500000000,
   "orgName": "دفتر شعبه اول اجرای احکام مدنی فردیس البرز",
-  "score": 87,
+  "score": 83,
   "cityName": "فردیس",
   "insertDate": null,
   "boardName": "مزایده",
@@ -2438,7 +2138,7 @@
       "key": "2"
      },
      {
-      "doc_count": 15,
+      "doc_count": 11,
       "key": "1"
      }
     ]
@@ -2454,16 +2154,16 @@
       "key": "4121"
      },
      {
-      "doc_count": 8,
-      "key": "1431"
+      "doc_count": 7,
+      "key": "341"
      },
      {
-      "doc_count": 7,
+      "doc_count": 6,
       "key": "1432"
      },
      {
-      "doc_count": 7,
-      "key": "341"
+      "doc_count": 5,
+      "key": "1431"
      },
      {
       "doc_count": 2,
@@ -2472,7 +2172,7 @@
     ]
    }
   },
-  "orderIdx": 32
+  "orderIdx": 28
  },
  {
   "number": 3105108818000066,
@@ -2480,7 +2180,7 @@
   "boardCode": 3,
   "basePrice": 5300000000,
   "orgName": "دفتر شعبه اول اجرای احکام مدنی فردیس البرز",
-  "score": 87,
+  "score": 83,
   "cityName": "فردیس",
   "insertDate": null,
   "boardName": "مزایده",
@@ -2513,7 +2213,7 @@
       "key": "2"
      },
      {
-      "doc_count": 15,
+      "doc_count": 11,
       "key": "1"
      }
     ]
@@ -2529,16 +2229,16 @@
       "key": "4121"
      },
      {
-      "doc_count": 8,
-      "key": "1431"
+      "doc_count": 7,
+      "key": "341"
      },
      {
-      "doc_count": 7,
+      "doc_count": 6,
       "key": "1432"
      },
      {
-      "doc_count": 7,
-      "key": "341"
+      "doc_count": 5,
+      "key": "1431"
      },
      {
       "doc_count": 2,
@@ -2547,7 +2247,7 @@
     ]
    }
   },
-  "orderIdx": 33
+  "orderIdx": 29
  },
  {
   "number": 3105108818000065,
@@ -2555,7 +2255,7 @@
   "boardCode": 3,
   "basePrice": 46000000000,
   "orgName": "دفتر شعبه اول اجرای احکام مدنی فردیس البرز",
-  "score": 87,
+  "score": 83,
   "cityName": "فردیس",
   "insertDate": null,
   "boardName": "مزایده",
@@ -2588,7 +2288,7 @@
       "key": "2"
      },
      {
-      "doc_count": 15,
+      "doc_count": 11,
       "key": "1"
      }
     ]
@@ -2604,16 +2304,16 @@
       "key": "4121"
      },
      {
-      "doc_count": 8,
-      "key": "1431"
+      "doc_count": 7,
+      "key": "341"
      },
      {
-      "doc_count": 7,
+      "doc_count": 6,
       "key": "1432"
      },
      {
-      "doc_count": 7,
-      "key": "341"
+      "doc_count": 5,
+      "key": "1431"
      },
      {
       "doc_count": 2,
@@ -2622,7 +2322,7 @@
     ]
    }
   },
-  "orderIdx": 34
+  "orderIdx": 30
  },
  {
   "number": 2005095121000006,
@@ -2630,7 +2330,7 @@
   "boardCode": 2,
   "basePrice": null,
   "orgName": "دهیاری فرخ اباد بخش مشکین دشت شهرستان فردیس",
-  "score": 87,
+  "score": 83,
   "cityName": "فردیس",
   "insertDate": null,
   "boardName": "مناقصه",
@@ -2663,7 +2363,7 @@
       "key": "2"
      },
      {
-      "doc_count": 15,
+      "doc_count": 11,
       "key": "1"
      }
     ]
@@ -2679,16 +2379,16 @@
       "key": "4121"
      },
      {
-      "doc_count": 8,
-      "key": "1431"
+      "doc_count": 7,
+      "key": "341"
      },
      {
-      "doc_count": 7,
+      "doc_count": 6,
       "key": "1432"
      },
      {
-      "doc_count": 7,
-      "key": "341"
+      "doc_count": 5,
+      "key": "1431"
      },
      {
       "doc_count": 2,
@@ -2697,7 +2397,7 @@
     ]
    }
   },
-  "orderIdx": 35
+  "orderIdx": 31
  },
  {
   "number": 5105000228000019,
@@ -2705,7 +2405,7 @@
   "boardCode": 3,
   "basePrice": 156000000,
   "orgName": "مدیریت اموزش و پرورش کرج .ناحیه 2",
-  "score": 87,
+  "score": 83,
   "cityName": "فردیس",
   "insertDate": null,
   "boardName": "مزایده",
@@ -2738,7 +2438,7 @@
       "key": "2"
      },
      {
-      "doc_count": 15,
+      "doc_count": 11,
       "key": "1"
      }
     ]
@@ -2754,16 +2454,16 @@
       "key": "4121"
      },
      {
-      "doc_count": 8,
-      "key": "1431"
+      "doc_count": 7,
+      "key": "341"
      },
      {
-      "doc_count": 7,
+      "doc_count": 6,
       "key": "1432"
      },
      {
-      "doc_count": 7,
-      "key": "341"
+      "doc_count": 5,
+      "key": "1431"
      },
      {
       "doc_count": 2,
@@ -2772,7 +2472,7 @@
     ]
    }
   },
-  "orderIdx": 36
+  "orderIdx": 32
  },
  {
   "number": 5105000228000020,
@@ -2780,7 +2480,7 @@
   "boardCode": 3,
   "basePrice": 138000000,
   "orgName": "مدیریت اموزش و پرورش کرج .ناحیه 2",
-  "score": 87,
+  "score": 83,
   "cityName": "فردیس",
   "insertDate": null,
   "boardName": "مزایده",
@@ -2813,7 +2513,7 @@
       "key": "2"
      },
      {
-      "doc_count": 15,
+      "doc_count": 11,
       "key": "1"
      }
     ]
@@ -2829,16 +2529,16 @@
       "key": "4121"
      },
      {
-      "doc_count": 8,
-      "key": "1431"
+      "doc_count": 7,
+      "key": "341"
      },
      {
-      "doc_count": 7,
+      "doc_count": 6,
       "key": "1432"
      },
      {
-      "doc_count": 7,
-      "key": "341"
+      "doc_count": 5,
+      "key": "1431"
      },
      {
       "doc_count": 2,
@@ -2847,7 +2547,7 @@
     ]
    }
   },
-  "orderIdx": 37
+  "orderIdx": 33
  },
  {
   "number": 5105000228000011,
@@ -2855,7 +2555,7 @@
   "boardCode": 3,
   "basePrice": 110400000,
   "orgName": "مدیریت اموزش و پرورش کرج .ناحیه 2",
-  "score": 87,
+  "score": 83,
   "cityName": "فردیس",
   "insertDate": null,
   "boardName": "مزایده",
@@ -2888,7 +2588,7 @@
       "key": "2"
      },
      {
-      "doc_count": 15,
+      "doc_count": 11,
       "key": "1"
      }
     ]
@@ -2904,16 +2604,16 @@
       "key": "4121"
      },
      {
-      "doc_count": 8,
-      "key": "1431"
+      "doc_count": 7,
+      "key": "341"
      },
      {
-      "doc_count": 7,
+      "doc_count": 6,
       "key": "1432"
      },
      {
-      "doc_count": 7,
-      "key": "341"
+      "doc_count": 5,
+      "key": "1431"
      },
      {
       "doc_count": 2,
@@ -2922,7 +2622,7 @@
     ]
    }
   },
-  "orderIdx": 38
+  "orderIdx": 34
  },
  {
   "number": 5105000228000014,
@@ -2930,7 +2630,7 @@
   "boardCode": 3,
   "basePrice": 96600000,
   "orgName": "مدیریت اموزش و پرورش کرج .ناحیه 2",
-  "score": 87,
+  "score": 83,
   "cityName": "فردیس",
   "insertDate": null,
   "boardName": "مزایده",
@@ -2963,7 +2663,7 @@
       "key": "2"
      },
      {
-      "doc_count": 15,
+      "doc_count": 11,
       "key": "1"
      }
     ]
@@ -2979,16 +2679,16 @@
       "key": "4121"
      },
      {
-      "doc_count": 8,
-      "key": "1431"
+      "doc_count": 7,
+      "key": "341"
      },
      {
-      "doc_count": 7,
+      "doc_count": 6,
       "key": "1432"
      },
      {
-      "doc_count": 7,
-      "key": "341"
+      "doc_count": 5,
+      "key": "1431"
      },
      {
       "doc_count": 2,
@@ -2997,7 +2697,7 @@
     ]
    }
   },
-  "orderIdx": 39
+  "orderIdx": 35
  },
  {
   "number": 5105000228000026,
@@ -3005,7 +2705,7 @@
   "boardCode": 3,
   "basePrice": 138000000,
   "orgName": "مدیریت اموزش و پرورش کرج .ناحیه 2",
-  "score": 87,
+  "score": 83,
   "cityName": "فردیس",
   "insertDate": null,
   "boardName": "مزایده",
@@ -3038,7 +2738,7 @@
       "key": "2"
      },
      {
-      "doc_count": 15,
+      "doc_count": 11,
       "key": "1"
      }
     ]
@@ -3054,16 +2754,16 @@
       "key": "4121"
      },
      {
-      "doc_count": 8,
-      "key": "1431"
+      "doc_count": 7,
+      "key": "341"
      },
      {
-      "doc_count": 7,
+      "doc_count": 6,
       "key": "1432"
      },
      {
-      "doc_count": 7,
-      "key": "341"
+      "doc_count": 5,
+      "key": "1431"
      },
      {
       "doc_count": 2,
@@ -3072,7 +2772,7 @@
     ]
    }
   },
-  "orderIdx": 40
+  "orderIdx": 36
  },
  {
   "number": 5105000228000031,
@@ -3080,7 +2780,7 @@
   "boardCode": 3,
   "basePrice": 138000000,
   "orgName": "مدیریت اموزش و پرورش کرج .ناحیه 2",
-  "score": 87,
+  "score": 83,
   "cityName": "فردیس",
   "insertDate": null,
   "boardName": "مزایده",
@@ -3113,7 +2813,7 @@
       "key": "2"
      },
      {
-      "doc_count": 15,
+      "doc_count": 11,
       "key": "1"
      }
     ]
@@ -3129,16 +2829,16 @@
       "key": "4121"
      },
      {
-      "doc_count": 8,
-      "key": "1431"
+      "doc_count": 7,
+      "key": "341"
      },
      {
-      "doc_count": 7,
+      "doc_count": 6,
       "key": "1432"
      },
      {
-      "doc_count": 7,
-      "key": "341"
+      "doc_count": 5,
+      "key": "1431"
      },
      {
       "doc_count": 2,
@@ -3147,7 +2847,7 @@
     ]
    }
   },
-  "orderIdx": 41
+  "orderIdx": 37
  },
  {
   "number": 5105000228000038,
@@ -3155,7 +2855,7 @@
   "boardCode": 3,
   "basePrice": 828000000,
   "orgName": "مدیریت اموزش و پرورش کرج .ناحیه 2",
-  "score": 87,
+  "score": 83,
   "cityName": "فردیس",
   "insertDate": null,
   "boardName": "مزایده",
@@ -3188,7 +2888,7 @@
       "key": "2"
      },
      {
-      "doc_count": 15,
+      "doc_count": 11,
       "key": "1"
      }
     ]
@@ -3204,16 +2904,16 @@
       "key": "4121"
      },
      {
-      "doc_count": 8,
-      "key": "1431"
+      "doc_count": 7,
+      "key": "341"
      },
      {
-      "doc_count": 7,
+      "doc_count": 6,
       "key": "1432"
      },
      {
-      "doc_count": 7,
-      "key": "341"
+      "doc_count": 5,
+      "key": "1431"
      },
      {
       "doc_count": 2,
@@ -3222,7 +2922,7 @@
     ]
    }
   },
-  "orderIdx": 42
+  "orderIdx": 38
  },
  {
   "number": 5105000228000033,
@@ -3230,7 +2930,7 @@
   "boardCode": 3,
   "basePrice": 138000000,
   "orgName": "مدیریت اموزش و پرورش کرج .ناحیه 2",
-  "score": 87,
+  "score": 83,
   "cityName": "فردیس",
   "insertDate": null,
   "boardName": "مزایده",
@@ -3263,7 +2963,7 @@
       "key": "2"
      },
      {
-      "doc_count": 15,
+      "doc_count": 11,
       "key": "1"
      }
     ]
@@ -3279,16 +2979,16 @@
       "key": "4121"
      },
      {
-      "doc_count": 8,
-      "key": "1431"
+      "doc_count": 7,
+      "key": "341"
      },
      {
-      "doc_count": 7,
+      "doc_count": 6,
       "key": "1432"
      },
      {
-      "doc_count": 7,
-      "key": "341"
+      "doc_count": 5,
+      "key": "1431"
      },
      {
       "doc_count": 2,
@@ -3297,7 +2997,7 @@
     ]
    }
   },
-  "orderIdx": 43
+  "orderIdx": 39
  },
  {
   "number": 5105000228000035,
@@ -3305,7 +3005,7 @@
   "boardCode": 3,
   "basePrice": 248400000,
   "orgName": "مدیریت اموزش و پرورش کرج .ناحیه 2",
-  "score": 87,
+  "score": 83,
   "cityName": "فردیس",
   "insertDate": null,
   "boardName": "مزایده",
@@ -3338,7 +3038,7 @@
       "key": "2"
      },
      {
-      "doc_count": 15,
+      "doc_count": 11,
       "key": "1"
      }
     ]
@@ -3354,16 +3054,16 @@
       "key": "4121"
      },
      {
-      "doc_count": 8,
-      "key": "1431"
+      "doc_count": 7,
+      "key": "341"
      },
      {
-      "doc_count": 7,
+      "doc_count": 6,
       "key": "1432"
      },
      {
-      "doc_count": 7,
-      "key": "341"
+      "doc_count": 5,
+      "key": "1431"
      },
      {
       "doc_count": 2,
@@ -3372,7 +3072,7 @@
     ]
    }
   },
-  "orderIdx": 44
+  "orderIdx": 40
  },
  {
   "number": 5105000228000053,
@@ -3380,7 +3080,7 @@
   "boardCode": 3,
   "basePrice": 138000000,
   "orgName": "مدیریت اموزش و پرورش کرج .ناحیه 2",
-  "score": 87,
+  "score": 83,
   "cityName": "فردیس",
   "insertDate": null,
   "boardName": "مزایده",
@@ -3413,7 +3113,7 @@
       "key": "2"
      },
      {
-      "doc_count": 15,
+      "doc_count": 11,
       "key": "1"
      }
     ]
@@ -3429,16 +3129,16 @@
       "key": "4121"
      },
      {
-      "doc_count": 8,
-      "key": "1431"
+      "doc_count": 7,
+      "key": "341"
      },
      {
-      "doc_count": 7,
+      "doc_count": 6,
       "key": "1432"
      },
      {
-      "doc_count": 7,
-      "key": "341"
+      "doc_count": 5,
+      "key": "1431"
      },
      {
       "doc_count": 2,
@@ -3447,7 +3147,7 @@
     ]
    }
   },
-  "orderIdx": 45
+  "orderIdx": 41
  },
  {
   "number": 5105000228000056,
@@ -3455,7 +3155,7 @@
   "boardCode": 3,
   "basePrice": 96600000,
   "orgName": "مدیریت اموزش و پرورش کرج .ناحیه 2",
-  "score": 87,
+  "score": 83,
   "cityName": "فردیس",
   "insertDate": null,
   "boardName": "مزایده",
@@ -3488,7 +3188,7 @@
       "key": "2"
      },
      {
-      "doc_count": 15,
+      "doc_count": 11,
       "key": "1"
      }
     ]
@@ -3504,16 +3204,16 @@
       "key": "4121"
      },
      {
-      "doc_count": 8,
-      "key": "1431"
+      "doc_count": 7,
+      "key": "341"
      },
      {
-      "doc_count": 7,
+      "doc_count": 6,
       "key": "1432"
      },
      {
-      "doc_count": 7,
-      "key": "341"
+      "doc_count": 5,
+      "key": "1431"
      },
      {
       "doc_count": 2,
@@ -3522,7 +3222,7 @@
     ]
    }
   },
-  "orderIdx": 46
+  "orderIdx": 42
  },
  {
   "number": 5105000228000057,
@@ -3530,7 +3230,7 @@
   "boardCode": 3,
   "basePrice": 96600000,
   "orgName": "مدیریت اموزش و پرورش کرج .ناحیه 2",
-  "score": 87,
+  "score": 83,
   "cityName": "فردیس",
   "insertDate": null,
   "boardName": "مزایده",
@@ -3563,7 +3263,7 @@
       "key": "2"
      },
      {
-      "doc_count": 15,
+      "doc_count": 11,
       "key": "1"
      }
     ]
@@ -3579,16 +3279,16 @@
       "key": "4121"
      },
      {
-      "doc_count": 8,
-      "key": "1431"
+      "doc_count": 7,
+      "key": "341"
      },
      {
-      "doc_count": 7,
+      "doc_count": 6,
       "key": "1432"
      },
      {
-      "doc_count": 7,
-      "key": "341"
+      "doc_count": 5,
+      "key": "1431"
      },
      {
       "doc_count": 2,
@@ -3597,7 +3297,7 @@
     ]
    }
   },
-  "orderIdx": 47
+  "orderIdx": 43
  },
  {
   "number": 5105000228000064,
@@ -3605,7 +3305,7 @@
   "boardCode": 3,
   "basePrice": 151800000,
   "orgName": "مدیریت اموزش و پرورش کرج .ناحیه 2",
-  "score": 87,
+  "score": 83,
   "cityName": "فردیس",
   "insertDate": null,
   "boardName": "مزایده",
@@ -3638,7 +3338,7 @@
       "key": "2"
      },
      {
-      "doc_count": 15,
+      "doc_count": 11,
       "key": "1"
      }
     ]
@@ -3654,16 +3354,16 @@
       "key": "4121"
      },
      {
-      "doc_count": 8,
-      "key": "1431"
+      "doc_count": 7,
+      "key": "341"
      },
      {
-      "doc_count": 7,
+      "doc_count": 6,
       "key": "1432"
      },
      {
-      "doc_count": 7,
-      "key": "341"
+      "doc_count": 5,
+      "key": "1431"
      },
      {
       "doc_count": 2,
@@ -3672,7 +3372,7 @@
     ]
    }
   },
-  "orderIdx": 48
+  "orderIdx": 44
  },
  {
   "number": 5105000228000058,
@@ -3680,7 +3380,7 @@
   "boardCode": 3,
   "basePrice": 179400000,
   "orgName": "مدیریت اموزش و پرورش کرج .ناحیه 2",
-  "score": 87,
+  "score": 83,
   "cityName": "فردیس",
   "insertDate": null,
   "boardName": "مزایده",
@@ -3713,7 +3413,7 @@
       "key": "2"
      },
      {
-      "doc_count": 15,
+      "doc_count": 11,
       "key": "1"
      }
     ]
@@ -3729,16 +3429,16 @@
       "key": "4121"
      },
      {
-      "doc_count": 8,
-      "key": "1431"
+      "doc_count": 7,
+      "key": "341"
      },
      {
-      "doc_count": 7,
+      "doc_count": 6,
       "key": "1432"
      },
      {
-      "doc_count": 7,
-      "key": "341"
+      "doc_count": 5,
+      "key": "1431"
      },
      {
       "doc_count": 2,
@@ -3747,7 +3447,7 @@
     ]
    }
   },
-  "orderIdx": 49
+  "orderIdx": 45
  },
  {
   "number": 5105000228000074,
@@ -3755,7 +3455,7 @@
   "boardCode": 3,
   "basePrice": 103500000,
   "orgName": "مدیریت اموزش و پرورش کرج .ناحیه 2",
-  "score": 87,
+  "score": 83,
   "cityName": "فردیس",
   "insertDate": null,
   "boardName": "مزایده",
@@ -3788,7 +3488,7 @@
       "key": "2"
      },
      {
-      "doc_count": 15,
+      "doc_count": 11,
       "key": "1"
      }
     ]
@@ -3804,16 +3504,16 @@
       "key": "4121"
      },
      {
-      "doc_count": 8,
-      "key": "1431"
+      "doc_count": 7,
+      "key": "341"
      },
      {
-      "doc_count": 7,
+      "doc_count": 6,
       "key": "1432"
      },
      {
-      "doc_count": 7,
-      "key": "341"
+      "doc_count": 5,
+      "key": "1431"
      },
      {
       "doc_count": 2,
@@ -3822,7 +3522,7 @@
     ]
    }
   },
-  "orderIdx": 50
+  "orderIdx": 46
  },
  {
   "number": 5105000228000017,
@@ -3830,7 +3530,7 @@
   "boardCode": 3,
   "basePrice": 107640000,
   "orgName": "مدیریت اموزش و پرورش کرج .ناحیه 2",
-  "score": 87,
+  "score": 83,
   "cityName": "فردیس",
   "insertDate": null,
   "boardName": "مزایده",
@@ -3863,7 +3563,7 @@
       "key": "2"
      },
      {
-      "doc_count": 15,
+      "doc_count": 11,
       "key": "1"
      }
     ]
@@ -3879,16 +3579,16 @@
       "key": "4121"
      },
      {
-      "doc_count": 8,
-      "key": "1431"
+      "doc_count": 7,
+      "key": "341"
      },
      {
-      "doc_count": 7,
+      "doc_count": 6,
       "key": "1432"
      },
      {
-      "doc_count": 7,
-      "key": "341"
+      "doc_count": 5,
+      "key": "1431"
      },
      {
       "doc_count": 2,
@@ -3897,7 +3597,7 @@
     ]
    }
   },
-  "orderIdx": 51
+  "orderIdx": 47
  },
  {
   "number": 5105000228000027,
@@ -3905,7 +3605,7 @@
   "boardCode": 3,
   "basePrice": 138000000,
   "orgName": "مدیریت اموزش و پرورش کرج .ناحیه 2",
-  "score": 87,
+  "score": 83,
   "cityName": "فردیس",
   "insertDate": null,
   "boardName": "مزایده",
@@ -3938,7 +3638,7 @@
       "key": "2"
      },
      {
-      "doc_count": 15,
+      "doc_count": 11,
       "key": "1"
      }
     ]
@@ -3954,16 +3654,16 @@
       "key": "4121"
      },
      {
-      "doc_count": 8,
-      "key": "1431"
+      "doc_count": 7,
+      "key": "341"
      },
      {
-      "doc_count": 7,
+      "doc_count": 6,
       "key": "1432"
      },
      {
-      "doc_count": 7,
-      "key": "341"
+      "doc_count": 5,
+      "key": "1431"
      },
      {
       "doc_count": 2,
@@ -3972,7 +3672,7 @@
     ]
    }
   },
-  "orderIdx": 52
+  "orderIdx": 48
  },
  {
   "number": 5105000228000044,
@@ -3980,7 +3680,7 @@
   "boardCode": 3,
   "basePrice": 107640000,
   "orgName": "مدیریت اموزش و پرورش کرج .ناحیه 2",
-  "score": 87,
+  "score": 83,
   "cityName": "فردیس",
   "insertDate": null,
   "boardName": "مزایده",
@@ -4013,7 +3713,7 @@
       "key": "2"
      },
      {
-      "doc_count": 15,
+      "doc_count": 11,
       "key": "1"
      }
     ]
@@ -4029,16 +3729,16 @@
       "key": "4121"
      },
      {
-      "doc_count": 8,
-      "key": "1431"
+      "doc_count": 7,
+      "key": "341"
      },
      {
-      "doc_count": 7,
+      "doc_count": 6,
       "key": "1432"
      },
      {
-      "doc_count": 7,
-      "key": "341"
+      "doc_count": 5,
+      "key": "1431"
      },
      {
       "doc_count": 2,
@@ -4047,7 +3747,7 @@
     ]
    }
   },
-  "orderIdx": 53
+  "orderIdx": 49
  },
  {
   "number": 5105000228000036,
@@ -4055,7 +3755,7 @@
   "boardCode": 3,
   "basePrice": 240000000,
   "orgName": "مدیریت اموزش و پرورش کرج .ناحیه 2",
-  "score": 87,
+  "score": 83,
   "cityName": "فردیس",
   "insertDate": null,
   "boardName": "مزایده",
@@ -4088,7 +3788,7 @@
       "key": "2"
      },
      {
-      "doc_count": 15,
+      "doc_count": 11,
       "key": "1"
      }
     ]
@@ -4104,16 +3804,16 @@
       "key": "4121"
      },
      {
-      "doc_count": 8,
-      "key": "1431"
+      "doc_count": 7,
+      "key": "341"
      },
      {
-      "doc_count": 7,
+      "doc_count": 6,
       "key": "1432"
      },
      {
-      "doc_count": 7,
-      "key": "341"
+      "doc_count": 5,
+      "key": "1431"
      },
      {
       "doc_count": 2,
@@ -4122,7 +3822,7 @@
     ]
    }
   },
-  "orderIdx": 54
+  "orderIdx": 50
  },
  {
   "number": 5105000228000048,
@@ -4130,7 +3830,7 @@
   "boardCode": 3,
   "basePrice": 124200000,
   "orgName": "مدیریت اموزش و پرورش کرج .ناحیه 2",
-  "score": 87,
+  "score": 83,
   "cityName": "فردیس",
   "insertDate": null,
   "boardName": "مزایده",
@@ -4163,7 +3863,7 @@
       "key": "2"
      },
      {
-      "doc_count": 15,
+      "doc_count": 11,
       "key": "1"
      }
     ]
@@ -4179,16 +3879,16 @@
       "key": "4121"
      },
      {
-      "doc_count": 8,
-      "key": "1431"
+      "doc_count": 7,
+      "key": "341"
      },
      {
-      "doc_count": 7,
+      "doc_count": 6,
       "key": "1432"
      },
      {
-      "doc_count": 7,
-      "key": "341"
+      "doc_count": 5,
+      "key": "1431"
      },
      {
       "doc_count": 2,
@@ -4197,7 +3897,7 @@
     ]
    }
   },
-  "orderIdx": 55
+  "orderIdx": 51
  },
  {
   "number": 5105000228000054,
@@ -4205,7 +3905,7 @@
   "boardCode": 3,
   "basePrice": 138000000,
   "orgName": "مدیریت اموزش و پرورش کرج .ناحیه 2",
-  "score": 87,
+  "score": 83,
   "cityName": "فردیس",
   "insertDate": null,
   "boardName": "مزایده",
@@ -4238,7 +3938,7 @@
       "key": "2"
      },
      {
-      "doc_count": 15,
+      "doc_count": 11,
       "key": "1"
      }
     ]
@@ -4254,16 +3954,16 @@
       "key": "4121"
      },
      {
-      "doc_count": 8,
-      "key": "1431"
+      "doc_count": 7,
+      "key": "341"
      },
      {
-      "doc_count": 7,
+      "doc_count": 6,
       "key": "1432"
      },
      {
-      "doc_count": 7,
-      "key": "341"
+      "doc_count": 5,
+      "key": "1431"
      },
      {
       "doc_count": 2,
@@ -4272,7 +3972,7 @@
     ]
    }
   },
-  "orderIdx": 56
+  "orderIdx": 52
  },
  {
   "number": 5105000228000065,
@@ -4280,7 +3980,7 @@
   "boardCode": 3,
   "basePrice": 110400000,
   "orgName": "مدیریت اموزش و پرورش کرج .ناحیه 2",
-  "score": 87,
+  "score": 83,
   "cityName": "فردیس",
   "insertDate": null,
   "boardName": "مزایده",
@@ -4313,7 +4013,7 @@
       "key": "2"
      },
      {
-      "doc_count": 15,
+      "doc_count": 11,
       "key": "1"
      }
     ]
@@ -4329,16 +4029,16 @@
       "key": "4121"
      },
      {
-      "doc_count": 8,
-      "key": "1431"
+      "doc_count": 7,
+      "key": "341"
      },
      {
-      "doc_count": 7,
+      "doc_count": 6,
       "key": "1432"
      },
      {
-      "doc_count": 7,
-      "key": "341"
+      "doc_count": 5,
+      "key": "1431"
      },
      {
       "doc_count": 2,
@@ -4347,7 +4047,7 @@
     ]
    }
   },
-  "orderIdx": 57
+  "orderIdx": 53
  },
  {
   "number": 5105000228000059,
@@ -4355,7 +4055,7 @@
   "boardCode": 3,
   "basePrice": 179400000,
   "orgName": "مدیریت اموزش و پرورش کرج .ناحیه 2",
-  "score": 87,
+  "score": 83,
   "cityName": "فردیس",
   "insertDate": null,
   "boardName": "مزایده",
@@ -4388,7 +4088,7 @@
       "key": "2"
      },
      {
-      "doc_count": 15,
+      "doc_count": 11,
       "key": "1"
      }
     ]
@@ -4404,16 +4104,16 @@
       "key": "4121"
      },
      {
-      "doc_count": 8,
-      "key": "1431"
+      "doc_count": 7,
+      "key": "341"
      },
      {
-      "doc_count": 7,
+      "doc_count": 6,
       "key": "1432"
      },
      {
-      "doc_count": 7,
-      "key": "341"
+      "doc_count": 5,
+      "key": "1431"
      },
      {
       "doc_count": 2,
@@ -4422,7 +4122,7 @@
     ]
    }
   },
-  "orderIdx": 58
+  "orderIdx": 54
  },
  {
   "number": 5105000228000018,
@@ -4430,7 +4130,7 @@
   "boardCode": 3,
   "basePrice": 156000000,
   "orgName": "مدیریت اموزش و پرورش کرج .ناحیه 2",
-  "score": 87,
+  "score": 83,
   "cityName": "فردیس",
   "insertDate": null,
   "boardName": "مزایده",
@@ -4463,7 +4163,7 @@
       "key": "2"
      },
      {
-      "doc_count": 15,
+      "doc_count": 11,
       "key": "1"
      }
     ]
@@ -4479,16 +4179,16 @@
       "key": "4121"
      },
      {
-      "doc_count": 8,
-      "key": "1431"
+      "doc_count": 7,
+      "key": "341"
      },
      {
-      "doc_count": 7,
+      "doc_count": 6,
       "key": "1432"
      },
      {
-      "doc_count": 7,
-      "key": "341"
+      "doc_count": 5,
+      "key": "1431"
      },
      {
       "doc_count": 2,
@@ -4497,7 +4197,7 @@
     ]
    }
   },
-  "orderIdx": 59
+  "orderIdx": 55
  },
  {
   "number": 5105000228000022,
@@ -4505,7 +4205,7 @@
   "boardCode": 3,
   "basePrice": 138000000,
   "orgName": "مدیریت اموزش و پرورش کرج .ناحیه 2",
-  "score": 87,
+  "score": 83,
   "cityName": "فردیس",
   "insertDate": null,
   "boardName": "مزایده",
@@ -4538,7 +4238,7 @@
       "key": "2"
      },
      {
-      "doc_count": 15,
+      "doc_count": 11,
       "key": "1"
      }
     ]
@@ -4554,16 +4254,16 @@
       "key": "4121"
      },
      {
-      "doc_count": 8,
-      "key": "1431"
+      "doc_count": 7,
+      "key": "341"
      },
      {
-      "doc_count": 7,
+      "doc_count": 6,
       "key": "1432"
      },
      {
-      "doc_count": 7,
-      "key": "341"
+      "doc_count": 5,
+      "key": "1431"
      },
      {
       "doc_count": 2,
@@ -4572,7 +4272,7 @@
     ]
    }
   },
-  "orderIdx": 60
+  "orderIdx": 56
  },
  {
   "number": 5105000228000028,
@@ -4580,7 +4280,7 @@
   "boardCode": 3,
   "basePrice": 131100000,
   "orgName": "مدیریت اموزش و پرورش کرج .ناحیه 2",
-  "score": 87,
+  "score": 83,
   "cityName": "فردیس",
   "insertDate": null,
   "boardName": "مزایده",
@@ -4613,7 +4313,7 @@
       "key": "2"
      },
      {
-      "doc_count": 15,
+      "doc_count": 11,
       "key": "1"
      }
     ]
@@ -4629,16 +4329,16 @@
       "key": "4121"
      },
      {
-      "doc_count": 8,
-      "key": "1431"
+      "doc_count": 7,
+      "key": "341"
      },
      {
-      "doc_count": 7,
+      "doc_count": 6,
       "key": "1432"
      },
      {
-      "doc_count": 7,
-      "key": "341"
+      "doc_count": 5,
+      "key": "1431"
      },
      {
       "doc_count": 2,
@@ -4647,7 +4347,7 @@
     ]
    }
   },
-  "orderIdx": 61
+  "orderIdx": 57
  },
  {
   "number": 5105000228000032,
@@ -4655,7 +4355,7 @@
   "boardCode": 3,
   "basePrice": 144000000,
   "orgName": "مدیریت اموزش و پرورش کرج .ناحیه 2",
-  "score": 87,
+  "score": 83,
   "cityName": "فردیس",
   "insertDate": null,
   "boardName": "مزایده",
@@ -4688,7 +4388,7 @@
       "key": "2"
      },
      {
-      "doc_count": 15,
+      "doc_count": 11,
       "key": "1"
      }
     ]
@@ -4704,16 +4404,16 @@
       "key": "4121"
      },
      {
-      "doc_count": 8,
-      "key": "1431"
+      "doc_count": 7,
+      "key": "341"
      },
      {
-      "doc_count": 7,
+      "doc_count": 6,
       "key": "1432"
      },
      {
-      "doc_count": 7,
-      "key": "341"
+      "doc_count": 5,
+      "key": "1431"
      },
      {
       "doc_count": 2,
@@ -4722,7 +4422,7 @@
     ]
    }
   },
-  "orderIdx": 62
+  "orderIdx": 58
  },
  {
   "number": 5105000228000034,
@@ -4730,7 +4430,7 @@
   "boardCode": 3,
   "basePrice": 131100000,
   "orgName": "مدیریت اموزش و پرورش کرج .ناحیه 2",
-  "score": 87,
+  "score": 83,
   "cityName": "فردیس",
   "insertDate": null,
   "boardName": "مزایده",
@@ -4763,7 +4463,7 @@
       "key": "2"
      },
      {
-      "doc_count": 15,
+      "doc_count": 11,
       "key": "1"
      }
     ]
@@ -4779,16 +4479,16 @@
       "key": "4121"
      },
      {
-      "doc_count": 8,
-      "key": "1431"
+      "doc_count": 7,
+      "key": "341"
      },
      {
-      "doc_count": 7,
+      "doc_count": 6,
       "key": "1432"
      },
      {
-      "doc_count": 7,
-      "key": "341"
+      "doc_count": 5,
+      "key": "1431"
      },
      {
       "doc_count": 2,
@@ -4797,7 +4497,7 @@
     ]
    }
   },
-  "orderIdx": 63
+  "orderIdx": 59
  },
  {
   "number": 5105000228000042,
@@ -4805,7 +4505,7 @@
   "boardCode": 3,
   "basePrice": 345000000,
   "orgName": "مدیریت اموزش و پرورش کرج .ناحیه 2",
-  "score": 87,
+  "score": 83,
   "cityName": "فردیس",
   "insertDate": null,
   "boardName": "مزایده",
@@ -4838,7 +4538,7 @@
       "key": "2"
      },
      {
-      "doc_count": 15,
+      "doc_count": 11,
       "key": "1"
      }
     ]
@@ -4854,16 +4554,16 @@
       "key": "4121"
      },
      {
-      "doc_count": 8,
-      "key": "1431"
+      "doc_count": 7,
+      "key": "341"
      },
      {
-      "doc_count": 7,
+      "doc_count": 6,
       "key": "1432"
      },
      {
-      "doc_count": 7,
-      "key": "341"
+      "doc_count": 5,
+      "key": "1431"
      },
      {
       "doc_count": 2,
@@ -4872,7 +4572,7 @@
     ]
    }
   },
-  "orderIdx": 64
+  "orderIdx": 60
  },
  {
   "number": 5105000228000043,
@@ -4880,7 +4580,7 @@
   "boardCode": 3,
   "basePrice": 345000000,
   "orgName": "مدیریت اموزش و پرورش کرج .ناحیه 2",
-  "score": 87,
+  "score": 83,
   "cityName": "فردیس",
   "insertDate": null,
   "boardName": "مزایده",
@@ -4913,7 +4613,7 @@
       "key": "2"
      },
      {
-      "doc_count": 15,
+      "doc_count": 11,
       "key": "1"
      }
     ]
@@ -4929,16 +4629,16 @@
       "key": "4121"
      },
      {
-      "doc_count": 8,
-      "key": "1431"
+      "doc_count": 7,
+      "key": "341"
      },
      {
-      "doc_count": 7,
+      "doc_count": 6,
       "key": "1432"
      },
      {
-      "doc_count": 7,
-      "key": "341"
+      "doc_count": 5,
+      "key": "1431"
      },
      {
       "doc_count": 2,
@@ -4947,7 +4647,7 @@
     ]
    }
   },
-  "orderIdx": 65
+  "orderIdx": 61
  },
  {
   "number": 5105000228000045,
@@ -4955,7 +4655,7 @@
   "boardCode": 3,
   "basePrice": 82800000,
   "orgName": "مدیریت اموزش و پرورش کرج .ناحیه 2",
-  "score": 87,
+  "score": 83,
   "cityName": "فردیس",
   "insertDate": null,
   "boardName": "مزایده",
@@ -4988,7 +4688,7 @@
       "key": "2"
      },
      {
-      "doc_count": 15,
+      "doc_count": 11,
       "key": "1"
      }
     ]
@@ -5004,16 +4704,16 @@
       "key": "4121"
      },
      {
-      "doc_count": 8,
-      "key": "1431"
+      "doc_count": 7,
+      "key": "341"
      },
      {
-      "doc_count": 7,
+      "doc_count": 6,
       "key": "1432"
      },
      {
-      "doc_count": 7,
-      "key": "341"
+      "doc_count": 5,
+      "key": "1431"
      },
      {
       "doc_count": 2,
@@ -5022,7 +4722,7 @@
     ]
    }
   },
-  "orderIdx": 66
+  "orderIdx": 62
  },
  {
   "number": 5105000228000047,
@@ -5030,7 +4730,7 @@
   "boardCode": 3,
   "basePrice": 138000000,
   "orgName": "مدیریت اموزش و پرورش کرج .ناحیه 2",
-  "score": 87,
+  "score": 83,
   "cityName": "فردیس",
   "insertDate": null,
   "boardName": "مزایده",
@@ -5063,7 +4763,7 @@
       "key": "2"
      },
      {
-      "doc_count": 15,
+      "doc_count": 11,
       "key": "1"
      }
     ]
@@ -5079,16 +4779,16 @@
       "key": "4121"
      },
      {
-      "doc_count": 8,
-      "key": "1431"
+      "doc_count": 7,
+      "key": "341"
      },
      {
-      "doc_count": 7,
+      "doc_count": 6,
       "key": "1432"
      },
      {
-      "doc_count": 7,
-      "key": "341"
+      "doc_count": 5,
+      "key": "1431"
      },
      {
       "doc_count": 2,
@@ -5097,7 +4797,7 @@
     ]
    }
   },
-  "orderIdx": 67
+  "orderIdx": 63
  },
  {
   "number": 5105000228000049,
@@ -5105,7 +4805,7 @@
   "boardCode": 3,
   "basePrice": 110400000,
   "orgName": "مدیریت اموزش و پرورش کرج .ناحیه 2",
-  "score": 87,
+  "score": 83,
   "cityName": "فردیس",
   "insertDate": null,
   "boardName": "مزایده",
@@ -5138,7 +4838,7 @@
       "key": "2"
      },
      {
-      "doc_count": 15,
+      "doc_count": 11,
       "key": "1"
      }
     ]
@@ -5154,16 +4854,16 @@
       "key": "4121"
      },
      {
-      "doc_count": 8,
-      "key": "1431"
+      "doc_count": 7,
+      "key": "341"
      },
      {
-      "doc_count": 7,
+      "doc_count": 6,
       "key": "1432"
      },
      {
-      "doc_count": 7,
-      "key": "341"
+      "doc_count": 5,
+      "key": "1431"
      },
      {
       "doc_count": 2,
@@ -5172,7 +4872,7 @@
     ]
    }
   },
-  "orderIdx": 68
+  "orderIdx": 64
  },
  {
   "number": 5105000228000055,
@@ -5180,7 +4880,7 @@
   "boardCode": 3,
   "basePrice": 103500000,
   "orgName": "مدیریت اموزش و پرورش کرج .ناحیه 2",
-  "score": 87,
+  "score": 83,
   "cityName": "فردیس",
   "insertDate": null,
   "boardName": "مزایده",
@@ -5213,7 +4913,7 @@
       "key": "2"
      },
      {
-      "doc_count": 15,
+      "doc_count": 11,
       "key": "1"
      }
     ]
@@ -5229,16 +4929,16 @@
       "key": "4121"
      },
      {
-      "doc_count": 8,
-      "key": "1431"
+      "doc_count": 7,
+      "key": "341"
      },
      {
-      "doc_count": 7,
+      "doc_count": 6,
       "key": "1432"
      },
      {
-      "doc_count": 7,
-      "key": "341"
+      "doc_count": 5,
+      "key": "1431"
      },
      {
       "doc_count": 2,
@@ -5247,7 +4947,7 @@
     ]
    }
   },
-  "orderIdx": 69
+  "orderIdx": 65
  },
  {
   "number": 5105000228000061,
@@ -5255,7 +4955,7 @@
   "boardCode": 3,
   "basePrice": 144000000,
   "orgName": "مدیریت اموزش و پرورش کرج .ناحیه 2",
-  "score": 87,
+  "score": 83,
   "cityName": "فردیس",
   "insertDate": null,
   "boardName": "مزایده",
@@ -5288,7 +4988,7 @@
       "key": "2"
      },
      {
-      "doc_count": 15,
+      "doc_count": 11,
       "key": "1"
      }
     ]
@@ -5304,16 +5004,16 @@
       "key": "4121"
      },
      {
-      "doc_count": 8,
-      "key": "1431"
+      "doc_count": 7,
+      "key": "341"
      },
      {
-      "doc_count": 7,
+      "doc_count": 6,
       "key": "1432"
      },
      {
-      "doc_count": 7,
-      "key": "341"
+      "doc_count": 5,
+      "key": "1431"
      },
      {
       "doc_count": 2,
@@ -5322,7 +5022,7 @@
     ]
    }
   },
-  "orderIdx": 70
+  "orderIdx": 66
  },
  {
   "number": 5105000228000062,
@@ -5330,7 +5030,7 @@
   "boardCode": 3,
   "basePrice": 165600000,
   "orgName": "مدیریت اموزش و پرورش کرج .ناحیه 2",
-  "score": 87,
+  "score": 83,
   "cityName": "فردیس",
   "insertDate": null,
   "boardName": "مزایده",
@@ -5363,7 +5063,7 @@
       "key": "2"
      },
      {
-      "doc_count": 15,
+      "doc_count": 11,
       "key": "1"
      }
     ]
@@ -5379,16 +5079,16 @@
       "key": "4121"
      },
      {
-      "doc_count": 8,
-      "key": "1431"
+      "doc_count": 7,
+      "key": "341"
      },
      {
-      "doc_count": 7,
+      "doc_count": 6,
       "key": "1432"
      },
      {
-      "doc_count": 7,
-      "key": "341"
+      "doc_count": 5,
+      "key": "1431"
      },
      {
       "doc_count": 2,
@@ -5397,7 +5097,7 @@
     ]
    }
   },
-  "orderIdx": 71
+  "orderIdx": 67
  },
  {
   "number": 5105000228000063,
@@ -5405,7 +5105,7 @@
   "boardCode": 3,
   "basePrice": 151800000,
   "orgName": "مدیریت اموزش و پرورش کرج .ناحیه 2",
-  "score": 87,
+  "score": 83,
   "cityName": "فردیس",
   "insertDate": null,
   "boardName": "مزایده",
@@ -5438,7 +5138,7 @@
       "key": "2"
      },
      {
-      "doc_count": 15,
+      "doc_count": 11,
       "key": "1"
      }
     ]
@@ -5454,16 +5154,16 @@
       "key": "4121"
      },
      {
-      "doc_count": 8,
-      "key": "1431"
+      "doc_count": 7,
+      "key": "341"
      },
      {
-      "doc_count": 7,
+      "doc_count": 6,
       "key": "1432"
      },
      {
-      "doc_count": 7,
-      "key": "341"
+      "doc_count": 5,
+      "key": "1431"
      },
      {
       "doc_count": 2,
@@ -5472,7 +5172,7 @@
     ]
    }
   },
-  "orderIdx": 72
+  "orderIdx": 68
  },
  {
   "number": 5105000228000066,
@@ -5480,7 +5180,7 @@
   "boardCode": 3,
   "basePrice": 110400000,
   "orgName": "مدیریت اموزش و پرورش کرج .ناحیه 2",
-  "score": 87,
+  "score": 83,
   "cityName": "فردیس",
   "insertDate": null,
   "boardName": "مزایده",
@@ -5513,7 +5213,7 @@
       "key": "2"
      },
      {
-      "doc_count": 15,
+      "doc_count": 11,
       "key": "1"
      }
     ]
@@ -5529,16 +5229,16 @@
       "key": "4121"
      },
      {
-      "doc_count": 8,
-      "key": "1431"
+      "doc_count": 7,
+      "key": "341"
      },
      {
-      "doc_count": 7,
+      "doc_count": 6,
       "key": "1432"
      },
      {
-      "doc_count": 7,
-      "key": "341"
+      "doc_count": 5,
+      "key": "1431"
      },
      {
       "doc_count": 2,
@@ -5547,7 +5247,7 @@
     ]
    }
   },
-  "orderIdx": 73
+  "orderIdx": 69
  },
  {
   "number": 5105000228000067,
@@ -5555,7 +5255,7 @@
   "boardCode": 3,
   "basePrice": 82800000,
   "orgName": "مدیریت اموزش و پرورش کرج .ناحیه 2",
-  "score": 87,
+  "score": 83,
   "cityName": "فردیس",
   "insertDate": null,
   "boardName": "مزایده",
@@ -5588,7 +5288,7 @@
       "key": "2"
      },
      {
-      "doc_count": 15,
+      "doc_count": 11,
       "key": "1"
      }
     ]
@@ -5604,16 +5304,16 @@
       "key": "4121"
      },
      {
-      "doc_count": 8,
-      "key": "1431"
+      "doc_count": 7,
+      "key": "341"
      },
      {
-      "doc_count": 7,
+      "doc_count": 6,
       "key": "1432"
      },
      {
-      "doc_count": 7,
-      "key": "341"
+      "doc_count": 5,
+      "key": "1431"
      },
      {
       "doc_count": 2,
@@ -5622,7 +5322,7 @@
     ]
    }
   },
-  "orderIdx": 74
+  "orderIdx": 70
  },
  {
   "number": 5105000228000060,
@@ -5630,7 +5330,7 @@
   "boardCode": 3,
   "basePrice": 144000000,
   "orgName": "مدیریت اموزش و پرورش کرج .ناحیه 2",
-  "score": 87,
+  "score": 83,
   "cityName": "فردیس",
   "insertDate": null,
   "boardName": "مزایده",
@@ -5663,7 +5363,7 @@
       "key": "2"
      },
      {
-      "doc_count": 15,
+      "doc_count": 11,
       "key": "1"
      }
     ]
@@ -5679,16 +5379,16 @@
       "key": "4121"
      },
      {
-      "doc_count": 8,
-      "key": "1431"
+      "doc_count": 7,
+      "key": "341"
      },
      {
-      "doc_count": 7,
+      "doc_count": 6,
       "key": "1432"
      },
      {
-      "doc_count": 7,
-      "key": "341"
+      "doc_count": 5,
+      "key": "1431"
      },
      {
       "doc_count": 2,
@@ -5697,7 +5397,7 @@
     ]
    }
   },
-  "orderIdx": 75
+  "orderIdx": 71
  },
  {
   "number": 5105000228000070,
@@ -5705,7 +5405,7 @@
   "boardCode": 3,
   "basePrice": 89700000,
   "orgName": "مدیریت اموزش و پرورش کرج .ناحیه 2",
-  "score": 87,
+  "score": 83,
   "cityName": "فردیس",
   "insertDate": null,
   "boardName": "مزایده",
@@ -5738,7 +5438,7 @@
       "key": "2"
      },
      {
-      "doc_count": 15,
+      "doc_count": 11,
       "key": "1"
      }
     ]
@@ -5754,16 +5454,16 @@
       "key": "4121"
      },
      {
-      "doc_count": 8,
-      "key": "1431"
+      "doc_count": 7,
+      "key": "341"
      },
      {
-      "doc_count": 7,
+      "doc_count": 6,
       "key": "1432"
      },
      {
-      "doc_count": 7,
-      "key": "341"
+      "doc_count": 5,
+      "key": "1431"
      },
      {
       "doc_count": 2,
@@ -5772,7 +5472,7 @@
     ]
    }
   },
-  "orderIdx": 76
+  "orderIdx": 72
  },
  {
   "number": 5105000228000075,
@@ -5780,7 +5480,7 @@
   "boardCode": 3,
   "basePrice": 120000000,
   "orgName": "مدیریت اموزش و پرورش کرج .ناحیه 2",
-  "score": 87,
+  "score": 83,
   "cityName": "فردیس",
   "insertDate": null,
   "boardName": "مزایده",
@@ -5813,7 +5513,7 @@
       "key": "2"
      },
      {
-      "doc_count": 15,
+      "doc_count": 11,
       "key": "1"
      }
     ]
@@ -5829,16 +5529,16 @@
       "key": "4121"
      },
      {
-      "doc_count": 8,
-      "key": "1431"
+      "doc_count": 7,
+      "key": "341"
      },
      {
-      "doc_count": 7,
+      "doc_count": 6,
       "key": "1432"
      },
      {
-      "doc_count": 7,
-      "key": "341"
+      "doc_count": 5,
+      "key": "1431"
      },
      {
       "doc_count": 2,
@@ -5847,7 +5547,7 @@
     ]
    }
   },
-  "orderIdx": 77
+  "orderIdx": 73
  },
  {
   "number": 5105000228000071,
@@ -5855,7 +5555,7 @@
   "boardCode": 3,
   "basePrice": 131100000,
   "orgName": "مدیریت اموزش و پرورش کرج .ناحیه 2",
-  "score": 87,
+  "score": 83,
   "cityName": "فردیس",
   "insertDate": null,
   "boardName": "مزایده",
@@ -5888,7 +5588,7 @@
       "key": "2"
      },
      {
-      "doc_count": 15,
+      "doc_count": 11,
       "key": "1"
      }
     ]
@@ -5904,16 +5604,16 @@
       "key": "4121"
      },
      {
-      "doc_count": 8,
-      "key": "1431"
+      "doc_count": 7,
+      "key": "341"
      },
      {
-      "doc_count": 7,
+      "doc_count": 6,
       "key": "1432"
      },
      {
-      "doc_count": 7,
-      "key": "341"
+      "doc_count": 5,
+      "key": "1431"
      },
      {
       "doc_count": 2,
@@ -5922,7 +5622,7 @@
     ]
    }
   },
-  "orderIdx": 78
+  "orderIdx": 74
  },
  {
   "number": 5105000228000072,
@@ -5930,7 +5630,7 @@
   "boardCode": 3,
   "basePrice": 96600000,
   "orgName": "مدیریت اموزش و پرورش کرج .ناحیه 2",
-  "score": 87,
+  "score": 83,
   "cityName": "فردیس",
   "insertDate": null,
   "boardName": "مزایده",
@@ -5963,7 +5663,7 @@
       "key": "2"
      },
      {
-      "doc_count": 15,
+      "doc_count": 11,
       "key": "1"
      }
     ]
@@ -5979,16 +5679,16 @@
       "key": "4121"
      },
      {
-      "doc_count": 8,
-      "key": "1431"
+      "doc_count": 7,
+      "key": "341"
      },
      {
-      "doc_count": 7,
+      "doc_count": 6,
       "key": "1432"
      },
      {
-      "doc_count": 7,
-      "key": "341"
+      "doc_count": 5,
+      "key": "1431"
      },
      {
       "doc_count": 2,
@@ -5997,7 +5697,7 @@
     ]
    }
   },
-  "orderIdx": 79
+  "orderIdx": 75
  },
  {
   "number": 5105000228000073,
@@ -6005,7 +5705,7 @@
   "boardCode": 3,
   "basePrice": 103500000,
   "orgName": "مدیریت اموزش و پرورش کرج .ناحیه 2",
-  "score": 87,
+  "score": 83,
   "cityName": "فردیس",
   "insertDate": null,
   "boardName": "مزایده",
@@ -6038,7 +5738,7 @@
       "key": "2"
      },
      {
-      "doc_count": 15,
+      "doc_count": 11,
       "key": "1"
      }
     ]
@@ -6054,16 +5754,16 @@
       "key": "4121"
      },
      {
-      "doc_count": 8,
-      "key": "1431"
+      "doc_count": 7,
+      "key": "341"
      },
      {
-      "doc_count": 7,
+      "doc_count": 6,
       "key": "1432"
      },
      {
-      "doc_count": 7,
-      "key": "341"
+      "doc_count": 5,
+      "key": "1431"
      },
      {
       "doc_count": 2,
@@ -6072,7 +5772,7 @@
     ]
    }
   },
-  "orderIdx": 80
+  "orderIdx": 76
  },
  {
   "number": 2005050288000062,
@@ -6080,7 +5780,7 @@
   "boardCode": 2,
   "basePrice": null,
   "orgName": "شهرداری فردیس استان البرز",
-  "score": 87,
+  "score": 83,
   "cityName": "فردیس",
   "insertDate": null,
   "boardName": "مناقصه",
@@ -6113,7 +5813,7 @@
       "key": "2"
      },
      {
-      "doc_count": 15,
+      "doc_count": 11,
       "key": "1"
      }
     ]
@@ -6129,16 +5829,16 @@
       "key": "4121"
      },
      {
-      "doc_count": 8,
-      "key": "1431"
+      "doc_count": 7,
+      "key": "341"
      },
      {
-      "doc_count": 7,
+      "doc_count": 6,
       "key": "1432"
      },
      {
-      "doc_count": 7,
-      "key": "341"
+      "doc_count": 5,
+      "key": "1431"
      },
      {
       "doc_count": 2,
@@ -6147,7 +5847,7 @@
     ]
    }
   },
-  "orderIdx": 81
+  "orderIdx": 77
  },
  {
   "number": 2005050288000061,
@@ -6155,7 +5855,7 @@
   "boardCode": 2,
   "basePrice": null,
   "orgName": "شهرداری فردیس استان البرز",
-  "score": 87,
+  "score": 83,
   "cityName": "فردیس",
   "insertDate": null,
   "boardName": "مناقصه",
@@ -6188,7 +5888,7 @@
       "key": "2"
      },
      {
-      "doc_count": 15,
+      "doc_count": 11,
       "key": "1"
      }
     ]
@@ -6204,16 +5904,16 @@
       "key": "4121"
      },
      {
-      "doc_count": 8,
-      "key": "1431"
+      "doc_count": 7,
+      "key": "341"
      },
      {
-      "doc_count": 7,
+      "doc_count": 6,
       "key": "1432"
      },
      {
-      "doc_count": 7,
-      "key": "341"
+      "doc_count": 5,
+      "key": "1431"
      },
      {
       "doc_count": 2,
@@ -6222,7 +5922,7 @@
     ]
    }
   },
-  "orderIdx": 82
+  "orderIdx": 78
  },
  {
   "number": 2005050288000059,
@@ -6230,7 +5930,7 @@
   "boardCode": 2,
   "basePrice": null,
   "orgName": "شهرداری فردیس استان البرز",
-  "score": 87,
+  "score": 83,
   "cityName": "فردیس",
   "insertDate": null,
   "boardName": "مناقصه",
@@ -6263,7 +5963,7 @@
       "key": "2"
      },
      {
-      "doc_count": 15,
+      "doc_count": 11,
       "key": "1"
      }
     ]
@@ -6279,16 +5979,16 @@
       "key": "4121"
      },
      {
-      "doc_count": 8,
-      "key": "1431"
+      "doc_count": 7,
+      "key": "341"
      },
      {
-      "doc_count": 7,
+      "doc_count": 6,
       "key": "1432"
      },
      {
-      "doc_count": 7,
-      "key": "341"
+      "doc_count": 5,
+      "key": "1431"
      },
      {
       "doc_count": 2,
@@ -6297,7 +5997,7 @@
     ]
    }
   },
-  "orderIdx": 83
+  "orderIdx": 79
  },
  {
   "number": 2005050288000058,
@@ -6305,7 +6005,7 @@
   "boardCode": 2,
   "basePrice": null,
   "orgName": "شهرداری فردیس استان البرز",
-  "score": 87,
+  "score": 83,
   "cityName": "فردیس",
   "insertDate": null,
   "boardName": "مناقصه",
@@ -6338,7 +6038,7 @@
       "key": "2"
      },
      {
-      "doc_count": 15,
+      "doc_count": 11,
       "key": "1"
      }
     ]
@@ -6354,16 +6054,16 @@
       "key": "4121"
      },
      {
-      "doc_count": 8,
-      "key": "1431"
+      "doc_count": 7,
+      "key": "341"
      },
      {
-      "doc_count": 7,
+      "doc_count": 6,
       "key": "1432"
      },
      {
-      "doc_count": 7,
-      "key": "341"
+      "doc_count": 5,
+      "key": "1431"
      },
      {
       "doc_count": 2,
@@ -6372,7 +6072,7 @@
     ]
    }
   },
-  "orderIdx": 84
+  "orderIdx": 80
  },
  {
   "number": 2005050288000060,
@@ -6380,7 +6080,7 @@
   "boardCode": 2,
   "basePrice": null,
   "orgName": "شهرداری فردیس استان البرز",
-  "score": 87,
+  "score": 83,
   "cityName": "فردیس",
   "insertDate": null,
   "boardName": "مناقصه",
@@ -6413,7 +6113,7 @@
       "key": "2"
      },
      {
-      "doc_count": 15,
+      "doc_count": 11,
       "key": "1"
      }
     ]
@@ -6429,16 +6129,16 @@
       "key": "4121"
      },
      {
-      "doc_count": 8,
-      "key": "1431"
+      "doc_count": 7,
+      "key": "341"
      },
      {
-      "doc_count": 7,
+      "doc_count": 6,
       "key": "1432"
      },
      {
-      "doc_count": 7,
-      "key": "341"
+      "doc_count": 5,
+      "key": "1431"
      },
      {
       "doc_count": 2,
@@ -6447,7 +6147,7 @@
     ]
    }
   },
-  "orderIdx": 85
+  "orderIdx": 81
  },
  {
   "number": 2005005186000094,
@@ -6455,7 +6155,7 @@
   "boardCode": 2,
   "basePrice": null,
   "orgName": "شرکت آب و فاضلاب استان البرز",
-  "score": 87,
+  "score": 83,
   "cityName": "فردیس",
   "insertDate": null,
   "boardName": "مناقصه",
@@ -6488,7 +6188,7 @@
       "key": "2"
      },
      {
-      "doc_count": 15,
+      "doc_count": 11,
       "key": "1"
      }
     ]
@@ -6504,16 +6204,16 @@
       "key": "4121"
      },
      {
-      "doc_count": 8,
-      "key": "1431"
+      "doc_count": 7,
+      "key": "341"
      },
      {
-      "doc_count": 7,
+      "doc_count": 6,
       "key": "1432"
      },
      {
-      "doc_count": 7,
-      "key": "341"
+      "doc_count": 5,
+      "key": "1431"
      },
      {
       "doc_count": 2,
@@ -6522,6 +6222,6 @@
     ]
    }
   },
-  "orderIdx": 86
+  "orderIdx": 82
  }
 ]

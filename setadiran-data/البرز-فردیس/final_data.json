@@ -1,5 +1,95 @@
 [
  {
+  "board": "خرید",
+  "number": 1105003062000161,
+  "title": "نیاز کالا-خرید، تأمین، حمل، تخلیه، نصب، راه‌اندازی، برنامه‌ریزی، تنظیم، کالیبراسیون، تست، آموزش و تحویل ۷ دستگاه استند دیجیتال طبق شرایط پیوست",
+  "org": "سازمان سنجش و اموزش کشور",
+  "province": "البرز",
+  "city": "فردیس",
+  "sendDeadline": "1405/06/18 - 12:00",
+  "docDeadline": null,
+  "basePrice": null,
+  "tableId": "5338568",
+  "reqId": "7427928",
+  "needType": "1431",
+  "orderIdx": 0
+ },
+ {
+  "board": "خرید",
+  "number": 1105000351000560,
+  "title": "نیاز خدمات-قرارداد تاسیسات نگهداری پشتیبانی",
+  "org": "شبکه بهداشت و درمان فردیس",
+  "province": "البرز",
+  "city": "فردیس",
+  "sendDeadline": "1405/06/21 - 10:00",
+  "docDeadline": null,
+  "basePrice": null,
+  "tableId": "5338296",
+  "reqId": "7427540",
+  "needType": "1432",
+  "orderIdx": 1,
+  "purchase": {
+   "items": [
+    {
+     "code": "ژ-82-821",
+     "name": "فعالیت‌های  اداره و پشتیبانی دفتر کار",
+     "unit": "دستگاه",
+     "qty": "1",
+     "date": "1405/06/21"
+    }
+   ],
+   "buyerNotes": "تمامی موارد پیوست ضمیمه گردد",
+   "desc": "قرارداد تاسیسات نگهداری پشتیبانی",
+   "kind": "خدمت"
+  },
+  "url": "https://eproc.setadiran.ir/eproc/purchaseNeedViewBoardIntegration.do?method=showNeedDetailInfo&requestId=7427540"
+ },
+ {
+  "board": "خرید",
+  "number": 1105005186000282,
+  "title": "نیاز خدمات-بهره برداری از کلیه تاسیسات منابع تولید، سامانه های گندزدایی و تاسیسات برقی در محدوده شهری و روستایی امورهای آب و فاضلاب فردیس و مشکین دشت",
+  "org": "شرکت آب و فاضلاب استان البرز",
+  "province": "البرز",
+  "city": "فردیس",
+  "sendDeadline": "1405/06/18 - 12:30",
+  "docDeadline": null,
+  "basePrice": null,
+  "tableId": "5337996",
+  "reqId": "7427097",
+  "needType": "1432",
+  "orderIdx": 2,
+  "purchase": {
+   "items": [
+    {
+     "code": "ث-36-360",
+     "name": "جمع آوری، تصیفه و تامین آب",
+     "unit": "مورد",
+     "qty": "1",
+     "date": "1405/07/30"
+    }
+   ],
+   "buyerNotes": "",
+   "desc": "بهره برداری از کلیه تاسیسات منابع تولید، سامانه های گندزدایی و تاسیسات برقی در محدوده شهری و روستایی امورهای آب و فاضلاب فردیس و مشکین دشت",
+   "kind": "خدمت"
+  },
+  "url": "https://eproc.setadiran.ir/eproc/purchaseNeedViewBoardIntegration.do?method=showNeedDetailInfo&requestId=7427097"
+ },
+ {
+  "board": "خرید",
+  "number": 1105003062000160,
+  "title": "نیاز کالا-1- لاستیک فوتک پرفکت (یک پله)500 عدد 2- لاستیک فوتک قرمز تختmm 0.8*13*32 به تعداد 1000 عدد",
+  "org": "سازمان سنجش و اموزش کشور",
+  "province": "البرز",
+  "city": "فردیس",
+  "sendDeadline": "1405/06/17 - 14:00",
+  "docDeadline": null,
+  "basePrice": null,
+  "tableId": "5336692",
+  "reqId": "7425083",
+  "needType": "1431",
+  "orderIdx": 3
+ },
+ {
   "board": "مزایده",
   "number": 3105108818000069,
   "title": "حراج فروش پلاک ثبتی به شماره 49602 فرعی از 162 اصلی",
@@ -12,7 +102,7 @@
   "tableId": "501835",
   "reqId": null,
   "needType": null,
-  "orderIdx": 0
+  "orderIdx": 4
  },
  {
   "board": "مزایده",
@@ -27,7 +117,7 @@
   "tableId": "501709",
   "reqId": null,
   "needType": null,
-  "orderIdx": 1
+  "orderIdx": 5
  },
  {
   "board": "مناقصه",
@@ -42,7 +132,7 @@
   "tableId": "664261",
   "reqId": null,
   "needType": null,
-  "orderIdx": 2,
+  "orderIdx": 6,
   "tender": {
    "subject": "خدمات با فهرست بها",
    "setupType": "یک مرحله ای",
@@ -79,7 +169,7 @@
   "tableId": "664300",
   "reqId": null,
   "needType": null,
-  "orderIdx": 3,
+  "orderIdx": 7,
   "tender": {
    "subject": "خدمات با فهرست بها",
    "setupType": "یک مرحله ای",
@@ -116,7 +206,7 @@
   "tableId": "664316",
   "reqId": null,
   "needType": null,
-  "orderIdx": 4,
+  "orderIdx": 8,
   "tender": {
    "subject": "خدمات بدون فهرست بها",
    "setupType": "یک مرحله ای",
@@ -153,7 +243,7 @@
   "tableId": "664326",
   "reqId": null,
   "needType": null,
-  "orderIdx": 5,
+  "orderIdx": 9,
   "tender": {
    "subject": "خدمات بدون فهرست بها",
    "setupType": "یک مرحله ای",
@@ -190,7 +280,7 @@
   "tableId": "5334706",
   "reqId": "7422108",
   "needType": "1431",
-  "orderIdx": 6
+  "orderIdx": 10
  },
  {
   "board": "خرید",
@@ -205,7 +295,7 @@
   "tableId": "5333837",
   "reqId": "7420756",
   "needType": "1432",
-  "orderIdx": 7,
+  "orderIdx": 11,
   "purchase": {
    "items": [
     {
@@ -235,7 +325,7 @@
   "tableId": "5333681",
   "reqId": "7420530",
   "needType": "1432",
-  "orderIdx": 8,
+  "orderIdx": 12,
   "purchase": {
    "items": [
     {
@@ -265,7 +355,7 @@
   "tableId": "5332407",
   "reqId": "7418602",
   "needType": "1432",
-  "orderIdx": 9,
+  "orderIdx": 13,
   "purchase": {
    "items": [
     {
@@ -295,7 +385,7 @@
   "tableId": "501976",
   "reqId": null,
   "needType": null,
-  "orderIdx": 10
+  "orderIdx": 14
  },
  {
   "board": "خرید",
@@ -310,7 +400,7 @@
   "tableId": "5332128",
   "reqId": "7418179",
   "needType": "1432",
-  "orderIdx": 11,
+  "orderIdx": 15,
   "purchase": {
    "items": [
     {
@@ -329,21 +419,6 @@
  },
  {
   "board": "خرید",
-  "number": 1105003523000400,
-  "title": "نیاز کالا-فرش ماشینی 9 متری_طبق مشخصات فنی فایل پیوست_ایران کدانتخابی مشابه است_قیمت نهایی فاکتور بدون ارزش افزوده وپیش فاکتور با مهر درسامانه درج شود",
-  "org": "اداره کل زندان ها و اقدامات تامینی و تربیتی استان البرز",
-  "province": "البرز",
-  "city": "فردیس",
-  "sendDeadline": "1405/06/15 - 08:30",
-  "docDeadline": null,
-  "basePrice": null,
-  "tableId": "5331255",
-  "reqId": "7416774",
-  "needType": "1431",
-  "orderIdx": 12
- },
- {
-  "board": "خرید",
   "number": 1105000351000558,
   "title": "نیاز کالا-دستگاه تصفیه آب-بر اساس لیست پیوست",
   "org": "شبکه بهداشت و درمان فردیس",
@@ -355,7 +430,7 @@
   "tableId": "5331219",
   "reqId": "7416732",
   "needType": "1431",
-  "orderIdx": 13
+  "orderIdx": 16
  },
  {
   "board": "خرید",
@@ -370,7 +445,7 @@
   "tableId": "5331198",
   "reqId": "7416710",
   "needType": "1431",
-  "orderIdx": 14
+  "orderIdx": 17
  },
  {
   "board": "مناقصه",
@@ -385,7 +460,7 @@
   "tableId": "663937",
   "reqId": null,
   "needType": null,
-  "orderIdx": 15,
+  "orderIdx": 18,
   "tender": {
    "subject": "خدمات بدون فهرست بها",
    "setupType": "یک مرحله ای",
@@ -422,7 +497,7 @@
   "tableId": "663940",
   "reqId": null,
   "needType": null,
-  "orderIdx": 16,
+  "orderIdx": 19,
   "tender": {
    "subject": "خدمات با فهرست بها",
    "setupType": "یک مرحله ای",
@@ -459,7 +534,7 @@
   "tableId": "663942",
   "reqId": null,
   "needType": null,
-  "orderIdx": 17,
+  "orderIdx": 20,
   "tender": {
    "subject": "خدمات با فهرست بها",
    "setupType": "یک مرحله ای",
@@ -484,21 +559,6 @@
   "url": "https://etend.setadiran.ir/etend/centralBoardTenderDetails-execute.action?tenderId=663942"
  },
  {
-  "board": "خرید",
-  "number": 1105003062000159,
-  "title": "نیاز کالا-خرید ملزومات ورزشی به شرح لیست پیوست",
-  "org": "سازمان سنجش و اموزش کشور",
-  "province": "البرز",
-  "city": "فردیس",
-  "sendDeadline": "1405/06/15 - 11:00",
-  "docDeadline": null,
-  "basePrice": null,
-  "tableId": "5329231",
-  "reqId": "7413954",
-  "needType": "1431",
-  "orderIdx": 18
- },
- {
   "board": "مناقصه",
   "number": 2005005186000105,
   "title": "مناقصه عمومی همزمان با ارزیابی (یکپارچه) یک مرحله ای اجرای عملیات تهیه و نصب دیوار پیش ساخته در پارک جهان نما",
@@ -511,7 +571,7 @@
   "tableId": "663692",
   "reqId": null,
   "needType": null,
-  "orderIdx": 19,
+  "orderIdx": 21,
   "tender": {
    "subject": "خدمات با فهرست بها",
    "setupType": "یک مرحله ای",
@@ -547,7 +607,7 @@
   "tableId": "500896",
   "reqId": null,
   "needType": null,
-  "orderIdx": 20
+  "orderIdx": 22
  },
  {
   "board": "مزایده",
@@ -562,7 +622,7 @@
   "tableId": "500823",
   "reqId": null,
   "needType": null,
-  "orderIdx": 21
+  "orderIdx": 23
  },
  {
   "board": "مزایده",
@@ -577,142 +637,7 @@
   "tableId": "500856",
   "reqId": null,
   "needType": null,
-  "orderIdx": 22
- },
- {
-  "board": "خرید",
-  "number": 1105003062000158,
-  "title": "نیاز کالا-خرید کیس کامل کامپیوتر به تعداد 20 عدد سرهم بندی شده(اسمبل) طبق لیست پیوست -پرداخت به صورت اسناد خزانه می باشد -",
-  "org": "سازمان سنجش و اموزش کشور",
-  "province": "البرز",
-  "city": "فردیس",
-  "sendDeadline": "1405/06/15 - 12:00",
-  "docDeadline": null,
-  "basePrice": null,
-  "tableId": "5326737",
-  "reqId": "7410128",
-  "needType": "1431",
-  "orderIdx": 23
- },
- {
-  "board": "خرید",
-  "number": 1105000351000555,
-  "title": "نیاز کالا-اقلام مصرفی پزشکی",
-  "org": "شبکه بهداشت و درمان فردیس",
-  "province": "البرز",
-  "city": "فردیس",
-  "sendDeadline": "1405/06/15 - 11:00",
-  "docDeadline": null,
-  "basePrice": null,
-  "tableId": "5326640",
-  "reqId": "7409976",
-  "needType": "1431",
   "orderIdx": 24
- },
- {
-  "board": "خرید",
-  "number": 1105000351000554,
-  "title": "نیاز کالا-خرید لوازم التحریر",
-  "org": "شبکه بهداشت و درمان فردیس",
-  "province": "البرز",
-  "city": "فردیس",
-  "sendDeadline": "1405/06/15 - 11:30",
-  "docDeadline": null,
-  "basePrice": null,
-  "tableId": "5326602",
-  "reqId": "7409922",
-  "needType": "1431",
-  "orderIdx": 25
- },
- {
-  "board": "خرید",
-  "number": 1105050288000132,
-  "title": "نیاز خدمات-شهرداری فردیس در نظر دارد نسبت به پروژه تهیه و خرید نیمکت بتنی به شرح و مشخصات پیوست اقدام نماید./",
-  "org": "شهرداری فردیس استان البرز",
-  "province": "البرز",
-  "city": "فردیس",
-  "sendDeadline": "1405/06/15 - 11:59",
-  "docDeadline": null,
-  "basePrice": null,
-  "tableId": "5326357",
-  "reqId": "7409552",
-  "needType": "1432",
-  "orderIdx": 26,
-  "purchase": {
-   "items": [
-    {
-     "code": "ط-96-960",
-     "name": "سایر فعالیت های خدماتی شخصی",
-     "unit": "خرید",
-     "qty": "1",
-     "date": "1405/06/15"
-    }
-   ],
-   "buyerNotes": "لازم به ذکر است : کلیه مدارک خواسته شده از تامین کننده و اوراق به مهر و امضا به صورت یک فایل PDF در سامانه بارگزاری گردد",
-   "desc": "شهرداری فردیس در نظر دارد نسبت به پروژه تهیه و خرید نیمکت بتنی به شرح و مشخصات پیوست اقدام نماید./",
-   "kind": "خدمت"
-  },
-  "url": "https://eproc.setadiran.ir/eproc/purchaseNeedViewBoardIntegration.do?method=showNeedDetailInfo&requestId=7409552"
- },
- {
-  "board": "خرید",
-  "number": 1105000351000553,
-  "title": "نیاز خدمات-بی خطر سازی پسماند های عفونی-بر اساس لیست پیوست",
-  "org": "شبکه بهداشت و درمان فردیس",
-  "province": "البرز",
-  "city": "فردیس",
-  "sendDeadline": "1405/06/15 - 12:00",
-  "docDeadline": null,
-  "basePrice": null,
-  "tableId": "5325982",
-  "reqId": "7408982",
-  "needType": "1432",
-  "orderIdx": 27,
-  "purchase": {
-   "items": [
-    {
-     "code": "ط-96-960",
-     "name": "سایر فعالیت های خدماتی شخصی",
-     "unit": "ماه",
-     "qty": "12",
-     "date": "1405/06/15"
-    }
-   ],
-   "buyerNotes": "",
-   "desc": "بی خطر سازی پسماند های عفونی-بر اساس لیست پیوست",
-   "kind": "خدمت"
-  },
-  "url": "https://eproc.setadiran.ir/eproc/purchaseNeedViewBoardIntegration.do?method=showNeedDetailInfo&requestId=7408982"
- },
- {
-  "board": "خرید",
-  "number": 1105050288000130,
-  "title": "نیاز خدمات-شهرداری فردیس در نظر دارد نسبت به پروژه رنگ آمیزی پارک های سطح شهر فردیس به شرح و مشخصات به پیوست اقدام نماید./",
-  "org": "شهرداری فردیس استان البرز",
-  "province": "البرز",
-  "city": "فردیس",
-  "sendDeadline": "1405/06/15 - 08:45",
-  "docDeadline": null,
-  "basePrice": null,
-  "tableId": "5324800",
-  "reqId": "7407156",
-  "needType": "1432",
-  "orderIdx": 28,
-  "purchase": {
-   "items": [
-    {
-     "code": "ط-96-960",
-     "name": "سایر فعالیت های خدماتی شخصی",
-     "unit": "پروژه",
-     "qty": "1",
-     "date": "1405/06/15"
-    }
-   ],
-   "buyerNotes": "لازم به ذکر است : کلیه مدارک خواسته شده از تامین کننده و اوراق به مهر و امضا به صورت یک فایل PDF در سامانه بارگزاری گردد",
-   "desc": "شهرداری فردیس در نظر دارد نسبت به پروژه رنگ آمیزی پارک های سطح شهر فردیس به شرح و مشخصات به پیوست اقدام نماید./",
-   "kind": "خدمت"
-  },
-  "url": "https://eproc.setadiran.ir/eproc/purchaseNeedViewBoardIntegration.do?method=showNeedDetailInfo&requestId=7407156"
  },
  {
   "board": "مزایده",
@@ -727,7 +652,7 @@
   "tableId": "499517",
   "reqId": null,
   "needType": null,
-  "orderIdx": 29
+  "orderIdx": 25
  },
  {
   "board": "مناقصه",
@@ -742,7 +667,7 @@
   "tableId": "662460",
   "reqId": null,
   "needType": null,
-  "orderIdx": 30,
+  "orderIdx": 26,
   "tender": {
    "subject": "کالا،خدمات با فهرست بها",
    "setupType": "یک مرحله ای",
@@ -777,7 +702,7 @@
   "tableId": "494314",
   "reqId": null,
   "needType": null,
-  "orderIdx": 31
+  "orderIdx": 27
  },
  {
   "board": "مزایده",
@@ -792,7 +717,7 @@
   "tableId": "495838",
   "reqId": null,
   "needType": null,
-  "orderIdx": 32
+  "orderIdx": 28
  },
  {
   "board": "مزایده",
@@ -807,7 +732,7 @@
   "tableId": "494665",
   "reqId": null,
   "needType": null,
-  "orderIdx": 33
+  "orderIdx": 29
  },
  {
   "board": "مزایده",
@@ -822,7 +747,7 @@
   "tableId": "494502",
   "reqId": null,
   "needType": null,
-  "orderIdx": 34
+  "orderIdx": 30
  },
  {
   "board": "مناقصه",
@@ -837,7 +762,7 @@
   "tableId": "662406",
   "reqId": null,
   "needType": null,
-  "orderIdx": 35,
+  "orderIdx": 31,
   "tender": {
    "subject": "کالا،خدمات با فهرست بها",
    "setupType": "یک مرحله ای",
@@ -872,7 +797,7 @@
   "tableId": "496162",
   "reqId": null,
   "needType": null,
-  "orderIdx": 36
+  "orderIdx": 32
  },
  {
   "board": "مزایده",
@@ -887,7 +812,7 @@
   "tableId": "496162",
   "reqId": null,
   "needType": null,
-  "orderIdx": 37
+  "orderIdx": 33
  },
  {
   "board": "مزایده",
@@ -902,7 +827,7 @@
   "tableId": "496162",
   "reqId": null,
   "needType": null,
-  "orderIdx": 38
+  "orderIdx": 34
  },
  {
   "board": "مزایده",
@@ -917,7 +842,7 @@
   "tableId": "496162",
   "reqId": null,
   "needType": null,
-  "orderIdx": 39
+  "orderIdx": 35
  },
  {
   "board": "مزایده",
@@ -932,7 +857,7 @@
   "tableId": "496162",
   "reqId": null,
   "needType": null,
-  "orderIdx": 40
+  "orderIdx": 36
  },
  {
   "board": "مزایده",
@@ -947,7 +872,7 @@
   "tableId": "496162",
   "reqId": null,
   "needType": null,
-  "orderIdx": 41
+  "orderIdx": 37
  },
  {
   "board": "مزایده",
@@ -962,7 +887,7 @@
   "tableId": "496162",
   "reqId": null,
   "needType": null,
-  "orderIdx": 42
+  "orderIdx": 38
  },
  {
   "board": "مزایده",
@@ -977,7 +902,7 @@
   "tableId": "496162",
   "reqId": null,
   "needType": null,
-  "orderIdx": 43
+  "orderIdx": 39
  },
  {
   "board": "مزایده",
@@ -992,7 +917,7 @@
   "tableId": "496162",
   "reqId": null,
   "needType": null,
-  "orderIdx": 44
+  "orderIdx": 40
  },
  {
   "board": "مزایده",
@@ -1007,7 +932,7 @@
   "tableId": "496162",
   "reqId": null,
   "needType": null,
-  "orderIdx": 45
+  "orderIdx": 41
  },
  {
   "board": "مزایده",
@@ -1022,7 +947,7 @@
   "tableId": "496162",
   "reqId": null,
   "needType": null,
-  "orderIdx": 46
+  "orderIdx": 42
  },
  {
   "board": "مزایده",
@@ -1037,7 +962,7 @@
   "tableId": "496162",
   "reqId": null,
   "needType": null,
-  "orderIdx": 47
+  "orderIdx": 43
  },
  {
   "board": "مزایده",
@@ -1052,7 +977,7 @@
   "tableId": "496162",
   "reqId": null,
   "needType": null,
-  "orderIdx": 48
+  "orderIdx": 44
  },
  {
   "board": "مزایده",
@@ -1067,7 +992,7 @@
   "tableId": "496162",
   "reqId": null,
   "needType": null,
-  "orderIdx": 49
+  "orderIdx": 45
  },
  {
   "board": "مزایده",
@@ -1082,7 +1007,7 @@
   "tableId": "496162",
   "reqId": null,
   "needType": null,
-  "orderIdx": 50
+  "orderIdx": 46
  },
  {
   "board": "مزایده",
@@ -1097,7 +1022,7 @@
   "tableId": "496162",
   "reqId": null,
   "needType": null,
-  "orderIdx": 51
+  "orderIdx": 47
  },
  {
   "board": "مزایده",
@@ -1112,7 +1037,7 @@
   "tableId": "496162",
   "reqId": null,
   "needType": null,
-  "orderIdx": 52
+  "orderIdx": 48
  },
  {
   "board": "مزایده",
@@ -1127,7 +1052,7 @@
   "tableId": "496162",
   "reqId": null,
   "needType": null,
-  "orderIdx": 53
+  "orderIdx": 49
  },
  {
   "board": "مزایده",
@@ -1142,7 +1067,7 @@
   "tableId": "496162",
   "reqId": null,
   "needType": null,
-  "orderIdx": 54
+  "orderIdx": 50
  },
  {
   "board": "مزایده",
@@ -1157,7 +1082,7 @@
   "tableId": "496162",
   "reqId": null,
   "needType": null,
-  "orderIdx": 55
+  "orderIdx": 51
  },
  {
   "board": "مزایده",
@@ -1172,7 +1097,7 @@
   "tableId": "496162",
   "reqId": null,
   "needType": null,
-  "orderIdx": 56
+  "orderIdx": 52
  },
  {
   "board": "مزایده",
@@ -1187,7 +1112,7 @@
   "tableId": "496162",
   "reqId": null,
   "needType": null,
-  "orderIdx": 57
+  "orderIdx": 53
  },
  {
   "board": "مزایده",
@@ -1202,7 +1127,7 @@
   "tableId": "496162",
   "reqId": null,
   "needType": null,
-  "orderIdx": 58
+  "orderIdx": 54
  },
  {
   "board": "مزایده",
@@ -1217,7 +1142,7 @@
   "tableId": "496162",
   "reqId": null,
   "needType": null,
-  "orderIdx": 59
+  "orderIdx": 55
  },
  {
   "board": "مزایده",
@@ -1232,7 +1157,7 @@
   "tableId": "496162",
   "reqId": null,
   "needType": null,
-  "orderIdx": 60
+  "orderIdx": 56
  },
  {
   "board": "مزایده",
@@ -1247,7 +1172,7 @@
   "tableId": "496162",
   "reqId": null,
   "needType": null,
-  "orderIdx": 61
+  "orderIdx": 57
  },
  {
   "board": "مزایده",
@@ -1262,7 +1187,7 @@
   "tableId": "496162",
   "reqId": null,
   "needType": null,
-  "orderIdx": 62
+  "orderIdx": 58
  },
  {
   "board": "مزایده",
@@ -1277,7 +1202,7 @@
   "tableId": "496162",
   "reqId": null,
   "needType": null,
-  "orderIdx": 63
+  "orderIdx": 59
  },
  {
   "board": "مزایده",
@@ -1292,7 +1217,7 @@
   "tableId": "496162",
   "reqId": null,
   "needType": null,
-  "orderIdx": 64
+  "orderIdx": 60
  },
  {
   "board": "مزایده",
@@ -1307,7 +1232,7 @@
   "tableId": "496162",
   "reqId": null,
   "needType": null,
-  "orderIdx": 65
+  "orderIdx": 61
  },
  {
   "board": "مزایده",
@@ -1322,7 +1247,7 @@
   "tableId": "496162",
   "reqId": null,
   "needType": null,
-  "orderIdx": 66
+  "orderIdx": 62
  },
  {
   "board": "مزایده",
@@ -1337,7 +1262,7 @@
   "tableId": "496162",
   "reqId": null,
   "needType": null,
-  "orderIdx": 67
+  "orderIdx": 63
  },
  {
   "board": "مزایده",
@@ -1352,7 +1277,7 @@
   "tableId": "496162",
   "reqId": null,
   "needType": null,
-  "orderIdx": 68
+  "orderIdx": 64
  },
  {
   "board": "مزایده",
@@ -1367,7 +1292,7 @@
   "tableId": "496162",
   "reqId": null,
   "needType": null,
-  "orderIdx": 69
+  "orderIdx": 65
  },
  {
   "board": "مزایده",
@@ -1382,7 +1307,7 @@
   "tableId": "496162",
   "reqId": null,
   "needType": null,
-  "orderIdx": 70
+  "orderIdx": 66
  },
  {
   "board": "مزایده",
@@ -1397,7 +1322,7 @@
   "tableId": "496162",
   "reqId": null,
   "needType": null,
-  "orderIdx": 71
+  "orderIdx": 67
  },
  {
   "board": "مزایده",
@@ -1412,7 +1337,7 @@
   "tableId": "496162",
   "reqId": null,
   "needType": null,
-  "orderIdx": 72
+  "orderIdx": 68
  },
  {
   "board": "مزایده",
@@ -1427,7 +1352,7 @@
   "tableId": "496162",
   "reqId": null,
   "needType": null,
-  "orderIdx": 73
+  "orderIdx": 69
  },
  {
   "board": "مزایده",
@@ -1442,7 +1367,7 @@
   "tableId": "496162",
   "reqId": null,
   "needType": null,
-  "orderIdx": 74
+  "orderIdx": 70
  },
  {
   "board": "مزایده",
@@ -1457,7 +1382,7 @@
   "tableId": "496162",
   "reqId": null,
   "needType": null,
-  "orderIdx": 75
+  "orderIdx": 71
  },
  {
   "board": "مزایده",
@@ -1472,7 +1397,7 @@
   "tableId": "496162",
   "reqId": null,
   "needType": null,
-  "orderIdx": 76
+  "orderIdx": 72
  },
  {
   "board": "مزایده",
@@ -1487,7 +1412,7 @@
   "tableId": "496162",
   "reqId": null,
   "needType": null,
-  "orderIdx": 77
+  "orderIdx": 73
  },
  {
   "board": "مزایده",
@@ -1502,7 +1427,7 @@
   "tableId": "496162",
   "reqId": null,
   "needType": null,
-  "orderIdx": 78
+  "orderIdx": 74
  },
  {
   "board": "مزایده",
@@ -1517,7 +1442,7 @@
   "tableId": "496162",
   "reqId": null,
   "needType": null,
-  "orderIdx": 79
+  "orderIdx": 75
  },
  {
   "board": "مزایده",
@@ -1532,7 +1457,7 @@
   "tableId": "496162",
   "reqId": null,
   "needType": null,
-  "orderIdx": 80
+  "orderIdx": 76
  },
  {
   "board": "مناقصه",
@@ -1547,7 +1472,7 @@
   "tableId": "661620",
   "reqId": null,
   "needType": null,
-  "orderIdx": 81,
+  "orderIdx": 77,
   "tender": {
    "subject": "خدمات با فهرست بها",
    "setupType": "یک مرحله ای",
@@ -1584,7 +1509,7 @@
   "tableId": "661586",
   "reqId": null,
   "needType": null,
-  "orderIdx": 82,
+  "orderIdx": 78,
   "tender": {
    "subject": "خدمات با فهرست بها",
    "setupType": "یک مرحله ای",
@@ -1621,7 +1546,7 @@
   "tableId": "661557",
   "reqId": null,
   "needType": null,
-  "orderIdx": 83,
+  "orderIdx": 79,
   "tender": {
    "subject": "کالا",
    "setupType": "یک مرحله ای",
@@ -1658,7 +1583,7 @@
   "tableId": "661541",
   "reqId": null,
   "needType": null,
-  "orderIdx": 84,
+  "orderIdx": 80,
   "tender": {
    "subject": "خدمات بدون فهرست بها",
    "setupType": "یک مرحله ای",
@@ -1695,7 +1620,7 @@
   "tableId": "661575",
   "reqId": null,
   "needType": null,
-  "orderIdx": 85,
+  "orderIdx": 81,
   "tender": {
    "subject": "خدمات بدون فهرست بها",
    "setupType": "یک مرحله ای",
@@ -1732,7 +1657,7 @@
   "tableId": "660373",
   "reqId": null,
   "needType": null,
-  "orderIdx": 86,
+  "orderIdx": 82,
   "tender": {
    "subject": "خدمات بدون فهرست بها",
    "setupType": "یک مرحله ای",
