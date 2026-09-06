@@ -1,0 +1,28 @@
+name: bale-cloud-probe
+on:
+  workflow_dispatch:
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - name: probe bale api reachability (fake token, no secrets)
+        run: |
+          echo -n "bale getMe status: "
+          curl -s -m 20 -o /tmp/b.json -w "%{http_code}" "https://tapi.bale.ai/bot123456:FAKE_TOKEN_FOR_PROBE/getMe" || echo CURL-FAIL
+          echo
+          head -c 300 /tmp/b.json 2>/dev/null; echo
+      - name: probe GITHUB_TOKEN variables read
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          curl -s -m 20 -o /tmp/v.json -w "variables GET via GITHUB_TOKEN: %{http_code}\n" \
+            -H "Authorization: token $GH_TOKEN" \
+            "https://api.github.com/repos/${{ github.repository }}/actions/variables"
+          head -c 200 /tmp/v.json; echo
+      - name: probe telegram reachability (fake token)
+        run: |
+          echo -n "telegram getMe status: "
+          curl -s -m 20 -o /tmp/t.json -w "%{http_code}" "https://api.telegram.org/bot123456:FAKE_TOKEN_FOR_PROBE/getMe" || echo CURL-FAIL
+          echo; head -c 200 /tmp/t.json 2>/dev/null; echo
