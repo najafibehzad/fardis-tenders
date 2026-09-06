@@ -15,7 +15,7 @@ concurrency:
 jobs:
   bot:
     runs-on: ubuntu-latest
-    timeout-minutes: 6
+    timeout-minutes: 8
     steps:
       - uses: actions/checkout@v4
       - name: run cloud bot
@@ -23,3 +23,13 @@ jobs:
           TGTOKEN: ${{ secrets.TGTOKEN }}
           GITHUB_TOKEN: ${{ github.token }}
         run: node cloud_bot.mjs
+      - name: chain next poll (cron خاموشی گاهی تأخیر دارد؛ زنجیرهٔ خودکار پشتیبانش است)
+        if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          sleep 240
+          curl -s -o /dev/null -w "chain dispatch: %{http_code}\n" -X POST \
+            -H "Authorization: token $GH_TOKEN" -H "Accept: application/vnd.github+json" \
+            "https://api.github.com/repos/${{ github.repository }}/actions/workflows/bale-cloud.yml/dispatches" \
+            -d '{"ref":"main"}'
