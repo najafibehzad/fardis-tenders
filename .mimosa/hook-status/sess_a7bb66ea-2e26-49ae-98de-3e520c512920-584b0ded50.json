@@ -1,14 +1,14 @@
 {
   "schemaVersion": "mimosa-hook-status/v1",
-  "recordedAt": "2026-09-05T20:03:37.841Z",
+  "recordedAt": "2026-09-05T20:13:31.311Z",
   "sessionId": "sess_a7bb66ea-2e26-49ae-98de-3e520c512920",
   "event": "PostToolUse",
-  "toolName": "Write",
-  "file": "notify_send.mjs",
+  "toolName": "Edit",
+  "file": "C:\\Users\\behzad\\.zcode\\cli\\memories\\projects\\default-4096eab9a41e5d48\\memory\\fardis-tender-automation.md",
   "outcome": "clear",
   "coverage": "complete",
   "findingCount": 0,
-  "durationMs": 13,
+  "durationMs": 8,
   "hostState": "hook_complete",
   "reportHint": ".mimosa/reports/"
 }

@@ -9,3 +9,8 @@ summary.md
 .mimosa/
 task-run.log
 notify.local.json
+bale-bot-state.json
+bale-bot.lock
+bale-bot-allow.json
+bale-bot.log
+bale-bot.log.old
