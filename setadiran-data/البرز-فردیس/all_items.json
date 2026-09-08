@@ -1,5 +1,586 @@
 [
  {
+  "number": 1105000351000565,
+  "title": "نیاز کالا-محلول ضد عفونی-بر اساس لیست پیوست",
+  "boardCode": 1,
+  "basePrice": null,
+  "orgName": "شبکه بهداشت و درمان فردیس",
+  "score": 93,
+  "cityName": "فردیس",
+  "insertDate": null,
+  "boardName": "خرید",
+  "provinceName": "البرز",
+  "jalaliSendDeadlineDate": "1405/06/21 - 10:00",
+  "jalaliLastEditDate": null,
+  "jalaliDocumentDeadlineDate": null,
+  "tableId": 5345550,
+  "tagCode": 1431,
+  "needType": "1431",
+  "reqId": "7438575",
+  "jalaliFromProposalDate": null,
+  "partyNumber": null,
+  "orgId": 10378,
+  "aucState": null,
+  "cartId": 0,
+  "categoryId": null,
+  "categoryName": null,
+  "locId": null,
+  "ticketId": null,
+  "aggregations": {
+   "by_boardCode": {
+    "buckets": [
+     {
+      "doc_count": 56,
+      "key": "3"
+     },
+     {
+      "doc_count": 21,
+      "key": "1"
+     },
+     {
+      "doc_count": 16,
+      "key": "2"
+     }
+    ]
+   },
+   "by_tagCode": {
+    "buckets": [
+     {
+      "doc_count": 49,
+      "key": "33"
+     },
+     {
+      "doc_count": 14,
+      "key": "4121"
+     },
+     {
+      "doc_count": 13,
+      "key": "1431"
+     },
+     {
+      "doc_count": 8,
+      "key": "1432"
+     },
+     {
+      "doc_count": 4,
+      "key": "341"
+     },
+     {
+      "doc_count": 2,
+      "key": "32"
+     },
+     {
+      "doc_count": 2,
+      "key": "4128"
+     },
+     {
+      "doc_count": 1,
+      "key": "342"
+     }
+    ]
+   }
+  },
+  "orderIdx": 0
+ },
+ {
+  "number": 1105003062000165,
+  "title": "نیاز کالا-خرید سفره یکبار مصرف طرح اداری جنس مرغوب یه تعداد 600 رول( 50 متری)",
+  "boardCode": 1,
+  "basePrice": null,
+  "orgName": "سازمان سنجش و اموزش کشور",
+  "score": 93,
+  "cityName": "فردیس",
+  "insertDate": null,
+  "boardName": "خرید",
+  "provinceName": "البرز",
+  "jalaliSendDeadlineDate": "1405/06/21 - 12:00",
+  "jalaliLastEditDate": null,
+  "jalaliDocumentDeadlineDate": null,
+  "tableId": 5344013,
+  "tagCode": 1431,
+  "needType": "1431",
+  "reqId": "7436167",
+  "jalaliFromProposalDate": null,
+  "partyNumber": null,
+  "orgId": 5092,
+  "aucState": null,
+  "cartId": 0,
+  "categoryId": null,
+  "categoryName": null,
+  "locId": null,
+  "ticketId": null,
+  "aggregations": {
+   "by_boardCode": {
+    "buckets": [
+     {
+      "doc_count": 56,
+      "key": "3"
+     },
+     {
+      "doc_count": 21,
+      "key": "1"
+     },
+     {
+      "doc_count": 16,
+      "key": "2"
+     }
+    ]
+   },
+   "by_tagCode": {
+    "buckets": [
+     {
+      "doc_count": 49,
+      "key": "33"
+     },
+     {
+      "doc_count": 14,
+      "key": "4121"
+     },
+     {
+      "doc_count": 13,
+      "key": "1431"
+     },
+     {
+      "doc_count": 8,
+      "key": "1432"
+     },
+     {
+      "doc_count": 4,
+      "key": "341"
+     },
+     {
+      "doc_count": 2,
+      "key": "32"
+     },
+     {
+      "doc_count": 2,
+      "key": "4128"
+     },
+     {
+      "doc_count": 1,
+      "key": "342"
+     }
+    ]
+   }
+  },
+  "orderIdx": 1
+ },
+ {
+  "number": 1105003523000420,
+  "title": "نیاز کالا-کیک صبحانه 2قلو70گرمی/آبمعدنی200cc/آبمیوه و ..._ایران کد انتخابی مشابه است_طبق مشخصات فایل پیوست_قیمت نهایی وپیش فاکتور بامهر و امضاء درسامانه درج شود",
+  "boardCode": 1,
+  "basePrice": null,
+  "orgName": "اداره کل زندان ها و اقدامات تامینی و تربیتی استان البرز",
+  "score": 93,
+  "cityName": "فردیس",
+  "insertDate": null,
+  "boardName": "خرید",
+  "provinceName": "البرز",
+  "jalaliSendDeadlineDate": "1405/06/18 - 17:45",
+  "jalaliLastEditDate": null,
+  "jalaliDocumentDeadlineDate": null,
+  "tableId": 5342722,
+  "tagCode": 1431,
+  "needType": "1431",
+  "reqId": "7434066",
+  "jalaliFromProposalDate": null,
+  "partyNumber": null,
+  "orgId": 8331,
+  "aucState": null,
+  "cartId": 0,
+  "categoryId": null,
+  "categoryName": null,
+  "locId": null,
+  "ticketId": null,
+  "aggregations": {
+   "by_boardCode": {
+    "buckets": [
+     {
+      "doc_count": 56,
+      "key": "3"
+     },
+     {
+      "doc_count": 21,
+      "key": "1"
+     },
+     {
+      "doc_count": 16,
+      "key": "2"
+     }
+    ]
+   },
+   "by_tagCode": {
+    "buckets": [
+     {
+      "doc_count": 49,
+      "key": "33"
+     },
+     {
+      "doc_count": 14,
+      "key": "4121"
+     },
+     {
+      "doc_count": 13,
+      "key": "1431"
+     },
+     {
+      "doc_count": 8,
+      "key": "1432"
+     },
+     {
+      "doc_count": 4,
+      "key": "341"
+     },
+     {
+      "doc_count": 2,
+      "key": "32"
+     },
+     {
+      "doc_count": 2,
+      "key": "4128"
+     },
+     {
+      "doc_count": 1,
+      "key": "342"
+     }
+    ]
+   }
+  },
+  "orderIdx": 2
+ },
+ {
+  "number": 1105003523000419,
+  "title": "نیاز کالا-5000 کیلوگرم کیسه زباله کابلی مواد نو 2دوخت سایز90*70 _ ایران کد انتخابی مشابه است _ طبق مشخصات فایل پیوستی _پیش فاکتور پیوست شود_ارسال نمونه الزامیست",
+  "boardCode": 1,
+  "basePrice": null,
+  "orgName": "اداره کل زندان ها و اقدامات تامینی و تربیتی استان البرز",
+  "score": 93,
+  "cityName": "فردیس",
+  "insertDate": null,
+  "boardName": "خرید",
+  "provinceName": "البرز",
+  "jalaliSendDeadlineDate": "1405/06/18 - 17:40",
+  "jalaliLastEditDate": null,
+  "jalaliDocumentDeadlineDate": null,
+  "tableId": 5342702,
+  "tagCode": 1431,
+  "needType": "1431",
+  "reqId": "7434036",
+  "jalaliFromProposalDate": null,
+  "partyNumber": null,
+  "orgId": 8331,
+  "aucState": null,
+  "cartId": 0,
+  "categoryId": null,
+  "categoryName": null,
+  "locId": null,
+  "ticketId": null,
+  "aggregations": {
+   "by_boardCode": {
+    "buckets": [
+     {
+      "doc_count": 56,
+      "key": "3"
+     },
+     {
+      "doc_count": 21,
+      "key": "1"
+     },
+     {
+      "doc_count": 16,
+      "key": "2"
+     }
+    ]
+   },
+   "by_tagCode": {
+    "buckets": [
+     {
+      "doc_count": 49,
+      "key": "33"
+     },
+     {
+      "doc_count": 14,
+      "key": "4121"
+     },
+     {
+      "doc_count": 13,
+      "key": "1431"
+     },
+     {
+      "doc_count": 8,
+      "key": "1432"
+     },
+     {
+      "doc_count": 4,
+      "key": "341"
+     },
+     {
+      "doc_count": 2,
+      "key": "32"
+     },
+     {
+      "doc_count": 2,
+      "key": "4128"
+     },
+     {
+      "doc_count": 1,
+      "key": "342"
+     }
+    ]
+   }
+  },
+  "orderIdx": 3
+ },
+ {
+  "number": 1105003523000418,
+  "title": "نیاز کالا-ماست تکنفره 90گرمی کم چرب_ایران کد انتخابی مشابه است_طبق مشخصات فنی فایل پیوستی سامانه_قیمت نهایی فاکتوربدون ارزش افزوده درسامانه درج شود",
+  "boardCode": 1,
+  "basePrice": null,
+  "orgName": "اداره کل زندان ها و اقدامات تامینی و تربیتی استان البرز",
+  "score": 93,
+  "cityName": "فردیس",
+  "insertDate": null,
+  "boardName": "خرید",
+  "provinceName": "البرز",
+  "jalaliSendDeadlineDate": "1405/06/18 - 17:30",
+  "jalaliLastEditDate": null,
+  "jalaliDocumentDeadlineDate": null,
+  "tableId": 5342683,
+  "tagCode": 1431,
+  "needType": "1431",
+  "reqId": "7434009",
+  "jalaliFromProposalDate": null,
+  "partyNumber": null,
+  "orgId": 8331,
+  "aucState": null,
+  "cartId": 0,
+  "categoryId": null,
+  "categoryName": null,
+  "locId": null,
+  "ticketId": null,
+  "aggregations": {
+   "by_boardCode": {
+    "buckets": [
+     {
+      "doc_count": 56,
+      "key": "3"
+     },
+     {
+      "doc_count": 21,
+      "key": "1"
+     },
+     {
+      "doc_count": 16,
+      "key": "2"
+     }
+    ]
+   },
+   "by_tagCode": {
+    "buckets": [
+     {
+      "doc_count": 49,
+      "key": "33"
+     },
+     {
+      "doc_count": 14,
+      "key": "4121"
+     },
+     {
+      "doc_count": 13,
+      "key": "1431"
+     },
+     {
+      "doc_count": 8,
+      "key": "1432"
+     },
+     {
+      "doc_count": 4,
+      "key": "341"
+     },
+     {
+      "doc_count": 2,
+      "key": "32"
+     },
+     {
+      "doc_count": 2,
+      "key": "4128"
+     },
+     {
+      "doc_count": 1,
+      "key": "342"
+     }
+    ]
+   }
+  },
+  "orderIdx": 4
+ },
+ {
+  "number": 1105003523000417,
+  "title": "نیاز کالا-الکترو پمپ شناور 30 کیلو وات/ پمپ مدل 345/4_طبق مشخصات فایل پیوستی_ایران کد انتخابی مشابه است_پیش فاکتور رسمی با مهر درسامانه درج شود",
+  "boardCode": 1,
+  "basePrice": null,
+  "orgName": "اداره کل زندان ها و اقدامات تامینی و تربیتی استان البرز",
+  "score": 93,
+  "cityName": "فردیس",
+  "insertDate": null,
+  "boardName": "خرید",
+  "provinceName": "البرز",
+  "jalaliSendDeadlineDate": "1405/06/18 - 17:15",
+  "jalaliLastEditDate": null,
+  "jalaliDocumentDeadlineDate": null,
+  "tableId": 5342663,
+  "tagCode": 1431,
+  "needType": "1431",
+  "reqId": "7433984",
+  "jalaliFromProposalDate": null,
+  "partyNumber": null,
+  "orgId": 8331,
+  "aucState": null,
+  "cartId": 0,
+  "categoryId": null,
+  "categoryName": null,
+  "locId": null,
+  "ticketId": null,
+  "aggregations": {
+   "by_boardCode": {
+    "buckets": [
+     {
+      "doc_count": 56,
+      "key": "3"
+     },
+     {
+      "doc_count": 21,
+      "key": "1"
+     },
+     {
+      "doc_count": 16,
+      "key": "2"
+     }
+    ]
+   },
+   "by_tagCode": {
+    "buckets": [
+     {
+      "doc_count": 49,
+      "key": "33"
+     },
+     {
+      "doc_count": 14,
+      "key": "4121"
+     },
+     {
+      "doc_count": 13,
+      "key": "1431"
+     },
+     {
+      "doc_count": 8,
+      "key": "1432"
+     },
+     {
+      "doc_count": 4,
+      "key": "341"
+     },
+     {
+      "doc_count": 2,
+      "key": "32"
+     },
+     {
+      "doc_count": 2,
+      "key": "4128"
+     },
+     {
+      "doc_count": 1,
+      "key": "342"
+     }
+    ]
+   }
+  },
+  "orderIdx": 5
+ },
+ {
+  "number": 1105003523000416,
+  "title": "نیاز کالا-جوراب، شانه موی سر مردانه و زنانه(طبق مشخصات پیوستی)_ایران کدانتخابی مشابه است_قیمت نهایی فاکتوربدون ارزش افزوده درسامانه درج شود ارسال نمونه الزامیست",
+  "boardCode": 1,
+  "basePrice": null,
+  "orgName": "اداره کل زندان ها و اقدامات تامینی و تربیتی استان البرز",
+  "score": 93,
+  "cityName": "فردیس",
+  "insertDate": null,
+  "boardName": "خرید",
+  "provinceName": "البرز",
+  "jalaliSendDeadlineDate": "1405/06/18 - 17:10",
+  "jalaliLastEditDate": null,
+  "jalaliDocumentDeadlineDate": null,
+  "tableId": 5342652,
+  "tagCode": 1431,
+  "needType": "1431",
+  "reqId": "7433972",
+  "jalaliFromProposalDate": null,
+  "partyNumber": null,
+  "orgId": 8331,
+  "aucState": null,
+  "cartId": 0,
+  "categoryId": null,
+  "categoryName": null,
+  "locId": null,
+  "ticketId": null,
+  "aggregations": {
+   "by_boardCode": {
+    "buckets": [
+     {
+      "doc_count": 56,
+      "key": "3"
+     },
+     {
+      "doc_count": 21,
+      "key": "1"
+     },
+     {
+      "doc_count": 16,
+      "key": "2"
+     }
+    ]
+   },
+   "by_tagCode": {
+    "buckets": [
+     {
+      "doc_count": 49,
+      "key": "33"
+     },
+     {
+      "doc_count": 14,
+      "key": "4121"
+     },
+     {
+      "doc_count": 13,
+      "key": "1431"
+     },
+     {
+      "doc_count": 8,
+      "key": "1432"
+     },
+     {
+      "doc_count": 4,
+      "key": "341"
+     },
+     {
+      "doc_count": 2,
+      "key": "32"
+     },
+     {
+      "doc_count": 2,
+      "key": "4128"
+     },
+     {
+      "doc_count": 1,
+      "key": "342"
+     }
+    ]
+   }
+  },
+  "orderIdx": 6
+ },
+ {
   "number": 1105003523000415,
   "title": "نیاز کالا-میز و صندلی پلاستیکی با کیفیت_ایران کدانتخابی مشابه است_طبق مشخصات فایل پیوستی_قیمت نهایی بدون ارزش افزوده درسامانه درج شود_ارسال نمونه کالا الزامیست",
   "boardCode": 1,
@@ -30,11 +611,11 @@
    "by_boardCode": {
     "buckets": [
      {
-      "doc_count": 59,
+      "doc_count": 56,
       "key": "3"
      },
      {
-      "doc_count": 18,
+      "doc_count": 21,
       "key": "1"
      },
      {
@@ -54,15 +635,15 @@
       "key": "4121"
      },
      {
-      "doc_count": 9,
+      "doc_count": 13,
       "key": "1431"
      },
      {
-      "doc_count": 9,
+      "doc_count": 8,
       "key": "1432"
      },
      {
-      "doc_count": 7,
+      "doc_count": 4,
       "key": "341"
      },
      {
@@ -80,7 +661,7 @@
     ]
    }
   },
-  "orderIdx": 0
+  "orderIdx": 7
  },
  {
   "number": 1105003523000414,
@@ -113,11 +694,11 @@
    "by_boardCode": {
     "buckets": [
      {
-      "doc_count": 59,
+      "doc_count": 56,
       "key": "3"
      },
      {
-      "doc_count": 18,
+      "doc_count": 21,
       "key": "1"
      },
      {
@@ -137,15 +718,15 @@
       "key": "4121"
      },
      {
-      "doc_count": 9,
+      "doc_count": 13,
       "key": "1431"
      },
      {
-      "doc_count": 9,
+      "doc_count": 8,
       "key": "1432"
      },
      {
-      "doc_count": 7,
+      "doc_count": 4,
       "key": "341"
      },
      {
@@ -163,7 +744,7 @@
     ]
    }
   },
-  "orderIdx": 1
+  "orderIdx": 8
  },
  {
   "number": 1105003523000413,
@@ -196,11 +777,11 @@
    "by_boardCode": {
     "buckets": [
      {
-      "doc_count": 59,
+      "doc_count": 56,
       "key": "3"
      },
      {
-      "doc_count": 18,
+      "doc_count": 21,
       "key": "1"
      },
      {
@@ -220,15 +801,15 @@
       "key": "4121"
      },
      {
-      "doc_count": 9,
+      "doc_count": 13,
       "key": "1431"
      },
      {
-      "doc_count": 9,
+      "doc_count": 8,
       "key": "1432"
      },
      {
-      "doc_count": 7,
+      "doc_count": 4,
       "key": "341"
      },
      {
@@ -246,7 +827,7 @@
     ]
    }
   },
-  "orderIdx": 2
+  "orderIdx": 9
  },
  {
   "number": 1105003523000412,
@@ -279,11 +860,11 @@
    "by_boardCode": {
     "buckets": [
      {
-      "doc_count": 59,
+      "doc_count": 56,
       "key": "3"
      },
      {
-      "doc_count": 18,
+      "doc_count": 21,
       "key": "1"
      },
      {
@@ -303,15 +884,15 @@
       "key": "4121"
      },
      {
-      "doc_count": 9,
+      "doc_count": 13,
       "key": "1431"
      },
      {
-      "doc_count": 9,
+      "doc_count": 8,
       "key": "1432"
      },
      {
-      "doc_count": 7,
+      "doc_count": 4,
       "key": "341"
      },
      {
@@ -329,7 +910,7 @@
     ]
    }
   },
-  "orderIdx": 3
+  "orderIdx": 10
  },
  {
   "number": 1105003523000411,
@@ -362,11 +943,11 @@
    "by_boardCode": {
     "buckets": [
      {
-      "doc_count": 59,
+      "doc_count": 56,
       "key": "3"
      },
      {
-      "doc_count": 18,
+      "doc_count": 21,
       "key": "1"
      },
      {
@@ -386,15 +967,15 @@
       "key": "4121"
      },
      {
-      "doc_count": 9,
+      "doc_count": 13,
       "key": "1431"
      },
      {
-      "doc_count": 9,
+      "doc_count": 8,
       "key": "1432"
      },
      {
-      "doc_count": 7,
+      "doc_count": 4,
       "key": "341"
      },
      {
@@ -412,7 +993,7 @@
     ]
    }
   },
-  "orderIdx": 4
+  "orderIdx": 11
  },
  {
   "number": 2105001458000007,
@@ -445,11 +1026,11 @@
    "by_boardCode": {
     "buckets": [
      {
-      "doc_count": 59,
+      "doc_count": 56,
       "key": "3"
      },
      {
-      "doc_count": 18,
+      "doc_count": 21,
       "key": "1"
      },
      {
@@ -469,15 +1050,15 @@
       "key": "4121"
      },
      {
-      "doc_count": 9,
+      "doc_count": 13,
       "key": "1431"
      },
      {
-      "doc_count": 9,
+      "doc_count": 8,
       "key": "1432"
      },
      {
-      "doc_count": 7,
+      "doc_count": 4,
       "key": "341"
      },
      {
@@ -495,7 +1076,7 @@
     ]
    }
   },
-  "orderIdx": 5
+  "orderIdx": 12
  },
  {
   "number": 3105001053003535,
@@ -528,11 +1109,11 @@
    "by_boardCode": {
     "buckets": [
      {
-      "doc_count": 59,
+      "doc_count": 56,
       "key": "3"
      },
      {
-      "doc_count": 18,
+      "doc_count": 21,
       "key": "1"
      },
      {
@@ -552,15 +1133,15 @@
       "key": "4121"
      },
      {
-      "doc_count": 9,
+      "doc_count": 13,
       "key": "1431"
      },
      {
-      "doc_count": 9,
+      "doc_count": 8,
       "key": "1432"
      },
      {
-      "doc_count": 7,
+      "doc_count": 4,
       "key": "341"
      },
      {
@@ -578,7 +1159,7 @@
     ]
    }
   },
-  "orderIdx": 6
+  "orderIdx": 13
  },
  {
   "number": 2105001458000006,
@@ -611,11 +1192,11 @@
    "by_boardCode": {
     "buckets": [
      {
-      "doc_count": 59,
+      "doc_count": 56,
       "key": "3"
      },
      {
-      "doc_count": 18,
+      "doc_count": 21,
       "key": "1"
      },
      {
@@ -635,15 +1216,15 @@
       "key": "4121"
      },
      {
-      "doc_count": 9,
+      "doc_count": 13,
       "key": "1431"
      },
      {
-      "doc_count": 9,
+      "doc_count": 8,
       "key": "1432"
      },
      {
-      "doc_count": 7,
+      "doc_count": 4,
       "key": "341"
      },
      {
@@ -661,7 +1242,7 @@
     ]
    }
   },
-  "orderIdx": 7
+  "orderIdx": 14
  },
  {
   "number": 1105000351000563,
@@ -694,11 +1275,11 @@
    "by_boardCode": {
     "buckets": [
      {
-      "doc_count": 59,
+      "doc_count": 56,
       "key": "3"
      },
      {
-      "doc_count": 18,
+      "doc_count": 21,
       "key": "1"
      },
      {
@@ -718,15 +1299,15 @@
       "key": "4121"
      },
      {
-      "doc_count": 9,
+      "doc_count": 13,
       "key": "1431"
      },
      {
-      "doc_count": 9,
+      "doc_count": 8,
       "key": "1432"
      },
      {
-      "doc_count": 7,
+      "doc_count": 4,
       "key": "341"
      },
      {
@@ -744,7 +1325,7 @@
     ]
    }
   },
-  "orderIdx": 8
+  "orderIdx": 15
  },
  {
   "number": 1105091707000020,
@@ -777,11 +1358,11 @@
    "by_boardCode": {
     "buckets": [
      {
-      "doc_count": 59,
+      "doc_count": 56,
       "key": "3"
      },
      {
-      "doc_count": 18,
+      "doc_count": 21,
       "key": "1"
      },
      {
@@ -801,15 +1382,15 @@
       "key": "4121"
      },
      {
-      "doc_count": 9,
+      "doc_count": 13,
       "key": "1431"
      },
      {
-      "doc_count": 9,
+      "doc_count": 8,
       "key": "1432"
      },
      {
-      "doc_count": 7,
+      "doc_count": 4,
       "key": "341"
      },
      {
@@ -827,7 +1408,7 @@
     ]
    }
   },
-  "orderIdx": 9
+  "orderIdx": 16
  },
  {
   "number": 1105000351000562,
@@ -860,11 +1441,11 @@
    "by_boardCode": {
     "buckets": [
      {
-      "doc_count": 59,
+      "doc_count": 56,
       "key": "3"
      },
      {
-      "doc_count": 18,
+      "doc_count": 21,
       "key": "1"
      },
      {
@@ -884,15 +1465,15 @@
       "key": "4121"
      },
      {
-      "doc_count": 9,
+      "doc_count": 13,
       "key": "1431"
      },
      {
-      "doc_count": 9,
+      "doc_count": 8,
       "key": "1432"
      },
      {
-      "doc_count": 7,
+      "doc_count": 4,
       "key": "341"
      },
      {
@@ -910,7 +1491,7 @@
     ]
    }
   },
-  "orderIdx": 10
+  "orderIdx": 17
  },
  {
   "number": 1105000351000561,
@@ -943,11 +1524,11 @@
    "by_boardCode": {
     "buckets": [
      {
-      "doc_count": 59,
+      "doc_count": 56,
       "key": "3"
      },
      {
-      "doc_count": 18,
+      "doc_count": 21,
       "key": "1"
      },
      {
@@ -967,15 +1548,15 @@
       "key": "4121"
      },
      {
-      "doc_count": 9,
+      "doc_count": 13,
       "key": "1431"
      },
      {
-      "doc_count": 9,
+      "doc_count": 8,
       "key": "1432"
      },
      {
-      "doc_count": 7,
+      "doc_count": 4,
       "key": "341"
      },
      {
@@ -993,90 +1574,7 @@
     ]
    }
   },
-  "orderIdx": 11
- },
- {
-  "number": 1105003062000161,
-  "title": "نیاز کالا-خرید، تأمین، حمل، تخلیه، نصب، راه‌اندازی، برنامه‌ریزی، تنظیم، کالیبراسیون، تست، آموزش و تحویل ۷ دستگاه استند دیجیتال طبق شرایط پیوست",
-  "boardCode": 1,
-  "basePrice": null,
-  "orgName": "سازمان سنجش و اموزش کشور",
-  "score": 93,
-  "cityName": "فردیس",
-  "insertDate": null,
-  "boardName": "خرید",
-  "provinceName": "البرز",
-  "jalaliSendDeadlineDate": "1405/06/18 - 12:00",
-  "jalaliLastEditDate": null,
-  "jalaliDocumentDeadlineDate": null,
-  "tableId": 5338568,
-  "tagCode": 1431,
-  "needType": "1431",
-  "reqId": "7427928",
-  "jalaliFromProposalDate": null,
-  "partyNumber": null,
-  "orgId": 5092,
-  "aucState": null,
-  "cartId": 0,
-  "categoryId": null,
-  "categoryName": null,
-  "locId": null,
-  "ticketId": null,
-  "aggregations": {
-   "by_boardCode": {
-    "buckets": [
-     {
-      "doc_count": 59,
-      "key": "3"
-     },
-     {
-      "doc_count": 18,
-      "key": "1"
-     },
-     {
-      "doc_count": 16,
-      "key": "2"
-     }
-    ]
-   },
-   "by_tagCode": {
-    "buckets": [
-     {
-      "doc_count": 49,
-      "key": "33"
-     },
-     {
-      "doc_count": 14,
-      "key": "4121"
-     },
-     {
-      "doc_count": 9,
-      "key": "1431"
-     },
-     {
-      "doc_count": 9,
-      "key": "1432"
-     },
-     {
-      "doc_count": 7,
-      "key": "341"
-     },
-     {
-      "doc_count": 2,
-      "key": "32"
-     },
-     {
-      "doc_count": 2,
-      "key": "4128"
-     },
-     {
-      "doc_count": 1,
-      "key": "342"
-     }
-    ]
-   }
-  },
-  "orderIdx": 12
+  "orderIdx": 18
  },
  {
   "number": 1105000351000560,
@@ -1109,11 +1607,11 @@
    "by_boardCode": {
     "buckets": [
      {
-      "doc_count": 59,
+      "doc_count": 56,
       "key": "3"
      },
      {
-      "doc_count": 18,
+      "doc_count": 21,
       "key": "1"
      },
      {
@@ -1133,15 +1631,15 @@
       "key": "4121"
      },
      {
-      "doc_count": 9,
+      "doc_count": 13,
       "key": "1431"
      },
      {
-      "doc_count": 9,
+      "doc_count": 8,
       "key": "1432"
      },
      {
-      "doc_count": 7,
+      "doc_count": 4,
       "key": "341"
      },
      {
@@ -1159,7 +1657,7 @@
     ]
    }
   },
-  "orderIdx": 13
+  "orderIdx": 19
  },
  {
   "number": 1105005186000282,
@@ -1192,11 +1690,11 @@
    "by_boardCode": {
     "buckets": [
      {
-      "doc_count": 59,
+      "doc_count": 56,
       "key": "3"
      },
      {
-      "doc_count": 18,
+      "doc_count": 21,
       "key": "1"
      },
      {
@@ -1216,15 +1714,15 @@
       "key": "4121"
      },
      {
-      "doc_count": 9,
+      "doc_count": 13,
       "key": "1431"
      },
      {
-      "doc_count": 9,
+      "doc_count": 8,
       "key": "1432"
      },
      {
-      "doc_count": 7,
+      "doc_count": 4,
       "key": "341"
      },
      {
@@ -1242,90 +1740,7 @@
     ]
    }
   },
-  "orderIdx": 14
- },
- {
-  "number": 1105003062000160,
-  "title": "نیاز کالا-1- لاستیک فوتک پرفکت (یک پله)500 عدد 2- لاستیک فوتک قرمز تختmm 0.8*13*32 به تعداد 1000 عدد",
-  "boardCode": 1,
-  "basePrice": null,
-  "orgName": "سازمان سنجش و اموزش کشور",
-  "score": 93,
-  "cityName": "فردیس",
-  "insertDate": null,
-  "boardName": "خرید",
-  "provinceName": "البرز",
-  "jalaliSendDeadlineDate": "1405/06/17 - 14:00",
-  "jalaliLastEditDate": null,
-  "jalaliDocumentDeadlineDate": null,
-  "tableId": 5336692,
-  "tagCode": 1431,
-  "needType": "1431",
-  "reqId": "7425083",
-  "jalaliFromProposalDate": null,
-  "partyNumber": null,
-  "orgId": 5092,
-  "aucState": null,
-  "cartId": 0,
-  "categoryId": null,
-  "categoryName": null,
-  "locId": null,
-  "ticketId": null,
-  "aggregations": {
-   "by_boardCode": {
-    "buckets": [
-     {
-      "doc_count": 59,
-      "key": "3"
-     },
-     {
-      "doc_count": 18,
-      "key": "1"
-     },
-     {
-      "doc_count": 16,
-      "key": "2"
-     }
-    ]
-   },
-   "by_tagCode": {
-    "buckets": [
-     {
-      "doc_count": 49,
-      "key": "33"
-     },
-     {
-      "doc_count": 14,
-      "key": "4121"
-     },
-     {
-      "doc_count": 9,
-      "key": "1431"
-     },
-     {
-      "doc_count": 9,
-      "key": "1432"
-     },
-     {
-      "doc_count": 7,
-      "key": "341"
-     },
-     {
-      "doc_count": 2,
-      "key": "32"
-     },
-     {
-      "doc_count": 2,
-      "key": "4128"
-     },
-     {
-      "doc_count": 1,
-      "key": "342"
-     }
-    ]
-   }
-  },
-  "orderIdx": 15
+  "orderIdx": 20
  },
  {
   "number": 3105108818000069,
@@ -1358,11 +1773,11 @@
    "by_boardCode": {
     "buckets": [
      {
-      "doc_count": 59,
+      "doc_count": 56,
       "key": "3"
      },
      {
-      "doc_count": 18,
+      "doc_count": 21,
       "key": "1"
      },
      {
@@ -1382,15 +1797,15 @@
       "key": "4121"
      },
      {
-      "doc_count": 9,
+      "doc_count": 13,
       "key": "1431"
      },
      {
-      "doc_count": 9,
+      "doc_count": 8,
       "key": "1432"
      },
      {
-      "doc_count": 7,
+      "doc_count": 4,
       "key": "341"
      },
      {
@@ -1408,7 +1823,7 @@
     ]
    }
   },
-  "orderIdx": 16
+  "orderIdx": 21
  },
  {
   "number": 3105108818000068,
@@ -1441,11 +1856,11 @@
    "by_boardCode": {
     "buckets": [
      {
-      "doc_count": 59,
+      "doc_count": 56,
       "key": "3"
      },
      {
-      "doc_count": 18,
+      "doc_count": 21,
       "key": "1"
      },
      {
@@ -1465,15 +1880,15 @@
       "key": "4121"
      },
      {
-      "doc_count": 9,
+      "doc_count": 13,
       "key": "1431"
      },
      {
-      "doc_count": 9,
+      "doc_count": 8,
       "key": "1432"
      },
      {
-      "doc_count": 7,
+      "doc_count": 4,
       "key": "341"
      },
      {
@@ -1491,7 +1906,7 @@
     ]
    }
   },
-  "orderIdx": 17
+  "orderIdx": 22
  },
  {
   "number": 2005050288000066,
@@ -1524,11 +1939,11 @@
    "by_boardCode": {
     "buckets": [
      {
-      "doc_count": 59,
+      "doc_count": 56,
       "key": "3"
      },
      {
-      "doc_count": 18,
+      "doc_count": 21,
       "key": "1"
      },
      {
@@ -1548,15 +1963,15 @@
       "key": "4121"
      },
      {
-      "doc_count": 9,
+      "doc_count": 13,
       "key": "1431"
      },
      {
-      "doc_count": 9,
+      "doc_count": 8,
       "key": "1432"
      },
      {
-      "doc_count": 7,
+      "doc_count": 4,
       "key": "341"
      },
      {
@@ -1574,7 +1989,7 @@
     ]
    }
   },
-  "orderIdx": 18
+  "orderIdx": 23
  },
  {
   "number": 2005050288000067,
@@ -1607,11 +2022,11 @@
    "by_boardCode": {
     "buckets": [
      {
-      "doc_count": 59,
+      "doc_count": 56,
       "key": "3"
      },
      {
-      "doc_count": 18,
+      "doc_count": 21,
       "key": "1"
      },
      {
@@ -1631,15 +2046,15 @@
       "key": "4121"
      },
      {
-      "doc_count": 9,
+      "doc_count": 13,
       "key": "1431"
      },
      {
-      "doc_count": 9,
+      "doc_count": 8,
       "key": "1432"
      },
      {
-      "doc_count": 7,
+      "doc_count": 4,
       "key": "341"
      },
      {
@@ -1657,7 +2072,7 @@
     ]
    }
   },
-  "orderIdx": 19
+  "orderIdx": 24
  },
  {
   "number": 2005050288000068,
@@ -1690,11 +2105,11 @@
    "by_boardCode": {
     "buckets": [
      {
-      "doc_count": 59,
+      "doc_count": 56,
       "key": "3"
      },
      {
-      "doc_count": 18,
+      "doc_count": 21,
       "key": "1"
      },
      {
@@ -1714,15 +2129,15 @@
       "key": "4121"
      },
      {
-      "doc_count": 9,
+      "doc_count": 13,
       "key": "1431"
      },
      {
-      "doc_count": 9,
+      "doc_count": 8,
       "key": "1432"
      },
      {
-      "doc_count": 7,
+      "doc_count": 4,
       "key": "341"
      },
      {
@@ -1740,7 +2155,7 @@
     ]
    }
   },
-  "orderIdx": 20
+  "orderIdx": 25
  },
  {
   "number": 2005050288000069,
@@ -1773,11 +2188,11 @@
    "by_boardCode": {
     "buckets": [
      {
-      "doc_count": 59,
+      "doc_count": 56,
       "key": "3"
      },
      {
-      "doc_count": 18,
+      "doc_count": 21,
       "key": "1"
      },
      {
@@ -1797,15 +2212,15 @@
       "key": "4121"
      },
      {
-      "doc_count": 9,
+      "doc_count": 13,
       "key": "1431"
      },
      {
-      "doc_count": 9,
+      "doc_count": 8,
       "key": "1432"
      },
      {
-      "doc_count": 7,
+      "doc_count": 4,
       "key": "341"
      },
      {
@@ -1823,90 +2238,7 @@
     ]
    }
   },
-  "orderIdx": 21
- },
- {
-  "number": 1105000351000559,
-  "title": "نیاز کالا-محلول ضد عفونی-بر اساس لیست پیوست",
-  "boardCode": 1,
-  "basePrice": null,
-  "orgName": "شبکه بهداشت و درمان فردیس",
-  "score": 93,
-  "cityName": "فردیس",
-  "insertDate": null,
-  "boardName": "خرید",
-  "provinceName": "البرز",
-  "jalaliSendDeadlineDate": "1405/06/17 - 10:00",
-  "jalaliLastEditDate": null,
-  "jalaliDocumentDeadlineDate": null,
-  "tableId": 5334706,
-  "tagCode": 1431,
-  "needType": "1431",
-  "reqId": "7422108",
-  "jalaliFromProposalDate": null,
-  "partyNumber": null,
-  "orgId": 10378,
-  "aucState": null,
-  "cartId": 0,
-  "categoryId": null,
-  "categoryName": null,
-  "locId": null,
-  "ticketId": null,
-  "aggregations": {
-   "by_boardCode": {
-    "buckets": [
-     {
-      "doc_count": 59,
-      "key": "3"
-     },
-     {
-      "doc_count": 18,
-      "key": "1"
-     },
-     {
-      "doc_count": 16,
-      "key": "2"
-     }
-    ]
-   },
-   "by_tagCode": {
-    "buckets": [
-     {
-      "doc_count": 49,
-      "key": "33"
-     },
-     {
-      "doc_count": 14,
-      "key": "4121"
-     },
-     {
-      "doc_count": 9,
-      "key": "1431"
-     },
-     {
-      "doc_count": 9,
-      "key": "1432"
-     },
-     {
-      "doc_count": 7,
-      "key": "341"
-     },
-     {
-      "doc_count": 2,
-      "key": "32"
-     },
-     {
-      "doc_count": 2,
-      "key": "4128"
-     },
-     {
-      "doc_count": 1,
-      "key": "342"
-     }
-    ]
-   }
-  },
-  "orderIdx": 22
+  "orderIdx": 26
  },
  {
   "number": 1105050288000135,
@@ -1939,11 +2271,11 @@
    "by_boardCode": {
     "buckets": [
      {
-      "doc_count": 59,
+      "doc_count": 56,
       "key": "3"
      },
      {
-      "doc_count": 18,
+      "doc_count": 21,
       "key": "1"
      },
      {
@@ -1963,15 +2295,15 @@
       "key": "4121"
      },
      {
-      "doc_count": 9,
+      "doc_count": 13,
       "key": "1431"
      },
      {
-      "doc_count": 9,
+      "doc_count": 8,
       "key": "1432"
      },
      {
-      "doc_count": 7,
+      "doc_count": 4,
       "key": "341"
      },
      {
@@ -1989,7 +2321,7 @@
     ]
    }
   },
-  "orderIdx": 23
+  "orderIdx": 27
  },
  {
   "number": 1105050288000134,
@@ -2022,11 +2354,11 @@
    "by_boardCode": {
     "buckets": [
      {
-      "doc_count": 59,
+      "doc_count": 56,
       "key": "3"
      },
      {
-      "doc_count": 18,
+      "doc_count": 21,
       "key": "1"
      },
      {
@@ -2046,15 +2378,15 @@
       "key": "4121"
      },
      {
-      "doc_count": 9,
+      "doc_count": 13,
       "key": "1431"
      },
      {
-      "doc_count": 9,
+      "doc_count": 8,
       "key": "1432"
      },
      {
-      "doc_count": 7,
+      "doc_count": 4,
       "key": "341"
      },
      {
@@ -2072,7 +2404,7 @@
     ]
    }
   },
-  "orderIdx": 24
+  "orderIdx": 28
  },
  {
   "number": 1105005221001787,
@@ -2105,11 +2437,11 @@
    "by_boardCode": {
     "buckets": [
      {
-      "doc_count": 59,
+      "doc_count": 56,
       "key": "3"
      },
      {
-      "doc_count": 18,
+      "doc_count": 21,
       "key": "1"
      },
      {
@@ -2129,15 +2461,15 @@
       "key": "4121"
      },
      {
-      "doc_count": 9,
+      "doc_count": 13,
       "key": "1431"
      },
      {
-      "doc_count": 9,
+      "doc_count": 8,
       "key": "1432"
      },
      {
-      "doc_count": 7,
+      "doc_count": 4,
       "key": "341"
      },
      {
@@ -2155,7 +2487,7 @@
     ]
    }
   },
-  "orderIdx": 25
+  "orderIdx": 29
  },
  {
   "number": 5105050288000020,
@@ -2188,11 +2520,11 @@
    "by_boardCode": {
     "buckets": [
      {
-      "doc_count": 59,
+      "doc_count": 56,
       "key": "3"
      },
      {
-      "doc_count": 18,
+      "doc_count": 21,
       "key": "1"
      },
      {
@@ -2212,15 +2544,15 @@
       "key": "4121"
      },
      {
-      "doc_count": 9,
+      "doc_count": 13,
       "key": "1431"
      },
      {
-      "doc_count": 9,
+      "doc_count": 8,
       "key": "1432"
      },
      {
-      "doc_count": 7,
+      "doc_count": 4,
       "key": "341"
      },
      {
@@ -2238,90 +2570,7 @@
     ]
    }
   },
-  "orderIdx": 26
- },
- {
-  "number": 1105050288000133,
-  "title": "نیاز خدمات-شهرداری منطقه دو فردیس درنظر دارد نسبت به پروژه تهیه، بارگیری، حمل، باراندازی و اعمال دیوار پیش ساخته ماد 110 به شرح شرایط و مشخصات پیوست اقدام نماید.",
-  "boardCode": 1,
-  "basePrice": null,
-  "orgName": "شهرداری فردیس استان البرز",
-  "score": 93,
-  "cityName": "فردیس",
-  "insertDate": null,
-  "boardName": "خرید",
-  "provinceName": "البرز",
-  "jalaliSendDeadlineDate": "1405/06/17 - 07:30",
-  "jalaliLastEditDate": null,
-  "jalaliDocumentDeadlineDate": null,
-  "tableId": 5332128,
-  "tagCode": 1432,
-  "needType": "1432",
-  "reqId": "7418179",
-  "jalaliFromProposalDate": null,
-  "partyNumber": null,
-  "orgId": 12263,
-  "aucState": null,
-  "cartId": 0,
-  "categoryId": null,
-  "categoryName": null,
-  "locId": null,
-  "ticketId": null,
-  "aggregations": {
-   "by_boardCode": {
-    "buckets": [
-     {
-      "doc_count": 59,
-      "key": "3"
-     },
-     {
-      "doc_count": 18,
-      "key": "1"
-     },
-     {
-      "doc_count": 16,
-      "key": "2"
-     }
-    ]
-   },
-   "by_tagCode": {
-    "buckets": [
-     {
-      "doc_count": 49,
-      "key": "33"
-     },
-     {
-      "doc_count": 14,
-      "key": "4121"
-     },
-     {
-      "doc_count": 9,
-      "key": "1431"
-     },
-     {
-      "doc_count": 9,
-      "key": "1432"
-     },
-     {
-      "doc_count": 7,
-      "key": "341"
-     },
-     {
-      "doc_count": 2,
-      "key": "32"
-     },
-     {
-      "doc_count": 2,
-      "key": "4128"
-     },
-     {
-      "doc_count": 1,
-      "key": "342"
-     }
-    ]
-   }
-  },
-  "orderIdx": 27
+  "orderIdx": 30
  },
  {
   "number": 2005050288000063,
@@ -2354,11 +2603,11 @@
    "by_boardCode": {
     "buckets": [
      {
-      "doc_count": 59,
+      "doc_count": 56,
       "key": "3"
      },
      {
-      "doc_count": 18,
+      "doc_count": 21,
       "key": "1"
      },
      {
@@ -2378,15 +2627,15 @@
       "key": "4121"
      },
      {
-      "doc_count": 9,
+      "doc_count": 13,
       "key": "1431"
      },
      {
-      "doc_count": 9,
+      "doc_count": 8,
       "key": "1432"
      },
      {
-      "doc_count": 7,
+      "doc_count": 4,
       "key": "341"
      },
      {
@@ -2404,7 +2653,7 @@
     ]
    }
   },
-  "orderIdx": 28
+  "orderIdx": 31
  },
  {
   "number": 2005050288000064,
@@ -2437,11 +2686,11 @@
    "by_boardCode": {
     "buckets": [
      {
-      "doc_count": 59,
+      "doc_count": 56,
       "key": "3"
      },
      {
-      "doc_count": 18,
+      "doc_count": 21,
       "key": "1"
      },
      {
@@ -2461,15 +2710,15 @@
       "key": "4121"
      },
      {
-      "doc_count": 9,
+      "doc_count": 13,
       "key": "1431"
      },
      {
-      "doc_count": 9,
+      "doc_count": 8,
       "key": "1432"
      },
      {
-      "doc_count": 7,
+      "doc_count": 4,
       "key": "341"
      },
      {
@@ -2487,7 +2736,7 @@
     ]
    }
   },
-  "orderIdx": 29
+  "orderIdx": 32
  },
  {
   "number": 2005050288000065,
@@ -2520,11 +2769,11 @@
    "by_boardCode": {
     "buckets": [
      {
-      "doc_count": 59,
+      "doc_count": 56,
       "key": "3"
      },
      {
-      "doc_count": 18,
+      "doc_count": 21,
       "key": "1"
      },
      {
@@ -2544,15 +2793,15 @@
       "key": "4121"
      },
      {
-      "doc_count": 9,
+      "doc_count": 13,
       "key": "1431"
      },
      {
-      "doc_count": 9,
+      "doc_count": 8,
       "key": "1432"
      },
      {
-      "doc_count": 7,
+      "doc_count": 4,
       "key": "341"
      },
      {
@@ -2570,7 +2819,7 @@
     ]
    }
   },
-  "orderIdx": 30
+  "orderIdx": 33
  },
  {
   "number": 2005005186000105,
@@ -2603,11 +2852,11 @@
    "by_boardCode": {
     "buckets": [
      {
-      "doc_count": 59,
+      "doc_count": 56,
       "key": "3"
      },
      {
-      "doc_count": 18,
+      "doc_count": 21,
       "key": "1"
      },
      {
@@ -2627,15 +2876,15 @@
       "key": "4121"
      },
      {
-      "doc_count": 9,
+      "doc_count": 13,
       "key": "1431"
      },
      {
-      "doc_count": 9,
+      "doc_count": 8,
       "key": "1432"
      },
      {
-      "doc_count": 7,
+      "doc_count": 4,
       "key": "341"
      },
      {
@@ -2653,7 +2902,7 @@
     ]
    }
   },
-  "orderIdx": 31
+  "orderIdx": 34
  },
  {
   "number": 5105050288000019,
@@ -2686,11 +2935,11 @@
    "by_boardCode": {
     "buckets": [
      {
-      "doc_count": 59,
+      "doc_count": 56,
       "key": "3"
      },
      {
-      "doc_count": 18,
+      "doc_count": 21,
       "key": "1"
      },
      {
@@ -2710,15 +2959,15 @@
       "key": "4121"
      },
      {
-      "doc_count": 9,
+      "doc_count": 13,
       "key": "1431"
      },
      {
-      "doc_count": 9,
+      "doc_count": 8,
       "key": "1432"
      },
      {
-      "doc_count": 7,
+      "doc_count": 4,
       "key": "341"
      },
      {
@@ -2736,7 +2985,7 @@
     ]
    }
   },
-  "orderIdx": 32
+  "orderIdx": 35
  },
  {
   "number": 5105050288000017,
@@ -2769,11 +3018,11 @@
    "by_boardCode": {
     "buckets": [
      {
-      "doc_count": 59,
+      "doc_count": 56,
       "key": "3"
      },
      {
-      "doc_count": 18,
+      "doc_count": 21,
       "key": "1"
      },
      {
@@ -2793,15 +3042,15 @@
       "key": "4121"
      },
      {
-      "doc_count": 9,
+      "doc_count": 13,
       "key": "1431"
      },
      {
-      "doc_count": 9,
+      "doc_count": 8,
       "key": "1432"
      },
      {
-      "doc_count": 7,
+      "doc_count": 4,
       "key": "341"
      },
      {
@@ -2819,7 +3068,7 @@
     ]
    }
   },
-  "orderIdx": 33
+  "orderIdx": 36
  },
  {
   "number": 5105050288000018,
@@ -2852,11 +3101,11 @@
    "by_boardCode": {
     "buckets": [
      {
-      "doc_count": 59,
+      "doc_count": 56,
       "key": "3"
      },
      {
-      "doc_count": 18,
+      "doc_count": 21,
       "key": "1"
      },
      {
@@ -2876,15 +3125,15 @@
       "key": "4121"
      },
      {
-      "doc_count": 9,
+      "doc_count": 13,
       "key": "1431"
      },
      {
-      "doc_count": 9,
+      "doc_count": 8,
       "key": "1432"
      },
      {
-      "doc_count": 7,
+      "doc_count": 4,
       "key": "341"
      },
      {
@@ -2902,7 +3151,7 @@
     ]
    }
   },
-  "orderIdx": 34
+  "orderIdx": 37
  },
  {
   "number": 3105108922000041,
@@ -2935,11 +3184,11 @@
    "by_boardCode": {
     "buckets": [
      {
-      "doc_count": 59,
+      "doc_count": 56,
       "key": "3"
      },
      {
-      "doc_count": 18,
+      "doc_count": 21,
       "key": "1"
      },
      {
@@ -2959,15 +3208,15 @@
       "key": "4121"
      },
      {
-      "doc_count": 9,
+      "doc_count": 13,
       "key": "1431"
      },
      {
-      "doc_count": 9,
+      "doc_count": 8,
       "key": "1432"
      },
      {
-      "doc_count": 7,
+      "doc_count": 4,
       "key": "341"
      },
      {
@@ -2985,7 +3234,7 @@
     ]
    }
   },
-  "orderIdx": 35
+  "orderIdx": 38
  },
  {
   "number": 2005095121000007,
@@ -2999,7 +3248,7 @@
   "boardName": "مناقصه",
   "provinceName": "البرز",
   "jalaliSendDeadlineDate": "1405/06/22 - 19:00",
-  "jalaliLastEditDate": "-",
+  "jalaliLastEditDate": "1405/06/17 - 13:36",
   "jalaliDocumentDeadlineDate": "1405/06/12 - 19:00",
   "tableId": 662460,
   "tagCode": 4121,
@@ -3018,11 +3267,11 @@
    "by_boardCode": {
     "buckets": [
      {
-      "doc_count": 59,
+      "doc_count": 56,
       "key": "3"
      },
      {
-      "doc_count": 18,
+      "doc_count": 21,
       "key": "1"
      },
      {
@@ -3042,15 +3291,15 @@
       "key": "4121"
      },
      {
-      "doc_count": 9,
+      "doc_count": 13,
       "key": "1431"
      },
      {
-      "doc_count": 9,
+      "doc_count": 8,
       "key": "1432"
      },
      {
-      "doc_count": 7,
+      "doc_count": 4,
       "key": "341"
      },
      {
@@ -3068,90 +3317,7 @@
     ]
    }
   },
-  "orderIdx": 36
- },
- {
-  "number": 3105108818000064,
-  "title": "حراج ملک (زمین) قولنامه ای به شرح مندرج در نظریه کارشناسی پیوست",
-  "boardCode": 3,
-  "basePrice": 37710000000,
-  "orgName": "دفتر شعبه اول اجرای احکام مدنی فردیس البرز",
-  "score": 93,
-  "cityName": "فردیس",
-  "insertDate": null,
-  "boardName": "مزایده",
-  "provinceName": "البرز",
-  "jalaliSendDeadlineDate": "1405/06/17 - 12:00",
-  "jalaliLastEditDate": null,
-  "jalaliDocumentDeadlineDate": " - ",
-  "tableId": 494314,
-  "tagCode": 341,
-  "needType": null,
-  "reqId": null,
-  "jalaliFromProposalDate": "1405/06/17 - 08:00",
-  "partyNumber": "1307830",
-  "orgId": 41710,
-  "aucState": 1116,
-  "cartId": 4160482,
-  "categoryId": 224,
-  "categoryName": "زمین، ساختمان‌ و معابر",
-  "locId": null,
-  "ticketId": "",
-  "aggregations": {
-   "by_boardCode": {
-    "buckets": [
-     {
-      "doc_count": 59,
-      "key": "3"
-     },
-     {
-      "doc_count": 18,
-      "key": "1"
-     },
-     {
-      "doc_count": 16,
-      "key": "2"
-     }
-    ]
-   },
-   "by_tagCode": {
-    "buckets": [
-     {
-      "doc_count": 49,
-      "key": "33"
-     },
-     {
-      "doc_count": 14,
-      "key": "4121"
-     },
-     {
-      "doc_count": 9,
-      "key": "1431"
-     },
-     {
-      "doc_count": 9,
-      "key": "1432"
-     },
-     {
-      "doc_count": 7,
-      "key": "341"
-     },
-     {
-      "doc_count": 2,
-      "key": "32"
-     },
-     {
-      "doc_count": 2,
-      "key": "4128"
-     },
-     {
-      "doc_count": 1,
-      "key": "342"
-     }
-    ]
-   }
-  },
-  "orderIdx": 37
+  "orderIdx": 39
  },
  {
   "number": 3105108818000067,
@@ -3184,11 +3350,11 @@
    "by_boardCode": {
     "buckets": [
      {
-      "doc_count": 59,
+      "doc_count": 56,
       "key": "3"
      },
      {
-      "doc_count": 18,
+      "doc_count": 21,
       "key": "1"
      },
      {
@@ -3208,181 +3374,15 @@
       "key": "4121"
      },
      {
-      "doc_count": 9,
+      "doc_count": 13,
       "key": "1431"
      },
      {
-      "doc_count": 9,
+      "doc_count": 8,
       "key": "1432"
      },
      {
-      "doc_count": 7,
-      "key": "341"
-     },
-     {
-      "doc_count": 2,
-      "key": "32"
-     },
-     {
-      "doc_count": 2,
-      "key": "4128"
-     },
-     {
-      "doc_count": 1,
-      "key": "342"
-     }
-    ]
-   }
-  },
-  "orderIdx": 38
- },
- {
-  "number": 3105108818000066,
-  "title": "حراج فروش یک دستگاه خودروی سواری پژو 405 مدل 1386 ",
-  "boardCode": 3,
-  "basePrice": 5300000000,
-  "orgName": "دفتر شعبه اول اجرای احکام مدنی فردیس البرز",
-  "score": 93,
-  "cityName": "فردیس",
-  "insertDate": null,
-  "boardName": "مزایده",
-  "provinceName": "البرز",
-  "jalaliSendDeadlineDate": "1405/06/17 - 12:00",
-  "jalaliLastEditDate": null,
-  "jalaliDocumentDeadlineDate": " - ",
-  "tableId": 494665,
-  "tagCode": 341,
-  "needType": null,
-  "reqId": null,
-  "jalaliFromProposalDate": "1405/06/17 - 08:00",
-  "partyNumber": "1308263",
-  "orgId": 41710,
-  "aucState": 1116,
-  "cartId": 4162562,
-  "categoryId": 180,
-  "categoryName": "وسایل نقلیه، قطعات و لوازم جانبی",
-  "locId": null,
-  "ticketId": "",
-  "aggregations": {
-   "by_boardCode": {
-    "buckets": [
-     {
-      "doc_count": 59,
-      "key": "3"
-     },
-     {
-      "doc_count": 18,
-      "key": "1"
-     },
-     {
-      "doc_count": 16,
-      "key": "2"
-     }
-    ]
-   },
-   "by_tagCode": {
-    "buckets": [
-     {
-      "doc_count": 49,
-      "key": "33"
-     },
-     {
-      "doc_count": 14,
-      "key": "4121"
-     },
-     {
-      "doc_count": 9,
-      "key": "1431"
-     },
-     {
-      "doc_count": 9,
-      "key": "1432"
-     },
-     {
-      "doc_count": 7,
-      "key": "341"
-     },
-     {
-      "doc_count": 2,
-      "key": "32"
-     },
-     {
-      "doc_count": 2,
-      "key": "4128"
-     },
-     {
-      "doc_count": 1,
-      "key": "342"
-     }
-    ]
-   }
-  },
-  "orderIdx": 39
- },
- {
-  "number": 3105108818000065,
-  "title": "حراج فروش پلاک ثبتی 34763فرعی از 163 اصلی ",
-  "boardCode": 3,
-  "basePrice": 46000000000,
-  "orgName": "دفتر شعبه اول اجرای احکام مدنی فردیس البرز",
-  "score": 93,
-  "cityName": "فردیس",
-  "insertDate": null,
-  "boardName": "مزایده",
-  "provinceName": "البرز",
-  "jalaliSendDeadlineDate": "1405/06/17 - 12:00",
-  "jalaliLastEditDate": null,
-  "jalaliDocumentDeadlineDate": " - ",
-  "tableId": 494502,
-  "tagCode": 341,
-  "needType": null,
-  "reqId": null,
-  "jalaliFromProposalDate": "1405/06/17 - 08:00",
-  "partyNumber": "1308051",
-  "orgId": 41710,
-  "aucState": 1116,
-  "cartId": 4161271,
-  "categoryId": 224,
-  "categoryName": "زمین، ساختمان‌ و معابر",
-  "locId": null,
-  "ticketId": "",
-  "aggregations": {
-   "by_boardCode": {
-    "buckets": [
-     {
-      "doc_count": 59,
-      "key": "3"
-     },
-     {
-      "doc_count": 18,
-      "key": "1"
-     },
-     {
-      "doc_count": 16,
-      "key": "2"
-     }
-    ]
-   },
-   "by_tagCode": {
-    "buckets": [
-     {
-      "doc_count": 49,
-      "key": "33"
-     },
-     {
-      "doc_count": 14,
-      "key": "4121"
-     },
-     {
-      "doc_count": 9,
-      "key": "1431"
-     },
-     {
-      "doc_count": 9,
-      "key": "1432"
-     },
-     {
-      "doc_count": 7,
+      "doc_count": 4,
       "key": "341"
      },
      {
@@ -3433,11 +3433,11 @@
    "by_boardCode": {
     "buckets": [
      {
-      "doc_count": 59,
+      "doc_count": 56,
       "key": "3"
      },
      {
-      "doc_count": 18,
+      "doc_count": 21,
       "key": "1"
      },
      {
@@ -3457,15 +3457,15 @@
       "key": "4121"
      },
      {
-      "doc_count": 9,
+      "doc_count": 13,
       "key": "1431"
      },
      {
-      "doc_count": 9,
+      "doc_count": 8,
       "key": "1432"
      },
      {
-      "doc_count": 7,
+      "doc_count": 4,
       "key": "341"
      },
      {
@@ -3516,11 +3516,11 @@
    "by_boardCode": {
     "buckets": [
      {
-      "doc_count": 59,
+      "doc_count": 56,
       "key": "3"
      },
      {
-      "doc_count": 18,
+      "doc_count": 21,
       "key": "1"
      },
      {
@@ -3540,15 +3540,15 @@
       "key": "4121"
      },
      {
-      "doc_count": 9,
+      "doc_count": 13,
       "key": "1431"
      },
      {
-      "doc_count": 9,
+      "doc_count": 8,
       "key": "1432"
      },
      {
-      "doc_count": 7,
+      "doc_count": 4,
       "key": "341"
      },
      {
@@ -3599,11 +3599,11 @@
    "by_boardCode": {
     "buckets": [
      {
-      "doc_count": 59,
+      "doc_count": 56,
       "key": "3"
      },
      {
-      "doc_count": 18,
+      "doc_count": 21,
       "key": "1"
      },
      {
@@ -3623,15 +3623,15 @@
       "key": "4121"
      },
      {
-      "doc_count": 9,
+      "doc_count": 13,
       "key": "1431"
      },
      {
-      "doc_count": 9,
+      "doc_count": 8,
       "key": "1432"
      },
      {
-      "doc_count": 7,
+      "doc_count": 4,
       "key": "341"
      },
      {
@@ -3682,11 +3682,11 @@
    "by_boardCode": {
     "buckets": [
      {
-      "doc_count": 59,
+      "doc_count": 56,
       "key": "3"
      },
      {
-      "doc_count": 18,
+      "doc_count": 21,
       "key": "1"
      },
      {
@@ -3706,15 +3706,15 @@
       "key": "4121"
      },
      {
-      "doc_count": 9,
+      "doc_count": 13,
       "key": "1431"
      },
      {
-      "doc_count": 9,
+      "doc_count": 8,
       "key": "1432"
      },
      {
-      "doc_count": 7,
+      "doc_count": 4,
       "key": "341"
      },
      {
@@ -3765,11 +3765,11 @@
    "by_boardCode": {
     "buckets": [
      {
-      "doc_count": 59,
+      "doc_count": 56,
       "key": "3"
      },
      {
-      "doc_count": 18,
+      "doc_count": 21,
       "key": "1"
      },
      {
@@ -3789,15 +3789,15 @@
       "key": "4121"
      },
      {
-      "doc_count": 9,
+      "doc_count": 13,
       "key": "1431"
      },
      {
-      "doc_count": 9,
+      "doc_count": 8,
       "key": "1432"
      },
      {
-      "doc_count": 7,
+      "doc_count": 4,
       "key": "341"
      },
      {
@@ -3848,11 +3848,11 @@
    "by_boardCode": {
     "buckets": [
      {
-      "doc_count": 59,
+      "doc_count": 56,
       "key": "3"
      },
      {
-      "doc_count": 18,
+      "doc_count": 21,
       "key": "1"
      },
      {
@@ -3872,15 +3872,15 @@
       "key": "4121"
      },
      {
-      "doc_count": 9,
+      "doc_count": 13,
       "key": "1431"
      },
      {
-      "doc_count": 9,
+      "doc_count": 8,
       "key": "1432"
      },
      {
-      "doc_count": 7,
+      "doc_count": 4,
       "key": "341"
      },
      {
@@ -3931,11 +3931,11 @@
    "by_boardCode": {
     "buckets": [
      {
-      "doc_count": 59,
+      "doc_count": 56,
       "key": "3"
      },
      {
-      "doc_count": 18,
+      "doc_count": 21,
       "key": "1"
      },
      {
@@ -3955,15 +3955,15 @@
       "key": "4121"
      },
      {
-      "doc_count": 9,
+      "doc_count": 13,
       "key": "1431"
      },
      {
-      "doc_count": 9,
+      "doc_count": 8,
       "key": "1432"
      },
      {
-      "doc_count": 7,
+      "doc_count": 4,
       "key": "341"
      },
      {
@@ -4014,11 +4014,11 @@
    "by_boardCode": {
     "buckets": [
      {
-      "doc_count": 59,
+      "doc_count": 56,
       "key": "3"
      },
      {
-      "doc_count": 18,
+      "doc_count": 21,
       "key": "1"
      },
      {
@@ -4038,15 +4038,15 @@
       "key": "4121"
      },
      {
-      "doc_count": 9,
+      "doc_count": 13,
       "key": "1431"
      },
      {
-      "doc_count": 9,
+      "doc_count": 8,
       "key": "1432"
      },
      {
-      "doc_count": 7,
+      "doc_count": 4,
       "key": "341"
      },
      {
@@ -4097,11 +4097,11 @@
    "by_boardCode": {
     "buckets": [
      {
-      "doc_count": 59,
+      "doc_count": 56,
       "key": "3"
      },
      {
-      "doc_count": 18,
+      "doc_count": 21,
       "key": "1"
      },
      {
@@ -4121,15 +4121,15 @@
       "key": "4121"
      },
      {
-      "doc_count": 9,
+      "doc_count": 13,
       "key": "1431"
      },
      {
-      "doc_count": 9,
+      "doc_count": 8,
       "key": "1432"
      },
      {
-      "doc_count": 7,
+      "doc_count": 4,
       "key": "341"
      },
      {
@@ -4180,11 +4180,11 @@
    "by_boardCode": {
     "buckets": [
      {
-      "doc_count": 59,
+      "doc_count": 56,
       "key": "3"
      },
      {
-      "doc_count": 18,
+      "doc_count": 21,
       "key": "1"
      },
      {
@@ -4204,15 +4204,15 @@
       "key": "4121"
      },
      {
-      "doc_count": 9,
+      "doc_count": 13,
       "key": "1431"
      },
      {
-      "doc_count": 9,
+      "doc_count": 8,
       "key": "1432"
      },
      {
-      "doc_count": 7,
+      "doc_count": 4,
       "key": "341"
      },
      {
@@ -4263,11 +4263,11 @@
    "by_boardCode": {
     "buckets": [
      {
-      "doc_count": 59,
+      "doc_count": 56,
       "key": "3"
      },
      {
-      "doc_count": 18,
+      "doc_count": 21,
       "key": "1"
      },
      {
@@ -4287,15 +4287,15 @@
       "key": "4121"
      },
      {
-      "doc_count": 9,
+      "doc_count": 13,
       "key": "1431"
      },
      {
-      "doc_count": 9,
+      "doc_count": 8,
       "key": "1432"
      },
      {
-      "doc_count": 7,
+      "doc_count": 4,
       "key": "341"
      },
      {
@@ -4346,11 +4346,11 @@
    "by_boardCode": {
     "buckets": [
      {
-      "doc_count": 59,
+      "doc_count": 56,
       "key": "3"
      },
      {
-      "doc_count": 18,
+      "doc_count": 21,
       "key": "1"
      },
      {
@@ -4370,15 +4370,15 @@
       "key": "4121"
      },
      {
-      "doc_count": 9,
+      "doc_count": 13,
       "key": "1431"
      },
      {
-      "doc_count": 9,
+      "doc_count": 8,
       "key": "1432"
      },
      {
-      "doc_count": 7,
+      "doc_count": 4,
       "key": "341"
      },
      {
@@ -4429,11 +4429,11 @@
    "by_boardCode": {
     "buckets": [
      {
-      "doc_count": 59,
+      "doc_count": 56,
       "key": "3"
      },
      {
-      "doc_count": 18,
+      "doc_count": 21,
       "key": "1"
      },
      {
@@ -4453,15 +4453,15 @@
       "key": "4121"
      },
      {
-      "doc_count": 9,
+      "doc_count": 13,
       "key": "1431"
      },
      {
-      "doc_count": 9,
+      "doc_count": 8,
       "key": "1432"
      },
      {
-      "doc_count": 7,
+      "doc_count": 4,
       "key": "341"
      },
      {
@@ -4512,11 +4512,11 @@
    "by_boardCode": {
     "buckets": [
      {
-      "doc_count": 59,
+      "doc_count": 56,
       "key": "3"
      },
      {
-      "doc_count": 18,
+      "doc_count": 21,
       "key": "1"
      },
      {
@@ -4536,15 +4536,15 @@
       "key": "4121"
      },
      {
-      "doc_count": 9,
+      "doc_count": 13,
       "key": "1431"
      },
      {
-      "doc_count": 9,
+      "doc_count": 8,
       "key": "1432"
      },
      {
-      "doc_count": 7,
+      "doc_count": 4,
       "key": "341"
      },
      {
@@ -4595,11 +4595,11 @@
    "by_boardCode": {
     "buckets": [
      {
-      "doc_count": 59,
+      "doc_count": 56,
       "key": "3"
      },
      {
-      "doc_count": 18,
+      "doc_count": 21,
       "key": "1"
      },
      {
@@ -4619,15 +4619,15 @@
       "key": "4121"
      },
      {
-      "doc_count": 9,
+      "doc_count": 13,
       "key": "1431"
      },
      {
-      "doc_count": 9,
+      "doc_count": 8,
       "key": "1432"
      },
      {
-      "doc_count": 7,
+      "doc_count": 4,
       "key": "341"
      },
      {
@@ -4678,11 +4678,11 @@
    "by_boardCode": {
     "buckets": [
      {
-      "doc_count": 59,
+      "doc_count": 56,
       "key": "3"
      },
      {
-      "doc_count": 18,
+      "doc_count": 21,
       "key": "1"
      },
      {
@@ -4702,15 +4702,15 @@
       "key": "4121"
      },
      {
-      "doc_count": 9,
+      "doc_count": 13,
       "key": "1431"
      },
      {
-      "doc_count": 9,
+      "doc_count": 8,
       "key": "1432"
      },
      {
-      "doc_count": 7,
+      "doc_count": 4,
       "key": "341"
      },
      {
@@ -4761,11 +4761,11 @@
    "by_boardCode": {
     "buckets": [
      {
-      "doc_count": 59,
+      "doc_count": 56,
       "key": "3"
      },
      {
-      "doc_count": 18,
+      "doc_count": 21,
       "key": "1"
      },
      {
@@ -4785,15 +4785,15 @@
       "key": "4121"
      },
      {
-      "doc_count": 9,
+      "doc_count": 13,
       "key": "1431"
      },
      {
-      "doc_count": 9,
+      "doc_count": 8,
       "key": "1432"
      },
      {
-      "doc_count": 7,
+      "doc_count": 4,
       "key": "341"
      },
      {
@@ -4844,11 +4844,11 @@
    "by_boardCode": {
     "buckets": [
      {
-      "doc_count": 59,
+      "doc_count": 56,
       "key": "3"
      },
      {
-      "doc_count": 18,
+      "doc_count": 21,
       "key": "1"
      },
      {
@@ -4868,15 +4868,15 @@
       "key": "4121"
      },
      {
-      "doc_count": 9,
+      "doc_count": 13,
       "key": "1431"
      },
      {
-      "doc_count": 9,
+      "doc_count": 8,
       "key": "1432"
      },
      {
-      "doc_count": 7,
+      "doc_count": 4,
       "key": "341"
      },
      {
@@ -4927,11 +4927,11 @@
    "by_boardCode": {
     "buckets": [
      {
-      "doc_count": 59,
+      "doc_count": 56,
       "key": "3"
      },
      {
-      "doc_count": 18,
+      "doc_count": 21,
       "key": "1"
      },
      {
@@ -4951,15 +4951,15 @@
       "key": "4121"
      },
      {
-      "doc_count": 9,
+      "doc_count": 13,
       "key": "1431"
      },
      {
-      "doc_count": 9,
+      "doc_count": 8,
       "key": "1432"
      },
      {
-      "doc_count": 7,
+      "doc_count": 4,
       "key": "341"
      },
      {
@@ -5010,11 +5010,11 @@
    "by_boardCode": {
     "buckets": [
      {
-      "doc_count": 59,
+      "doc_count": 56,
       "key": "3"
      },
      {
-      "doc_count": 18,
+      "doc_count": 21,
       "key": "1"
      },
      {
@@ -5034,15 +5034,15 @@
       "key": "4121"
      },
      {
-      "doc_count": 9,
+      "doc_count": 13,
       "key": "1431"
      },
      {
-      "doc_count": 9,
+      "doc_count": 8,
       "key": "1432"
      },
      {
-      "doc_count": 7,
+      "doc_count": 4,
       "key": "341"
      },
      {
@@ -5093,11 +5093,11 @@
    "by_boardCode": {
     "buckets": [
      {
-      "doc_count": 59,
+      "doc_count": 56,
       "key": "3"
      },
      {
-      "doc_count": 18,
+      "doc_count": 21,
       "key": "1"
      },
      {
@@ -5117,15 +5117,15 @@
       "key": "4121"
      },
      {
-      "doc_count": 9,
+      "doc_count": 13,
       "key": "1431"
      },
      {
-      "doc_count": 9,
+      "doc_count": 8,
       "key": "1432"
      },
      {
-      "doc_count": 7,
+      "doc_count": 4,
       "key": "341"
      },
      {
@@ -5176,11 +5176,11 @@
    "by_boardCode": {
     "buckets": [
      {
-      "doc_count": 59,
+      "doc_count": 56,
       "key": "3"
      },
      {
-      "doc_count": 18,
+      "doc_count": 21,
       "key": "1"
      },
      {
@@ -5200,15 +5200,15 @@
       "key": "4121"
      },
      {
-      "doc_count": 9,
+      "doc_count": 13,
       "key": "1431"
      },
      {
-      "doc_count": 9,
+      "doc_count": 8,
       "key": "1432"
      },
      {
-      "doc_count": 7,
+      "doc_count": 4,
       "key": "341"
      },
      {
@@ -5259,11 +5259,11 @@
    "by_boardCode": {
     "buckets": [
      {
-      "doc_count": 59,
+      "doc_count": 56,
       "key": "3"
      },
      {
-      "doc_count": 18,
+      "doc_count": 21,
       "key": "1"
      },
      {
@@ -5283,15 +5283,15 @@
       "key": "4121"
      },
      {
-      "doc_count": 9,
+      "doc_count": 13,
       "key": "1431"
      },
      {
-      "doc_count": 9,
+      "doc_count": 8,
       "key": "1432"
      },
      {
-      "doc_count": 7,
+      "doc_count": 4,
       "key": "341"
      },
      {
@@ -5342,11 +5342,11 @@
    "by_boardCode": {
     "buckets": [
      {
-      "doc_count": 59,
+      "doc_count": 56,
       "key": "3"
      },
      {
-      "doc_count": 18,
+      "doc_count": 21,
       "key": "1"
      },
      {
@@ -5366,15 +5366,15 @@
       "key": "4121"
      },
      {
-      "doc_count": 9,
+      "doc_count": 13,
       "key": "1431"
      },
      {
-      "doc_count": 9,
+      "doc_count": 8,
       "key": "1432"
      },
      {
-      "doc_count": 7,
+      "doc_count": 4,
       "key": "341"
      },
      {
@@ -5425,11 +5425,11 @@
    "by_boardCode": {
     "buckets": [
      {
-      "doc_count": 59,
+      "doc_count": 56,
       "key": "3"
      },
      {
-      "doc_count": 18,
+      "doc_count": 21,
       "key": "1"
      },
      {
@@ -5449,15 +5449,15 @@
       "key": "4121"
      },
      {
-      "doc_count": 9,
+      "doc_count": 13,
       "key": "1431"
      },
      {
-      "doc_count": 9,
+      "doc_count": 8,
       "key": "1432"
      },
      {
-      "doc_count": 7,
+      "doc_count": 4,
       "key": "341"
      },
      {
@@ -5508,11 +5508,11 @@
    "by_boardCode": {
     "buckets": [
      {
-      "doc_count": 59,
+      "doc_count": 56,
       "key": "3"
      },
      {
-      "doc_count": 18,
+      "doc_count": 21,
       "key": "1"
      },
      {
@@ -5532,15 +5532,15 @@
       "key": "4121"
      },
      {
-      "doc_count": 9,
+      "doc_count": 13,
       "key": "1431"
      },
      {
-      "doc_count": 9,
+      "doc_count": 8,
       "key": "1432"
      },
      {
-      "doc_count": 7,
+      "doc_count": 4,
       "key": "341"
      },
      {
@@ -5591,11 +5591,11 @@
    "by_boardCode": {
     "buckets": [
      {
-      "doc_count": 59,
+      "doc_count": 56,
       "key": "3"
      },
      {
-      "doc_count": 18,
+      "doc_count": 21,
       "key": "1"
      },
      {
@@ -5615,15 +5615,15 @@
       "key": "4121"
      },
      {
-      "doc_count": 9,
+      "doc_count": 13,
       "key": "1431"
      },
      {
-      "doc_count": 9,
+      "doc_count": 8,
       "key": "1432"
      },
      {
-      "doc_count": 7,
+      "doc_count": 4,
       "key": "341"
      },
      {
@@ -5674,11 +5674,11 @@
    "by_boardCode": {
     "buckets": [
      {
-      "doc_count": 59,
+      "doc_count": 56,
       "key": "3"
      },
      {
-      "doc_count": 18,
+      "doc_count": 21,
       "key": "1"
      },
      {
@@ -5698,15 +5698,15 @@
       "key": "4121"
      },
      {
-      "doc_count": 9,
+      "doc_count": 13,
       "key": "1431"
      },
      {
-      "doc_count": 9,
+      "doc_count": 8,
       "key": "1432"
      },
      {
-      "doc_count": 7,
+      "doc_count": 4,
       "key": "341"
      },
      {
@@ -5757,11 +5757,11 @@
    "by_boardCode": {
     "buckets": [
      {
-      "doc_count": 59,
+      "doc_count": 56,
       "key": "3"
      },
      {
-      "doc_count": 18,
+      "doc_count": 21,
       "key": "1"
      },
      {
@@ -5781,15 +5781,15 @@
       "key": "4121"
      },
      {
-      "doc_count": 9,
+      "doc_count": 13,
       "key": "1431"
      },
      {
-      "doc_count": 9,
+      "doc_count": 8,
       "key": "1432"
      },
      {
-      "doc_count": 7,
+      "doc_count": 4,
       "key": "341"
      },
      {
@@ -5840,11 +5840,11 @@
    "by_boardCode": {
     "buckets": [
      {
-      "doc_count": 59,
+      "doc_count": 56,
       "key": "3"
      },
      {
-      "doc_count": 18,
+      "doc_count": 21,
       "key": "1"
      },
      {
@@ -5864,15 +5864,15 @@
       "key": "4121"
      },
      {
-      "doc_count": 9,
+      "doc_count": 13,
       "key": "1431"
      },
      {
-      "doc_count": 9,
+      "doc_count": 8,
       "key": "1432"
      },
      {
-      "doc_count": 7,
+      "doc_count": 4,
       "key": "341"
      },
      {
@@ -5923,11 +5923,11 @@
    "by_boardCode": {
     "buckets": [
      {
-      "doc_count": 59,
+      "doc_count": 56,
       "key": "3"
      },
      {
-      "doc_count": 18,
+      "doc_count": 21,
       "key": "1"
      },
      {
@@ -5947,15 +5947,15 @@
       "key": "4121"
      },
      {
-      "doc_count": 9,
+      "doc_count": 13,
       "key": "1431"
      },
      {
-      "doc_count": 9,
+      "doc_count": 8,
       "key": "1432"
      },
      {
-      "doc_count": 7,
+      "doc_count": 4,
       "key": "341"
      },
      {
@@ -6006,11 +6006,11 @@
    "by_boardCode": {
     "buckets": [
      {
-      "doc_count": 59,
+      "doc_count": 56,
       "key": "3"
      },
      {
-      "doc_count": 18,
+      "doc_count": 21,
       "key": "1"
      },
      {
@@ -6030,15 +6030,15 @@
       "key": "4121"
      },
      {
-      "doc_count": 9,
+      "doc_count": 13,
       "key": "1431"
      },
      {
-      "doc_count": 9,
+      "doc_count": 8,
       "key": "1432"
      },
      {
-      "doc_count": 7,
+      "doc_count": 4,
       "key": "341"
      },
      {
@@ -6089,11 +6089,11 @@
    "by_boardCode": {
     "buckets": [
      {
-      "doc_count": 59,
+      "doc_count": 56,
       "key": "3"
      },
      {
-      "doc_count": 18,
+      "doc_count": 21,
       "key": "1"
      },
      {
@@ -6113,15 +6113,15 @@
       "key": "4121"
      },
      {
-      "doc_count": 9,
+      "doc_count": 13,
       "key": "1431"
      },
      {
-      "doc_count": 9,
+      "doc_count": 8,
       "key": "1432"
      },
      {
-      "doc_count": 7,
+      "doc_count": 4,
       "key": "341"
      },
      {
@@ -6172,11 +6172,11 @@
    "by_boardCode": {
     "buckets": [
      {
-      "doc_count": 59,
+      "doc_count": 56,
       "key": "3"
      },
      {
-      "doc_count": 18,
+      "doc_count": 21,
       "key": "1"
      },
      {
@@ -6196,15 +6196,15 @@
       "key": "4121"
      },
      {
-      "doc_count": 9,
+      "doc_count": 13,
       "key": "1431"
      },
      {
-      "doc_count": 9,
+      "doc_count": 8,
       "key": "1432"
      },
      {
-      "doc_count": 7,
+      "doc_count": 4,
       "key": "341"
      },
      {
@@ -6255,11 +6255,11 @@
    "by_boardCode": {
     "buckets": [
      {
-      "doc_count": 59,
+      "doc_count": 56,
       "key": "3"
      },
      {
-      "doc_count": 18,
+      "doc_count": 21,
       "key": "1"
      },
      {
@@ -6279,15 +6279,15 @@
       "key": "4121"
      },
      {
-      "doc_count": 9,
+      "doc_count": 13,
       "key": "1431"
      },
      {
-      "doc_count": 9,
+      "doc_count": 8,
       "key": "1432"
      },
      {
-      "doc_count": 7,
+      "doc_count": 4,
       "key": "341"
      },
      {
@@ -6338,11 +6338,11 @@
    "by_boardCode": {
     "buckets": [
      {
-      "doc_count": 59,
+      "doc_count": 56,
       "key": "3"
      },
      {
-      "doc_count": 18,
+      "doc_count": 21,
       "key": "1"
      },
      {
@@ -6362,15 +6362,15 @@
       "key": "4121"
      },
      {
-      "doc_count": 9,
+      "doc_count": 13,
       "key": "1431"
      },
      {
-      "doc_count": 9,
+      "doc_count": 8,
       "key": "1432"
      },
      {
-      "doc_count": 7,
+      "doc_count": 4,
       "key": "341"
      },
      {
@@ -6421,11 +6421,11 @@
    "by_boardCode": {
     "buckets": [
      {
-      "doc_count": 59,
+      "doc_count": 56,
       "key": "3"
      },
      {
-      "doc_count": 18,
+      "doc_count": 21,
       "key": "1"
      },
      {
@@ -6445,15 +6445,15 @@
       "key": "4121"
      },
      {
-      "doc_count": 9,
+      "doc_count": 13,
       "key": "1431"
      },
      {
-      "doc_count": 9,
+      "doc_count": 8,
       "key": "1432"
      },
      {
-      "doc_count": 7,
+      "doc_count": 4,
       "key": "341"
      },
      {
@@ -6504,11 +6504,11 @@
    "by_boardCode": {
     "buckets": [
      {
-      "doc_count": 59,
+      "doc_count": 56,
       "key": "3"
      },
      {
-      "doc_count": 18,
+      "doc_count": 21,
       "key": "1"
      },
      {
@@ -6528,15 +6528,15 @@
       "key": "4121"
      },
      {
-      "doc_count": 9,
+      "doc_count": 13,
       "key": "1431"
      },
      {
-      "doc_count": 9,
+      "doc_count": 8,
       "key": "1432"
      },
      {
-      "doc_count": 7,
+      "doc_count": 4,
       "key": "341"
      },
      {
@@ -6587,11 +6587,11 @@
    "by_boardCode": {
     "buckets": [
      {
-      "doc_count": 59,
+      "doc_count": 56,
       "key": "3"
      },
      {
-      "doc_count": 18,
+      "doc_count": 21,
       "key": "1"
      },
      {
@@ -6611,15 +6611,15 @@
       "key": "4121"
      },
      {
-      "doc_count": 9,
+      "doc_count": 13,
       "key": "1431"
      },
      {
-      "doc_count": 9,
+      "doc_count": 8,
       "key": "1432"
      },
      {
-      "doc_count": 7,
+      "doc_count": 4,
       "key": "341"
      },
      {
@@ -6670,11 +6670,11 @@
    "by_boardCode": {
     "buckets": [
      {
-      "doc_count": 59,
+      "doc_count": 56,
       "key": "3"
      },
      {
-      "doc_count": 18,
+      "doc_count": 21,
       "key": "1"
      },
      {
@@ -6694,15 +6694,15 @@
       "key": "4121"
      },
      {
-      "doc_count": 9,
+      "doc_count": 13,
       "key": "1431"
      },
      {
-      "doc_count": 9,
+      "doc_count": 8,
       "key": "1432"
      },
      {
-      "doc_count": 7,
+      "doc_count": 4,
       "key": "341"
      },
      {
@@ -6753,11 +6753,11 @@
    "by_boardCode": {
     "buckets": [
      {
-      "doc_count": 59,
+      "doc_count": 56,
       "key": "3"
      },
      {
-      "doc_count": 18,
+      "doc_count": 21,
       "key": "1"
      },
      {
@@ -6777,15 +6777,15 @@
       "key": "4121"
      },
      {
-      "doc_count": 9,
+      "doc_count": 13,
       "key": "1431"
      },
      {
-      "doc_count": 9,
+      "doc_count": 8,
       "key": "1432"
      },
      {
-      "doc_count": 7,
+      "doc_count": 4,
       "key": "341"
      },
      {
@@ -6836,11 +6836,11 @@
    "by_boardCode": {
     "buckets": [
      {
-      "doc_count": 59,
+      "doc_count": 56,
       "key": "3"
      },
      {
-      "doc_count": 18,
+      "doc_count": 21,
       "key": "1"
      },
      {
@@ -6860,15 +6860,15 @@
       "key": "4121"
      },
      {
-      "doc_count": 9,
+      "doc_count": 13,
       "key": "1431"
      },
      {
-      "doc_count": 9,
+      "doc_count": 8,
       "key": "1432"
      },
      {
-      "doc_count": 7,
+      "doc_count": 4,
       "key": "341"
      },
      {
@@ -6919,11 +6919,11 @@
    "by_boardCode": {
     "buckets": [
      {
-      "doc_count": 59,
+      "doc_count": 56,
       "key": "3"
      },
      {
-      "doc_count": 18,
+      "doc_count": 21,
       "key": "1"
      },
      {
@@ -6943,15 +6943,15 @@
       "key": "4121"
      },
      {
-      "doc_count": 9,
+      "doc_count": 13,
       "key": "1431"
      },
      {
-      "doc_count": 9,
+      "doc_count": 8,
       "key": "1432"
      },
      {
-      "doc_count": 7,
+      "doc_count": 4,
       "key": "341"
      },
      {
@@ -7002,11 +7002,11 @@
    "by_boardCode": {
     "buckets": [
      {
-      "doc_count": 59,
+      "doc_count": 56,
       "key": "3"
      },
      {
-      "doc_count": 18,
+      "doc_count": 21,
       "key": "1"
      },
      {
@@ -7026,15 +7026,15 @@
       "key": "4121"
      },
      {
-      "doc_count": 9,
+      "doc_count": 13,
       "key": "1431"
      },
      {
-      "doc_count": 9,
+      "doc_count": 8,
       "key": "1432"
      },
      {
-      "doc_count": 7,
+      "doc_count": 4,
       "key": "341"
      },
      {
@@ -7085,11 +7085,11 @@
    "by_boardCode": {
     "buckets": [
      {
-      "doc_count": 59,
+      "doc_count": 56,
       "key": "3"
      },
      {
-      "doc_count": 18,
+      "doc_count": 21,
       "key": "1"
      },
      {
@@ -7109,15 +7109,15 @@
       "key": "4121"
      },
      {
-      "doc_count": 9,
+      "doc_count": 13,
       "key": "1431"
      },
      {
-      "doc_count": 9,
+      "doc_count": 8,
       "key": "1432"
      },
      {
-      "doc_count": 7,
+      "doc_count": 4,
       "key": "341"
      },
      {
@@ -7168,11 +7168,11 @@
    "by_boardCode": {
     "buckets": [
      {
-      "doc_count": 59,
+      "doc_count": 56,
       "key": "3"
      },
      {
-      "doc_count": 18,
+      "doc_count": 21,
       "key": "1"
      },
      {
@@ -7192,15 +7192,15 @@
       "key": "4121"
      },
      {
-      "doc_count": 9,
+      "doc_count": 13,
       "key": "1431"
      },
      {
-      "doc_count": 9,
+      "doc_count": 8,
       "key": "1432"
      },
      {
-      "doc_count": 7,
+      "doc_count": 4,
       "key": "341"
      },
      {
@@ -7251,11 +7251,11 @@
    "by_boardCode": {
     "buckets": [
      {
-      "doc_count": 59,
+      "doc_count": 56,
       "key": "3"
      },
      {
-      "doc_count": 18,
+      "doc_count": 21,
       "key": "1"
      },
      {
@@ -7275,15 +7275,15 @@
       "key": "4121"
      },
      {
-      "doc_count": 9,
+      "doc_count": 13,
       "key": "1431"
      },
      {
-      "doc_count": 9,
+      "doc_count": 8,
       "key": "1432"
      },
      {
-      "doc_count": 7,
+      "doc_count": 4,
       "key": "341"
      },
      {
@@ -7334,11 +7334,11 @@
    "by_boardCode": {
     "buckets": [
      {
-      "doc_count": 59,
+      "doc_count": 56,
       "key": "3"
      },
      {
-      "doc_count": 18,
+      "doc_count": 21,
       "key": "1"
      },
      {
@@ -7358,15 +7358,15 @@
       "key": "4121"
      },
      {
-      "doc_count": 9,
+      "doc_count": 13,
       "key": "1431"
      },
      {
-      "doc_count": 9,
+      "doc_count": 8,
       "key": "1432"
      },
      {
-      "doc_count": 7,
+      "doc_count": 4,
       "key": "341"
      },
      {
@@ -7417,11 +7417,11 @@
    "by_boardCode": {
     "buckets": [
      {
-      "doc_count": 59,
+      "doc_count": 56,
       "key": "3"
      },
      {
-      "doc_count": 18,
+      "doc_count": 21,
       "key": "1"
      },
      {
@@ -7441,15 +7441,15 @@
       "key": "4121"
      },
      {
-      "doc_count": 9,
+      "doc_count": 13,
       "key": "1431"
      },
      {
-      "doc_count": 9,
+      "doc_count": 8,
       "key": "1432"
      },
      {
-      "doc_count": 7,
+      "doc_count": 4,
       "key": "341"
      },
      {
@@ -7481,7 +7481,7 @@
   "boardName": "مناقصه",
   "provinceName": "البرز",
   "jalaliSendDeadlineDate": "1405/06/21 - 13:00",
-  "jalaliLastEditDate": "-",
+  "jalaliLastEditDate": "1405/06/17 - 10:57",
   "jalaliDocumentDeadlineDate": "1405/06/09 - 13:00",
   "tableId": 661541,
   "tagCode": 4121,
@@ -7500,11 +7500,11 @@
    "by_boardCode": {
     "buckets": [
      {
-      "doc_count": 59,
+      "doc_count": 56,
       "key": "3"
      },
      {
-      "doc_count": 18,
+      "doc_count": 21,
       "key": "1"
      },
      {
@@ -7524,15 +7524,15 @@
       "key": "4121"
      },
      {
-      "doc_count": 9,
+      "doc_count": 13,
       "key": "1431"
      },
      {
-      "doc_count": 9,
+      "doc_count": 8,
       "key": "1432"
      },
      {
-      "doc_count": 7,
+      "doc_count": 4,
       "key": "341"
      },
      {
@@ -7583,11 +7583,11 @@
    "by_boardCode": {
     "buckets": [
      {
-      "doc_count": 59,
+      "doc_count": 56,
       "key": "3"
      },
      {
-      "doc_count": 18,
+      "doc_count": 21,
       "key": "1"
      },
      {
@@ -7607,15 +7607,15 @@
       "key": "4121"
      },
      {
-      "doc_count": 9,
+      "doc_count": 13,
       "key": "1431"
      },
      {
-      "doc_count": 9,
+      "doc_count": 8,
       "key": "1432"
      },
      {
-      "doc_count": 7,
+      "doc_count": 4,
       "key": "341"
      },
      {
@@ -7666,11 +7666,11 @@
    "by_boardCode": {
     "buckets": [
      {
-      "doc_count": 59,
+      "doc_count": 56,
       "key": "3"
      },
      {
-      "doc_count": 18,
+      "doc_count": 21,
       "key": "1"
      },
      {
@@ -7690,15 +7690,15 @@
       "key": "4121"
      },
      {
-      "doc_count": 9,
+      "doc_count": 13,
       "key": "1431"
      },
      {
-      "doc_count": 9,
+      "doc_count": 8,
       "key": "1432"
      },
      {
-      "doc_count": 7,
+      "doc_count": 4,
       "key": "341"
      },
      {

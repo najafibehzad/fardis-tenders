@@ -1,6 +1,111 @@
 [
  {
   "board": "خرید",
+  "number": 1105000351000565,
+  "title": "نیاز کالا-محلول ضد عفونی-بر اساس لیست پیوست",
+  "org": "شبکه بهداشت و درمان فردیس",
+  "province": "البرز",
+  "city": "فردیس",
+  "sendDeadline": "1405/06/21 - 10:00",
+  "docDeadline": null,
+  "basePrice": null,
+  "tableId": "5345550",
+  "reqId": "7438575",
+  "needType": "1431",
+  "orderIdx": 0
+ },
+ {
+  "board": "خرید",
+  "number": 1105003062000165,
+  "title": "نیاز کالا-خرید سفره یکبار مصرف طرح اداری جنس مرغوب یه تعداد 600 رول( 50 متری)",
+  "org": "سازمان سنجش و اموزش کشور",
+  "province": "البرز",
+  "city": "فردیس",
+  "sendDeadline": "1405/06/21 - 12:00",
+  "docDeadline": null,
+  "basePrice": null,
+  "tableId": "5344013",
+  "reqId": "7436167",
+  "needType": "1431",
+  "orderIdx": 1
+ },
+ {
+  "board": "خرید",
+  "number": 1105003523000420,
+  "title": "نیاز کالا-کیک صبحانه 2قلو70گرمی/آبمعدنی200cc/آبمیوه و ..._ایران کد انتخابی مشابه است_طبق مشخصات فایل پیوست_قیمت نهایی وپیش فاکتور بامهر و امضاء درسامانه درج شود",
+  "org": "اداره کل زندان ها و اقدامات تامینی و تربیتی استان البرز",
+  "province": "البرز",
+  "city": "فردیس",
+  "sendDeadline": "1405/06/18 - 17:45",
+  "docDeadline": null,
+  "basePrice": null,
+  "tableId": "5342722",
+  "reqId": "7434066",
+  "needType": "1431",
+  "orderIdx": 2
+ },
+ {
+  "board": "خرید",
+  "number": 1105003523000419,
+  "title": "نیاز کالا-5000 کیلوگرم کیسه زباله کابلی مواد نو 2دوخت سایز90*70 _ ایران کد انتخابی مشابه است _ طبق مشخصات فایل پیوستی _پیش فاکتور پیوست شود_ارسال نمونه الزامیست",
+  "org": "اداره کل زندان ها و اقدامات تامینی و تربیتی استان البرز",
+  "province": "البرز",
+  "city": "فردیس",
+  "sendDeadline": "1405/06/18 - 17:40",
+  "docDeadline": null,
+  "basePrice": null,
+  "tableId": "5342702",
+  "reqId": "7434036",
+  "needType": "1431",
+  "orderIdx": 3
+ },
+ {
+  "board": "خرید",
+  "number": 1105003523000418,
+  "title": "نیاز کالا-ماست تکنفره 90گرمی کم چرب_ایران کد انتخابی مشابه است_طبق مشخصات فنی فایل پیوستی سامانه_قیمت نهایی فاکتوربدون ارزش افزوده درسامانه درج شود",
+  "org": "اداره کل زندان ها و اقدامات تامینی و تربیتی استان البرز",
+  "province": "البرز",
+  "city": "فردیس",
+  "sendDeadline": "1405/06/18 - 17:30",
+  "docDeadline": null,
+  "basePrice": null,
+  "tableId": "5342683",
+  "reqId": "7434009",
+  "needType": "1431",
+  "orderIdx": 4
+ },
+ {
+  "board": "خرید",
+  "number": 1105003523000417,
+  "title": "نیاز کالا-الکترو پمپ شناور 30 کیلو وات/ پمپ مدل 345/4_طبق مشخصات فایل پیوستی_ایران کد انتخابی مشابه است_پیش فاکتور رسمی با مهر درسامانه درج شود",
+  "org": "اداره کل زندان ها و اقدامات تامینی و تربیتی استان البرز",
+  "province": "البرز",
+  "city": "فردیس",
+  "sendDeadline": "1405/06/18 - 17:15",
+  "docDeadline": null,
+  "basePrice": null,
+  "tableId": "5342663",
+  "reqId": "7433984",
+  "needType": "1431",
+  "orderIdx": 5
+ },
+ {
+  "board": "خرید",
+  "number": 1105003523000416,
+  "title": "نیاز کالا-جوراب، شانه موی سر مردانه و زنانه(طبق مشخصات پیوستی)_ایران کدانتخابی مشابه است_قیمت نهایی فاکتوربدون ارزش افزوده درسامانه درج شود ارسال نمونه الزامیست",
+  "org": "اداره کل زندان ها و اقدامات تامینی و تربیتی استان البرز",
+  "province": "البرز",
+  "city": "فردیس",
+  "sendDeadline": "1405/06/18 - 17:10",
+  "docDeadline": null,
+  "basePrice": null,
+  "tableId": "5342652",
+  "reqId": "7433972",
+  "needType": "1431",
+  "orderIdx": 6
+ },
+ {
+  "board": "خرید",
   "number": 1105003523000415,
   "title": "نیاز کالا-میز و صندلی پلاستیکی با کیفیت_ایران کدانتخابی مشابه است_طبق مشخصات فایل پیوستی_قیمت نهایی بدون ارزش افزوده درسامانه درج شود_ارسال نمونه کالا الزامیست",
   "org": "اداره کل زندان ها و اقدامات تامینی و تربیتی استان البرز",
@@ -12,7 +117,7 @@
   "tableId": "5342631",
   "reqId": "7433934",
   "needType": "1431",
-  "orderIdx": 0
+  "orderIdx": 7
  },
  {
   "board": "خرید",
@@ -27,7 +132,7 @@
   "tableId": "5342614",
   "reqId": "7433901",
   "needType": "1432",
-  "orderIdx": 1,
+  "orderIdx": 8,
   "purchase": {
    "items": [
     {
@@ -57,7 +162,7 @@
   "tableId": "5342580",
   "reqId": "7433857",
   "needType": "1432",
-  "orderIdx": 2,
+  "orderIdx": 9,
   "purchase": {
    "items": [
     {
@@ -87,7 +192,7 @@
   "tableId": "5342545",
   "reqId": "7433809",
   "needType": "1431",
-  "orderIdx": 3
+  "orderIdx": 10
  },
  {
   "board": "خرید",
@@ -102,7 +207,7 @@
   "tableId": "5342486",
   "reqId": "7433726",
   "needType": "1431",
-  "orderIdx": 4
+  "orderIdx": 11
  },
  {
   "board": "مزایده",
@@ -117,7 +222,7 @@
   "tableId": "498668",
   "reqId": null,
   "needType": null,
-  "orderIdx": 5
+  "orderIdx": 12
  },
  {
   "board": "مزایده",
@@ -132,7 +237,7 @@
   "tableId": "502677",
   "reqId": null,
   "needType": null,
-  "orderIdx": 6
+  "orderIdx": 13
  },
  {
   "board": "مزایده",
@@ -147,7 +252,7 @@
   "tableId": "498668",
   "reqId": null,
   "needType": null,
-  "orderIdx": 7
+  "orderIdx": 14
  },
  {
   "board": "خرید",
@@ -162,7 +267,7 @@
   "tableId": "5340219",
   "reqId": "7430345",
   "needType": "1431",
-  "orderIdx": 8
+  "orderIdx": 15
  },
  {
   "board": "خرید",
@@ -177,7 +282,7 @@
   "tableId": "5339222",
   "reqId": "7428810",
   "needType": "1431",
-  "orderIdx": 9
+  "orderIdx": 16
  },
  {
   "board": "خرید",
@@ -192,7 +297,7 @@
   "tableId": "5339011",
   "reqId": "7428519",
   "needType": "1431",
-  "orderIdx": 10
+  "orderIdx": 17
  },
  {
   "board": "خرید",
@@ -207,7 +312,7 @@
   "tableId": "5338985",
   "reqId": "7428487",
   "needType": "1432",
-  "orderIdx": 11,
+  "orderIdx": 18,
   "purchase": {
    "items": [
     {
@@ -226,21 +331,6 @@
  },
  {
   "board": "خرید",
-  "number": 1105003062000161,
-  "title": "نیاز کالا-خرید، تأمین، حمل، تخلیه، نصب، راه‌اندازی، برنامه‌ریزی، تنظیم، کالیبراسیون، تست، آموزش و تحویل ۷ دستگاه استند دیجیتال طبق شرایط پیوست",
-  "org": "سازمان سنجش و اموزش کشور",
-  "province": "البرز",
-  "city": "فردیس",
-  "sendDeadline": "1405/06/18 - 12:00",
-  "docDeadline": null,
-  "basePrice": null,
-  "tableId": "5338568",
-  "reqId": "7427928",
-  "needType": "1431",
-  "orderIdx": 12
- },
- {
-  "board": "خرید",
   "number": 1105000351000560,
   "title": "نیاز خدمات-قرارداد تاسیسات نگهداری پشتیبانی",
   "org": "شبکه بهداشت و درمان فردیس",
@@ -252,7 +342,7 @@
   "tableId": "5338296",
   "reqId": "7427540",
   "needType": "1432",
-  "orderIdx": 13,
+  "orderIdx": 19,
   "purchase": {
    "items": [
     {
@@ -282,7 +372,7 @@
   "tableId": "5337996",
   "reqId": "7427097",
   "needType": "1432",
-  "orderIdx": 14,
+  "orderIdx": 20,
   "purchase": {
    "items": [
     {
@@ -300,21 +390,6 @@
   "url": "https://eproc.setadiran.ir/eproc/purchaseNeedViewBoardIntegration.do?method=showNeedDetailInfo&requestId=7427097"
  },
  {
-  "board": "خرید",
-  "number": 1105003062000160,
-  "title": "نیاز کالا-1- لاستیک فوتک پرفکت (یک پله)500 عدد 2- لاستیک فوتک قرمز تختmm 0.8*13*32 به تعداد 1000 عدد",
-  "org": "سازمان سنجش و اموزش کشور",
-  "province": "البرز",
-  "city": "فردیس",
-  "sendDeadline": "1405/06/17 - 14:00",
-  "docDeadline": null,
-  "basePrice": null,
-  "tableId": "5336692",
-  "reqId": "7425083",
-  "needType": "1431",
-  "orderIdx": 15
- },
- {
   "board": "مزایده",
   "number": 3105108818000069,
   "title": "حراج فروش پلاک ثبتی به شماره 49602 فرعی از 162 اصلی",
@@ -327,7 +402,7 @@
   "tableId": "501835",
   "reqId": null,
   "needType": null,
-  "orderIdx": 16
+  "orderIdx": 21
  },
  {
   "board": "مزایده",
@@ -342,7 +417,7 @@
   "tableId": "501709",
   "reqId": null,
   "needType": null,
-  "orderIdx": 17
+  "orderIdx": 22
  },
  {
   "board": "مناقصه",
@@ -357,7 +432,7 @@
   "tableId": "664261",
   "reqId": null,
   "needType": null,
-  "orderIdx": 18,
+  "orderIdx": 23,
   "tender": {
    "subject": "خدمات با فهرست بها",
    "setupType": "یک مرحله ای",
@@ -394,7 +469,7 @@
   "tableId": "664300",
   "reqId": null,
   "needType": null,
-  "orderIdx": 19,
+  "orderIdx": 24,
   "tender": {
    "subject": "خدمات با فهرست بها",
    "setupType": "یک مرحله ای",
@@ -431,7 +506,7 @@
   "tableId": "664316",
   "reqId": null,
   "needType": null,
-  "orderIdx": 20,
+  "orderIdx": 25,
   "tender": {
    "subject": "خدمات بدون فهرست بها",
    "setupType": "یک مرحله ای",
@@ -468,7 +543,7 @@
   "tableId": "664326",
   "reqId": null,
   "needType": null,
-  "orderIdx": 21,
+  "orderIdx": 26,
   "tender": {
    "subject": "خدمات بدون فهرست بها",
    "setupType": "یک مرحله ای",
@@ -494,21 +569,6 @@
  },
  {
   "board": "خرید",
-  "number": 1105000351000559,
-  "title": "نیاز کالا-محلول ضد عفونی-بر اساس لیست پیوست",
-  "org": "شبکه بهداشت و درمان فردیس",
-  "province": "البرز",
-  "city": "فردیس",
-  "sendDeadline": "1405/06/17 - 10:00",
-  "docDeadline": null,
-  "basePrice": null,
-  "tableId": "5334706",
-  "reqId": "7422108",
-  "needType": "1431",
-  "orderIdx": 22
- },
- {
-  "board": "خرید",
   "number": 1105050288000135,
   "title": "نیاز خدمات-سازمان آتشنشانی وخدمات ایمنی شهرداری فردیس در نظر دارد نسبت به انتخاب پیمانکار در خصوص پروژه حفظ و نگهداری تاسیسات و ابنیه به شرح پیوست اقدام نماید",
   "org": "شهرداری فردیس استان البرز",
@@ -520,7 +580,7 @@
   "tableId": "5333837",
   "reqId": "7420756",
   "needType": "1432",
-  "orderIdx": 23,
+  "orderIdx": 27,
   "purchase": {
    "items": [
     {
@@ -550,7 +610,7 @@
   "tableId": "5333681",
   "reqId": "7420530",
   "needType": "1432",
-  "orderIdx": 24,
+  "orderIdx": 28,
   "purchase": {
    "items": [
     {
@@ -580,7 +640,7 @@
   "tableId": "5332407",
   "reqId": "7418602",
   "needType": "1432",
-  "orderIdx": 25,
+  "orderIdx": 29,
   "purchase": {
    "items": [
     {
@@ -610,37 +670,7 @@
   "tableId": "501976",
   "reqId": null,
   "needType": null,
-  "orderIdx": 26
- },
- {
-  "board": "خرید",
-  "number": 1105050288000133,
-  "title": "نیاز خدمات-شهرداری منطقه دو فردیس درنظر دارد نسبت به پروژه تهیه، بارگیری، حمل، باراندازی و اعمال دیوار پیش ساخته ماد 110 به شرح شرایط و مشخصات پیوست اقدام نماید.",
-  "org": "شهرداری فردیس استان البرز",
-  "province": "البرز",
-  "city": "فردیس",
-  "sendDeadline": "1405/06/17 - 07:30",
-  "docDeadline": null,
-  "basePrice": null,
-  "tableId": "5332128",
-  "reqId": "7418179",
-  "needType": "1432",
-  "orderIdx": 27,
-  "purchase": {
-   "items": [
-    {
-     "code": "ط-96-960",
-     "name": "سایر فعالیت های خدماتی شخصی",
-     "unit": "پروژه",
-     "qty": "60",
-     "date": "1405/06/17"
-    }
-   ],
-   "buyerNotes": "بارگذاری تمامی اسناد درخواستی به فایل پیوست با مهر و امضاء صاحب امضاء الزامی است. (به مدارک ناقص ارسال شده ترتیب اثر داده نخواهد شد)",
-   "desc": "شهرداری منطقه دو فردیس درنظر دارد نسبت به پروژه تهیه، بارگیری، حمل، باراندازی و اعمال دیوار پیش ساخته ماد 110 به شرح شرایط و مشخصات پیوست اقدام نماید.",
-   "kind": "خدمت"
-  },
-  "url": "https://eproc.setadiran.ir/eproc/purchaseNeedViewBoardIntegration.do?method=showNeedDetailInfo&requestId=7418179"
+  "orderIdx": 30
  },
  {
   "board": "مناقصه",
@@ -655,7 +685,7 @@
   "tableId": "663937",
   "reqId": null,
   "needType": null,
-  "orderIdx": 28,
+  "orderIdx": 31,
   "tender": {
    "subject": "خدمات بدون فهرست بها",
    "setupType": "یک مرحله ای",
@@ -692,7 +722,7 @@
   "tableId": "663940",
   "reqId": null,
   "needType": null,
-  "orderIdx": 29,
+  "orderIdx": 32,
   "tender": {
    "subject": "خدمات با فهرست بها",
    "setupType": "یک مرحله ای",
@@ -729,7 +759,7 @@
   "tableId": "663942",
   "reqId": null,
   "needType": null,
-  "orderIdx": 30,
+  "orderIdx": 33,
   "tender": {
    "subject": "خدمات با فهرست بها",
    "setupType": "یک مرحله ای",
@@ -766,7 +796,7 @@
   "tableId": "663692",
   "reqId": null,
   "needType": null,
-  "orderIdx": 31,
+  "orderIdx": 34,
   "tender": {
    "subject": "خدمات با فهرست بها",
    "setupType": "یک مرحله ای",
@@ -802,7 +832,7 @@
   "tableId": "500896",
   "reqId": null,
   "needType": null,
-  "orderIdx": 32
+  "orderIdx": 35
  },
  {
   "board": "مزایده",
@@ -817,7 +847,7 @@
   "tableId": "500823",
   "reqId": null,
   "needType": null,
-  "orderIdx": 33
+  "orderIdx": 36
  },
  {
   "board": "مزایده",
@@ -832,7 +862,7 @@
   "tableId": "500856",
   "reqId": null,
   "needType": null,
-  "orderIdx": 34
+  "orderIdx": 37
  },
  {
   "board": "مزایده",
@@ -847,7 +877,7 @@
   "tableId": "499517",
   "reqId": null,
   "needType": null,
-  "orderIdx": 35
+  "orderIdx": 38
  },
  {
   "board": "مناقصه",
@@ -862,7 +892,7 @@
   "tableId": "662460",
   "reqId": null,
   "needType": null,
-  "orderIdx": 36,
+  "orderIdx": 39,
   "tender": {
    "subject": "کالا،خدمات با فهرست بها",
    "setupType": "یک مرحله ای",
@@ -886,21 +916,6 @@
  },
  {
   "board": "مزایده",
-  "number": 3105108818000064,
-  "title": "حراج ملک (زمین) قولنامه ای به شرح مندرج در نظریه کارشناسی پیوست",
-  "org": "دفتر شعبه اول اجرای احکام مدنی فردیس البرز",
-  "province": "البرز",
-  "city": "فردیس",
-  "sendDeadline": "1405/06/17 - 12:00",
-  "docDeadline": " - ",
-  "basePrice": 37710000000,
-  "tableId": "494314",
-  "reqId": null,
-  "needType": null,
-  "orderIdx": 37
- },
- {
-  "board": "مزایده",
   "number": 3105108818000067,
   "title": "حراج فروش یک دستگاه خودروی سواری پژو 206 مدل 1389",
   "org": "دفتر شعبه اول اجرای احکام مدنی فردیس البرز",
@@ -910,36 +925,6 @@
   "docDeadline": " - ",
   "basePrice": 5500000000,
   "tableId": "495838",
-  "reqId": null,
-  "needType": null,
-  "orderIdx": 38
- },
- {
-  "board": "مزایده",
-  "number": 3105108818000066,
-  "title": "حراج فروش یک دستگاه خودروی سواری پژو 405 مدل 1386",
-  "org": "دفتر شعبه اول اجرای احکام مدنی فردیس البرز",
-  "province": "البرز",
-  "city": "فردیس",
-  "sendDeadline": "1405/06/17 - 12:00",
-  "docDeadline": " - ",
-  "basePrice": 5300000000,
-  "tableId": "494665",
-  "reqId": null,
-  "needType": null,
-  "orderIdx": 39
- },
- {
-  "board": "مزایده",
-  "number": 3105108818000065,
-  "title": "حراج فروش پلاک ثبتی 34763فرعی از 163 اصلی",
-  "org": "دفتر شعبه اول اجرای احکام مدنی فردیس البرز",
-  "province": "البرز",
-  "city": "فردیس",
-  "sendDeadline": "1405/06/17 - 12:00",
-  "docDeadline": " - ",
-  "basePrice": 46000000000,
-  "tableId": "494502",
   "reqId": null,
   "needType": null,
   "orderIdx": 40
