@@ -1,0 +1,63 @@
+name: گزارش شهر (هر شهر)
+
+on:
+  workflow_dispatch:
+    inputs:
+      province:
+        description: 'نام استان (مثلاً تهران، البرز، اصفهان)'
+        required: true
+        default: 'البرز'
+        type: string
+      city:
+        description: 'نام شهر (مثلاً قدس، فردیس، کرج)'
+        required: true
+        default: 'فردیس'
+        type: string
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: city-report-${{ github.event.inputs.province }}-${{ github.event.inputs.city }}
+  cancel-in-progress: true
+
+jobs:
+  report:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: |
+          npm install
+          npx playwright install --with-deps chromium
+
+      - name: Run pipeline for selected city
+        run: node run_pipeline.mjs "${{ github.event.inputs.province }}" "${{ github.event.inputs.city }}"
+
+      - name: Commit report & data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add setadiran-data report.html report.pdf summary.md site/ .qa_ok || true
+          git diff --staged --quiet || git commit -m "report: ${{ github.event.inputs.province }} / ${{ github.event.inputs.city }}"
+          git push
+
+      - name: Upload summary
+        if: always()
+        run: |
+          if [ -f summary.md ]; then
+            cat summary.md >> $GITHUB_STEP_SUMMARY
+          fi
+
+      - name: Deploy to Pages
+        if: success()
+        uses: actions/deploy-pages@v4
