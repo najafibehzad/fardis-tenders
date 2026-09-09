@@ -1,0 +1,6179 @@
+[
+ {
+  "number": 1105091764000146,
+  "title": "نیاز کالا-سرنگ انسولین گیج 30 (40000 عدد) سرنگ انسولین تک عدد گیج 27 (1000 عدد)",
+  "boardCode": 1,
+  "basePrice": null,
+  "orgName": "بیمارستان 12 بهمن قدس",
+  "score": 87,
+  "cityName": "قدس",
+  "insertDate": null,
+  "boardName": "خرید",
+  "provinceName": "تهران",
+  "jalaliSendDeadlineDate": "1405/06/21 - 11:00",
+  "jalaliLastEditDate": null,
+  "jalaliDocumentDeadlineDate": null,
+  "tableId": 5345568,
+  "tagCode": 1431,
+  "needType": "1431",
+  "reqId": "7438598",
+  "jalaliFromProposalDate": null,
+  "partyNumber": null,
+  "orgId": 14531,
+  "aucState": null,
+  "cartId": 0,
+  "categoryId": null,
+  "categoryName": null,
+  "locId": null,
+  "ticketId": null,
+  "aggregations": {
+   "by_boardCode": {
+    "buckets": [
+     {
+      "doc_count": 76,
+      "key": "3"
+     },
+     {
+      "doc_count": 9,
+      "key": "1"
+     },
+     {
+      "doc_count": 2,
+      "key": "2"
+     }
+    ]
+   },
+   "by_tagCode": {
+    "buckets": [
+     {
+      "doc_count": 65,
+      "key": "33"
+     },
+     {
+      "doc_count": 11,
+      "key": "341"
+     },
+     {
+      "doc_count": 7,
+      "key": "1431"
+     },
+     {
+      "doc_count": 2,
+      "key": "1432"
+     },
+     {
+      "doc_count": 2,
+      "key": "4121"
+     }
+    ]
+   }
+  },
+  "orderIdx": 0
+ },
+ {
+  "number": 1105095346000031,
+  "title": "نیاز کالا-درخواست باطری یو پی اس",
+  "boardCode": 1,
+  "basePrice": null,
+  "orgName": "بیمارستان شهیدسردارسلیمانی شهرقدس",
+  "score": 87,
+  "cityName": "قدس",
+  "insertDate": null,
+  "boardName": "خرید",
+  "provinceName": "تهران",
+  "jalaliSendDeadlineDate": "1405/06/21 - 13:30",
+  "jalaliLastEditDate": null,
+  "jalaliDocumentDeadlineDate": null,
+  "tableId": 5345388,
+  "tagCode": 1431,
+  "needType": "1431",
+  "reqId": "7438322",
+  "jalaliFromProposalDate": null,
+  "partyNumber": null,
+  "orgId": 21663,
+  "aucState": null,
+  "cartId": 0,
+  "categoryId": null,
+  "categoryName": null,
+  "locId": null,
+  "ticketId": null,
+  "aggregations": {
+   "by_boardCode": {
+    "buckets": [
+     {
+      "doc_count": 76,
+      "key": "3"
+     },
+     {
+      "doc_count": 9,
+      "key": "1"
+     },
+     {
+      "doc_count": 2,
+      "key": "2"
+     }
+    ]
+   },
+   "by_tagCode": {
+    "buckets": [
+     {
+      "doc_count": 65,
+      "key": "33"
+     },
+     {
+      "doc_count": 11,
+      "key": "341"
+     },
+     {
+      "doc_count": 7,
+      "key": "1431"
+     },
+     {
+      "doc_count": 2,
+      "key": "1432"
+     },
+     {
+      "doc_count": 2,
+      "key": "4121"
+     }
+    ]
+   }
+  },
+  "orderIdx": 1
+ },
+ {
+  "number": 1105050211000011,
+  "title": "نیاز کالا-کاغذسفید A4 به تعداد 100 بسته 80 گرمی 500 تایی تحویل درب شعبه ",
+  "boardCode": 1,
+  "basePrice": null,
+  "orgName": "سازمان تامین اجتماعی شعبه شهر قدس",
+  "score": 87,
+  "cityName": "قدس",
+  "insertDate": null,
+  "boardName": "خرید",
+  "provinceName": "تهران",
+  "jalaliSendDeadlineDate": "1405/06/21 - 13:00",
+  "jalaliLastEditDate": null,
+  "jalaliDocumentDeadlineDate": null,
+  "tableId": 5345273,
+  "tagCode": 1431,
+  "needType": "1431",
+  "reqId": "7438153",
+  "jalaliFromProposalDate": null,
+  "partyNumber": null,
+  "orgId": 12029,
+  "aucState": null,
+  "cartId": 0,
+  "categoryId": null,
+  "categoryName": null,
+  "locId": null,
+  "ticketId": null,
+  "aggregations": {
+   "by_boardCode": {
+    "buckets": [
+     {
+      "doc_count": 76,
+      "key": "3"
+     },
+     {
+      "doc_count": 9,
+      "key": "1"
+     },
+     {
+      "doc_count": 2,
+      "key": "2"
+     }
+    ]
+   },
+   "by_tagCode": {
+    "buckets": [
+     {
+      "doc_count": 65,
+      "key": "33"
+     },
+     {
+      "doc_count": 11,
+      "key": "341"
+     },
+     {
+      "doc_count": 7,
+      "key": "1431"
+     },
+     {
+      "doc_count": 2,
+      "key": "1432"
+     },
+     {
+      "doc_count": 2,
+      "key": "4121"
+     }
+    ]
+   }
+  },
+  "orderIdx": 2
+ },
+ {
+  "number": 3105108346000099,
+  "title": "حراج زمین مشاعی با بنای احداثی به مساحت 188.5 متر مربع ",
+  "boardCode": 3,
+  "basePrice": 35076700000,
+  "orgName": "شعبه اجرای احکام مدنی دادگستری قدس",
+  "score": 87,
+  "cityName": "قدس",
+  "insertDate": null,
+  "boardName": "مزایده",
+  "provinceName": "تهران",
+  "jalaliSendDeadlineDate": "1405/07/05 - 12:00",
+  "jalaliLastEditDate": null,
+  "jalaliDocumentDeadlineDate": " - ",
+  "tableId": 501995,
+  "tagCode": 341,
+  "needType": null,
+  "reqId": null,
+  "jalaliFromProposalDate": "1405/07/05 - 08:00",
+  "partyNumber": "1323425",
+  "orgId": 44076,
+  "aucState": 1116,
+  "cartId": 4229535,
+  "categoryId": 224,
+  "categoryName": "زمین، ساختمان‌ و معابر",
+  "locId": null,
+  "ticketId": "",
+  "aggregations": {
+   "by_boardCode": {
+    "buckets": [
+     {
+      "doc_count": 76,
+      "key": "3"
+     },
+     {
+      "doc_count": 9,
+      "key": "1"
+     },
+     {
+      "doc_count": 2,
+      "key": "2"
+     }
+    ]
+   },
+   "by_tagCode": {
+    "buckets": [
+     {
+      "doc_count": 65,
+      "key": "33"
+     },
+     {
+      "doc_count": 11,
+      "key": "341"
+     },
+     {
+      "doc_count": 7,
+      "key": "1431"
+     },
+     {
+      "doc_count": 2,
+      "key": "1432"
+     },
+     {
+      "doc_count": 2,
+      "key": "4121"
+     }
+    ]
+   }
+  },
+  "orderIdx": 3
+ },
+ {
+  "number": 3105108346000095,
+  "title": "حراج سیم کارت شماره 09121445025",
+  "boardCode": 3,
+  "basePrice": 4700000000,
+  "orgName": "شعبه اجرای احکام مدنی دادگستری قدس",
+  "score": 87,
+  "cityName": "قدس",
+  "insertDate": null,
+  "boardName": "مزایده",
+  "provinceName": "تهران",
+  "jalaliSendDeadlineDate": "1405/06/28 - 12:00",
+  "jalaliLastEditDate": null,
+  "jalaliDocumentDeadlineDate": " - ",
+  "tableId": 501354,
+  "tagCode": 341,
+  "needType": null,
+  "reqId": null,
+  "jalaliFromProposalDate": "1405/06/28 - 08:00",
+  "partyNumber": "1322505",
+  "orgId": 44076,
+  "aucState": 1116,
+  "cartId": 4223870,
+  "categoryId": 190,
+  "categoryName": "تجهیزات مخابراتی، کامپیوتر، موبایل، ملزومات جانبی و شبکه",
+  "locId": null,
+  "ticketId": "",
+  "aggregations": {
+   "by_boardCode": {
+    "buckets": [
+     {
+      "doc_count": 76,
+      "key": "3"
+     },
+     {
+      "doc_count": 9,
+      "key": "1"
+     },
+     {
+      "doc_count": 2,
+      "key": "2"
+     }
+    ]
+   },
+   "by_tagCode": {
+    "buckets": [
+     {
+      "doc_count": 65,
+      "key": "33"
+     },
+     {
+      "doc_count": 11,
+      "key": "341"
+     },
+     {
+      "doc_count": 7,
+      "key": "1431"
+     },
+     {
+      "doc_count": 2,
+      "key": "1432"
+     },
+     {
+      "doc_count": 2,
+      "key": "4121"
+     }
+    ]
+   }
+  },
+  "orderIdx": 4
+ },
+ {
+  "number": 3105108346000096,
+  "title": "حراج  سیم کارت شماره 09121060504",
+  "boardCode": 3,
+  "basePrice": 8600000000,
+  "orgName": "شعبه اجرای احکام مدنی دادگستری قدس",
+  "score": 87,
+  "cityName": "قدس",
+  "insertDate": null,
+  "boardName": "مزایده",
+  "provinceName": "تهران",
+  "jalaliSendDeadlineDate": "1405/06/28 - 12:00",
+  "jalaliLastEditDate": null,
+  "jalaliDocumentDeadlineDate": " - ",
+  "tableId": 501362,
+  "tagCode": 341,
+  "needType": null,
+  "reqId": null,
+  "jalaliFromProposalDate": "1405/06/28 - 08:00",
+  "partyNumber": "1322517",
+  "orgId": 44076,
+  "aucState": 1116,
+  "cartId": 4223919,
+  "categoryId": 190,
+  "categoryName": "تجهیزات مخابراتی، کامپیوتر، موبایل، ملزومات جانبی و شبکه",
+  "locId": null,
+  "ticketId": "",
+  "aggregations": {
+   "by_boardCode": {
+    "buckets": [
+     {
+      "doc_count": 76,
+      "key": "3"
+     },
+     {
+      "doc_count": 9,
+      "key": "1"
+     },
+     {
+      "doc_count": 2,
+      "key": "2"
+     }
+    ]
+   },
+   "by_tagCode": {
+    "buckets": [
+     {
+      "doc_count": 65,
+      "key": "33"
+     },
+     {
+      "doc_count": 11,
+      "key": "341"
+     },
+     {
+      "doc_count": 7,
+      "key": "1431"
+     },
+     {
+      "doc_count": 2,
+      "key": "1432"
+     },
+     {
+      "doc_count": 2,
+      "key": "4121"
+     }
+    ]
+   }
+  },
+  "orderIdx": 5
+ },
+ {
+  "number": 3105108346000097,
+  "title": "حراج یک واحد آپارتمان به مساحت 185.21 متر مربع",
+  "boardCode": 3,
+  "basePrice": 165000000000,
+  "orgName": "شعبه اجرای احکام مدنی دادگستری قدس",
+  "score": 87,
+  "cityName": "قدس",
+  "insertDate": null,
+  "boardName": "مزایده",
+  "provinceName": "تهران",
+  "jalaliSendDeadlineDate": "1405/06/29 - 12:00",
+  "jalaliLastEditDate": null,
+  "jalaliDocumentDeadlineDate": " - ",
+  "tableId": 501394,
+  "tagCode": 341,
+  "needType": null,
+  "reqId": null,
+  "jalaliFromProposalDate": "1405/06/29 - 08:00",
+  "partyNumber": "1322559",
+  "orgId": 44076,
+  "aucState": 1116,
+  "cartId": 4224051,
+  "categoryId": 224,
+  "categoryName": "زمین، ساختمان‌ و معابر",
+  "locId": null,
+  "ticketId": "",
+  "aggregations": {
+   "by_boardCode": {
+    "buckets": [
+     {
+      "doc_count": 76,
+      "key": "3"
+     },
+     {
+      "doc_count": 9,
+      "key": "1"
+     },
+     {
+      "doc_count": 2,
+      "key": "2"
+     }
+    ]
+   },
+   "by_tagCode": {
+    "buckets": [
+     {
+      "doc_count": 65,
+      "key": "33"
+     },
+     {
+      "doc_count": 11,
+      "key": "341"
+     },
+     {
+      "doc_count": 7,
+      "key": "1431"
+     },
+     {
+      "doc_count": 2,
+      "key": "1432"
+     },
+     {
+      "doc_count": 2,
+      "key": "4121"
+     }
+    ]
+   }
+  },
+  "orderIdx": 6
+ },
+ {
+  "number": 3105108346000098,
+  "title": "حراج  یک دانگ مشاعی از سوله ",
+  "boardCode": 3,
+  "basePrice": 403541666666,
+  "orgName": "شعبه اجرای احکام مدنی دادگستری قدس",
+  "score": 87,
+  "cityName": "قدس",
+  "insertDate": null,
+  "boardName": "مزایده",
+  "provinceName": "تهران",
+  "jalaliSendDeadlineDate": "1405/07/05 - 12:00",
+  "jalaliLastEditDate": null,
+  "jalaliDocumentDeadlineDate": " - ",
+  "tableId": 501967,
+  "tagCode": 341,
+  "needType": null,
+  "reqId": null,
+  "jalaliFromProposalDate": "1405/07/05 - 08:00",
+  "partyNumber": "1323383",
+  "orgId": 44076,
+  "aucState": 1116,
+  "cartId": 4228965,
+  "categoryId": 183,
+  "categoryName": "مصالح ساختمانی و ملزومات ساخت ‌و ساز ",
+  "locId": null,
+  "ticketId": "",
+  "aggregations": {
+   "by_boardCode": {
+    "buckets": [
+     {
+      "doc_count": 76,
+      "key": "3"
+     },
+     {
+      "doc_count": 9,
+      "key": "1"
+     },
+     {
+      "doc_count": 2,
+      "key": "2"
+     }
+    ]
+   },
+   "by_tagCode": {
+    "buckets": [
+     {
+      "doc_count": 65,
+      "key": "33"
+     },
+     {
+      "doc_count": 11,
+      "key": "341"
+     },
+     {
+      "doc_count": 7,
+      "key": "1431"
+     },
+     {
+      "doc_count": 2,
+      "key": "1432"
+     },
+     {
+      "doc_count": 2,
+      "key": "4121"
+     }
+    ]
+   }
+  },
+  "orderIdx": 7
+ },
+ {
+  "number": 1105091764000145,
+  "title": "نیاز خدمات-اجاره 3 دستگاه خودرو سواری با راننده بمدت 1 سال طبق قرارداد و مستندات پیوست .",
+  "boardCode": 1,
+  "basePrice": null,
+  "orgName": "بیمارستان 12 بهمن قدس",
+  "score": 87,
+  "cityName": "قدس",
+  "insertDate": null,
+  "boardName": "خرید",
+  "provinceName": "تهران",
+  "jalaliSendDeadlineDate": "1405/06/23 - 12:00",
+  "jalaliLastEditDate": null,
+  "jalaliDocumentDeadlineDate": null,
+  "tableId": 5340664,
+  "tagCode": 1432,
+  "needType": "1432",
+  "reqId": "7431010",
+  "jalaliFromProposalDate": null,
+  "partyNumber": null,
+  "orgId": 14531,
+  "aucState": null,
+  "cartId": 0,
+  "categoryId": null,
+  "categoryName": null,
+  "locId": null,
+  "ticketId": null,
+  "aggregations": {
+   "by_boardCode": {
+    "buckets": [
+     {
+      "doc_count": 76,
+      "key": "3"
+     },
+     {
+      "doc_count": 9,
+      "key": "1"
+     },
+     {
+      "doc_count": 2,
+      "key": "2"
+     }
+    ]
+   },
+   "by_tagCode": {
+    "buckets": [
+     {
+      "doc_count": 65,
+      "key": "33"
+     },
+     {
+      "doc_count": 11,
+      "key": "341"
+     },
+     {
+      "doc_count": 7,
+      "key": "1431"
+     },
+     {
+      "doc_count": 2,
+      "key": "1432"
+     },
+     {
+      "doc_count": 2,
+      "key": "4121"
+     }
+    ]
+   }
+  },
+  "orderIdx": 8
+ },
+ {
+  "number": 1105095346000030,
+  "title": "نیاز کالا-درخواست کاغذ A4",
+  "boardCode": 1,
+  "basePrice": null,
+  "orgName": "بیمارستان شهیدسردارسلیمانی شهرقدس",
+  "score": 87,
+  "cityName": "قدس",
+  "insertDate": null,
+  "boardName": "خرید",
+  "provinceName": "تهران",
+  "jalaliSendDeadlineDate": "1405/06/21 - 10:00",
+  "jalaliLastEditDate": null,
+  "jalaliDocumentDeadlineDate": null,
+  "tableId": 5340202,
+  "tagCode": 1431,
+  "needType": "1431",
+  "reqId": "7430323",
+  "jalaliFromProposalDate": null,
+  "partyNumber": null,
+  "orgId": 21663,
+  "aucState": null,
+  "cartId": 0,
+  "categoryId": null,
+  "categoryName": null,
+  "locId": null,
+  "ticketId": null,
+  "aggregations": {
+   "by_boardCode": {
+    "buckets": [
+     {
+      "doc_count": 76,
+      "key": "3"
+     },
+     {
+      "doc_count": 9,
+      "key": "1"
+     },
+     {
+      "doc_count": 2,
+      "key": "2"
+     }
+    ]
+   },
+   "by_tagCode": {
+    "buckets": [
+     {
+      "doc_count": 65,
+      "key": "33"
+     },
+     {
+      "doc_count": 11,
+      "key": "341"
+     },
+     {
+      "doc_count": 7,
+      "key": "1431"
+     },
+     {
+      "doc_count": 2,
+      "key": "1432"
+     },
+     {
+      "doc_count": 2,
+      "key": "4121"
+     }
+    ]
+   }
+  },
+  "orderIdx": 9
+ },
+ {
+  "number": 1105091764000144,
+  "title": "نیاز کالا-دستمال کاغذی جعبه ای 100 برگ دولایه 2000 بسته . دستمال رولی 2000 بسته (4000 عدد)",
+  "boardCode": 1,
+  "basePrice": null,
+  "orgName": "بیمارستان 12 بهمن قدس",
+  "score": 87,
+  "cityName": "قدس",
+  "insertDate": null,
+  "boardName": "خرید",
+  "provinceName": "تهران",
+  "jalaliSendDeadlineDate": "1405/06/19 - 18:00",
+  "jalaliLastEditDate": null,
+  "jalaliDocumentDeadlineDate": null,
+  "tableId": 5339636,
+  "tagCode": 1431,
+  "needType": "1431",
+  "reqId": "7429462",
+  "jalaliFromProposalDate": null,
+  "partyNumber": null,
+  "orgId": 14531,
+  "aucState": null,
+  "cartId": 0,
+  "categoryId": null,
+  "categoryName": null,
+  "locId": null,
+  "ticketId": null,
+  "aggregations": {
+   "by_boardCode": {
+    "buckets": [
+     {
+      "doc_count": 76,
+      "key": "3"
+     },
+     {
+      "doc_count": 9,
+      "key": "1"
+     },
+     {
+      "doc_count": 2,
+      "key": "2"
+     }
+    ]
+   },
+   "by_tagCode": {
+    "buckets": [
+     {
+      "doc_count": 65,
+      "key": "33"
+     },
+     {
+      "doc_count": 11,
+      "key": "341"
+     },
+     {
+      "doc_count": 7,
+      "key": "1431"
+     },
+     {
+      "doc_count": 2,
+      "key": "1432"
+     },
+     {
+      "doc_count": 2,
+      "key": "4121"
+     }
+    ]
+   }
+  },
+  "orderIdx": 10
+ },
+ {
+  "number": 5105090738000212,
+  "title": "اجاره غرفه شمار3 استادیوم شهدا( به مدت 36 ماه 0 روز)",
+  "boardCode": 3,
+  "basePrice": 2160000000,
+  "orgName": "شهرداری قدس استان تهران",
+  "score": 87,
+  "cityName": "قدس",
+  "insertDate": null,
+  "boardName": "مزایده",
+  "provinceName": "تهران",
+  "jalaliSendDeadlineDate": "1405/07/04 - 12:00",
+  "jalaliLastEditDate": "1405/06/16 - 08:00",
+  "jalaliDocumentDeadlineDate": "1405/06/23 - 19:00",
+  "tableId": 499541,
+  "tagCode": 33,
+  "needType": null,
+  "reqId": null,
+  "jalaliFromProposalDate": null,
+  "partyNumber": "1319776",
+  "orgId": 9288,
+  "aucState": 1116,
+  "cartId": 0,
+  "categoryId": null,
+  "categoryName": null,
+  "locId": null,
+  "ticketId": null,
+  "aggregations": {
+   "by_boardCode": {
+    "buckets": [
+     {
+      "doc_count": 76,
+      "key": "3"
+     },
+     {
+      "doc_count": 9,
+      "key": "1"
+     },
+     {
+      "doc_count": 2,
+      "key": "2"
+     }
+    ]
+   },
+   "by_tagCode": {
+    "buckets": [
+     {
+      "doc_count": 65,
+      "key": "33"
+     },
+     {
+      "doc_count": 11,
+      "key": "341"
+     },
+     {
+      "doc_count": 7,
+      "key": "1431"
+     },
+     {
+      "doc_count": 2,
+      "key": "1432"
+     },
+     {
+      "doc_count": 2,
+      "key": "4121"
+     }
+    ]
+   }
+  },
+  "orderIdx": 11
+ },
+ {
+  "number": 5105090738000215,
+  "title": "اجاره غرفه شماره 6 استادیوم شهدا( به مدت 36 ماه 0 روز)",
+  "boardCode": 3,
+  "basePrice": 2400000000,
+  "orgName": "شهرداری قدس استان تهران",
+  "score": 87,
+  "cityName": "قدس",
+  "insertDate": null,
+  "boardName": "مزایده",
+  "provinceName": "تهران",
+  "jalaliSendDeadlineDate": "1405/07/04 - 12:00",
+  "jalaliLastEditDate": "1405/06/16 - 08:00",
+  "jalaliDocumentDeadlineDate": "1405/06/23 - 19:00",
+  "tableId": 499541,
+  "tagCode": 33,
+  "needType": null,
+  "reqId": null,
+  "jalaliFromProposalDate": null,
+  "partyNumber": "1320003",
+  "orgId": 9288,
+  "aucState": 1116,
+  "cartId": 0,
+  "categoryId": null,
+  "categoryName": null,
+  "locId": null,
+  "ticketId": null,
+  "aggregations": {
+   "by_boardCode": {
+    "buckets": [
+     {
+      "doc_count": 76,
+      "key": "3"
+     },
+     {
+      "doc_count": 9,
+      "key": "1"
+     },
+     {
+      "doc_count": 2,
+      "key": "2"
+     }
+    ]
+   },
+   "by_tagCode": {
+    "buckets": [
+     {
+      "doc_count": 65,
+      "key": "33"
+     },
+     {
+      "doc_count": 11,
+      "key": "341"
+     },
+     {
+      "doc_count": 7,
+      "key": "1431"
+     },
+     {
+      "doc_count": 2,
+      "key": "1432"
+     },
+     {
+      "doc_count": 2,
+      "key": "4121"
+     }
+    ]
+   }
+  },
+  "orderIdx": 12
+ },
+ {
+  "number": 5105090738000218,
+  "title": "اجاره غرفه شماره 9 استادیوم شهدا( به مدت 36 ماه 0 روز)",
+  "boardCode": 3,
+  "basePrice": 2280000000,
+  "orgName": "شهرداری قدس استان تهران",
+  "score": 87,
+  "cityName": "قدس",
+  "insertDate": null,
+  "boardName": "مزایده",
+  "provinceName": "تهران",
+  "jalaliSendDeadlineDate": "1405/07/04 - 12:00",
+  "jalaliLastEditDate": "1405/06/16 - 08:00",
+  "jalaliDocumentDeadlineDate": "1405/06/23 - 19:00",
+  "tableId": 499541,
+  "tagCode": 33,
+  "needType": null,
+  "reqId": null,
+  "jalaliFromProposalDate": null,
+  "partyNumber": "1320053",
+  "orgId": 9288,
+  "aucState": 1116,
+  "cartId": 0,
+  "categoryId": null,
+  "categoryName": null,
+  "locId": null,
+  "ticketId": null,
+  "aggregations": {
+   "by_boardCode": {
+    "buckets": [
+     {
+      "doc_count": 76,
+      "key": "3"
+     },
+     {
+      "doc_count": 9,
+      "key": "1"
+     },
+     {
+      "doc_count": 2,
+      "key": "2"
+     }
+    ]
+   },
+   "by_tagCode": {
+    "buckets": [
+     {
+      "doc_count": 65,
+      "key": "33"
+     },
+     {
+      "doc_count": 11,
+      "key": "341"
+     },
+     {
+      "doc_count": 7,
+      "key": "1431"
+     },
+     {
+      "doc_count": 2,
+      "key": "1432"
+     },
+     {
+      "doc_count": 2,
+      "key": "4121"
+     }
+    ]
+   }
+  },
+  "orderIdx": 13
+ },
+ {
+  "number": 5105090738000220,
+  "title": "اجاره غرفه شماره11استادیوم شهدا( به مدت 36 ماه 0 روز)",
+  "boardCode": 3,
+  "basePrice": 2760000000,
+  "orgName": "شهرداری قدس استان تهران",
+  "score": 87,
+  "cityName": "قدس",
+  "insertDate": null,
+  "boardName": "مزایده",
+  "provinceName": "تهران",
+  "jalaliSendDeadlineDate": "1405/07/04 - 12:00",
+  "jalaliLastEditDate": "1405/06/16 - 08:00",
+  "jalaliDocumentDeadlineDate": "1405/06/23 - 19:00",
+  "tableId": 499541,
+  "tagCode": 33,
+  "needType": null,
+  "reqId": null,
+  "jalaliFromProposalDate": null,
+  "partyNumber": "1320072",
+  "orgId": 9288,
+  "aucState": 1116,
+  "cartId": 0,
+  "categoryId": null,
+  "categoryName": null,
+  "locId": null,
+  "ticketId": null,
+  "aggregations": {
+   "by_boardCode": {
+    "buckets": [
+     {
+      "doc_count": 76,
+      "key": "3"
+     },
+     {
+      "doc_count": 9,
+      "key": "1"
+     },
+     {
+      "doc_count": 2,
+      "key": "2"
+     }
+    ]
+   },
+   "by_tagCode": {
+    "buckets": [
+     {
+      "doc_count": 65,
+      "key": "33"
+     },
+     {
+      "doc_count": 11,
+      "key": "341"
+     },
+     {
+      "doc_count": 7,
+      "key": "1431"
+     },
+     {
+      "doc_count": 2,
+      "key": "1432"
+     },
+     {
+      "doc_count": 2,
+      "key": "4121"
+     }
+    ]
+   }
+  },
+  "orderIdx": 14
+ },
+ {
+  "number": 5105090738000224,
+  "title": "اجاره غرفه شماره26مجتمع ابریشم( به مدت 24 ماه 0 روز)",
+  "boardCode": 3,
+  "basePrice": 1140000000,
+  "orgName": "شهرداری قدس استان تهران",
+  "score": 87,
+  "cityName": "قدس",
+  "insertDate": null,
+  "boardName": "مزایده",
+  "provinceName": "تهران",
+  "jalaliSendDeadlineDate": "1405/07/04 - 12:00",
+  "jalaliLastEditDate": "1405/06/16 - 08:00",
+  "jalaliDocumentDeadlineDate": "1405/06/23 - 19:00",
+  "tableId": 500000,
+  "tagCode": 33,
+  "needType": null,
+  "reqId": null,
+  "jalaliFromProposalDate": null,
+  "partyNumber": "1320234",
+  "orgId": 9288,
+  "aucState": 1116,
+  "cartId": 0,
+  "categoryId": null,
+  "categoryName": null,
+  "locId": null,
+  "ticketId": null,
+  "aggregations": {
+   "by_boardCode": {
+    "buckets": [
+     {
+      "doc_count": 76,
+      "key": "3"
+     },
+     {
+      "doc_count": 9,
+      "key": "1"
+     },
+     {
+      "doc_count": 2,
+      "key": "2"
+     }
+    ]
+   },
+   "by_tagCode": {
+    "buckets": [
+     {
+      "doc_count": 65,
+      "key": "33"
+     },
+     {
+      "doc_count": 11,
+      "key": "341"
+     },
+     {
+      "doc_count": 7,
+      "key": "1431"
+     },
+     {
+      "doc_count": 2,
+      "key": "1432"
+     },
+     {
+      "doc_count": 2,
+      "key": "4121"
+     }
+    ]
+   }
+  },
+  "orderIdx": 15
+ },
+ {
+  "number": 5105090738000229,
+  "title": "اجاره غرفه شماره214مجتمع ابریشم( به مدت 24 ماه 0 روز)",
+  "boardCode": 3,
+  "basePrice": 480000000,
+  "orgName": "شهرداری قدس استان تهران",
+  "score": 87,
+  "cityName": "قدس",
+  "insertDate": null,
+  "boardName": "مزایده",
+  "provinceName": "تهران",
+  "jalaliSendDeadlineDate": "1405/07/04 - 12:00",
+  "jalaliLastEditDate": "1405/06/16 - 08:00",
+  "jalaliDocumentDeadlineDate": "1405/06/23 - 19:00",
+  "tableId": 500000,
+  "tagCode": 33,
+  "needType": null,
+  "reqId": null,
+  "jalaliFromProposalDate": null,
+  "partyNumber": "1320351",
+  "orgId": 9288,
+  "aucState": 1116,
+  "cartId": 0,
+  "categoryId": null,
+  "categoryName": null,
+  "locId": null,
+  "ticketId": null,
+  "aggregations": {
+   "by_boardCode": {
+    "buckets": [
+     {
+      "doc_count": 76,
+      "key": "3"
+     },
+     {
+      "doc_count": 9,
+      "key": "1"
+     },
+     {
+      "doc_count": 2,
+      "key": "2"
+     }
+    ]
+   },
+   "by_tagCode": {
+    "buckets": [
+     {
+      "doc_count": 65,
+      "key": "33"
+     },
+     {
+      "doc_count": 11,
+      "key": "341"
+     },
+     {
+      "doc_count": 7,
+      "key": "1431"
+     },
+     {
+      "doc_count": 2,
+      "key": "1432"
+     },
+     {
+      "doc_count": 2,
+      "key": "4121"
+     }
+    ]
+   }
+  },
+  "orderIdx": 16
+ },
+ {
+  "number": 5105090738000230,
+  "title": "اجاره غرفه شماره222مجتمع ابریشم( به مدت 24 ماه 0 روز)",
+  "boardCode": 3,
+  "basePrice": 540000000,
+  "orgName": "شهرداری قدس استان تهران",
+  "score": 87,
+  "cityName": "قدس",
+  "insertDate": null,
+  "boardName": "مزایده",
+  "provinceName": "تهران",
+  "jalaliSendDeadlineDate": "1405/07/04 - 12:00",
+  "jalaliLastEditDate": "1405/06/16 - 08:00",
+  "jalaliDocumentDeadlineDate": "1405/06/23 - 19:00",
+  "tableId": 500000,
+  "tagCode": 33,
+  "needType": null,
+  "reqId": null,
+  "jalaliFromProposalDate": null,
+  "partyNumber": "1320368",
+  "orgId": 9288,
+  "aucState": 1116,
+  "cartId": 0,
+  "categoryId": null,
+  "categoryName": null,
+  "locId": null,
+  "ticketId": null,
+  "aggregations": {
+   "by_boardCode": {
+    "buckets": [
+     {
+      "doc_count": 76,
+      "key": "3"
+     },
+     {
+      "doc_count": 9,
+      "key": "1"
+     },
+     {
+      "doc_count": 2,
+      "key": "2"
+     }
+    ]
+   },
+   "by_tagCode": {
+    "buckets": [
+     {
+      "doc_count": 65,
+      "key": "33"
+     },
+     {
+      "doc_count": 11,
+      "key": "341"
+     },
+     {
+      "doc_count": 7,
+      "key": "1431"
+     },
+     {
+      "doc_count": 2,
+      "key": "1432"
+     },
+     {
+      "doc_count": 2,
+      "key": "4121"
+     }
+    ]
+   }
+  },
+  "orderIdx": 17
+ },
+ {
+  "number": 5105090738000231,
+  "title": "اجاره غرفه شماره229مجتمع ابریشم( به مدت 24 ماه 0 روز)",
+  "boardCode": 3,
+  "basePrice": 480000000,
+  "orgName": "شهرداری قدس استان تهران",
+  "score": 87,
+  "cityName": "قدس",
+  "insertDate": null,
+  "boardName": "مزایده",
+  "provinceName": "تهران",
+  "jalaliSendDeadlineDate": "1405/07/04 - 12:00",
+  "jalaliLastEditDate": "1405/06/16 - 08:00",
+  "jalaliDocumentDeadlineDate": "1405/06/23 - 19:00",
+  "tableId": 500000,
+  "tagCode": 33,
+  "needType": null,
+  "reqId": null,
+  "jalaliFromProposalDate": null,
+  "partyNumber": "1320383",
+  "orgId": 9288,
+  "aucState": 1116,
+  "cartId": 0,
+  "categoryId": null,
+  "categoryName": null,
+  "locId": null,
+  "ticketId": null,
+  "aggregations": {
+   "by_boardCode": {
+    "buckets": [
+     {
+      "doc_count": 76,
+      "key": "3"
+     },
+     {
+      "doc_count": 9,
+      "key": "1"
+     },
+     {
+      "doc_count": 2,
+      "key": "2"
+     }
+    ]
+   },
+   "by_tagCode": {
+    "buckets": [
+     {
+      "doc_count": 65,
+      "key": "33"
+     },
+     {
+      "doc_count": 11,
+      "key": "341"
+     },
+     {
+      "doc_count": 7,
+      "key": "1431"
+     },
+     {
+      "doc_count": 2,
+      "key": "1432"
+     },
+     {
+      "doc_count": 2,
+      "key": "4121"
+     }
+    ]
+   }
+  },
+  "orderIdx": 18
+ },
+ {
+  "number": 5105090738000209,
+  "title": "اجاره مرکز معاینه فنی شهیدان رضائی دانشگر( به مدت 12 ماه 0 روز)",
+  "boardCode": 3,
+  "basePrice": 97200000000,
+  "orgName": "شهرداری قدس استان تهران",
+  "score": 87,
+  "cityName": "قدس",
+  "insertDate": null,
+  "boardName": "مزایده",
+  "provinceName": "تهران",
+  "jalaliSendDeadlineDate": "1405/06/30 - 12:00",
+  "jalaliLastEditDate": "1405/06/16 - 08:00",
+  "jalaliDocumentDeadlineDate": "1405/06/18 - 19:00",
+  "tableId": 498849,
+  "tagCode": 33,
+  "needType": null,
+  "reqId": null,
+  "jalaliFromProposalDate": null,
+  "partyNumber": "1318363",
+  "orgId": 9288,
+  "aucState": 1116,
+  "cartId": 0,
+  "categoryId": null,
+  "categoryName": null,
+  "locId": null,
+  "ticketId": null,
+  "aggregations": {
+   "by_boardCode": {
+    "buckets": [
+     {
+      "doc_count": 76,
+      "key": "3"
+     },
+     {
+      "doc_count": 9,
+      "key": "1"
+     },
+     {
+      "doc_count": 2,
+      "key": "2"
+     }
+    ]
+   },
+   "by_tagCode": {
+    "buckets": [
+     {
+      "doc_count": 65,
+      "key": "33"
+     },
+     {
+      "doc_count": 11,
+      "key": "341"
+     },
+     {
+      "doc_count": 7,
+      "key": "1431"
+     },
+     {
+      "doc_count": 2,
+      "key": "1432"
+     },
+     {
+      "doc_count": 2,
+      "key": "4121"
+     }
+    ]
+   }
+  },
+  "orderIdx": 19
+ },
+ {
+  "number": 5105090738000211,
+  "title": "اجاره غرفه شماره2استادیوم شهدا( به مدت 36 ماه 0 روز)",
+  "boardCode": 3,
+  "basePrice": 1920000000,
+  "orgName": "شهرداری قدس استان تهران",
+  "score": 87,
+  "cityName": "قدس",
+  "insertDate": null,
+  "boardName": "مزایده",
+  "provinceName": "تهران",
+  "jalaliSendDeadlineDate": "1405/07/04 - 12:00",
+  "jalaliLastEditDate": "1405/06/16 - 08:00",
+  "jalaliDocumentDeadlineDate": "1405/06/23 - 19:00",
+  "tableId": 499541,
+  "tagCode": 33,
+  "needType": null,
+  "reqId": null,
+  "jalaliFromProposalDate": null,
+  "partyNumber": "1319764",
+  "orgId": 9288,
+  "aucState": 1116,
+  "cartId": 0,
+  "categoryId": null,
+  "categoryName": null,
+  "locId": null,
+  "ticketId": null,
+  "aggregations": {
+   "by_boardCode": {
+    "buckets": [
+     {
+      "doc_count": 76,
+      "key": "3"
+     },
+     {
+      "doc_count": 9,
+      "key": "1"
+     },
+     {
+      "doc_count": 2,
+      "key": "2"
+     }
+    ]
+   },
+   "by_tagCode": {
+    "buckets": [
+     {
+      "doc_count": 65,
+      "key": "33"
+     },
+     {
+      "doc_count": 11,
+      "key": "341"
+     },
+     {
+      "doc_count": 7,
+      "key": "1431"
+     },
+     {
+      "doc_count": 2,
+      "key": "1432"
+     },
+     {
+      "doc_count": 2,
+      "key": "4121"
+     }
+    ]
+   }
+  },
+  "orderIdx": 20
+ },
+ {
+  "number": 5105090738000213,
+  "title": "اجاره غرفه شماره 4استادیوم شهدا( به مدت 36 ماه 0 روز)",
+  "boardCode": 3,
+  "basePrice": 1800000000,
+  "orgName": "شهرداری قدس استان تهران",
+  "score": 87,
+  "cityName": "قدس",
+  "insertDate": null,
+  "boardName": "مزایده",
+  "provinceName": "تهران",
+  "jalaliSendDeadlineDate": "1405/07/04 - 12:00",
+  "jalaliLastEditDate": "1405/06/16 - 08:00",
+  "jalaliDocumentDeadlineDate": "1405/06/23 - 19:00",
+  "tableId": 499541,
+  "tagCode": 33,
+  "needType": null,
+  "reqId": null,
+  "jalaliFromProposalDate": null,
+  "partyNumber": "1319793",
+  "orgId": 9288,
+  "aucState": 1116,
+  "cartId": 0,
+  "categoryId": null,
+  "categoryName": null,
+  "locId": null,
+  "ticketId": null,
+  "aggregations": {
+   "by_boardCode": {
+    "buckets": [
+     {
+      "doc_count": 76,
+      "key": "3"
+     },
+     {
+      "doc_count": 9,
+      "key": "1"
+     },
+     {
+      "doc_count": 2,
+      "key": "2"
+     }
+    ]
+   },
+   "by_tagCode": {
+    "buckets": [
+     {
+      "doc_count": 65,
+      "key": "33"
+     },
+     {
+      "doc_count": 11,
+      "key": "341"
+     },
+     {
+      "doc_count": 7,
+      "key": "1431"
+     },
+     {
+      "doc_count": 2,
+      "key": "1432"
+     },
+     {
+      "doc_count": 2,
+      "key": "4121"
+     }
+    ]
+   }
+  },
+  "orderIdx": 21
+ },
+ {
+  "number": 5105090738000221,
+  "title": "اجاره غرفه شماره12استادیوم شهدا( به مدت 36 ماه 0 روز)",
+  "boardCode": 3,
+  "basePrice": 2760000000,
+  "orgName": "شهرداری قدس استان تهران",
+  "score": 87,
+  "cityName": "قدس",
+  "insertDate": null,
+  "boardName": "مزایده",
+  "provinceName": "تهران",
+  "jalaliSendDeadlineDate": "1405/07/04 - 12:00",
+  "jalaliLastEditDate": "1405/06/16 - 08:00",
+  "jalaliDocumentDeadlineDate": "1405/06/23 - 19:00",
+  "tableId": 499541,
+  "tagCode": 33,
+  "needType": null,
+  "reqId": null,
+  "jalaliFromProposalDate": null,
+  "partyNumber": "1320079",
+  "orgId": 9288,
+  "aucState": 1116,
+  "cartId": 0,
+  "categoryId": null,
+  "categoryName": null,
+  "locId": null,
+  "ticketId": null,
+  "aggregations": {
+   "by_boardCode": {
+    "buckets": [
+     {
+      "doc_count": 76,
+      "key": "3"
+     },
+     {
+      "doc_count": 9,
+      "key": "1"
+     },
+     {
+      "doc_count": 2,
+      "key": "2"
+     }
+    ]
+   },
+   "by_tagCode": {
+    "buckets": [
+     {
+      "doc_count": 65,
+      "key": "33"
+     },
+     {
+      "doc_count": 11,
+      "key": "341"
+     },
+     {
+      "doc_count": 7,
+      "key": "1431"
+     },
+     {
+      "doc_count": 2,
+      "key": "1432"
+     },
+     {
+      "doc_count": 2,
+      "key": "4121"
+     }
+    ]
+   }
+  },
+  "orderIdx": 22
+ },
+ {
+  "number": 5105090738000222,
+  "title": "اجاره غرفه شماره13استادیوم شهدا( به مدت 36 ماه 0 روز)",
+  "boardCode": 3,
+  "basePrice": 2760000000,
+  "orgName": "شهرداری قدس استان تهران",
+  "score": 87,
+  "cityName": "قدس",
+  "insertDate": null,
+  "boardName": "مزایده",
+  "provinceName": "تهران",
+  "jalaliSendDeadlineDate": "1405/07/04 - 12:00",
+  "jalaliLastEditDate": "1405/06/16 - 08:00",
+  "jalaliDocumentDeadlineDate": "1405/06/23 - 19:00",
+  "tableId": 499541,
+  "tagCode": 33,
+  "needType": null,
+  "reqId": null,
+  "jalaliFromProposalDate": null,
+  "partyNumber": "1320088",
+  "orgId": 9288,
+  "aucState": 1116,
+  "cartId": 0,
+  "categoryId": null,
+  "categoryName": null,
+  "locId": null,
+  "ticketId": null,
+  "aggregations": {
+   "by_boardCode": {
+    "buckets": [
+     {
+      "doc_count": 76,
+      "key": "3"
+     },
+     {
+      "doc_count": 9,
+      "key": "1"
+     },
+     {
+      "doc_count": 2,
+      "key": "2"
+     }
+    ]
+   },
+   "by_tagCode": {
+    "buckets": [
+     {
+      "doc_count": 65,
+      "key": "33"
+     },
+     {
+      "doc_count": 11,
+      "key": "341"
+     },
+     {
+      "doc_count": 7,
+      "key": "1431"
+     },
+     {
+      "doc_count": 2,
+      "key": "1432"
+     },
+     {
+      "doc_count": 2,
+      "key": "4121"
+     }
+    ]
+   }
+  },
+  "orderIdx": 23
+ },
+ {
+  "number": 5105090738000225,
+  "title": "اجاره غرفه شماره27مجتمع ابریشم( به مدت 24 ماه 0 روز)",
+  "boardCode": 3,
+  "basePrice": 1020000000,
+  "orgName": "شهرداری قدس استان تهران",
+  "score": 87,
+  "cityName": "قدس",
+  "insertDate": null,
+  "boardName": "مزایده",
+  "provinceName": "تهران",
+  "jalaliSendDeadlineDate": "1405/07/04 - 12:00",
+  "jalaliLastEditDate": "1405/06/16 - 08:00",
+  "jalaliDocumentDeadlineDate": "1405/06/23 - 19:00",
+  "tableId": 500000,
+  "tagCode": 33,
+  "needType": null,
+  "reqId": null,
+  "jalaliFromProposalDate": null,
+  "partyNumber": "1320295",
+  "orgId": 9288,
+  "aucState": 1116,
+  "cartId": 0,
+  "categoryId": null,
+  "categoryName": null,
+  "locId": null,
+  "ticketId": null,
+  "aggregations": {
+   "by_boardCode": {
+    "buckets": [
+     {
+      "doc_count": 76,
+      "key": "3"
+     },
+     {
+      "doc_count": 9,
+      "key": "1"
+     },
+     {
+      "doc_count": 2,
+      "key": "2"
+     }
+    ]
+   },
+   "by_tagCode": {
+    "buckets": [
+     {
+      "doc_count": 65,
+      "key": "33"
+     },
+     {
+      "doc_count": 11,
+      "key": "341"
+     },
+     {
+      "doc_count": 7,
+      "key": "1431"
+     },
+     {
+      "doc_count": 2,
+      "key": "1432"
+     },
+     {
+      "doc_count": 2,
+      "key": "4121"
+     }
+    ]
+   }
+  },
+  "orderIdx": 24
+ },
+ {
+  "number": 5105090738000226,
+  "title": "اجاره غرفه شماره111مجتمع ابریشم( به مدت 24 ماه 0 روز)",
+  "boardCode": 3,
+  "basePrice": 780000000,
+  "orgName": "شهرداری قدس استان تهران",
+  "score": 87,
+  "cityName": "قدس",
+  "insertDate": null,
+  "boardName": "مزایده",
+  "provinceName": "تهران",
+  "jalaliSendDeadlineDate": "1405/07/04 - 12:00",
+  "jalaliLastEditDate": "1405/06/16 - 08:00",
+  "jalaliDocumentDeadlineDate": "1405/06/23 - 19:00",
+  "tableId": 500000,
+  "tagCode": 33,
+  "needType": null,
+  "reqId": null,
+  "jalaliFromProposalDate": null,
+  "partyNumber": "1320309",
+  "orgId": 9288,
+  "aucState": 1116,
+  "cartId": 0,
+  "categoryId": null,
+  "categoryName": null,
+  "locId": null,
+  "ticketId": null,
+  "aggregations": {
+   "by_boardCode": {
+    "buckets": [
+     {
+      "doc_count": 76,
+      "key": "3"
+     },
+     {
+      "doc_count": 9,
+      "key": "1"
+     },
+     {
+      "doc_count": 2,
+      "key": "2"
+     }
+    ]
+   },
+   "by_tagCode": {
+    "buckets": [
+     {
+      "doc_count": 65,
+      "key": "33"
+     },
+     {
+      "doc_count": 11,
+      "key": "341"
+     },
+     {
+      "doc_count": 7,
+      "key": "1431"
+     },
+     {
+      "doc_count": 2,
+      "key": "1432"
+     },
+     {
+      "doc_count": 2,
+      "key": "4121"
+     }
+    ]
+   }
+  },
+  "orderIdx": 25
+ },
+ {
+  "number": 5105090738000210,
+  "title": "اجاره غرفه شماره1استادیوم شهدا( به مدت 36 ماه 0 روز)",
+  "boardCode": 3,
+  "basePrice": 1920000000,
+  "orgName": "شهرداری قدس استان تهران",
+  "score": 87,
+  "cityName": "قدس",
+  "insertDate": null,
+  "boardName": "مزایده",
+  "provinceName": "تهران",
+  "jalaliSendDeadlineDate": "1405/07/04 - 12:00",
+  "jalaliLastEditDate": "1405/06/16 - 08:00",
+  "jalaliDocumentDeadlineDate": "1405/06/23 - 19:00",
+  "tableId": 499541,
+  "tagCode": 33,
+  "needType": null,
+  "reqId": null,
+  "jalaliFromProposalDate": null,
+  "partyNumber": "1319755",
+  "orgId": 9288,
+  "aucState": 1116,
+  "cartId": 0,
+  "categoryId": null,
+  "categoryName": null,
+  "locId": null,
+  "ticketId": null,
+  "aggregations": {
+   "by_boardCode": {
+    "buckets": [
+     {
+      "doc_count": 76,
+      "key": "3"
+     },
+     {
+      "doc_count": 9,
+      "key": "1"
+     },
+     {
+      "doc_count": 2,
+      "key": "2"
+     }
+    ]
+   },
+   "by_tagCode": {
+    "buckets": [
+     {
+      "doc_count": 65,
+      "key": "33"
+     },
+     {
+      "doc_count": 11,
+      "key": "341"
+     },
+     {
+      "doc_count": 7,
+      "key": "1431"
+     },
+     {
+      "doc_count": 2,
+      "key": "1432"
+     },
+     {
+      "doc_count": 2,
+      "key": "4121"
+     }
+    ]
+   }
+  },
+  "orderIdx": 26
+ },
+ {
+  "number": 5105090738000214,
+  "title": "اجاره غرفه شماره 5 استادیوم شهدا( به مدت 36 ماه 0 روز)",
+  "boardCode": 3,
+  "basePrice": 2520000000,
+  "orgName": "شهرداری قدس استان تهران",
+  "score": 87,
+  "cityName": "قدس",
+  "insertDate": null,
+  "boardName": "مزایده",
+  "provinceName": "تهران",
+  "jalaliSendDeadlineDate": "1405/07/04 - 12:00",
+  "jalaliLastEditDate": "1405/06/16 - 08:00",
+  "jalaliDocumentDeadlineDate": "1405/06/23 - 19:00",
+  "tableId": 499541,
+  "tagCode": 33,
+  "needType": null,
+  "reqId": null,
+  "jalaliFromProposalDate": null,
+  "partyNumber": "1319821",
+  "orgId": 9288,
+  "aucState": 1116,
+  "cartId": 0,
+  "categoryId": null,
+  "categoryName": null,
+  "locId": null,
+  "ticketId": null,
+  "aggregations": {
+   "by_boardCode": {
+    "buckets": [
+     {
+      "doc_count": 76,
+      "key": "3"
+     },
+     {
+      "doc_count": 9,
+      "key": "1"
+     },
+     {
+      "doc_count": 2,
+      "key": "2"
+     }
+    ]
+   },
+   "by_tagCode": {
+    "buckets": [
+     {
+      "doc_count": 65,
+      "key": "33"
+     },
+     {
+      "doc_count": 11,
+      "key": "341"
+     },
+     {
+      "doc_count": 7,
+      "key": "1431"
+     },
+     {
+      "doc_count": 2,
+      "key": "1432"
+     },
+     {
+      "doc_count": 2,
+      "key": "4121"
+     }
+    ]
+   }
+  },
+  "orderIdx": 27
+ },
+ {
+  "number": 5105090738000216,
+  "title": "اجاره غرفه شماره7استادیوم شهدا( به مدت 36 ماه 0 روز)",
+  "boardCode": 3,
+  "basePrice": 2280000000,
+  "orgName": "شهرداری قدس استان تهران",
+  "score": 87,
+  "cityName": "قدس",
+  "insertDate": null,
+  "boardName": "مزایده",
+  "provinceName": "تهران",
+  "jalaliSendDeadlineDate": "1405/07/04 - 12:00",
+  "jalaliLastEditDate": "1405/06/16 - 08:00",
+  "jalaliDocumentDeadlineDate": "1405/06/23 - 19:00",
+  "tableId": 499541,
+  "tagCode": 33,
+  "needType": null,
+  "reqId": null,
+  "jalaliFromProposalDate": null,
+  "partyNumber": "1320012",
+  "orgId": 9288,
+  "aucState": 1116,
+  "cartId": 0,
+  "categoryId": null,
+  "categoryName": null,
+  "locId": null,
+  "ticketId": null,
+  "aggregations": {
+   "by_boardCode": {
+    "buckets": [
+     {
+      "doc_count": 76,
+      "key": "3"
+     },
+     {
+      "doc_count": 9,
+      "key": "1"
+     },
+     {
+      "doc_count": 2,
+      "key": "2"
+     }
+    ]
+   },
+   "by_tagCode": {
+    "buckets": [
+     {
+      "doc_count": 65,
+      "key": "33"
+     },
+     {
+      "doc_count": 11,
+      "key": "341"
+     },
+     {
+      "doc_count": 7,
+      "key": "1431"
+     },
+     {
+      "doc_count": 2,
+      "key": "1432"
+     },
+     {
+      "doc_count": 2,
+      "key": "4121"
+     }
+    ]
+   }
+  },
+  "orderIdx": 28
+ },
+ {
+  "number": 5105090738000217,
+  "title": "اجاره غرفه شماره8 استادیوم شهدا( به مدت 36 ماه 0 روز)",
+  "boardCode": 3,
+  "basePrice": 2280000000,
+  "orgName": "شهرداری قدس استان تهران",
+  "score": 87,
+  "cityName": "قدس",
+  "insertDate": null,
+  "boardName": "مزایده",
+  "provinceName": "تهران",
+  "jalaliSendDeadlineDate": "1405/07/04 - 12:00",
+  "jalaliLastEditDate": "1405/06/16 - 08:00",
+  "jalaliDocumentDeadlineDate": "1405/06/23 - 19:00",
+  "tableId": 499541,
+  "tagCode": 33,
+  "needType": null,
+  "reqId": null,
+  "jalaliFromProposalDate": null,
+  "partyNumber": "1320040",
+  "orgId": 9288,
+  "aucState": 1116,
+  "cartId": 0,
+  "categoryId": null,
+  "categoryName": null,
+  "locId": null,
+  "ticketId": null,
+  "aggregations": {
+   "by_boardCode": {
+    "buckets": [
+     {
+      "doc_count": 76,
+      "key": "3"
+     },
+     {
+      "doc_count": 9,
+      "key": "1"
+     },
+     {
+      "doc_count": 2,
+      "key": "2"
+     }
+    ]
+   },
+   "by_tagCode": {
+    "buckets": [
+     {
+      "doc_count": 65,
+      "key": "33"
+     },
+     {
+      "doc_count": 11,
+      "key": "341"
+     },
+     {
+      "doc_count": 7,
+      "key": "1431"
+     },
+     {
+      "doc_count": 2,
+      "key": "1432"
+     },
+     {
+      "doc_count": 2,
+      "key": "4121"
+     }
+    ]
+   }
+  },
+  "orderIdx": 29
+ },
+ {
+  "number": 5105090738000219,
+  "title": "اجاره غرفه شماره10استادیوم شهدا( به مدت 36 ماه 0 روز)",
+  "boardCode": 3,
+  "basePrice": 2220000000,
+  "orgName": "شهرداری قدس استان تهران",
+  "score": 87,
+  "cityName": "قدس",
+  "insertDate": null,
+  "boardName": "مزایده",
+  "provinceName": "تهران",
+  "jalaliSendDeadlineDate": "1405/07/04 - 12:00",
+  "jalaliLastEditDate": "1405/06/16 - 08:00",
+  "jalaliDocumentDeadlineDate": "1405/06/23 - 19:00",
+  "tableId": 499541,
+  "tagCode": 33,
+  "needType": null,
+  "reqId": null,
+  "jalaliFromProposalDate": null,
+  "partyNumber": "1320063",
+  "orgId": 9288,
+  "aucState": 1116,
+  "cartId": 0,
+  "categoryId": null,
+  "categoryName": null,
+  "locId": null,
+  "ticketId": null,
+  "aggregations": {
+   "by_boardCode": {
+    "buckets": [
+     {
+      "doc_count": 76,
+      "key": "3"
+     },
+     {
+      "doc_count": 9,
+      "key": "1"
+     },
+     {
+      "doc_count": 2,
+      "key": "2"
+     }
+    ]
+   },
+   "by_tagCode": {
+    "buckets": [
+     {
+      "doc_count": 65,
+      "key": "33"
+     },
+     {
+      "doc_count": 11,
+      "key": "341"
+     },
+     {
+      "doc_count": 7,
+      "key": "1431"
+     },
+     {
+      "doc_count": 2,
+      "key": "1432"
+     },
+     {
+      "doc_count": 2,
+      "key": "4121"
+     }
+    ]
+   }
+  },
+  "orderIdx": 30
+ },
+ {
+  "number": 5105090738000223,
+  "title": "اجاره غرفه شماره12مجتمع ابریشم( به مدت 24 ماه 0 روز)",
+  "boardCode": 3,
+  "basePrice": 1560000000,
+  "orgName": "شهرداری قدس استان تهران",
+  "score": 87,
+  "cityName": "قدس",
+  "insertDate": null,
+  "boardName": "مزایده",
+  "provinceName": "تهران",
+  "jalaliSendDeadlineDate": "1405/07/04 - 12:00",
+  "jalaliLastEditDate": "1405/06/16 - 08:00",
+  "jalaliDocumentDeadlineDate": "1405/06/23 - 19:00",
+  "tableId": 500000,
+  "tagCode": 33,
+  "needType": null,
+  "reqId": null,
+  "jalaliFromProposalDate": null,
+  "partyNumber": "1320220",
+  "orgId": 9288,
+  "aucState": 1116,
+  "cartId": 0,
+  "categoryId": null,
+  "categoryName": null,
+  "locId": null,
+  "ticketId": null,
+  "aggregations": {
+   "by_boardCode": {
+    "buckets": [
+     {
+      "doc_count": 76,
+      "key": "3"
+     },
+     {
+      "doc_count": 9,
+      "key": "1"
+     },
+     {
+      "doc_count": 2,
+      "key": "2"
+     }
+    ]
+   },
+   "by_tagCode": {
+    "buckets": [
+     {
+      "doc_count": 65,
+      "key": "33"
+     },
+     {
+      "doc_count": 11,
+      "key": "341"
+     },
+     {
+      "doc_count": 7,
+      "key": "1431"
+     },
+     {
+      "doc_count": 2,
+      "key": "1432"
+     },
+     {
+      "doc_count": 2,
+      "key": "4121"
+     }
+    ]
+   }
+  },
+  "orderIdx": 31
+ },
+ {
+  "number": 5105090738000227,
+  "title": "اجاره غرفه شماره118مجتمع ابریشم( به مدت 24 ماه 0 روز)",
+  "boardCode": 3,
+  "basePrice": 900000000,
+  "orgName": "شهرداری قدس استان تهران",
+  "score": 87,
+  "cityName": "قدس",
+  "insertDate": null,
+  "boardName": "مزایده",
+  "provinceName": "تهران",
+  "jalaliSendDeadlineDate": "1405/07/04 - 12:00",
+  "jalaliLastEditDate": "1405/06/16 - 08:00",
+  "jalaliDocumentDeadlineDate": "1405/06/23 - 19:00",
+  "tableId": 500000,
+  "tagCode": 33,
+  "needType": null,
+  "reqId": null,
+  "jalaliFromProposalDate": null,
+  "partyNumber": "1320324",
+  "orgId": 9288,
+  "aucState": 1116,
+  "cartId": 0,
+  "categoryId": null,
+  "categoryName": null,
+  "locId": null,
+  "ticketId": null,
+  "aggregations": {
+   "by_boardCode": {
+    "buckets": [
+     {
+      "doc_count": 76,
+      "key": "3"
+     },
+     {
+      "doc_count": 9,
+      "key": "1"
+     },
+     {
+      "doc_count": 2,
+      "key": "2"
+     }
+    ]
+   },
+   "by_tagCode": {
+    "buckets": [
+     {
+      "doc_count": 65,
+      "key": "33"
+     },
+     {
+      "doc_count": 11,
+      "key": "341"
+     },
+     {
+      "doc_count": 7,
+      "key": "1431"
+     },
+     {
+      "doc_count": 2,
+      "key": "1432"
+     },
+     {
+      "doc_count": 2,
+      "key": "4121"
+     }
+    ]
+   }
+  },
+  "orderIdx": 32
+ },
+ {
+  "number": 5105090738000228,
+  "title": "اجاره غرفه شماره125مجتمع ابریشم( به مدت 24 ماه 0 روز)",
+  "boardCode": 3,
+  "basePrice": 720000000,
+  "orgName": "شهرداری قدس استان تهران",
+  "score": 87,
+  "cityName": "قدس",
+  "insertDate": null,
+  "boardName": "مزایده",
+  "provinceName": "تهران",
+  "jalaliSendDeadlineDate": "1405/07/04 - 12:00",
+  "jalaliLastEditDate": "1405/06/16 - 08:00",
+  "jalaliDocumentDeadlineDate": "1405/06/23 - 19:00",
+  "tableId": 500000,
+  "tagCode": 33,
+  "needType": null,
+  "reqId": null,
+  "jalaliFromProposalDate": null,
+  "partyNumber": "1320335",
+  "orgId": 9288,
+  "aucState": 1116,
+  "cartId": 0,
+  "categoryId": null,
+  "categoryName": null,
+  "locId": null,
+  "ticketId": null,
+  "aggregations": {
+   "by_boardCode": {
+    "buckets": [
+     {
+      "doc_count": 76,
+      "key": "3"
+     },
+     {
+      "doc_count": 9,
+      "key": "1"
+     },
+     {
+      "doc_count": 2,
+      "key": "2"
+     }
+    ]
+   },
+   "by_tagCode": {
+    "buckets": [
+     {
+      "doc_count": 65,
+      "key": "33"
+     },
+     {
+      "doc_count": 11,
+      "key": "341"
+     },
+     {
+      "doc_count": 7,
+      "key": "1431"
+     },
+     {
+      "doc_count": 2,
+      "key": "1432"
+     },
+     {
+      "doc_count": 2,
+      "key": "4121"
+     }
+    ]
+   }
+  },
+  "orderIdx": 33
+ },
+ {
+  "number": 1105091968000056,
+  "title": "نیاز کالا-خرید طبق لیست پیوست. هزینه حمل و عودت در صورت عدم تایید به عهده فروشنده می باشد. پرداخت دوماهه 09192967665",
+  "boardCode": 1,
+  "basePrice": null,
+  "orgName": "شبکه بهداشت و درمان شهرستان قدس",
+  "score": 87,
+  "cityName": "قدس",
+  "insertDate": null,
+  "boardName": "خرید",
+  "provinceName": "تهران",
+  "jalaliSendDeadlineDate": "1405/06/19 - 15:00",
+  "jalaliLastEditDate": null,
+  "jalaliDocumentDeadlineDate": null,
+  "tableId": 5338827,
+  "tagCode": 1431,
+  "needType": "1431",
+  "reqId": "7428284",
+  "jalaliFromProposalDate": null,
+  "partyNumber": null,
+  "orgId": 15229,
+  "aucState": null,
+  "cartId": 0,
+  "categoryId": null,
+  "categoryName": null,
+  "locId": null,
+  "ticketId": null,
+  "aggregations": {
+   "by_boardCode": {
+    "buckets": [
+     {
+      "doc_count": 76,
+      "key": "3"
+     },
+     {
+      "doc_count": 9,
+      "key": "1"
+     },
+     {
+      "doc_count": 2,
+      "key": "2"
+     }
+    ]
+   },
+   "by_tagCode": {
+    "buckets": [
+     {
+      "doc_count": 65,
+      "key": "33"
+     },
+     {
+      "doc_count": 11,
+      "key": "341"
+     },
+     {
+      "doc_count": 7,
+      "key": "1431"
+     },
+     {
+      "doc_count": 2,
+      "key": "1432"
+     },
+     {
+      "doc_count": 2,
+      "key": "4121"
+     }
+    ]
+   }
+  },
+  "orderIdx": 34
+ },
+ {
+  "number": 1105091764000143,
+  "title": "نیاز خدمات-سرویس و نگهداری 1 دستگاه آسانسور برانکارد بر همراه با اخذ بیمه نامه و تاییده استاندارد طبق مشخصات و شرایط مندرج در قرارداد .",
+  "boardCode": 1,
+  "basePrice": null,
+  "orgName": "بیمارستان 12 بهمن قدس",
+  "score": 87,
+  "cityName": "قدس",
+  "insertDate": null,
+  "boardName": "خرید",
+  "provinceName": "تهران",
+  "jalaliSendDeadlineDate": "1405/06/21 - 09:00",
+  "jalaliLastEditDate": null,
+  "jalaliDocumentDeadlineDate": null,
+  "tableId": 5334762,
+  "tagCode": 1432,
+  "needType": "1432",
+  "reqId": "7422208",
+  "jalaliFromProposalDate": null,
+  "partyNumber": null,
+  "orgId": 14531,
+  "aucState": null,
+  "cartId": 0,
+  "categoryId": null,
+  "categoryName": null,
+  "locId": null,
+  "ticketId": null,
+  "aggregations": {
+   "by_boardCode": {
+    "buckets": [
+     {
+      "doc_count": 76,
+      "key": "3"
+     },
+     {
+      "doc_count": 9,
+      "key": "1"
+     },
+     {
+      "doc_count": 2,
+      "key": "2"
+     }
+    ]
+   },
+   "by_tagCode": {
+    "buckets": [
+     {
+      "doc_count": 65,
+      "key": "33"
+     },
+     {
+      "doc_count": 11,
+      "key": "341"
+     },
+     {
+      "doc_count": 7,
+      "key": "1431"
+     },
+     {
+      "doc_count": 2,
+      "key": "1432"
+     },
+     {
+      "doc_count": 2,
+      "key": "4121"
+     }
+    ]
+   }
+  },
+  "orderIdx": 35
+ },
+ {
+  "number": 1105095346000029,
+  "title": "نیاز کالا-درخواست لباسشویی و آبگیر طبق شرح فایل پیوست",
+  "boardCode": 1,
+  "basePrice": null,
+  "orgName": "بیمارستان شهیدسردارسلیمانی شهرقدس",
+  "score": 87,
+  "cityName": "قدس",
+  "insertDate": null,
+  "boardName": "خرید",
+  "provinceName": "تهران",
+  "jalaliSendDeadlineDate": "1405/06/19 - 11:00",
+  "jalaliLastEditDate": null,
+  "jalaliDocumentDeadlineDate": null,
+  "tableId": 5332649,
+  "tagCode": 1431,
+  "needType": "1431",
+  "reqId": "7418979",
+  "jalaliFromProposalDate": null,
+  "partyNumber": null,
+  "orgId": 21663,
+  "aucState": null,
+  "cartId": 0,
+  "categoryId": null,
+  "categoryName": null,
+  "locId": null,
+  "ticketId": null,
+  "aggregations": {
+   "by_boardCode": {
+    "buckets": [
+     {
+      "doc_count": 76,
+      "key": "3"
+     },
+     {
+      "doc_count": 9,
+      "key": "1"
+     },
+     {
+      "doc_count": 2,
+      "key": "2"
+     }
+    ]
+   },
+   "by_tagCode": {
+    "buckets": [
+     {
+      "doc_count": 65,
+      "key": "33"
+     },
+     {
+      "doc_count": 11,
+      "key": "341"
+     },
+     {
+      "doc_count": 7,
+      "key": "1431"
+     },
+     {
+      "doc_count": 2,
+      "key": "1432"
+     },
+     {
+      "doc_count": 2,
+      "key": "4121"
+     }
+    ]
+   }
+  },
+  "orderIdx": 36
+ },
+ {
+  "number": 5105090738000174,
+  "title": "اجاره غرفه تجاری شماره 262( به مدت 60 ماه 0 روز)",
+  "boardCode": 3,
+  "basePrice": 1440000000,
+  "orgName": "شهرداری قدس استان تهران",
+  "score": 87,
+  "cityName": "قدس",
+  "insertDate": null,
+  "boardName": "مزایده",
+  "provinceName": "تهران",
+  "jalaliSendDeadlineDate": "1405/06/25 - 12:00",
+  "jalaliLastEditDate": "1405/06/11 - 08:00",
+  "jalaliDocumentDeadlineDate": "1405/06/14 - 19:00",
+  "tableId": 497647,
+  "tagCode": 33,
+  "needType": null,
+  "reqId": null,
+  "jalaliFromProposalDate": null,
+  "partyNumber": "1316889",
+  "orgId": 9288,
+  "aucState": 1116,
+  "cartId": 0,
+  "categoryId": null,
+  "categoryName": null,
+  "locId": null,
+  "ticketId": null,
+  "aggregations": {
+   "by_boardCode": {
+    "buckets": [
+     {
+      "doc_count": 76,
+      "key": "3"
+     },
+     {
+      "doc_count": 9,
+      "key": "1"
+     },
+     {
+      "doc_count": 2,
+      "key": "2"
+     }
+    ]
+   },
+   "by_tagCode": {
+    "buckets": [
+     {
+      "doc_count": 65,
+      "key": "33"
+     },
+     {
+      "doc_count": 11,
+      "key": "341"
+     },
+     {
+      "doc_count": 7,
+      "key": "1431"
+     },
+     {
+      "doc_count": 2,
+      "key": "1432"
+     },
+     {
+      "doc_count": 2,
+      "key": "4121"
+     }
+    ]
+   }
+  },
+  "orderIdx": 37
+ },
+ {
+  "number": 5105090738000175,
+  "title": "اجاره غرفه تجاری شماره 263( به مدت 60 ماه 0 روز)",
+  "boardCode": 3,
+  "basePrice": 1440000000,
+  "orgName": "شهرداری قدس استان تهران",
+  "score": 87,
+  "cityName": "قدس",
+  "insertDate": null,
+  "boardName": "مزایده",
+  "provinceName": "تهران",
+  "jalaliSendDeadlineDate": "1405/06/25 - 12:00",
+  "jalaliLastEditDate": "1405/06/11 - 08:00",
+  "jalaliDocumentDeadlineDate": "1405/06/14 - 19:00",
+  "tableId": 497647,
+  "tagCode": 33,
+  "needType": null,
+  "reqId": null,
+  "jalaliFromProposalDate": null,
+  "partyNumber": "1316891",
+  "orgId": 9288,
+  "aucState": 1116,
+  "cartId": 0,
+  "categoryId": null,
+  "categoryName": null,
+  "locId": null,
+  "ticketId": null,
+  "aggregations": {
+   "by_boardCode": {
+    "buckets": [
+     {
+      "doc_count": 76,
+      "key": "3"
+     },
+     {
+      "doc_count": 9,
+      "key": "1"
+     },
+     {
+      "doc_count": 2,
+      "key": "2"
+     }
+    ]
+   },
+   "by_tagCode": {
+    "buckets": [
+     {
+      "doc_count": 65,
+      "key": "33"
+     },
+     {
+      "doc_count": 11,
+      "key": "341"
+     },
+     {
+      "doc_count": 7,
+      "key": "1431"
+     },
+     {
+      "doc_count": 2,
+      "key": "1432"
+     },
+     {
+      "doc_count": 2,
+      "key": "4121"
+     }
+    ]
+   }
+  },
+  "orderIdx": 38
+ },
+ {
+  "number": 5105090738000178,
+  "title": "اجاره غرفه تجاری شماره 267( به مدت 60 ماه 0 روز)",
+  "boardCode": 3,
+  "basePrice": 1440000000,
+  "orgName": "شهرداری قدس استان تهران",
+  "score": 87,
+  "cityName": "قدس",
+  "insertDate": null,
+  "boardName": "مزایده",
+  "provinceName": "تهران",
+  "jalaliSendDeadlineDate": "1405/06/25 - 12:00",
+  "jalaliLastEditDate": "1405/06/11 - 08:00",
+  "jalaliDocumentDeadlineDate": "1405/06/14 - 19:00",
+  "tableId": 497647,
+  "tagCode": 33,
+  "needType": null,
+  "reqId": null,
+  "jalaliFromProposalDate": null,
+  "partyNumber": "1316895",
+  "orgId": 9288,
+  "aucState": 1116,
+  "cartId": 0,
+  "categoryId": null,
+  "categoryName": null,
+  "locId": null,
+  "ticketId": null,
+  "aggregations": {
+   "by_boardCode": {
+    "buckets": [
+     {
+      "doc_count": 76,
+      "key": "3"
+     },
+     {
+      "doc_count": 9,
+      "key": "1"
+     },
+     {
+      "doc_count": 2,
+      "key": "2"
+     }
+    ]
+   },
+   "by_tagCode": {
+    "buckets": [
+     {
+      "doc_count": 65,
+      "key": "33"
+     },
+     {
+      "doc_count": 11,
+      "key": "341"
+     },
+     {
+      "doc_count": 7,
+      "key": "1431"
+     },
+     {
+      "doc_count": 2,
+      "key": "1432"
+     },
+     {
+      "doc_count": 2,
+      "key": "4121"
+     }
+    ]
+   }
+  },
+  "orderIdx": 39
+ },
+ {
+  "number": 5105090738000179,
+  "title": "اجاره غرفه تجاری شماره 268( به مدت 60 ماه 0 روز)",
+  "boardCode": 3,
+  "basePrice": 1440000000,
+  "orgName": "شهرداری قدس استان تهران",
+  "score": 87,
+  "cityName": "قدس",
+  "insertDate": null,
+  "boardName": "مزایده",
+  "provinceName": "تهران",
+  "jalaliSendDeadlineDate": "1405/06/25 - 12:00",
+  "jalaliLastEditDate": "1405/06/11 - 08:00",
+  "jalaliDocumentDeadlineDate": "1405/06/14 - 19:00",
+  "tableId": 497647,
+  "tagCode": 33,
+  "needType": null,
+  "reqId": null,
+  "jalaliFromProposalDate": null,
+  "partyNumber": "1316897",
+  "orgId": 9288,
+  "aucState": 1116,
+  "cartId": 0,
+  "categoryId": null,
+  "categoryName": null,
+  "locId": null,
+  "ticketId": null,
+  "aggregations": {
+   "by_boardCode": {
+    "buckets": [
+     {
+      "doc_count": 76,
+      "key": "3"
+     },
+     {
+      "doc_count": 9,
+      "key": "1"
+     },
+     {
+      "doc_count": 2,
+      "key": "2"
+     }
+    ]
+   },
+   "by_tagCode": {
+    "buckets": [
+     {
+      "doc_count": 65,
+      "key": "33"
+     },
+     {
+      "doc_count": 11,
+      "key": "341"
+     },
+     {
+      "doc_count": 7,
+      "key": "1431"
+     },
+     {
+      "doc_count": 2,
+      "key": "1432"
+     },
+     {
+      "doc_count": 2,
+      "key": "4121"
+     }
+    ]
+   }
+  },
+  "orderIdx": 40
+ },
+ {
+  "number": 5105090738000183,
+  "title": "اجاره غرفه تجاری شماره 272( به مدت 60 ماه 0 روز)",
+  "boardCode": 3,
+  "basePrice": 1440000000,
+  "orgName": "شهرداری قدس استان تهران",
+  "score": 87,
+  "cityName": "قدس",
+  "insertDate": null,
+  "boardName": "مزایده",
+  "provinceName": "تهران",
+  "jalaliSendDeadlineDate": "1405/06/25 - 12:00",
+  "jalaliLastEditDate": "1405/06/11 - 08:00",
+  "jalaliDocumentDeadlineDate": "1405/06/14 - 19:00",
+  "tableId": 497647,
+  "tagCode": 33,
+  "needType": null,
+  "reqId": null,
+  "jalaliFromProposalDate": null,
+  "partyNumber": "1316922",
+  "orgId": 9288,
+  "aucState": 1116,
+  "cartId": 0,
+  "categoryId": null,
+  "categoryName": null,
+  "locId": null,
+  "ticketId": null,
+  "aggregations": {
+   "by_boardCode": {
+    "buckets": [
+     {
+      "doc_count": 76,
+      "key": "3"
+     },
+     {
+      "doc_count": 9,
+      "key": "1"
+     },
+     {
+      "doc_count": 2,
+      "key": "2"
+     }
+    ]
+   },
+   "by_tagCode": {
+    "buckets": [
+     {
+      "doc_count": 65,
+      "key": "33"
+     },
+     {
+      "doc_count": 11,
+      "key": "341"
+     },
+     {
+      "doc_count": 7,
+      "key": "1431"
+     },
+     {
+      "doc_count": 2,
+      "key": "1432"
+     },
+     {
+      "doc_count": 2,
+      "key": "4121"
+     }
+    ]
+   }
+  },
+  "orderIdx": 41
+ },
+ {
+  "number": 5105090738000188,
+  "title": "اجاره غرفه تجاری شماره 278( به مدت 60 ماه 0 روز)",
+  "boardCode": 3,
+  "basePrice": 1440000000,
+  "orgName": "شهرداری قدس استان تهران",
+  "score": 87,
+  "cityName": "قدس",
+  "insertDate": null,
+  "boardName": "مزایده",
+  "provinceName": "تهران",
+  "jalaliSendDeadlineDate": "1405/06/25 - 12:00",
+  "jalaliLastEditDate": "1405/06/11 - 08:00",
+  "jalaliDocumentDeadlineDate": "1405/06/14 - 19:00",
+  "tableId": 497647,
+  "tagCode": 33,
+  "needType": null,
+  "reqId": null,
+  "jalaliFromProposalDate": null,
+  "partyNumber": "1316956",
+  "orgId": 9288,
+  "aucState": 1116,
+  "cartId": 0,
+  "categoryId": null,
+  "categoryName": null,
+  "locId": null,
+  "ticketId": null,
+  "aggregations": {
+   "by_boardCode": {
+    "buckets": [
+     {
+      "doc_count": 76,
+      "key": "3"
+     },
+     {
+      "doc_count": 9,
+      "key": "1"
+     },
+     {
+      "doc_count": 2,
+      "key": "2"
+     }
+    ]
+   },
+   "by_tagCode": {
+    "buckets": [
+     {
+      "doc_count": 65,
+      "key": "33"
+     },
+     {
+      "doc_count": 11,
+      "key": "341"
+     },
+     {
+      "doc_count": 7,
+      "key": "1431"
+     },
+     {
+      "doc_count": 2,
+      "key": "1432"
+     },
+     {
+      "doc_count": 2,
+      "key": "4121"
+     }
+    ]
+   }
+  },
+  "orderIdx": 42
+ },
+ {
+  "number": 5105090738000192,
+  "title": "اجاره غرفه تجاری شماره 309( به مدت 60 ماه 0 روز)",
+  "boardCode": 3,
+  "basePrice": 1440000000,
+  "orgName": "شهرداری قدس استان تهران",
+  "score": 87,
+  "cityName": "قدس",
+  "insertDate": null,
+  "boardName": "مزایده",
+  "provinceName": "تهران",
+  "jalaliSendDeadlineDate": "1405/06/25 - 12:00",
+  "jalaliLastEditDate": "1405/06/11 - 08:00",
+  "jalaliDocumentDeadlineDate": "1405/06/14 - 19:00",
+  "tableId": 497647,
+  "tagCode": 33,
+  "needType": null,
+  "reqId": null,
+  "jalaliFromProposalDate": null,
+  "partyNumber": "1316969",
+  "orgId": 9288,
+  "aucState": 1116,
+  "cartId": 0,
+  "categoryId": null,
+  "categoryName": null,
+  "locId": null,
+  "ticketId": null,
+  "aggregations": {
+   "by_boardCode": {
+    "buckets": [
+     {
+      "doc_count": 76,
+      "key": "3"
+     },
+     {
+      "doc_count": 9,
+      "key": "1"
+     },
+     {
+      "doc_count": 2,
+      "key": "2"
+     }
+    ]
+   },
+   "by_tagCode": {
+    "buckets": [
+     {
+      "doc_count": 65,
+      "key": "33"
+     },
+     {
+      "doc_count": 11,
+      "key": "341"
+     },
+     {
+      "doc_count": 7,
+      "key": "1431"
+     },
+     {
+      "doc_count": 2,
+      "key": "1432"
+     },
+     {
+      "doc_count": 2,
+      "key": "4121"
+     }
+    ]
+   }
+  },
+  "orderIdx": 43
+ },
+ {
+  "number": 5105090738000197,
+  "title": "اجاره غرفه تجاری شماره 316( به مدت 60 ماه 0 روز)",
+  "boardCode": 3,
+  "basePrice": 1440000000,
+  "orgName": "شهرداری قدس استان تهران",
+  "score": 87,
+  "cityName": "قدس",
+  "insertDate": null,
+  "boardName": "مزایده",
+  "provinceName": "تهران",
+  "jalaliSendDeadlineDate": "1405/06/25 - 12:00",
+  "jalaliLastEditDate": "1405/06/11 - 08:00",
+  "jalaliDocumentDeadlineDate": "1405/06/14 - 19:00",
+  "tableId": 497647,
+  "tagCode": 33,
+  "needType": null,
+  "reqId": null,
+  "jalaliFromProposalDate": null,
+  "partyNumber": "1316987",
+  "orgId": 9288,
+  "aucState": 1116,
+  "cartId": 0,
+  "categoryId": null,
+  "categoryName": null,
+  "locId": null,
+  "ticketId": null,
+  "aggregations": {
+   "by_boardCode": {
+    "buckets": [
+     {
+      "doc_count": 76,
+      "key": "3"
+     },
+     {
+      "doc_count": 9,
+      "key": "1"
+     },
+     {
+      "doc_count": 2,
+      "key": "2"
+     }
+    ]
+   },
+   "by_tagCode": {
+    "buckets": [
+     {
+      "doc_count": 65,
+      "key": "33"
+     },
+     {
+      "doc_count": 11,
+      "key": "341"
+     },
+     {
+      "doc_count": 7,
+      "key": "1431"
+     },
+     {
+      "doc_count": 2,
+      "key": "1432"
+     },
+     {
+      "doc_count": 2,
+      "key": "4121"
+     }
+    ]
+   }
+  },
+  "orderIdx": 44
+ },
+ {
+  "number": 5105090738000196,
+  "title": "اجاره غرفه تجاری شماره 315( به مدت 60 ماه 0 روز)",
+  "boardCode": 3,
+  "basePrice": 1440000000,
+  "orgName": "شهرداری قدس استان تهران",
+  "score": 87,
+  "cityName": "قدس",
+  "insertDate": null,
+  "boardName": "مزایده",
+  "provinceName": "تهران",
+  "jalaliSendDeadlineDate": "1405/06/25 - 12:00",
+  "jalaliLastEditDate": "1405/06/11 - 08:00",
+  "jalaliDocumentDeadlineDate": "1405/06/14 - 19:00",
+  "tableId": 497647,
+  "tagCode": 33,
+  "needType": null,
+  "reqId": null,
+  "jalaliFromProposalDate": null,
+  "partyNumber": "1316982",
+  "orgId": 9288,
+  "aucState": 1116,
+  "cartId": 0,
+  "categoryId": null,
+  "categoryName": null,
+  "locId": null,
+  "ticketId": null,
+  "aggregations": {
+   "by_boardCode": {
+    "buckets": [
+     {
+      "doc_count": 76,
+      "key": "3"
+     },
+     {
+      "doc_count": 9,
+      "key": "1"
+     },
+     {
+      "doc_count": 2,
+      "key": "2"
+     }
+    ]
+   },
+   "by_tagCode": {
+    "buckets": [
+     {
+      "doc_count": 65,
+      "key": "33"
+     },
+     {
+      "doc_count": 11,
+      "key": "341"
+     },
+     {
+      "doc_count": 7,
+      "key": "1431"
+     },
+     {
+      "doc_count": 2,
+      "key": "1432"
+     },
+     {
+      "doc_count": 2,
+      "key": "4121"
+     }
+    ]
+   }
+  },
+  "orderIdx": 45
+ },
+ {
+  "number": 5105090738000202,
+  "title": "اجاره غرفه تجاری شماره 326( به مدت 60 ماه 0 روز)",
+  "boardCode": 3,
+  "basePrice": 1440000000,
+  "orgName": "شهرداری قدس استان تهران",
+  "score": 87,
+  "cityName": "قدس",
+  "insertDate": null,
+  "boardName": "مزایده",
+  "provinceName": "تهران",
+  "jalaliSendDeadlineDate": "1405/06/25 - 12:00",
+  "jalaliLastEditDate": "1405/06/11 - 08:00",
+  "jalaliDocumentDeadlineDate": "1405/06/14 - 19:00",
+  "tableId": 497647,
+  "tagCode": 33,
+  "needType": null,
+  "reqId": null,
+  "jalaliFromProposalDate": null,
+  "partyNumber": "1317278",
+  "orgId": 9288,
+  "aucState": 1116,
+  "cartId": 0,
+  "categoryId": null,
+  "categoryName": null,
+  "locId": null,
+  "ticketId": null,
+  "aggregations": {
+   "by_boardCode": {
+    "buckets": [
+     {
+      "doc_count": 76,
+      "key": "3"
+     },
+     {
+      "doc_count": 9,
+      "key": "1"
+     },
+     {
+      "doc_count": 2,
+      "key": "2"
+     }
+    ]
+   },
+   "by_tagCode": {
+    "buckets": [
+     {
+      "doc_count": 65,
+      "key": "33"
+     },
+     {
+      "doc_count": 11,
+      "key": "341"
+     },
+     {
+      "doc_count": 7,
+      "key": "1431"
+     },
+     {
+      "doc_count": 2,
+      "key": "1432"
+     },
+     {
+      "doc_count": 2,
+      "key": "4121"
+     }
+    ]
+   }
+  },
+  "orderIdx": 46
+ },
+ {
+  "number": 5105090738000203,
+  "title": "اجاره غرفه تجاری شماره 325( به مدت 60 ماه 0 روز)",
+  "boardCode": 3,
+  "basePrice": 1440000000,
+  "orgName": "شهرداری قدس استان تهران",
+  "score": 87,
+  "cityName": "قدس",
+  "insertDate": null,
+  "boardName": "مزایده",
+  "provinceName": "تهران",
+  "jalaliSendDeadlineDate": "1405/06/25 - 12:00",
+  "jalaliLastEditDate": "1405/06/11 - 08:00",
+  "jalaliDocumentDeadlineDate": "1405/06/14 - 19:00",
+  "tableId": 497647,
+  "tagCode": 33,
+  "needType": null,
+  "reqId": null,
+  "jalaliFromProposalDate": null,
+  "partyNumber": "1317279",
+  "orgId": 9288,
+  "aucState": 1116,
+  "cartId": 0,
+  "categoryId": null,
+  "categoryName": null,
+  "locId": null,
+  "ticketId": null,
+  "aggregations": {
+   "by_boardCode": {
+    "buckets": [
+     {
+      "doc_count": 76,
+      "key": "3"
+     },
+     {
+      "doc_count": 9,
+      "key": "1"
+     },
+     {
+      "doc_count": 2,
+      "key": "2"
+     }
+    ]
+   },
+   "by_tagCode": {
+    "buckets": [
+     {
+      "doc_count": 65,
+      "key": "33"
+     },
+     {
+      "doc_count": 11,
+      "key": "341"
+     },
+     {
+      "doc_count": 7,
+      "key": "1431"
+     },
+     {
+      "doc_count": 2,
+      "key": "1432"
+     },
+     {
+      "doc_count": 2,
+      "key": "4121"
+     }
+    ]
+   }
+  },
+  "orderIdx": 47
+ },
+ {
+  "number": 5105090738000207,
+  "title": "اجاره غرفه تجاری شماره 317( به مدت 60 ماه 0 روز)",
+  "boardCode": 3,
+  "basePrice": 1440000000,
+  "orgName": "شهرداری قدس استان تهران",
+  "score": 87,
+  "cityName": "قدس",
+  "insertDate": null,
+  "boardName": "مزایده",
+  "provinceName": "تهران",
+  "jalaliSendDeadlineDate": "1405/06/25 - 12:00",
+  "jalaliLastEditDate": "1405/06/11 - 08:00",
+  "jalaliDocumentDeadlineDate": "1405/06/14 - 19:00",
+  "tableId": 497647,
+  "tagCode": 33,
+  "needType": null,
+  "reqId": null,
+  "jalaliFromProposalDate": null,
+  "partyNumber": "1317283",
+  "orgId": 9288,
+  "aucState": 1116,
+  "cartId": 0,
+  "categoryId": null,
+  "categoryName": null,
+  "locId": null,
+  "ticketId": null,
+  "aggregations": {
+   "by_boardCode": {
+    "buckets": [
+     {
+      "doc_count": 76,
+      "key": "3"
+     },
+     {
+      "doc_count": 9,
+      "key": "1"
+     },
+     {
+      "doc_count": 2,
+      "key": "2"
+     }
+    ]
+   },
+   "by_tagCode": {
+    "buckets": [
+     {
+      "doc_count": 65,
+      "key": "33"
+     },
+     {
+      "doc_count": 11,
+      "key": "341"
+     },
+     {
+      "doc_count": 7,
+      "key": "1431"
+     },
+     {
+      "doc_count": 2,
+      "key": "1432"
+     },
+     {
+      "doc_count": 2,
+      "key": "4121"
+     }
+    ]
+   }
+  },
+  "orderIdx": 48
+ },
+ {
+  "number": 5105090738000208,
+  "title": "اجاره غرفه تجاری شماره 329( به مدت 60 ماه 0 روز)",
+  "boardCode": 3,
+  "basePrice": 1440000000,
+  "orgName": "شهرداری قدس استان تهران",
+  "score": 87,
+  "cityName": "قدس",
+  "insertDate": null,
+  "boardName": "مزایده",
+  "provinceName": "تهران",
+  "jalaliSendDeadlineDate": "1405/06/25 - 12:00",
+  "jalaliLastEditDate": "1405/06/11 - 08:00",
+  "jalaliDocumentDeadlineDate": "1405/06/14 - 19:00",
+  "tableId": 497647,
+  "tagCode": 33,
+  "needType": null,
+  "reqId": null,
+  "jalaliFromProposalDate": null,
+  "partyNumber": "1317289",
+  "orgId": 9288,
+  "aucState": 1116,
+  "cartId": 0,
+  "categoryId": null,
+  "categoryName": null,
+  "locId": null,
+  "ticketId": null,
+  "aggregations": {
+   "by_boardCode": {
+    "buckets": [
+     {
+      "doc_count": 76,
+      "key": "3"
+     },
+     {
+      "doc_count": 9,
+      "key": "1"
+     },
+     {
+      "doc_count": 2,
+      "key": "2"
+     }
+    ]
+   },
+   "by_tagCode": {
+    "buckets": [
+     {
+      "doc_count": 65,
+      "key": "33"
+     },
+     {
+      "doc_count": 11,
+      "key": "341"
+     },
+     {
+      "doc_count": 7,
+      "key": "1431"
+     },
+     {
+      "doc_count": 2,
+      "key": "1432"
+     },
+     {
+      "doc_count": 2,
+      "key": "4121"
+     }
+    ]
+   }
+  },
+  "orderIdx": 49
+ },
+ {
+  "number": 5105090738000171,
+  "title": "اجاره غرفه تجاری شماره 201( به مدت 60 ماه 0 روز)",
+  "boardCode": 3,
+  "basePrice": 1500000000,
+  "orgName": "شهرداری قدس استان تهران",
+  "score": 87,
+  "cityName": "قدس",
+  "insertDate": null,
+  "boardName": "مزایده",
+  "provinceName": "تهران",
+  "jalaliSendDeadlineDate": "1405/06/25 - 12:00",
+  "jalaliLastEditDate": "1405/06/11 - 08:00",
+  "jalaliDocumentDeadlineDate": "1405/06/14 - 19:00",
+  "tableId": 497647,
+  "tagCode": 33,
+  "needType": null,
+  "reqId": null,
+  "jalaliFromProposalDate": null,
+  "partyNumber": "1316487",
+  "orgId": 9288,
+  "aucState": 1116,
+  "cartId": 0,
+  "categoryId": null,
+  "categoryName": null,
+  "locId": null,
+  "ticketId": null,
+  "aggregations": {
+   "by_boardCode": {
+    "buckets": [
+     {
+      "doc_count": 76,
+      "key": "3"
+     },
+     {
+      "doc_count": 9,
+      "key": "1"
+     },
+     {
+      "doc_count": 2,
+      "key": "2"
+     }
+    ]
+   },
+   "by_tagCode": {
+    "buckets": [
+     {
+      "doc_count": 65,
+      "key": "33"
+     },
+     {
+      "doc_count": 11,
+      "key": "341"
+     },
+     {
+      "doc_count": 7,
+      "key": "1431"
+     },
+     {
+      "doc_count": 2,
+      "key": "1432"
+     },
+     {
+      "doc_count": 2,
+      "key": "4121"
+     }
+    ]
+   }
+  },
+  "orderIdx": 50
+ },
+ {
+  "number": 5105090738000173,
+  "title": "اجاره غرفه تجاری شماره 256( به مدت 60 ماه 0 روز)",
+  "boardCode": 3,
+  "basePrice": 1440000000,
+  "orgName": "شهرداری قدس استان تهران",
+  "score": 87,
+  "cityName": "قدس",
+  "insertDate": null,
+  "boardName": "مزایده",
+  "provinceName": "تهران",
+  "jalaliSendDeadlineDate": "1405/06/25 - 12:00",
+  "jalaliLastEditDate": "1405/06/11 - 08:00",
+  "jalaliDocumentDeadlineDate": "1405/06/14 - 19:00",
+  "tableId": 497647,
+  "tagCode": 33,
+  "needType": null,
+  "reqId": null,
+  "jalaliFromProposalDate": null,
+  "partyNumber": "1316886",
+  "orgId": 9288,
+  "aucState": 1116,
+  "cartId": 0,
+  "categoryId": null,
+  "categoryName": null,
+  "locId": null,
+  "ticketId": null,
+  "aggregations": {
+   "by_boardCode": {
+    "buckets": [
+     {
+      "doc_count": 76,
+      "key": "3"
+     },
+     {
+      "doc_count": 9,
+      "key": "1"
+     },
+     {
+      "doc_count": 2,
+      "key": "2"
+     }
+    ]
+   },
+   "by_tagCode": {
+    "buckets": [
+     {
+      "doc_count": 65,
+      "key": "33"
+     },
+     {
+      "doc_count": 11,
+      "key": "341"
+     },
+     {
+      "doc_count": 7,
+      "key": "1431"
+     },
+     {
+      "doc_count": 2,
+      "key": "1432"
+     },
+     {
+      "doc_count": 2,
+      "key": "4121"
+     }
+    ]
+   }
+  },
+  "orderIdx": 51
+ },
+ {
+  "number": 5105090738000176,
+  "title": "اجاره غرفه تجاری شماره 265( به مدت 60 ماه 0 روز)",
+  "boardCode": 3,
+  "basePrice": 1500000000,
+  "orgName": "شهرداری قدس استان تهران",
+  "score": 87,
+  "cityName": "قدس",
+  "insertDate": null,
+  "boardName": "مزایده",
+  "provinceName": "تهران",
+  "jalaliSendDeadlineDate": "1405/06/25 - 12:00",
+  "jalaliLastEditDate": "1405/06/11 - 08:00",
+  "jalaliDocumentDeadlineDate": "1405/06/14 - 19:00",
+  "tableId": 497647,
+  "tagCode": 33,
+  "needType": null,
+  "reqId": null,
+  "jalaliFromProposalDate": null,
+  "partyNumber": "1316892",
+  "orgId": 9288,
+  "aucState": 1116,
+  "cartId": 0,
+  "categoryId": null,
+  "categoryName": null,
+  "locId": null,
+  "ticketId": null,
+  "aggregations": {
+   "by_boardCode": {
+    "buckets": [
+     {
+      "doc_count": 76,
+      "key": "3"
+     },
+     {
+      "doc_count": 9,
+      "key": "1"
+     },
+     {
+      "doc_count": 2,
+      "key": "2"
+     }
+    ]
+   },
+   "by_tagCode": {
+    "buckets": [
+     {
+      "doc_count": 65,
+      "key": "33"
+     },
+     {
+      "doc_count": 11,
+      "key": "341"
+     },
+     {
+      "doc_count": 7,
+      "key": "1431"
+     },
+     {
+      "doc_count": 2,
+      "key": "1432"
+     },
+     {
+      "doc_count": 2,
+      "key": "4121"
+     }
+    ]
+   }
+  },
+  "orderIdx": 52
+ },
+ {
+  "number": 5105090738000177,
+  "title": "اجاره غرفه تجاری شماره 266( به مدت 60 ماه 0 روز)",
+  "boardCode": 3,
+  "basePrice": 1440000000,
+  "orgName": "شهرداری قدس استان تهران",
+  "score": 87,
+  "cityName": "قدس",
+  "insertDate": null,
+  "boardName": "مزایده",
+  "provinceName": "تهران",
+  "jalaliSendDeadlineDate": "1405/06/25 - 12:00",
+  "jalaliLastEditDate": "1405/06/11 - 08:00",
+  "jalaliDocumentDeadlineDate": "1405/06/14 - 19:00",
+  "tableId": 497647,
+  "tagCode": 33,
+  "needType": null,
+  "reqId": null,
+  "jalaliFromProposalDate": null,
+  "partyNumber": "1316894",
+  "orgId": 9288,
+  "aucState": 1116,
+  "cartId": 0,
+  "categoryId": null,
+  "categoryName": null,
+  "locId": null,
+  "ticketId": null,
+  "aggregations": {
+   "by_boardCode": {
+    "buckets": [
+     {
+      "doc_count": 76,
+      "key": "3"
+     },
+     {
+      "doc_count": 9,
+      "key": "1"
+     },
+     {
+      "doc_count": 2,
+      "key": "2"
+     }
+    ]
+   },
+   "by_tagCode": {
+    "buckets": [
+     {
+      "doc_count": 65,
+      "key": "33"
+     },
+     {
+      "doc_count": 11,
+      "key": "341"
+     },
+     {
+      "doc_count": 7,
+      "key": "1431"
+     },
+     {
+      "doc_count": 2,
+      "key": "1432"
+     },
+     {
+      "doc_count": 2,
+      "key": "4121"
+     }
+    ]
+   }
+  },
+  "orderIdx": 53
+ },
+ {
+  "number": 5105090738000184,
+  "title": "اجاره غرفه تجاری شماره 273( به مدت 60 ماه 0 روز)",
+  "boardCode": 3,
+  "basePrice": 1440000000,
+  "orgName": "شهرداری قدس استان تهران",
+  "score": 87,
+  "cityName": "قدس",
+  "insertDate": null,
+  "boardName": "مزایده",
+  "provinceName": "تهران",
+  "jalaliSendDeadlineDate": "1405/06/25 - 12:00",
+  "jalaliLastEditDate": "1405/06/11 - 08:00",
+  "jalaliDocumentDeadlineDate": "1405/06/14 - 19:00",
+  "tableId": 497647,
+  "tagCode": 33,
+  "needType": null,
+  "reqId": null,
+  "jalaliFromProposalDate": null,
+  "partyNumber": "1316926",
+  "orgId": 9288,
+  "aucState": 1116,
+  "cartId": 0,
+  "categoryId": null,
+  "categoryName": null,
+  "locId": null,
+  "ticketId": null,
+  "aggregations": {
+   "by_boardCode": {
+    "buckets": [
+     {
+      "doc_count": 76,
+      "key": "3"
+     },
+     {
+      "doc_count": 9,
+      "key": "1"
+     },
+     {
+      "doc_count": 2,
+      "key": "2"
+     }
+    ]
+   },
+   "by_tagCode": {
+    "buckets": [
+     {
+      "doc_count": 65,
+      "key": "33"
+     },
+     {
+      "doc_count": 11,
+      "key": "341"
+     },
+     {
+      "doc_count": 7,
+      "key": "1431"
+     },
+     {
+      "doc_count": 2,
+      "key": "1432"
+     },
+     {
+      "doc_count": 2,
+      "key": "4121"
+     }
+    ]
+   }
+  },
+  "orderIdx": 54
+ },
+ {
+  "number": 5105090738000187,
+  "title": "اجاره غرفه تجاری شماره 276( به مدت 60 ماه 0 روز)",
+  "boardCode": 3,
+  "basePrice": 1440000000,
+  "orgName": "شهرداری قدس استان تهران",
+  "score": 87,
+  "cityName": "قدس",
+  "insertDate": null,
+  "boardName": "مزایده",
+  "provinceName": "تهران",
+  "jalaliSendDeadlineDate": "1405/06/25 - 12:00",
+  "jalaliLastEditDate": "1405/06/11 - 08:00",
+  "jalaliDocumentDeadlineDate": "1405/06/14 - 19:00",
+  "tableId": 497647,
+  "tagCode": 33,
+  "needType": null,
+  "reqId": null,
+  "jalaliFromProposalDate": null,
+  "partyNumber": "1316953",
+  "orgId": 9288,
+  "aucState": 1116,
+  "cartId": 0,
+  "categoryId": null,
+  "categoryName": null,
+  "locId": null,
+  "ticketId": null,
+  "aggregations": {
+   "by_boardCode": {
+    "buckets": [
+     {
+      "doc_count": 76,
+      "key": "3"
+     },
+     {
+      "doc_count": 9,
+      "key": "1"
+     },
+     {
+      "doc_count": 2,
+      "key": "2"
+     }
+    ]
+   },
+   "by_tagCode": {
+    "buckets": [
+     {
+      "doc_count": 65,
+      "key": "33"
+     },
+     {
+      "doc_count": 11,
+      "key": "341"
+     },
+     {
+      "doc_count": 7,
+      "key": "1431"
+     },
+     {
+      "doc_count": 2,
+      "key": "1432"
+     },
+     {
+      "doc_count": 2,
+      "key": "4121"
+     }
+    ]
+   }
+  },
+  "orderIdx": 55
+ },
+ {
+  "number": 5105090738000189,
+  "title": "اجاره غرفه تجاری شماره 306( به مدت 60 ماه 0 روز)",
+  "boardCode": 3,
+  "basePrice": 1440000000,
+  "orgName": "شهرداری قدس استان تهران",
+  "score": 87,
+  "cityName": "قدس",
+  "insertDate": null,
+  "boardName": "مزایده",
+  "provinceName": "تهران",
+  "jalaliSendDeadlineDate": "1405/06/25 - 12:00",
+  "jalaliLastEditDate": "1405/06/11 - 08:00",
+  "jalaliDocumentDeadlineDate": "1405/06/14 - 19:00",
+  "tableId": 497647,
+  "tagCode": 33,
+  "needType": null,
+  "reqId": null,
+  "jalaliFromProposalDate": null,
+  "partyNumber": "1316959",
+  "orgId": 9288,
+  "aucState": 1116,
+  "cartId": 0,
+  "categoryId": null,
+  "categoryName": null,
+  "locId": null,
+  "ticketId": null,
+  "aggregations": {
+   "by_boardCode": {
+    "buckets": [
+     {
+      "doc_count": 76,
+      "key": "3"
+     },
+     {
+      "doc_count": 9,
+      "key": "1"
+     },
+     {
+      "doc_count": 2,
+      "key": "2"
+     }
+    ]
+   },
+   "by_tagCode": {
+    "buckets": [
+     {
+      "doc_count": 65,
+      "key": "33"
+     },
+     {
+      "doc_count": 11,
+      "key": "341"
+     },
+     {
+      "doc_count": 7,
+      "key": "1431"
+     },
+     {
+      "doc_count": 2,
+      "key": "1432"
+     },
+     {
+      "doc_count": 2,
+      "key": "4121"
+     }
+    ]
+   }
+  },
+  "orderIdx": 56
+ },
+ {
+  "number": 5105090738000190,
+  "title": "اجاره غرفه تجاری شماره 305( به مدت 60 ماه 0 روز)",
+  "boardCode": 3,
+  "basePrice": 1440000000,
+  "orgName": "شهرداری قدس استان تهران",
+  "score": 87,
+  "cityName": "قدس",
+  "insertDate": null,
+  "boardName": "مزایده",
+  "provinceName": "تهران",
+  "jalaliSendDeadlineDate": "1405/06/25 - 12:00",
+  "jalaliLastEditDate": "1405/06/11 - 08:00",
+  "jalaliDocumentDeadlineDate": "1405/06/14 - 19:00",
+  "tableId": 497647,
+  "tagCode": 33,
+  "needType": null,
+  "reqId": null,
+  "jalaliFromProposalDate": null,
+  "partyNumber": "1316964",
+  "orgId": 9288,
+  "aucState": 1116,
+  "cartId": 0,
+  "categoryId": null,
+  "categoryName": null,
+  "locId": null,
+  "ticketId": null,
+  "aggregations": {
+   "by_boardCode": {
+    "buckets": [
+     {
+      "doc_count": 76,
+      "key": "3"
+     },
+     {
+      "doc_count": 9,
+      "key": "1"
+     },
+     {
+      "doc_count": 2,
+      "key": "2"
+     }
+    ]
+   },
+   "by_tagCode": {
+    "buckets": [
+     {
+      "doc_count": 65,
+      "key": "33"
+     },
+     {
+      "doc_count": 11,
+      "key": "341"
+     },
+     {
+      "doc_count": 7,
+      "key": "1431"
+     },
+     {
+      "doc_count": 2,
+      "key": "1432"
+     },
+     {
+      "doc_count": 2,
+      "key": "4121"
+     }
+    ]
+   }
+  },
+  "orderIdx": 57
+ },
+ {
+  "number": 5105090738000191,
+  "title": "اجاره غرفه تجاری شماره 304( به مدت 60 ماه 0 روز)",
+  "boardCode": 3,
+  "basePrice": 1440000000,
+  "orgName": "شهرداری قدس استان تهران",
+  "score": 87,
+  "cityName": "قدس",
+  "insertDate": null,
+  "boardName": "مزایده",
+  "provinceName": "تهران",
+  "jalaliSendDeadlineDate": "1405/06/25 - 12:00",
+  "jalaliLastEditDate": "1405/06/11 - 08:00",
+  "jalaliDocumentDeadlineDate": "1405/06/14 - 19:00",
+  "tableId": 497647,
+  "tagCode": 33,
+  "needType": null,
+  "reqId": null,
+  "jalaliFromProposalDate": null,
+  "partyNumber": "1316965",
+  "orgId": 9288,
+  "aucState": 1116,
+  "cartId": 0,
+  "categoryId": null,
+  "categoryName": null,
+  "locId": null,
+  "ticketId": null,
+  "aggregations": {
+   "by_boardCode": {
+    "buckets": [
+     {
+      "doc_count": 76,
+      "key": "3"
+     },
+     {
+      "doc_count": 9,
+      "key": "1"
+     },
+     {
+      "doc_count": 2,
+      "key": "2"
+     }
+    ]
+   },
+   "by_tagCode": {
+    "buckets": [
+     {
+      "doc_count": 65,
+      "key": "33"
+     },
+     {
+      "doc_count": 11,
+      "key": "341"
+     },
+     {
+      "doc_count": 7,
+      "key": "1431"
+     },
+     {
+      "doc_count": 2,
+      "key": "1432"
+     },
+     {
+      "doc_count": 2,
+      "key": "4121"
+     }
+    ]
+   }
+  },
+  "orderIdx": 58
+ },
+ {
+  "number": 5105090738000194,
+  "title": "اجاره غرفه تجاری شماره 313( به مدت 60 ماه 0 روز)",
+  "boardCode": 3,
+  "basePrice": 1440000000,
+  "orgName": "شهرداری قدس استان تهران",
+  "score": 87,
+  "cityName": "قدس",
+  "insertDate": null,
+  "boardName": "مزایده",
+  "provinceName": "تهران",
+  "jalaliSendDeadlineDate": "1405/06/25 - 12:00",
+  "jalaliLastEditDate": "1405/06/11 - 08:00",
+  "jalaliDocumentDeadlineDate": "1405/06/14 - 19:00",
+  "tableId": 497647,
+  "tagCode": 33,
+  "needType": null,
+  "reqId": null,
+  "jalaliFromProposalDate": null,
+  "partyNumber": "1316978",
+  "orgId": 9288,
+  "aucState": 1116,
+  "cartId": 0,
+  "categoryId": null,
+  "categoryName": null,
+  "locId": null,
+  "ticketId": null,
+  "aggregations": {
+   "by_boardCode": {
+    "buckets": [
+     {
+      "doc_count": 76,
+      "key": "3"
+     },
+     {
+      "doc_count": 9,
+      "key": "1"
+     },
+     {
+      "doc_count": 2,
+      "key": "2"
+     }
+    ]
+   },
+   "by_tagCode": {
+    "buckets": [
+     {
+      "doc_count": 65,
+      "key": "33"
+     },
+     {
+      "doc_count": 11,
+      "key": "341"
+     },
+     {
+      "doc_count": 7,
+      "key": "1431"
+     },
+     {
+      "doc_count": 2,
+      "key": "1432"
+     },
+     {
+      "doc_count": 2,
+      "key": "4121"
+     }
+    ]
+   }
+  },
+  "orderIdx": 59
+ },
+ {
+  "number": 5105090738000198,
+  "title": "اجاره غرفه تجاری شماره 324( به مدت 60 ماه 0 روز)",
+  "boardCode": 3,
+  "basePrice": 1440000000,
+  "orgName": "شهرداری قدس استان تهران",
+  "score": 87,
+  "cityName": "قدس",
+  "insertDate": null,
+  "boardName": "مزایده",
+  "provinceName": "تهران",
+  "jalaliSendDeadlineDate": "1405/06/25 - 12:00",
+  "jalaliLastEditDate": "1405/06/11 - 08:00",
+  "jalaliDocumentDeadlineDate": "1405/06/14 - 19:00",
+  "tableId": 497647,
+  "tagCode": 33,
+  "needType": null,
+  "reqId": null,
+  "jalaliFromProposalDate": null,
+  "partyNumber": "1317274",
+  "orgId": 9288,
+  "aucState": 1116,
+  "cartId": 0,
+  "categoryId": null,
+  "categoryName": null,
+  "locId": null,
+  "ticketId": null,
+  "aggregations": {
+   "by_boardCode": {
+    "buckets": [
+     {
+      "doc_count": 76,
+      "key": "3"
+     },
+     {
+      "doc_count": 9,
+      "key": "1"
+     },
+     {
+      "doc_count": 2,
+      "key": "2"
+     }
+    ]
+   },
+   "by_tagCode": {
+    "buckets": [
+     {
+      "doc_count": 65,
+      "key": "33"
+     },
+     {
+      "doc_count": 11,
+      "key": "341"
+     },
+     {
+      "doc_count": 7,
+      "key": "1431"
+     },
+     {
+      "doc_count": 2,
+      "key": "1432"
+     },
+     {
+      "doc_count": 2,
+      "key": "4121"
+     }
+    ]
+   }
+  },
+  "orderIdx": 60
+ },
+ {
+  "number": 5105090738000201,
+  "title": "اجاره غرفه تجاری شماره 327( به مدت 60 ماه 0 روز)",
+  "boardCode": 3,
+  "basePrice": 1440000000,
+  "orgName": "شهرداری قدس استان تهران",
+  "score": 87,
+  "cityName": "قدس",
+  "insertDate": null,
+  "boardName": "مزایده",
+  "provinceName": "تهران",
+  "jalaliSendDeadlineDate": "1405/06/25 - 12:00",
+  "jalaliLastEditDate": "1405/06/11 - 08:00",
+  "jalaliDocumentDeadlineDate": "1405/06/14 - 19:00",
+  "tableId": 497647,
+  "tagCode": 33,
+  "needType": null,
+  "reqId": null,
+  "jalaliFromProposalDate": null,
+  "partyNumber": "1317277",
+  "orgId": 9288,
+  "aucState": 1116,
+  "cartId": 0,
+  "categoryId": null,
+  "categoryName": null,
+  "locId": null,
+  "ticketId": null,
+  "aggregations": {
+   "by_boardCode": {
+    "buckets": [
+     {
+      "doc_count": 76,
+      "key": "3"
+     },
+     {
+      "doc_count": 9,
+      "key": "1"
+     },
+     {
+      "doc_count": 2,
+      "key": "2"
+     }
+    ]
+   },
+   "by_tagCode": {
+    "buckets": [
+     {
+      "doc_count": 65,
+      "key": "33"
+     },
+     {
+      "doc_count": 11,
+      "key": "341"
+     },
+     {
+      "doc_count": 7,
+      "key": "1431"
+     },
+     {
+      "doc_count": 2,
+      "key": "1432"
+     },
+     {
+      "doc_count": 2,
+      "key": "4121"
+     }
+    ]
+   }
+  },
+  "orderIdx": 61
+ },
+ {
+  "number": 5105090738000205,
+  "title": "اجاره غرفه تجاری شماره 319( به مدت 60 ماه 0 روز)",
+  "boardCode": 3,
+  "basePrice": 1440000000,
+  "orgName": "شهرداری قدس استان تهران",
+  "score": 87,
+  "cityName": "قدس",
+  "insertDate": null,
+  "boardName": "مزایده",
+  "provinceName": "تهران",
+  "jalaliSendDeadlineDate": "1405/06/25 - 12:00",
+  "jalaliLastEditDate": "1405/06/11 - 08:00",
+  "jalaliDocumentDeadlineDate": "1405/06/14 - 19:00",
+  "tableId": 497647,
+  "tagCode": 33,
+  "needType": null,
+  "reqId": null,
+  "jalaliFromProposalDate": null,
+  "partyNumber": "1317281",
+  "orgId": 9288,
+  "aucState": 1116,
+  "cartId": 0,
+  "categoryId": null,
+  "categoryName": null,
+  "locId": null,
+  "ticketId": null,
+  "aggregations": {
+   "by_boardCode": {
+    "buckets": [
+     {
+      "doc_count": 76,
+      "key": "3"
+     },
+     {
+      "doc_count": 9,
+      "key": "1"
+     },
+     {
+      "doc_count": 2,
+      "key": "2"
+     }
+    ]
+   },
+   "by_tagCode": {
+    "buckets": [
+     {
+      "doc_count": 65,
+      "key": "33"
+     },
+     {
+      "doc_count": 11,
+      "key": "341"
+     },
+     {
+      "doc_count": 7,
+      "key": "1431"
+     },
+     {
+      "doc_count": 2,
+      "key": "1432"
+     },
+     {
+      "doc_count": 2,
+      "key": "4121"
+     }
+    ]
+   }
+  },
+  "orderIdx": 62
+ },
+ {
+  "number": 5105090738000172,
+  "title": "اجاره غرفه تجاری شماره 248( به مدت 60 ماه 0 روز)",
+  "boardCode": 3,
+  "basePrice": 1500000000,
+  "orgName": "شهرداری قدس استان تهران",
+  "score": 87,
+  "cityName": "قدس",
+  "insertDate": null,
+  "boardName": "مزایده",
+  "provinceName": "تهران",
+  "jalaliSendDeadlineDate": "1405/06/25 - 12:00",
+  "jalaliLastEditDate": "1405/06/11 - 08:00",
+  "jalaliDocumentDeadlineDate": "1405/06/14 - 19:00",
+  "tableId": 497647,
+  "tagCode": 33,
+  "needType": null,
+  "reqId": null,
+  "jalaliFromProposalDate": null,
+  "partyNumber": "1316885",
+  "orgId": 9288,
+  "aucState": 1116,
+  "cartId": 0,
+  "categoryId": null,
+  "categoryName": null,
+  "locId": null,
+  "ticketId": null,
+  "aggregations": {
+   "by_boardCode": {
+    "buckets": [
+     {
+      "doc_count": 76,
+      "key": "3"
+     },
+     {
+      "doc_count": 9,
+      "key": "1"
+     },
+     {
+      "doc_count": 2,
+      "key": "2"
+     }
+    ]
+   },
+   "by_tagCode": {
+    "buckets": [
+     {
+      "doc_count": 65,
+      "key": "33"
+     },
+     {
+      "doc_count": 11,
+      "key": "341"
+     },
+     {
+      "doc_count": 7,
+      "key": "1431"
+     },
+     {
+      "doc_count": 2,
+      "key": "1432"
+     },
+     {
+      "doc_count": 2,
+      "key": "4121"
+     }
+    ]
+   }
+  },
+  "orderIdx": 63
+ },
+ {
+  "number": 5105090738000180,
+  "title": "اجاره غرفه تجاری شماره 269( به مدت 60 ماه 0 روز)",
+  "boardCode": 3,
+  "basePrice": 1440000000,
+  "orgName": "شهرداری قدس استان تهران",
+  "score": 87,
+  "cityName": "قدس",
+  "insertDate": null,
+  "boardName": "مزایده",
+  "provinceName": "تهران",
+  "jalaliSendDeadlineDate": "1405/06/25 - 12:00",
+  "jalaliLastEditDate": "1405/06/11 - 08:00",
+  "jalaliDocumentDeadlineDate": "1405/06/14 - 19:00",
+  "tableId": 497647,
+  "tagCode": 33,
+  "needType": null,
+  "reqId": null,
+  "jalaliFromProposalDate": null,
+  "partyNumber": "1316900",
+  "orgId": 9288,
+  "aucState": 1116,
+  "cartId": 0,
+  "categoryId": null,
+  "categoryName": null,
+  "locId": null,
+  "ticketId": null,
+  "aggregations": {
+   "by_boardCode": {
+    "buckets": [
+     {
+      "doc_count": 76,
+      "key": "3"
+     },
+     {
+      "doc_count": 9,
+      "key": "1"
+     },
+     {
+      "doc_count": 2,
+      "key": "2"
+     }
+    ]
+   },
+   "by_tagCode": {
+    "buckets": [
+     {
+      "doc_count": 65,
+      "key": "33"
+     },
+     {
+      "doc_count": 11,
+      "key": "341"
+     },
+     {
+      "doc_count": 7,
+      "key": "1431"
+     },
+     {
+      "doc_count": 2,
+      "key": "1432"
+     },
+     {
+      "doc_count": 2,
+      "key": "4121"
+     }
+    ]
+   }
+  },
+  "orderIdx": 64
+ },
+ {
+  "number": 5105090738000181,
+  "title": "اجاره غرفه تجاری شماره 270( به مدت 60 ماه 0 روز)",
+  "boardCode": 3,
+  "basePrice": 1440000000,
+  "orgName": "شهرداری قدس استان تهران",
+  "score": 87,
+  "cityName": "قدس",
+  "insertDate": null,
+  "boardName": "مزایده",
+  "provinceName": "تهران",
+  "jalaliSendDeadlineDate": "1405/06/25 - 12:00",
+  "jalaliLastEditDate": "1405/06/11 - 08:00",
+  "jalaliDocumentDeadlineDate": "1405/06/14 - 19:00",
+  "tableId": 497647,
+  "tagCode": 33,
+  "needType": null,
+  "reqId": null,
+  "jalaliFromProposalDate": null,
+  "partyNumber": "1316902",
+  "orgId": 9288,
+  "aucState": 1116,
+  "cartId": 0,
+  "categoryId": null,
+  "categoryName": null,
+  "locId": null,
+  "ticketId": null,
+  "aggregations": {
+   "by_boardCode": {
+    "buckets": [
+     {
+      "doc_count": 76,
+      "key": "3"
+     },
+     {
+      "doc_count": 9,
+      "key": "1"
+     },
+     {
+      "doc_count": 2,
+      "key": "2"
+     }
+    ]
+   },
+   "by_tagCode": {
+    "buckets": [
+     {
+      "doc_count": 65,
+      "key": "33"
+     },
+     {
+      "doc_count": 11,
+      "key": "341"
+     },
+     {
+      "doc_count": 7,
+      "key": "1431"
+     },
+     {
+      "doc_count": 2,
+      "key": "1432"
+     },
+     {
+      "doc_count": 2,
+      "key": "4121"
+     }
+    ]
+   }
+  },
+  "orderIdx": 65
+ },
+ {
+  "number": 5105090738000182,
+  "title": "اجاره غرفه تجاری شماره 271( به مدت 60 ماه 0 روز)",
+  "boardCode": 3,
+  "basePrice": 1440000000,
+  "orgName": "شهرداری قدس استان تهران",
+  "score": 87,
+  "cityName": "قدس",
+  "insertDate": null,
+  "boardName": "مزایده",
+  "provinceName": "تهران",
+  "jalaliSendDeadlineDate": "1405/06/25 - 12:00",
+  "jalaliLastEditDate": "1405/06/11 - 08:00",
+  "jalaliDocumentDeadlineDate": "1405/06/14 - 19:00",
+  "tableId": 497647,
+  "tagCode": 33,
+  "needType": null,
+  "reqId": null,
+  "jalaliFromProposalDate": null,
+  "partyNumber": "1316904",
+  "orgId": 9288,
+  "aucState": 1116,
+  "cartId": 0,
+  "categoryId": null,
+  "categoryName": null,
+  "locId": null,
+  "ticketId": null,
+  "aggregations": {
+   "by_boardCode": {
+    "buckets": [
+     {
+      "doc_count": 76,
+      "key": "3"
+     },
+     {
+      "doc_count": 9,
+      "key": "1"
+     },
+     {
+      "doc_count": 2,
+      "key": "2"
+     }
+    ]
+   },
+   "by_tagCode": {
+    "buckets": [
+     {
+      "doc_count": 65,
+      "key": "33"
+     },
+     {
+      "doc_count": 11,
+      "key": "341"
+     },
+     {
+      "doc_count": 7,
+      "key": "1431"
+     },
+     {
+      "doc_count": 2,
+      "key": "1432"
+     },
+     {
+      "doc_count": 2,
+      "key": "4121"
+     }
+    ]
+   }
+  },
+  "orderIdx": 66
+ },
+ {
+  "number": 5105090738000185,
+  "title": "اجاره غرفه تجاری شماره 274( به مدت 60 ماه 0 روز)",
+  "boardCode": 3,
+  "basePrice": 1440000000,
+  "orgName": "شهرداری قدس استان تهران",
+  "score": 87,
+  "cityName": "قدس",
+  "insertDate": null,
+  "boardName": "مزایده",
+  "provinceName": "تهران",
+  "jalaliSendDeadlineDate": "1405/06/25 - 12:00",
+  "jalaliLastEditDate": "1405/06/11 - 08:00",
+  "jalaliDocumentDeadlineDate": "1405/06/14 - 19:00",
+  "tableId": 497647,
+  "tagCode": 33,
+  "needType": null,
+  "reqId": null,
+  "jalaliFromProposalDate": null,
+  "partyNumber": "1316935",
+  "orgId": 9288,
+  "aucState": 1116,
+  "cartId": 0,
+  "categoryId": null,
+  "categoryName": null,
+  "locId": null,
+  "ticketId": null,
+  "aggregations": {
+   "by_boardCode": {
+    "buckets": [
+     {
+      "doc_count": 76,
+      "key": "3"
+     },
+     {
+      "doc_count": 9,
+      "key": "1"
+     },
+     {
+      "doc_count": 2,
+      "key": "2"
+     }
+    ]
+   },
+   "by_tagCode": {
+    "buckets": [
+     {
+      "doc_count": 65,
+      "key": "33"
+     },
+     {
+      "doc_count": 11,
+      "key": "341"
+     },
+     {
+      "doc_count": 7,
+      "key": "1431"
+     },
+     {
+      "doc_count": 2,
+      "key": "1432"
+     },
+     {
+      "doc_count": 2,
+      "key": "4121"
+     }
+    ]
+   }
+  },
+  "orderIdx": 67
+ },
+ {
+  "number": 5105090738000186,
+  "title": "اجاره غرفه تجاری شماره 275( به مدت 60 ماه 0 روز)",
+  "boardCode": 3,
+  "basePrice": 1440000000,
+  "orgName": "شهرداری قدس استان تهران",
+  "score": 87,
+  "cityName": "قدس",
+  "insertDate": null,
+  "boardName": "مزایده",
+  "provinceName": "تهران",
+  "jalaliSendDeadlineDate": "1405/06/25 - 12:00",
+  "jalaliLastEditDate": "1405/06/11 - 08:00",
+  "jalaliDocumentDeadlineDate": "1405/06/14 - 19:00",
+  "tableId": 497647,
+  "tagCode": 33,
+  "needType": null,
+  "reqId": null,
+  "jalaliFromProposalDate": null,
+  "partyNumber": "1316948",
+  "orgId": 9288,
+  "aucState": 1116,
+  "cartId": 0,
+  "categoryId": null,
+  "categoryName": null,
+  "locId": null,
+  "ticketId": null,
+  "aggregations": {
+   "by_boardCode": {
+    "buckets": [
+     {
+      "doc_count": 76,
+      "key": "3"
+     },
+     {
+      "doc_count": 9,
+      "key": "1"
+     },
+     {
+      "doc_count": 2,
+      "key": "2"
+     }
+    ]
+   },
+   "by_tagCode": {
+    "buckets": [
+     {
+      "doc_count": 65,
+      "key": "33"
+     },
+     {
+      "doc_count": 11,
+      "key": "341"
+     },
+     {
+      "doc_count": 7,
+      "key": "1431"
+     },
+     {
+      "doc_count": 2,
+      "key": "1432"
+     },
+     {
+      "doc_count": 2,
+      "key": "4121"
+     }
+    ]
+   }
+  },
+  "orderIdx": 68
+ },
+ {
+  "number": 5105090738000193,
+  "title": "اجاره غرفه تجاری شماره 312( به مدت 60 ماه 0 روز)",
+  "boardCode": 3,
+  "basePrice": 1440000000,
+  "orgName": "شهرداری قدس استان تهران",
+  "score": 87,
+  "cityName": "قدس",
+  "insertDate": null,
+  "boardName": "مزایده",
+  "provinceName": "تهران",
+  "jalaliSendDeadlineDate": "1405/06/25 - 12:00",
+  "jalaliLastEditDate": "1405/06/11 - 08:00",
+  "jalaliDocumentDeadlineDate": "1405/06/14 - 19:00",
+  "tableId": 497647,
+  "tagCode": 33,
+  "needType": null,
+  "reqId": null,
+  "jalaliFromProposalDate": null,
+  "partyNumber": "1316976",
+  "orgId": 9288,
+  "aucState": 1116,
+  "cartId": 0,
+  "categoryId": null,
+  "categoryName": null,
+  "locId": null,
+  "ticketId": null,
+  "aggregations": {
+   "by_boardCode": {
+    "buckets": [
+     {
+      "doc_count": 76,
+      "key": "3"
+     },
+     {
+      "doc_count": 9,
+      "key": "1"
+     },
+     {
+      "doc_count": 2,
+      "key": "2"
+     }
+    ]
+   },
+   "by_tagCode": {
+    "buckets": [
+     {
+      "doc_count": 65,
+      "key": "33"
+     },
+     {
+      "doc_count": 11,
+      "key": "341"
+     },
+     {
+      "doc_count": 7,
+      "key": "1431"
+     },
+     {
+      "doc_count": 2,
+      "key": "1432"
+     },
+     {
+      "doc_count": 2,
+      "key": "4121"
+     }
+    ]
+   }
+  },
+  "orderIdx": 69
+ },
+ {
+  "number": 5105090738000195,
+  "title": "اجاره غرفه تجاری شماره 314( به مدت 60 ماه 0 روز)",
+  "boardCode": 3,
+  "basePrice": 1440000000,
+  "orgName": "شهرداری قدس استان تهران",
+  "score": 87,
+  "cityName": "قدس",
+  "insertDate": null,
+  "boardName": "مزایده",
+  "provinceName": "تهران",
+  "jalaliSendDeadlineDate": "1405/06/25 - 12:00",
+  "jalaliLastEditDate": "1405/06/11 - 08:00",
+  "jalaliDocumentDeadlineDate": "1405/06/14 - 19:00",
+  "tableId": 497647,
+  "tagCode": 33,
+  "needType": null,
+  "reqId": null,
+  "jalaliFromProposalDate": null,
+  "partyNumber": "1316979",
+  "orgId": 9288,
+  "aucState": 1116,
+  "cartId": 0,
+  "categoryId": null,
+  "categoryName": null,
+  "locId": null,
+  "ticketId": null,
+  "aggregations": {
+   "by_boardCode": {
+    "buckets": [
+     {
+      "doc_count": 76,
+      "key": "3"
+     },
+     {
+      "doc_count": 9,
+      "key": "1"
+     },
+     {
+      "doc_count": 2,
+      "key": "2"
+     }
+    ]
+   },
+   "by_tagCode": {
+    "buckets": [
+     {
+      "doc_count": 65,
+      "key": "33"
+     },
+     {
+      "doc_count": 11,
+      "key": "341"
+     },
+     {
+      "doc_count": 7,
+      "key": "1431"
+     },
+     {
+      "doc_count": 2,
+      "key": "1432"
+     },
+     {
+      "doc_count": 2,
+      "key": "4121"
+     }
+    ]
+   }
+  },
+  "orderIdx": 70
+ },
+ {
+  "number": 5105090738000199,
+  "title": "اجاره غرفه تجاری شماره 323( به مدت 60 ماه 0 روز)",
+  "boardCode": 3,
+  "basePrice": 1440000000,
+  "orgName": "شهرداری قدس استان تهران",
+  "score": 87,
+  "cityName": "قدس",
+  "insertDate": null,
+  "boardName": "مزایده",
+  "provinceName": "تهران",
+  "jalaliSendDeadlineDate": "1405/06/25 - 12:00",
+  "jalaliLastEditDate": "1405/06/11 - 08:00",
+  "jalaliDocumentDeadlineDate": "1405/06/14 - 19:00",
+  "tableId": 497647,
+  "tagCode": 33,
+  "needType": null,
+  "reqId": null,
+  "jalaliFromProposalDate": null,
+  "partyNumber": "1317275",
+  "orgId": 9288,
+  "aucState": 1116,
+  "cartId": 0,
+  "categoryId": null,
+  "categoryName": null,
+  "locId": null,
+  "ticketId": null,
+  "aggregations": {
+   "by_boardCode": {
+    "buckets": [
+     {
+      "doc_count": 76,
+      "key": "3"
+     },
+     {
+      "doc_count": 9,
+      "key": "1"
+     },
+     {
+      "doc_count": 2,
+      "key": "2"
+     }
+    ]
+   },
+   "by_tagCode": {
+    "buckets": [
+     {
+      "doc_count": 65,
+      "key": "33"
+     },
+     {
+      "doc_count": 11,
+      "key": "341"
+     },
+     {
+      "doc_count": 7,
+      "key": "1431"
+     },
+     {
+      "doc_count": 2,
+      "key": "1432"
+     },
+     {
+      "doc_count": 2,
+      "key": "4121"
+     }
+    ]
+   }
+  },
+  "orderIdx": 71
+ },
+ {
+  "number": 5105090738000200,
+  "title": "اجاره غرفه تجاری شماره 328( به مدت 60 ماه 0 روز)",
+  "boardCode": 3,
+  "basePrice": 1440000000,
+  "orgName": "شهرداری قدس استان تهران",
+  "score": 87,
+  "cityName": "قدس",
+  "insertDate": null,
+  "boardName": "مزایده",
+  "provinceName": "تهران",
+  "jalaliSendDeadlineDate": "1405/06/25 - 12:00",
+  "jalaliLastEditDate": "1405/06/11 - 08:00",
+  "jalaliDocumentDeadlineDate": "1405/06/14 - 19:00",
+  "tableId": 497647,
+  "tagCode": 33,
+  "needType": null,
+  "reqId": null,
+  "jalaliFromProposalDate": null,
+  "partyNumber": "1317276",
+  "orgId": 9288,
+  "aucState": 1116,
+  "cartId": 0,
+  "categoryId": null,
+  "categoryName": null,
+  "locId": null,
+  "ticketId": null,
+  "aggregations": {
+   "by_boardCode": {
+    "buckets": [
+     {
+      "doc_count": 76,
+      "key": "3"
+     },
+     {
+      "doc_count": 9,
+      "key": "1"
+     },
+     {
+      "doc_count": 2,
+      "key": "2"
+     }
+    ]
+   },
+   "by_tagCode": {
+    "buckets": [
+     {
+      "doc_count": 65,
+      "key": "33"
+     },
+     {
+      "doc_count": 11,
+      "key": "341"
+     },
+     {
+      "doc_count": 7,
+      "key": "1431"
+     },
+     {
+      "doc_count": 2,
+      "key": "1432"
+     },
+     {
+      "doc_count": 2,
+      "key": "4121"
+     }
+    ]
+   }
+  },
+  "orderIdx": 72
+ },
+ {
+  "number": 5105090738000204,
+  "title": "اجاره غرفه تجاری شماره 321( به مدت 60 ماه 0 روز)",
+  "boardCode": 3,
+  "basePrice": 1440000000,
+  "orgName": "شهرداری قدس استان تهران",
+  "score": 87,
+  "cityName": "قدس",
+  "insertDate": null,
+  "boardName": "مزایده",
+  "provinceName": "تهران",
+  "jalaliSendDeadlineDate": "1405/06/25 - 12:00",
+  "jalaliLastEditDate": "1405/06/11 - 08:00",
+  "jalaliDocumentDeadlineDate": "1405/06/14 - 19:00",
+  "tableId": 497647,
+  "tagCode": 33,
+  "needType": null,
+  "reqId": null,
+  "jalaliFromProposalDate": null,
+  "partyNumber": "1317280",
+  "orgId": 9288,
+  "aucState": 1116,
+  "cartId": 0,
+  "categoryId": null,
+  "categoryName": null,
+  "locId": null,
+  "ticketId": null,
+  "aggregations": {
+   "by_boardCode": {
+    "buckets": [
+     {
+      "doc_count": 76,
+      "key": "3"
+     },
+     {
+      "doc_count": 9,
+      "key": "1"
+     },
+     {
+      "doc_count": 2,
+      "key": "2"
+     }
+    ]
+   },
+   "by_tagCode": {
+    "buckets": [
+     {
+      "doc_count": 65,
+      "key": "33"
+     },
+     {
+      "doc_count": 11,
+      "key": "341"
+     },
+     {
+      "doc_count": 7,
+      "key": "1431"
+     },
+     {
+      "doc_count": 2,
+      "key": "1432"
+     },
+     {
+      "doc_count": 2,
+      "key": "4121"
+     }
+    ]
+   }
+  },
+  "orderIdx": 73
+ },
+ {
+  "number": 5105090738000206,
+  "title": "اجاره غرفه تجاری شماره 318( به مدت 60 ماه 0 روز)",
+  "boardCode": 3,
+  "basePrice": 1440000000,
+  "orgName": "شهرداری قدس استان تهران",
+  "score": 87,
+  "cityName": "قدس",
+  "insertDate": null,
+  "boardName": "مزایده",
+  "provinceName": "تهران",
+  "jalaliSendDeadlineDate": "1405/06/25 - 12:00",
+  "jalaliLastEditDate": "1405/06/11 - 08:00",
+  "jalaliDocumentDeadlineDate": "1405/06/14 - 19:00",
+  "tableId": 497647,
+  "tagCode": 33,
+  "needType": null,
+  "reqId": null,
+  "jalaliFromProposalDate": null,
+  "partyNumber": "1317282",
+  "orgId": 9288,
+  "aucState": 1116,
+  "cartId": 0,
+  "categoryId": null,
+  "categoryName": null,
+  "locId": null,
+  "ticketId": null,
+  "aggregations": {
+   "by_boardCode": {
+    "buckets": [
+     {
+      "doc_count": 76,
+      "key": "3"
+     },
+     {
+      "doc_count": 9,
+      "key": "1"
+     },
+     {
+      "doc_count": 2,
+      "key": "2"
+     }
+    ]
+   },
+   "by_tagCode": {
+    "buckets": [
+     {
+      "doc_count": 65,
+      "key": "33"
+     },
+     {
+      "doc_count": 11,
+      "key": "341"
+     },
+     {
+      "doc_count": 7,
+      "key": "1431"
+     },
+     {
+      "doc_count": 2,
+      "key": "1432"
+     },
+     {
+      "doc_count": 2,
+      "key": "4121"
+     }
+    ]
+   }
+  },
+  "orderIdx": 74
+ },
+ {
+  "number": 2005090738000004,
+  "title": "مناقصه عمومی یک مرحله ای خرید سطل زباله 1100 لیتری مکانیزه",
+  "boardCode": 2,
+  "basePrice": null,
+  "orgName": "شهرداری قدس استان تهران",
+  "score": 87,
+  "cityName": "قدس",
+  "insertDate": null,
+  "boardName": "مناقصه",
+  "provinceName": "تهران",
+  "jalaliSendDeadlineDate": "1405/06/24 - 12:00",
+  "jalaliLastEditDate": "-",
+  "jalaliDocumentDeadlineDate": "1405/06/12 - 19:00",
+  "tableId": 661918,
+  "tagCode": 4121,
+  "needType": null,
+  "reqId": null,
+  "jalaliFromProposalDate": null,
+  "partyNumber": null,
+  "orgId": 9288,
+  "aucState": null,
+  "cartId": 0,
+  "categoryId": null,
+  "categoryName": null,
+  "locId": null,
+  "ticketId": null,
+  "aggregations": {
+   "by_boardCode": {
+    "buckets": [
+     {
+      "doc_count": 76,
+      "key": "3"
+     },
+     {
+      "doc_count": 9,
+      "key": "1"
+     },
+     {
+      "doc_count": 2,
+      "key": "2"
+     }
+    ]
+   },
+   "by_tagCode": {
+    "buckets": [
+     {
+      "doc_count": 65,
+      "key": "33"
+     },
+     {
+      "doc_count": 11,
+      "key": "341"
+     },
+     {
+      "doc_count": 7,
+      "key": "1431"
+     },
+     {
+      "doc_count": 2,
+      "key": "1432"
+     },
+     {
+      "doc_count": 2,
+      "key": "4121"
+     }
+    ]
+   }
+  },
+  "orderIdx": 75
+ },
+ {
+  "number": 3105108346000090,
+  "title": "حراج ساینا مدل 1401",
+  "boardCode": 3,
+  "basePrice": 7700000000,
+  "orgName": "شعبه اجرای احکام مدنی دادگستری قدس",
+  "score": 87,
+  "cityName": "قدس",
+  "insertDate": null,
+  "boardName": "مزایده",
+  "provinceName": "تهران",
+  "jalaliSendDeadlineDate": "1405/06/22 - 12:00",
+  "jalaliLastEditDate": null,
+  "jalaliDocumentDeadlineDate": " - ",
+  "tableId": 497310,
+  "tagCode": 341,
+  "needType": null,
+  "reqId": null,
+  "jalaliFromProposalDate": "1405/06/22 - 08:00",
+  "partyNumber": "1315886",
+  "orgId": 44076,
+  "aucState": 1116,
+  "cartId": 4186539,
+  "categoryId": 180,
+  "categoryName": "وسایل نقلیه، قطعات و لوازم جانبی",
+  "locId": null,
+  "ticketId": "",
+  "aggregations": {
+   "by_boardCode": {
+    "buckets": [
+     {
+      "doc_count": 76,
+      "key": "3"
+     },
+     {
+      "doc_count": 9,
+      "key": "1"
+     },
+     {
+      "doc_count": 2,
+      "key": "2"
+     }
+    ]
+   },
+   "by_tagCode": {
+    "buckets": [
+     {
+      "doc_count": 65,
+      "key": "33"
+     },
+     {
+      "doc_count": 11,
+      "key": "341"
+     },
+     {
+      "doc_count": 7,
+      "key": "1431"
+     },
+     {
+      "doc_count": 2,
+      "key": "1432"
+     },
+     {
+      "doc_count": 2,
+      "key": "4121"
+     }
+    ]
+   }
+  },
+  "orderIdx": 76
+ },
+ {
+  "number": 3105108346000093,
+  "title": "حراج  واحد تجاری به مساحت 95 متر مربع",
+  "boardCode": 3,
+  "basePrice": 237500000000,
+  "orgName": "شعبه اجرای احکام مدنی دادگستری قدس",
+  "score": 87,
+  "cityName": "قدس",
+  "insertDate": null,
+  "boardName": "مزایده",
+  "provinceName": "تهران",
+  "jalaliSendDeadlineDate": "1405/06/21 - 12:00",
+  "jalaliLastEditDate": null,
+  "jalaliDocumentDeadlineDate": " - ",
+  "tableId": 497646,
+  "tagCode": 341,
+  "needType": null,
+  "reqId": null,
+  "jalaliFromProposalDate": "1405/06/21 - 08:00",
+  "partyNumber": "1316595",
+  "orgId": 44076,
+  "aucState": 1116,
+  "cartId": 4190155,
+  "categoryId": 224,
+  "categoryName": "زمین، ساختمان‌ و معابر",
+  "locId": null,
+  "ticketId": "",
+  "aggregations": {
+   "by_boardCode": {
+    "buckets": [
+     {
+      "doc_count": 76,
+      "key": "3"
+     },
+     {
+      "doc_count": 9,
+      "key": "1"
+     },
+     {
+      "doc_count": 2,
+      "key": "2"
+     }
+    ]
+   },
+   "by_tagCode": {
+    "buckets": [
+     {
+      "doc_count": 65,
+      "key": "33"
+     },
+     {
+      "doc_count": 11,
+      "key": "341"
+     },
+     {
+      "doc_count": 7,
+      "key": "1431"
+     },
+     {
+      "doc_count": 2,
+      "key": "1432"
+     },
+     {
+      "doc_count": 2,
+      "key": "4121"
+     }
+    ]
+   }
+  },
+  "orderIdx": 77
+ },
+ {
+  "number": 3105108346000094,
+  "title": "حراج واحد تجاری مشاعی ",
+  "boardCode": 3,
+  "basePrice": 60307499999,
+  "orgName": "شعبه اجرای احکام مدنی دادگستری قدس",
+  "score": 87,
+  "cityName": "قدس",
+  "insertDate": null,
+  "boardName": "مزایده",
+  "provinceName": "تهران",
+  "jalaliSendDeadlineDate": "1405/06/23 - 12:00",
+  "jalaliLastEditDate": null,
+  "jalaliDocumentDeadlineDate": " - ",
+  "tableId": 497834,
+  "tagCode": 341,
+  "needType": null,
+  "reqId": null,
+  "jalaliFromProposalDate": "1405/06/23 - 08:00",
+  "partyNumber": "1316654",
+  "orgId": 44076,
+  "aucState": 1116,
+  "cartId": 4190690,
+  "categoryId": 224,
+  "categoryName": "زمین، ساختمان‌ و معابر",
+  "locId": null,
+  "ticketId": "",
+  "aggregations": {
+   "by_boardCode": {
+    "buckets": [
+     {
+      "doc_count": 76,
+      "key": "3"
+     },
+     {
+      "doc_count": 9,
+      "key": "1"
+     },
+     {
+      "doc_count": 2,
+      "key": "2"
+     }
+    ]
+   },
+   "by_tagCode": {
+    "buckets": [
+     {
+      "doc_count": 65,
+      "key": "33"
+     },
+     {
+      "doc_count": 11,
+      "key": "341"
+     },
+     {
+      "doc_count": 7,
+      "key": "1431"
+     },
+     {
+      "doc_count": 2,
+      "key": "1432"
+     },
+     {
+      "doc_count": 2,
+      "key": "4121"
+     }
+    ]
+   }
+  },
+  "orderIdx": 78
+ },
+ {
+  "number": 3105108346000091,
+  "title": "حراج پژو پارس مدل 1394",
+  "boardCode": 3,
+  "basePrice": 11000000000,
+  "orgName": "شعبه اجرای احکام مدنی دادگستری قدس",
+  "score": 87,
+  "cityName": "قدس",
+  "insertDate": null,
+  "boardName": "مزایده",
+  "provinceName": "تهران",
+  "jalaliSendDeadlineDate": "1405/06/24 - 12:00",
+  "jalaliLastEditDate": null,
+  "jalaliDocumentDeadlineDate": " - ",
+  "tableId": 497438,
+  "tagCode": 341,
+  "needType": null,
+  "reqId": null,
+  "jalaliFromProposalDate": "1405/06/24 - 08:00",
+  "partyNumber": "1316090",
+  "orgId": 44076,
+  "aucState": 1116,
+  "cartId": 4187343,
+  "categoryId": 180,
+  "categoryName": "وسایل نقلیه، قطعات و لوازم جانبی",
+  "locId": null,
+  "ticketId": "",
+  "aggregations": {
+   "by_boardCode": {
+    "buckets": [
+     {
+      "doc_count": 76,
+      "key": "3"
+     },
+     {
+      "doc_count": 9,
+      "key": "1"
+     },
+     {
+      "doc_count": 2,
+      "key": "2"
+     }
+    ]
+   },
+   "by_tagCode": {
+    "buckets": [
+     {
+      "doc_count": 65,
+      "key": "33"
+     },
+     {
+      "doc_count": 11,
+      "key": "341"
+     },
+     {
+      "doc_count": 7,
+      "key": "1431"
+     },
+     {
+      "doc_count": 2,
+      "key": "1432"
+     },
+     {
+      "doc_count": 2,
+      "key": "4121"
+     }
+    ]
+   }
+  },
+  "orderIdx": 79
+ },
+ {
+  "number": 3105108346000092,
+  "title": "حراج دو دانگ مغازه نانوایی به مساحت 50 متر مربع ",
+  "boardCode": 3,
+  "basePrice": 41666666666,
+  "orgName": "شعبه اجرای احکام مدنی دادگستری قدس",
+  "score": 87,
+  "cityName": "قدس",
+  "insertDate": null,
+  "boardName": "مزایده",
+  "provinceName": "تهران",
+  "jalaliSendDeadlineDate": "1405/06/21 - 12:00",
+  "jalaliLastEditDate": null,
+  "jalaliDocumentDeadlineDate": " - ",
+  "tableId": 497555,
+  "tagCode": 341,
+  "needType": null,
+  "reqId": null,
+  "jalaliFromProposalDate": "1405/06/21 - 08:00",
+  "partyNumber": "1316236",
+  "orgId": 44076,
+  "aucState": 1116,
+  "cartId": 4188347,
+  "categoryId": 224,
+  "categoryName": "زمین، ساختمان‌ و معابر",
+  "locId": null,
+  "ticketId": "",
+  "aggregations": {
+   "by_boardCode": {
+    "buckets": [
+     {
+      "doc_count": 76,
+      "key": "3"
+     },
+     {
+      "doc_count": 9,
+      "key": "1"
+     },
+     {
+      "doc_count": 2,
+      "key": "2"
+     }
+    ]
+   },
+   "by_tagCode": {
+    "buckets": [
+     {
+      "doc_count": 65,
+      "key": "33"
+     },
+     {
+      "doc_count": 11,
+      "key": "341"
+     },
+     {
+      "doc_count": 7,
+      "key": "1431"
+     },
+     {
+      "doc_count": 2,
+      "key": "1432"
+     },
+     {
+      "doc_count": 2,
+      "key": "4121"
+     }
+    ]
+   }
+  },
+  "orderIdx": 80
+ },
+ {
+  "number": 3105111613000011,
+  "title": "حراج یک قطعه زمین به مساحت 737متر مربع ",
+  "boardCode": 3,
+  "basePrice": 27000000000,
+  "orgName": "شعبه ۲ اجرای احکام مدنی دادگستری قدس",
+  "score": 87,
+  "cityName": "قدس",
+  "insertDate": null,
+  "boardName": "مزایده",
+  "provinceName": "تهران",
+  "jalaliSendDeadlineDate": "1405/06/22 - 12:00",
+  "jalaliLastEditDate": null,
+  "jalaliDocumentDeadlineDate": " - ",
+  "tableId": 496513,
+  "tagCode": 341,
+  "needType": null,
+  "reqId": null,
+  "jalaliFromProposalDate": "1405/06/22 - 08:00",
+  "partyNumber": "1314597",
+  "orgId": 47849,
+  "aucState": 1116,
+  "cartId": 4179560,
+  "categoryId": 224,
+  "categoryName": "زمین، ساختمان‌ و معابر",
+  "locId": null,
+  "ticketId": "",
+  "aggregations": {
+   "by_boardCode": {
+    "buckets": [
+     {
+      "doc_count": 76,
+      "key": "3"
+     },
+     {
+      "doc_count": 9,
+      "key": "1"
+     },
+     {
+      "doc_count": 2,
+      "key": "2"
+     }
+    ]
+   },
+   "by_tagCode": {
+    "buckets": [
+     {
+      "doc_count": 65,
+      "key": "33"
+     },
+     {
+      "doc_count": 11,
+      "key": "341"
+     },
+     {
+      "doc_count": 7,
+      "key": "1431"
+     },
+     {
+      "doc_count": 2,
+      "key": "1432"
+     },
+     {
+      "doc_count": 2,
+      "key": "4121"
+     }
+    ]
+   }
+  },
+  "orderIdx": 81
+ },
+ {
+  "number": 2005090738000003,
+  "title": "مناقصه عمومی یک مرحله ای برق رسانی به مجموعه های ورزشی شهدای غواص و شهدای سرخ حصار",
+  "boardCode": 2,
+  "basePrice": null,
+  "orgName": "شهرداری قدس استان تهران",
+  "score": 87,
+  "cityName": "قدس",
+  "insertDate": null,
+  "boardName": "مناقصه",
+  "provinceName": "تهران",
+  "jalaliSendDeadlineDate": "1405/06/21 - 12:00",
+  "jalaliLastEditDate": "-",
+  "jalaliDocumentDeadlineDate": "1405/06/07 - 19:00",
+  "tableId": 660585,
+  "tagCode": 4121,
+  "needType": null,
+  "reqId": null,
+  "jalaliFromProposalDate": null,
+  "partyNumber": null,
+  "orgId": 9288,
+  "aucState": null,
+  "cartId": 0,
+  "categoryId": null,
+  "categoryName": null,
+  "locId": null,
+  "ticketId": null,
+  "aggregations": {
+   "by_boardCode": {
+    "buckets": [
+     {
+      "doc_count": 76,
+      "key": "3"
+     },
+     {
+      "doc_count": 9,
+      "key": "1"
+     },
+     {
+      "doc_count": 2,
+      "key": "2"
+     }
+    ]
+   },
+   "by_tagCode": {
+    "buckets": [
+     {
+      "doc_count": 65,
+      "key": "33"
+     },
+     {
+      "doc_count": 11,
+      "key": "341"
+     },
+     {
+      "doc_count": 7,
+      "key": "1431"
+     },
+     {
+      "doc_count": 2,
+      "key": "1432"
+     },
+     {
+      "doc_count": 2,
+      "key": "4121"
+     }
+    ]
+   }
+  },
+  "orderIdx": 82
+ },
+ {
+  "number": 5105030565000093,
+  "title": "اجاره واحد تجاری شماره 2 جنب سالن الغدیر( به مدت 12 ماه 0 روز)",
+  "boardCode": 3,
+  "basePrice": 1440000000,
+  "orgName": "مدیریت اموزش و پرورش شهرقدس",
+  "score": 87,
+  "cityName": "قدس",
+  "insertDate": null,
+  "boardName": "مزایده",
+  "provinceName": "تهران",
+  "jalaliSendDeadlineDate": "1405/06/21 - 15:00",
+  "jalaliLastEditDate": "1405/05/31 - 12:00",
+  "jalaliDocumentDeadlineDate": "1405/06/10 - 13:00",
+  "tableId": 494326,
+  "tagCode": 33,
+  "needType": null,
+  "reqId": null,
+  "jalaliFromProposalDate": null,
+  "partyNumber": "1307876",
+  "orgId": 12773,
+  "aucState": 1116,
+  "cartId": 0,
+  "categoryId": null,
+  "categoryName": null,
+  "locId": null,
+  "ticketId": null,
+  "aggregations": {
+   "by_boardCode": {
+    "buckets": [
+     {
+      "doc_count": 76,
+      "key": "3"
+     },
+     {
+      "doc_count": 9,
+      "key": "1"
+     },
+     {
+      "doc_count": 2,
+      "key": "2"
+     }
+    ]
+   },
+   "by_tagCode": {
+    "buckets": [
+     {
+      "doc_count": 65,
+      "key": "33"
+     },
+     {
+      "doc_count": 11,
+      "key": "341"
+     },
+     {
+      "doc_count": 7,
+      "key": "1431"
+     },
+     {
+      "doc_count": 2,
+      "key": "1432"
+     },
+     {
+      "doc_count": 2,
+      "key": "4121"
+     }
+    ]
+   }
+  },
+  "orderIdx": 83
+ },
+ {
+  "number": 5105030565000091,
+  "title": "اجاره مغازه شماره 4 جنب سالن الغدیر ( به مدت 12 ماه 0 روز)",
+  "boardCode": 3,
+  "basePrice": 1080000000,
+  "orgName": "مدیریت اموزش و پرورش شهرقدس",
+  "score": 87,
+  "cityName": "قدس",
+  "insertDate": null,
+  "boardName": "مزایده",
+  "provinceName": "تهران",
+  "jalaliSendDeadlineDate": "1405/06/21 - 15:00",
+  "jalaliLastEditDate": "1405/05/31 - 12:00",
+  "jalaliDocumentDeadlineDate": "1405/06/10 - 13:00",
+  "tableId": 494326,
+  "tagCode": 33,
+  "needType": null,
+  "reqId": null,
+  "jalaliFromProposalDate": null,
+  "partyNumber": "1307842",
+  "orgId": 12773,
+  "aucState": 1116,
+  "cartId": 0,
+  "categoryId": null,
+  "categoryName": null,
+  "locId": null,
+  "ticketId": null,
+  "aggregations": {
+   "by_boardCode": {
+    "buckets": [
+     {
+      "doc_count": 76,
+      "key": "3"
+     },
+     {
+      "doc_count": 9,
+      "key": "1"
+     },
+     {
+      "doc_count": 2,
+      "key": "2"
+     }
+    ]
+   },
+   "by_tagCode": {
+    "buckets": [
+     {
+      "doc_count": 65,
+      "key": "33"
+     },
+     {
+      "doc_count": 11,
+      "key": "341"
+     },
+     {
+      "doc_count": 7,
+      "key": "1431"
+     },
+     {
+      "doc_count": 2,
+      "key": "1432"
+     },
+     {
+      "doc_count": 2,
+      "key": "4121"
+     }
+    ]
+   }
+  },
+  "orderIdx": 84
+ },
+ {
+  "number": 5105030565000092,
+  "title": "اجاره مغازه شماره 2 (میوه فروشی سابق)( به مدت 12 ماه 0 روز)",
+  "boardCode": 3,
+  "basePrice": 1080000000,
+  "orgName": "مدیریت اموزش و پرورش شهرقدس",
+  "score": 87,
+  "cityName": "قدس",
+  "insertDate": null,
+  "boardName": "مزایده",
+  "provinceName": "تهران",
+  "jalaliSendDeadlineDate": "1405/06/21 - 15:00",
+  "jalaliLastEditDate": "1405/05/31 - 12:00",
+  "jalaliDocumentDeadlineDate": "1405/06/10 - 13:00",
+  "tableId": 494326,
+  "tagCode": 33,
+  "needType": null,
+  "reqId": null,
+  "jalaliFromProposalDate": null,
+  "partyNumber": "1307855",
+  "orgId": 12773,
+  "aucState": 1116,
+  "cartId": 0,
+  "categoryId": null,
+  "categoryName": null,
+  "locId": null,
+  "ticketId": null,
+  "aggregations": {
+   "by_boardCode": {
+    "buckets": [
+     {
+      "doc_count": 76,
+      "key": "3"
+     },
+     {
+      "doc_count": 9,
+      "key": "1"
+     },
+     {
+      "doc_count": 2,
+      "key": "2"
+     }
+    ]
+   },
+   "by_tagCode": {
+    "buckets": [
+     {
+      "doc_count": 65,
+      "key": "33"
+     },
+     {
+      "doc_count": 11,
+      "key": "341"
+     },
+     {
+      "doc_count": 7,
+      "key": "1431"
+     },
+     {
+      "doc_count": 2,
+      "key": "1432"
+     },
+     {
+      "doc_count": 2,
+      "key": "4121"
+     }
+    ]
+   }
+  },
+  "orderIdx": 85
+ },
+ {
+  "number": 5105090738000170,
+  "title": "اجاره زمین چمن مصنوعی شماره2پارک ولیعصر( به مدت 12 ماه 0 روز)",
+  "boardCode": 3,
+  "basePrice": 4200000000,
+  "orgName": "شهرداری قدس استان تهران",
+  "score": 87,
+  "cityName": "قدس",
+  "insertDate": null,
+  "boardName": "مزایده",
+  "provinceName": "تهران",
+  "jalaliSendDeadlineDate": "1405/06/18 - 12:00",
+  "jalaliLastEditDate": "1405/05/31 - 08:00",
+  "jalaliDocumentDeadlineDate": "1405/06/05 - 19:00",
+  "tableId": 490998,
+  "tagCode": 33,
+  "needType": null,
+  "reqId": null,
+  "jalaliFromProposalDate": null,
+  "partyNumber": "1301992",
+  "orgId": 9288,
+  "aucState": 1116,
+  "cartId": 0,
+  "categoryId": null,
+  "categoryName": null,
+  "locId": null,
+  "ticketId": null,
+  "aggregations": {
+   "by_boardCode": {
+    "buckets": [
+     {
+      "doc_count": 76,
+      "key": "3"
+     },
+     {
+      "doc_count": 9,
+      "key": "1"
+     },
+     {
+      "doc_count": 2,
+      "key": "2"
+     }
+    ]
+   },
+   "by_tagCode": {
+    "buckets": [
+     {
+      "doc_count": 65,
+      "key": "33"
+     },
+     {
+      "doc_count": 11,
+      "key": "341"
+     },
+     {
+      "doc_count": 7,
+      "key": "1431"
+     },
+     {
+      "doc_count": 2,
+      "key": "1432"
+     },
+     {
+      "doc_count": 2,
+      "key": "4121"
+     }
+    ]
+   }
+  },
+  "orderIdx": 86
+ }
+]
