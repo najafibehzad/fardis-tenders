@@ -1,4 +1,4 @@
-// بات دوطرفهٔ بله برای گزارش فردیس — تنظیمات فقط از notify.local.json خوانده می‌شود (هرگز کامیت نشود)
+// بات دوطرفهٔ بله برای گزارش تدارکات — هر شهر
 // Usage:
 //   node bale_bot.mjs                  → یک دور getUpdates + پردازش پیام‌ها (تسک FardisBaleBot هر ۱ دقیقه)
 //   node bale_bot.mjs --send "متن"     → ارسال پیام متنی به چت مالک (برای تست/اعلان)
@@ -19,22 +19,59 @@ const API = 'https://tapi.bale.ai/bot' + TOKEN;
 
 const STATE_PATH = path.join(ROOT, 'bale-bot-state.json');
 const LOCK_PATH = path.join(ROOT, 'bale-bot.lock');
-const ALLOW_PATH = path.join(ROOT, 'bale-bot-allow.json'); // چت‌های مجاز اضافه (آرایه رشته)
+const ALLOW_PATH = path.join(ROOT, 'bale-bot-allow.json');
 const BASH = 'C:\\Users\\behzad\\AppData\\Local\\hermes\\git\\usr\\bin\\bash.exe';
 const SITE = 'https://najafibehzad.github.io/fardis-tenders';
 const HELP = [
-  '🤖 ربات گزارش فردیس (دوطرفه)',
+  '🤖 ربات گزارش تدارکات (هر شهر)',
   '',
-  'گزارش — اجرای فوری پایپ‌لاین و ارسال PDF امروز',
-  'وضعیت — وضعیت آخرین اجرا و زمان‌بندی',
+  'گزارش — گزارش فردیس (پیش‌فرض)',
+  'گزارش قدس — گزارش شهر قدس',
+  'گزارش تهران قدس — استان + شهر',
+  'گزارش کرج — شهر کرج',
+  'وضعیت — وضعیت آخرین اجرا',
   'لینک — آدرس گزارش آنلاین',
   'تست — بررسی اتصال',
   'راهنما — همین فهرست',
   '',
-  'وقتی لپ‌تاپ خاموش است، همین دستورها را به ربات تلگرام بفرستید (کانال ابری؛ جواب صف‌شده‌ها در بله می‌آید).',
+  'مثال: گزارش اصفهان نجف آباد',
+  'وقتی لپ‌تاپ خاموش است، دستور را به ربات تلگرام بفرستید (صف می‌شود).',
 ].join('\n');
 
-// ---- گیت‌هاب: قلب تپنده (LAPTOP_ALIVE) و صف کارهای ابری (pending-commands.json) ----
+// شهرهای پرکاربرد → استان پیش‌فرض (اگر فقط نام شهر داده شود)
+const CITY_PROVINCE = {
+  'فردیس': 'البرز', 'کرج': 'البرز', 'نظرآباد': 'البرز', 'ساوجبلاغ': 'البرز',
+  'قدس': 'تهران', 'رباط کریم': 'تهران', 'رباطکریم': 'تهران', 'شهریار': 'تهران',
+  'اسلامشهر': 'تهران', 'ملارد': 'تهران', 'پردیس': 'تهران', 'ورامین': 'تهران',
+  'ری': 'تهران', 'تهران': 'تهران',
+  'نجف آباد': 'اصفهان', 'نجفآباد': 'اصفهان', 'کاشان': 'اصفهان', 'اصفهان': 'اصفهان',
+  'مشهد': 'خراسان رضوی', 'نیشابور': 'خراسان رضوی',
+  'شیراز': 'فارس', 'تبریز': 'آذربایجان شرقی', 'اهواز': 'خوزستان',
+  'قم': 'قم', 'اراک': 'مرکزی', 'همدان': 'همدان', 'کرمانشاه': 'کرمانشاه',
+};
+
+function parseReportCmd(raw) {
+  // «گزارش» | «گزارش قدس» | «گزارش تهران قدس» | «/report تهران قدس»
+  let t = String(raw || '').replace(/\u200c/g, ' ').replace(/\s+/g, ' ').trim();
+  t = t.replace(/^\/?report\b/i, 'گزارش').trim();
+  if (!t.startsWith('گزارش')) return null;
+  let rest = t.slice('گزارش'.length).replace(/^[:\-–—\s]+/, '').trim();
+  if (!rest || rest === 'امروز' || rest === 'فوری') return { province: 'البرز', city: 'فردیس' };
+  const parts = rest.split(/\s+/).filter(Boolean);
+  if (parts.length === 1) {
+    const city = parts[0];
+    const province = CITY_PROVINCE[city] || CITY_PROVINCE[city.replace(/\s+/g, '')] || 'البرز';
+    return { province, city };
+  }
+  if (parts.length >= 2) {
+    // آخرین بخش = شهر، بقیه = استان (برای نام‌های چندکلمه‌ای مثل خراسان رضوی)
+    const city = parts[parts.length - 1];
+    const province = parts.slice(0, -1).join(' ');
+    return { province, city };
+  }
+  return { province: 'البرز', city: 'فردیس' };
+}
+
 const GH_REPO = 'najafibehzad/fardis-tenders';
 const GHTOK_PATH = path.join(os.homedir(), '.zcode', 'fardis-ghtoken');
 const QUEUE_PATH = 'pending-commands.json';
@@ -58,14 +95,14 @@ async function heartbeat() {
 async function drainQueue() {
   try {
     const g = await ghApi('GET', '/contents/' + QUEUE_PATH + '?ref=main');
-    if (g.code !== 200) return; // 404 = صف خالی
+    if (g.code !== 200) return;
     let jobs;
     try { jobs = JSON.parse(Buffer.from(g.json.content, 'base64').toString('utf8')); } catch { return; }
     if (!Array.isArray(jobs) || !jobs.length) return;
     const done = new Set();
     for (const j of jobs) {
       try {
-        if (!j.ts || Date.now() - Date.parse(j.ts) > 86400000) { done.add(j.id); continue; } // کار کهنه می‌سوزد
+        if (!j.ts || Date.now() - Date.parse(j.ts) > 86400000) { done.add(j.id); continue; }
         await handle(j.text, sendTo(OWNER));
         done.add(j.id);
       } catch (e) { log('queue job ERR ' + e.message); done.add(j.id); }
@@ -86,15 +123,12 @@ async function drainQueue() {
   } catch (e) { log('drain ERR ' + e.message); }
 }
 
-// لاگ فقط از stdout می‌رود؛ در تسک، ریدایرکت `>>` خودِ bale_bot.cmd آن را در bale-bot.log می‌نویسد
-// (appendFileSync مستقیم وقتی cmd همان فایل را باز نگه داشته شکست می‌خورد)
 const log = s => console.log(new Date().toISOString(), s);
 const readState = () => { try { return JSON.parse(fs.readFileSync(STATE_PATH, 'utf8')); } catch { return {}; } };
 const saveState = s => fs.writeFileSync(STATE_PATH, JSON.stringify(s), 'utf8');
 const readAllow = () => { try { return JSON.parse(fs.readFileSync(ALLOW_PATH, 'utf8')).map(String); } catch { return []; } };
 const norm = t => String(t).replace(/\u200c/g, ' ').replace(/\s+/g, ' ').trim().toLowerCase();
 
-// ---- API بله (بدنه multipart دستی، همان الگوی امتحان‌شدهٔ notify_send.mjs) ----
 function multipart(fields) {
   const boundary = '----balebot' + Math.random().toString(36).slice(2) + Date.now().toString(36);
   const parts = [];
@@ -128,7 +162,6 @@ const sendTo = chat => async payload => {
   }
 };
 
-// ---- کمکی‌های اجرا ----
 const tail = (s, n = 700) => { s = String(s || '').trim(); return s.length > n ? '…' + s.slice(-n) : s; };
 const run = (cmd, args, timeout, env) => new Promise(res => {
   execFile(cmd, args, { cwd: ROOT, timeout, maxBuffer: 20 * 1024 * 1024, windowsHide: true, encoding: 'utf8', env: env || process.env },
@@ -139,7 +172,6 @@ async function taskStatus(name) {
   return r;
 }
 
-// ---- دستورها ----
 function statusText() {
   const lines = [];
   try {
@@ -147,43 +179,49 @@ function statusText() {
     lines.push('گزارش فعلی: ' + mt.toLocaleString('fa-IR', { dateStyle: 'short', timeStyle: 'short' }));
   } catch { lines.push('گزارش فعلی: یافت نشد'); }
   try {
+    const last = fs.readFileSync(path.join(ROOT, 'setadiran-data', 'LAST.txt'), 'utf8').trim();
+    lines.push('آخرین شهر: ' + last);
+  } catch {}
+  try {
     const t = fs.readFileSync(path.join(ROOT, 'task-run.log'), 'utf8').trimEnd().split('\n').filter(Boolean).slice(-5);
     lines.push('انتهای لاگ روزانه:', ...t.map(l => '  ' + l.slice(0, 110)));
   } catch {}
-  lines.push('اجرای روزانه: هر روز ۱۵:۰۰ | بات: هر ۱ دقیقه چک می‌شود');
+  lines.push('اجرای روزانه: هر روز ۱۵:۰۰ (فردیس) | بات: هر ۱ دقیقه');
   return lines.join('\n');
 }
-async function reportFlow(send) {
-  if (process.argv[2] === '--selftest') return send({ text: '[گزارش: در selftest پایپ‌لاین واقعی اجرا نمی‌شود]' });
+
+async function reportFlow(send, province, city) {
+  if (process.argv[2] === '--selftest') return send({ text: `[گزارش ${province}/${city}: در selftest پایپ‌لاین واقعی اجرا نمی‌شود]` });
   if (fs.existsSync(LOCK_PATH) && Date.now() - fs.statSync(LOCK_PATH).mtimeMs < 20 * 60 * 1000)
     return send({ text: 'یک اجرا در جریان است؛ چند دقیقه دیگر نتیجه می‌آید.' });
   if (/running|در حال اجرا/i.test(await taskStatus('FardisTenderDaily')))
     return send({ text: 'اجرای زمان‌بندی‌شدهٔ امروز همین حالا در جریان است؛ نتیجه‌اش خودش ارسال می‌شود.' });
   fs.writeFileSync(LOCK_PATH, String(process.pid));
   try {
-    await send({ text: 'در حال اجرای پایپ‌لاین… (واکشی ستادیران ← گزارش ← کنترل کیفیت ← انتشار). چند دقیقه طول می‌کشد.' });
+    await send({ text: `در حال اجرای پایپ‌لاین برای «${province} / ${city}»… چند دقیقه طول می‌کشد.` });
     const env = { ...process.env, CHROME_PATH: process.env.CHROME_PATH || 'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe' };
-    const p = await run(process.execPath, ['run_pipeline.mjs'], 20 * 60 * 1000, env);
+    const p = await run(process.execPath, ['run_pipeline.mjs', province, city], 20 * 60 * 1000, env);
     if (p.code !== 0) { log('pipeline FAIL ' + p.out); return send({ text: 'پایپ‌لاین شکست خورد:\n' + p.out }); }
     const q = await run(BASH, ['scheduled_push.sh'], 5 * 60 * 1000, env);
     const pushOk = q.code === 0;
     if (!pushOk) log('push FAIL ' + q.out);
     const pdf = path.join(ROOT, 'report.pdf');
-    await send({ doc: pdf, caption: 'گزارش تدارکات فردیس — ' + new Date().toLocaleDateString('fa-IR') + (pushOk ? '' : '\n⚠️ انتشار گیت‌هاب شکست خورد؛ PDF محلی فرستاده شد') });
+    await send({ doc: pdf, caption: `گزارش تدارکات ${province} / ${city} — ` + new Date().toLocaleDateString('fa-IR') + (pushOk ? '' : '\n⚠️ انتشار گیت‌هاب شکست خورد؛ PDF محلی فرستاده شد') });
     await send({ text: SITE + (pushOk ? ' (به‌روز شد)' : '') });
   } finally { fs.rmSync(LOCK_PATH, { force: true }); }
 }
+
 async function handle(text, send) {
   const t = norm(text);
   if (t === '/start' || t === 'start' || ['راهنما', 'کمک', '/help', 'help'].includes(t)) return send({ text: HELP });
   if (['تست', 'ping', '/ping'].includes(t)) return send({ text: 'سبزم ✓ اتصال دوطرفه برقرار است.' });
   if (['لینک', 'link', '/link'].includes(t)) return send({ text: `گزارش آنلاین: ${SITE}\nPDF: ${SITE}/report.pdf` });
   if (['وضعیت', '/status'].includes(t)) return send({ text: statusText() });
-  if (t.startsWith('گزارش') || t === '/report') return reportFlow(send);
-  return send({ text: 'دستور را نفهمیدم؛ «راهنما» را بفرست.' });
+  const loc = parseReportCmd(text);
+  if (loc) return reportFlow(send, loc.province, loc.city);
+  return send({ text: 'دستور را نفهمیدم؛ «راهنما» را بفرست.\nمثال: گزارش قدس' });
 }
 
-// ---- حلقه اصلی ----
 async function processUpdate(u) {
   const msg = u.message;
   const chat = String(msg?.chat?.id ?? '');
@@ -200,7 +238,7 @@ async function main() {
   if (mode === '--selftest') {
     const out = [];
     const send = async p => out.push(p.text != null ? p.text : `[doc ${p.doc ? path.basename(p.doc) : ''}] ${p.caption || ''}`);
-    for (const m of ['راهنما', 'تست', 'لینک', 'وضعیت', 'سلام', 'گزارش امروز']) {
+    for (const m of ['راهنما', 'تست', 'لینک', 'وضعیت', 'سلام', 'گزارش', 'گزارش قدس', 'گزارش تهران قدس']) {
       out.push('>> ' + m);
       await handle(m, send);
     }
