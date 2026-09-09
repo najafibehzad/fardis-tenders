@@ -1,22 +1,24 @@
-// بات ابری گزارش فردیس — روی GitHub Actions اجرا می‌شود (bale-cloud.yml، هر ۵ دقیقه)
+// بات ابری گزارش تدارکات — روی GitHub Actions اجرا می‌شود (bale-cloud.yml، هر ۵ دقیقه)
 // کانال: ربات تلگرام (api.telegram.org از سرور خارجی باز است؛ بله از کلاود 403 می‌دهد).
-// دستورهای سبک را همان‌جا جواب می‌دهد؛ بقیه (مثل «گزارش») را در pending-commands.json صف می‌کند
-// تا bale_bot.mjs روی لپ‌تاپ (هر ۱ دقیقه) اجرا و جوابش را در بله بفرستد.
+// دستورهای سبک را همان‌جا جواب می‌دهد؛ بقیه (مثل «گزارش قدس») را در pending-commands.json صف می‌کند
+// تا bale_bot.mjs روی لپ‌تاپ (هر ۱ دقیقه) اجرا و جوابش را در بله می‌فرستد.
 // اسرار فقط از env (Actions Secrets) — هیچ توکنی در این فایل نیست.
 const TG_TOKEN = process.env.TGTOKEN || '';
 const GH_TOKEN = process.env.GITHUB_TOKEN || '';
 const REPO = process.env.GITHUB_REPOSITORY || 'najafibehzad/fardis-tenders';
 const TG_API = 'https://api.telegram.org/bot' + TG_TOKEN;
 const GHAPI = 'https://api.github.com/repos/' + REPO;
-const TGOCHAT = '241301020'; // چت مالک در تلگرام (شناسه، نه رمز)
+const TGOCHAT = '241301020';
 const SITE = 'https://najafibehzad.github.io/fardis-tenders';
 const STATE_PATH = 'bale-cloud-state.json';
 const QUEUE_PATH = 'pending-commands.json';
 const HELP = [
-  '🤖 بات گزارش فردیس (کانال ابری — تلگرام)',
+  '🤖 بات گزارش تدارکات (کانال ابری — تلگرام)',
   '',
-  'گزارش — صف می‌شود؛ لپ‌تاپ به‌محض روشن شدن اجرا و PDF را در بله می‌فرستد',
-  'وضعیت — وضعیت لپ‌تاپ، آخرین گزارش و سایت',
+  'گزارش — صف می‌شود (پیش‌فرض فردیس)',
+  'گزارش قدس — گزارش شهر قدس',
+  'گزارش تهران قدس — استان + شهر',
+  'وضعیت — وضعیت لپ‌تاپ و آخرین گزارش',
   'لینک — آدرس گزارش آنلاین',
   'تست — بررسی اتصال کلاود',
   'راهنما — همین فهرست',
@@ -44,7 +46,6 @@ async function contentsGet(path) {
   if (code !== 200) throw new Error('contents GET ' + path + ': ' + code);
   return { data: JSON.parse(Buffer.from(json.content, 'base64').toString('utf8')), sha: json.sha };
 }
-// transform روی دادهٔ تازهٔ فایل اعمال می‌شود؛ در تعارض sha، دوباره fetch و تلاش می‌کنیم
 async function contentsUpdate(path, message, transform) {
   for (let i = 0; i < 4; i++) {
     const g = await contentsGet(path);
@@ -95,7 +96,7 @@ async function handle(text, reply) {
     const job = { id: Date.now() + '-' + Math.random().toString(36).slice(2, 7), text: text.trim(), from: 'telegram', ts: new Date().toISOString() };
     await contentsUpdate(QUEUE_PATH, 'bale-cloud: queue job',
       cur => [...(Array.isArray(cur) ? cur.filter(j => Date.now() - Date.parse(j.ts || 0) < 86400000) : []), job]);
-    return reply('در صف گذاشتم ✅ لپ‌تاپ به‌محض روشن شدن اجرا می‌کند و نتیجه را در بله می‌فرستد. (اجرای ابری واکشی ستادیران ممکن نیست — بلاک IP خارجی)');
+    return reply('در صف گذاشتم ✅ لپ‌تاپ به‌محض روشن شدن اجرا می‌کند و نتیجه را در بله می‌فرستد.\n(متن دستور حفظ شد: ' + text.trim().slice(0, 40) + ')');
   }
   return reply('دستور را نفهمیدم؛ «راهنما» را بفرست.');
 }
