@@ -1,7 +1,12 @@
-// اجرای کامل زنجیره گزارش روزانه — از پوشه ریشه پروژه: node run_pipeline.mjs
+// اجرای کامل زنجیره گزارش — از پوشه ریشه پروژه: node run_pipeline.mjs [استان] [شهر]
+// مثال: node run_pipeline.mjs تهران قدس
+// اگر آرگومان ندی، پیش‌فرض البرز / فردیس است.
 // خروجی: setadiran-data به‌روز، report.html، report.pdf، site/ (برای GitHub Pages)، summary.md
 import { spawnSync } from 'node:child_process';
 import fs from 'node:fs';
+
+const province = process.argv[2] || 'البرز';
+const city = process.argv[3] || 'فردیس';
 
 const run = (file, args = []) => {
   console.log('\n===== ' + file + ' ' + args.join(' ') + ' =====');
@@ -12,8 +17,10 @@ const run = (file, args = []) => {
   }
 };
 
+console.log(`PIPELINE CITY: ${province} / ${city}`);
+
 // ۱–۲) داده تازه از تابلوی اعلانات مرکزی + جزئیات کامل هر اگهی
-run('fetch_announcements.js', ['البرز', 'فردیس']);
+run('fetch_announcements.js', [province, city]);
 run('fetch_details.js');
 
 // ۳–۵) گزارش: پاس اندازه‌گیری برای صفحه‌بندی، سپس نسخه نهایی
@@ -46,7 +53,7 @@ try {
   const rows = tenders.map(t =>
     `| ${t.number} | ${String(t.title).replace(/\|/g, '/').slice(0, 90)} | ${t.org || ''} | ${t.docDeadline || ''} | ${fresh(t) ? '🆕 جدید' : ''} |`).join('\n');
   const summary = [
-    '## گزارش روزانه فردیس — آماده شد ✅',
+    `## گزارش ${province} / ${city} — آماده شد ✅`,
     '',
     `- مناقصه: **${tenders.length}** | استعلام خدمات: **${services.length}** | کل آگهی فعال: **${items.length}**`,
     `- گزارش PDF: \`report.pdf\` در ریپو | نسخه وب: صفحه Pages همین ریپو`,
