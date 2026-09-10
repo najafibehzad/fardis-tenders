@@ -1,6 +1,126 @@
 [
  {
   "board": "خرید",
+  "number": 1105095346000032,
+  "title": "نیاز کالا-درخواست خرید لباس اداری",
+  "org": "بیمارستان شهیدسردارسلیمانی شهرقدس",
+  "province": "تهران",
+  "city": "قدس",
+  "sendDeadline": "1405/06/23 - 12:00",
+  "docDeadline": null,
+  "basePrice": null,
+  "tableId": "5350172",
+  "reqId": "7445478",
+  "needType": "1431",
+  "orderIdx": 0
+ },
+ {
+  "board": "خرید",
+  "number": 1105091764000147,
+  "title": "نیاز کالا-ماکارونی (1/7) 120 کیلوگرم . آلو خورشتی 20 کیلو گرم .لیمو عمانی 20 کیلوگرم .آبلیمو 50 لیتر .سس مایونز 16 کیلوگرم .",
+  "org": "بیمارستان 12 بهمن قدس",
+  "province": "تهران",
+  "city": "قدس",
+  "sendDeadline": "1405/06/21 - 15:30",
+  "docDeadline": null,
+  "basePrice": null,
+  "tableId": "5349449",
+  "reqId": "7444367",
+  "needType": "1431",
+  "orderIdx": 1
+ },
+ {
+  "board": "خرید",
+  "number": 1105030565000034,
+  "title": "نیاز کالا-15 عددرادیاتور شوفاژ پنلی فولادی با پوشش نانو و رنگ سفید براق، مجهز به کنوکتور سازگار با موتورخانه، ابعاد 12x120x55 سانتی‌متر",
+  "org": "مدیریت اموزش و پرورش شهرقدس",
+  "province": "تهران",
+  "city": "قدس",
+  "sendDeadline": "1405/06/21 - 15:20",
+  "docDeadline": null,
+  "basePrice": null,
+  "tableId": "5349426",
+  "reqId": "7444341",
+  "needType": "1431",
+  "orderIdx": 2
+ },
+ {
+  "board": "مزایده",
+  "number": 3105108346000100,
+  "title": "حراج ساختمان مسکونی",
+  "org": "شعبه اجرای احکام مدنی دادگستری قدس",
+  "province": "تهران",
+  "city": "قدس",
+  "sendDeadline": "1405/07/07 - 12:00",
+  "docDeadline": " - ",
+  "basePrice": 38000000000,
+  "tableId": "502915",
+  "reqId": null,
+  "needType": null,
+  "orderIdx": 3
+ },
+ {
+  "board": "مزایده",
+  "number": 3105108346000101,
+  "title": "حراج یک واحد مسکونی",
+  "org": "شعبه اجرای احکام مدنی دادگستری قدس",
+  "province": "تهران",
+  "city": "قدس",
+  "sendDeadline": "1405/07/06 - 12:00",
+  "docDeadline": " - ",
+  "basePrice": 120000000000,
+  "tableId": "502948",
+  "reqId": null,
+  "needType": null,
+  "orderIdx": 4
+ },
+ {
+  "board": "مزایده",
+  "number": 3105108346000102,
+  "title": "حراج یک باب مغازه",
+  "org": "شعبه اجرای احکام مدنی دادگستری قدس",
+  "province": "تهران",
+  "city": "قدس",
+  "sendDeadline": "1405/07/13 - 12:00",
+  "docDeadline": " - ",
+  "basePrice": 38000000000,
+  "tableId": "503202",
+  "reqId": null,
+  "needType": null,
+  "orderIdx": 5
+ },
+ {
+  "board": "مزایده",
+  "number": 3105108346000104,
+  "title": "حراج یک باب زیر زمین با کاربری انباری تجاری",
+  "org": "شعبه اجرای احکام مدنی دادگستری قدس",
+  "province": "تهران",
+  "city": "قدس",
+  "sendDeadline": "1405/07/11 - 12:00",
+  "docDeadline": " - ",
+  "basePrice": 45000000000,
+  "tableId": "503398",
+  "reqId": null,
+  "needType": null,
+  "orderIdx": 6
+ },
+ {
+  "board": "مزایده",
+  "number": 3105108346000103,
+  "title": "حراج یک واحد آپارتمان مسکونی",
+  "org": "شعبه اجرای احکام مدنی دادگستری قدس",
+  "province": "تهران",
+  "city": "قدس",
+  "sendDeadline": "1405/07/08 - 12:00",
+  "docDeadline": " - ",
+  "basePrice": 52800000000,
+  "tableId": "503271",
+  "reqId": null,
+  "needType": null,
+  "orderIdx": 7
+ },
+ {
+  "board": "خرید",
   "number": 1105091764000146,
   "title": "نیاز کالا-سرنگ انسولین گیج 30 (40000 عدد) سرنگ انسولین تک عدد گیج 27 (1000 عدد)",
   "org": "بیمارستان 12 بهمن قدس",
@@ -12,7 +132,7 @@
   "tableId": "5345568",
   "reqId": "7438598",
   "needType": "1431",
-  "orderIdx": 0
+  "orderIdx": 8
  },
  {
   "board": "خرید",
@@ -27,7 +147,7 @@
   "tableId": "5345388",
   "reqId": "7438322",
   "needType": "1431",
-  "orderIdx": 1
+  "orderIdx": 9
  },
  {
   "board": "خرید",
@@ -42,7 +162,7 @@
   "tableId": "5345273",
   "reqId": "7438153",
   "needType": "1431",
-  "orderIdx": 2
+  "orderIdx": 10
  },
  {
   "board": "مزایده",
@@ -57,7 +177,7 @@
   "tableId": "501995",
   "reqId": null,
   "needType": null,
-  "orderIdx": 3
+  "orderIdx": 11
  },
  {
   "board": "مزایده",
@@ -72,7 +192,7 @@
   "tableId": "501354",
   "reqId": null,
   "needType": null,
-  "orderIdx": 4
+  "orderIdx": 12
  },
  {
   "board": "مزایده",
@@ -87,7 +207,7 @@
   "tableId": "501362",
   "reqId": null,
   "needType": null,
-  "orderIdx": 5
+  "orderIdx": 13
  },
  {
   "board": "مزایده",
@@ -102,7 +222,7 @@
   "tableId": "501394",
   "reqId": null,
   "needType": null,
-  "orderIdx": 6
+  "orderIdx": 14
  },
  {
   "board": "مزایده",
@@ -117,7 +237,7 @@
   "tableId": "501967",
   "reqId": null,
   "needType": null,
-  "orderIdx": 7
+  "orderIdx": 15
  },
  {
   "board": "خرید",
@@ -132,7 +252,7 @@
   "tableId": "5340664",
   "reqId": "7431010",
   "needType": "1432",
-  "orderIdx": 8,
+  "orderIdx": 16,
   "purchase": {
    "items": [
     {
@@ -162,12 +282,12 @@
   "tableId": "5340202",
   "reqId": "7430323",
   "needType": "1431",
-  "orderIdx": 9
+  "orderIdx": 17
  },
  {
   "board": "خرید",
   "number": 1105091764000144,
-  "title": "نیاز کالا-دستمال کاغذی جعبه ای 100 برگ دولایه 2000 بسته . دستمال رولی 2000 بسته (4000 عدد)",
+  "title": "نیاز کالا-دستمال کاغذی جعب�� ای 100 برگ دولایه 2000 بسته . دستمال رولی 2000 بسته (4000 عدد)",
   "org": "بیمارستان 12 بهمن قدس",
   "province": "تهران",
   "city": "قدس",
@@ -177,7 +297,7 @@
   "tableId": "5339636",
   "reqId": "7429462",
   "needType": "1431",
-  "orderIdx": 10
+  "orderIdx": 18
  },
  {
   "board": "مزایده",
@@ -192,7 +312,7 @@
   "tableId": "499541",
   "reqId": null,
   "needType": null,
-  "orderIdx": 11
+  "orderIdx": 19
  },
  {
   "board": "مزایده",
@@ -207,7 +327,7 @@
   "tableId": "499541",
   "reqId": null,
   "needType": null,
-  "orderIdx": 12
+  "orderIdx": 20
  },
  {
   "board": "مزایده",
@@ -222,7 +342,7 @@
   "tableId": "499541",
   "reqId": null,
   "needType": null,
-  "orderIdx": 13
+  "orderIdx": 21
  },
  {
   "board": "مزایده",
@@ -237,7 +357,7 @@
   "tableId": "499541",
   "reqId": null,
   "needType": null,
-  "orderIdx": 14
+  "orderIdx": 22
  },
  {
   "board": "مزایده",
@@ -252,7 +372,7 @@
   "tableId": "500000",
   "reqId": null,
   "needType": null,
-  "orderIdx": 15
+  "orderIdx": 23
  },
  {
   "board": "مزایده",
@@ -267,7 +387,7 @@
   "tableId": "500000",
   "reqId": null,
   "needType": null,
-  "orderIdx": 16
+  "orderIdx": 24
  },
  {
   "board": "مزایده",
@@ -282,7 +402,7 @@
   "tableId": "500000",
   "reqId": null,
   "needType": null,
-  "orderIdx": 17
+  "orderIdx": 25
  },
  {
   "board": "مزایده",
@@ -297,7 +417,7 @@
   "tableId": "500000",
   "reqId": null,
   "needType": null,
-  "orderIdx": 18
+  "orderIdx": 26
  },
  {
   "board": "مزایده",
@@ -312,7 +432,7 @@
   "tableId": "498849",
   "reqId": null,
   "needType": null,
-  "orderIdx": 19
+  "orderIdx": 27
  },
  {
   "board": "مزایده",
@@ -327,7 +447,7 @@
   "tableId": "499541",
   "reqId": null,
   "needType": null,
-  "orderIdx": 20
+  "orderIdx": 28
  },
  {
   "board": "مزایده",
@@ -342,7 +462,7 @@
   "tableId": "499541",
   "reqId": null,
   "needType": null,
-  "orderIdx": 21
+  "orderIdx": 29
  },
  {
   "board": "مزایده",
@@ -357,7 +477,7 @@
   "tableId": "499541",
   "reqId": null,
   "needType": null,
-  "orderIdx": 22
+  "orderIdx": 30
  },
  {
   "board": "مزایده",
@@ -372,7 +492,7 @@
   "tableId": "499541",
   "reqId": null,
   "needType": null,
-  "orderIdx": 23
+  "orderIdx": 31
  },
  {
   "board": "مزایده",
@@ -387,7 +507,7 @@
   "tableId": "500000",
   "reqId": null,
   "needType": null,
-  "orderIdx": 24
+  "orderIdx": 32
  },
  {
   "board": "مزایده",
@@ -402,7 +522,7 @@
   "tableId": "500000",
   "reqId": null,
   "needType": null,
-  "orderIdx": 25
+  "orderIdx": 33
  },
  {
   "board": "مزایده",
@@ -417,7 +537,7 @@
   "tableId": "499541",
   "reqId": null,
   "needType": null,
-  "orderIdx": 26
+  "orderIdx": 34
  },
  {
   "board": "مزایده",
@@ -432,7 +552,7 @@
   "tableId": "499541",
   "reqId": null,
   "needType": null,
-  "orderIdx": 27
+  "orderIdx": 35
  },
  {
   "board": "مزایده",
@@ -447,7 +567,7 @@
   "tableId": "499541",
   "reqId": null,
   "needType": null,
-  "orderIdx": 28
+  "orderIdx": 36
  },
  {
   "board": "مزایده",
@@ -462,7 +582,7 @@
   "tableId": "499541",
   "reqId": null,
   "needType": null,
-  "orderIdx": 29
+  "orderIdx": 37
  },
  {
   "board": "مزایده",
@@ -477,7 +597,7 @@
   "tableId": "499541",
   "reqId": null,
   "needType": null,
-  "orderIdx": 30
+  "orderIdx": 38
  },
  {
   "board": "مزایده",
@@ -492,7 +612,7 @@
   "tableId": "500000",
   "reqId": null,
   "needType": null,
-  "orderIdx": 31
+  "orderIdx": 39
  },
  {
   "board": "مزایده",
@@ -507,7 +627,7 @@
   "tableId": "500000",
   "reqId": null,
   "needType": null,
-  "orderIdx": 32
+  "orderIdx": 40
  },
  {
   "board": "مزایده",
@@ -522,7 +642,7 @@
   "tableId": "500000",
   "reqId": null,
   "needType": null,
-  "orderIdx": 33
+  "orderIdx": 41
  },
  {
   "board": "خرید",
@@ -537,7 +657,7 @@
   "tableId": "5338827",
   "reqId": "7428284",
   "needType": "1431",
-  "orderIdx": 34
+  "orderIdx": 42
  },
  {
   "board": "خرید",
@@ -552,7 +672,7 @@
   "tableId": "5334762",
   "reqId": "7422208",
   "needType": "1432",
-  "orderIdx": 35,
+  "orderIdx": 43,
   "purchase": {
    "items": [
     {
@@ -570,21 +690,6 @@
   "url": "https://eproc.setadiran.ir/eproc/purchaseNeedViewBoardIntegration.do?method=showNeedDetailInfo&requestId=7422208"
  },
  {
-  "board": "خرید",
-  "number": 1105095346000029,
-  "title": "نیاز کالا-درخواست لباسشویی و آبگیر طبق شرح فایل پیوست",
-  "org": "بیمارستان شهیدسردارسلیمانی شهرقدس",
-  "province": "تهران",
-  "city": "قدس",
-  "sendDeadline": "1405/06/19 - 11:00",
-  "docDeadline": null,
-  "basePrice": null,
-  "tableId": "5332649",
-  "reqId": "7418979",
-  "needType": "1431",
-  "orderIdx": 36
- },
- {
   "board": "مزایده",
   "number": 5105090738000174,
   "title": "اجاره غرفه تجاری شماره 262( به مدت 60 ماه 0 روز)",
@@ -597,7 +702,7 @@
   "tableId": "497647",
   "reqId": null,
   "needType": null,
-  "orderIdx": 37
+  "orderIdx": 44
  },
  {
   "board": "مزایده",
@@ -612,7 +717,7 @@
   "tableId": "497647",
   "reqId": null,
   "needType": null,
-  "orderIdx": 38
+  "orderIdx": 45
  },
  {
   "board": "مزایده",
@@ -627,7 +732,7 @@
   "tableId": "497647",
   "reqId": null,
   "needType": null,
-  "orderIdx": 39
+  "orderIdx": 46
  },
  {
   "board": "مزایده",
@@ -642,7 +747,7 @@
   "tableId": "497647",
   "reqId": null,
   "needType": null,
-  "orderIdx": 40
+  "orderIdx": 47
  },
  {
   "board": "مزایده",
@@ -657,7 +762,7 @@
   "tableId": "497647",
   "reqId": null,
   "needType": null,
-  "orderIdx": 41
+  "orderIdx": 48
  },
  {
   "board": "مزایده",
@@ -672,7 +777,7 @@
   "tableId": "497647",
   "reqId": null,
   "needType": null,
-  "orderIdx": 42
+  "orderIdx": 49
  },
  {
   "board": "مزایده",
@@ -687,7 +792,7 @@
   "tableId": "497647",
   "reqId": null,
   "needType": null,
-  "orderIdx": 43
+  "orderIdx": 50
  },
  {
   "board": "مزایده",
@@ -702,7 +807,7 @@
   "tableId": "497647",
   "reqId": null,
   "needType": null,
-  "orderIdx": 44
+  "orderIdx": 51
  },
  {
   "board": "مزایده",
@@ -717,7 +822,7 @@
   "tableId": "497647",
   "reqId": null,
   "needType": null,
-  "orderIdx": 45
+  "orderIdx": 52
  },
  {
   "board": "مزایده",
@@ -732,7 +837,7 @@
   "tableId": "497647",
   "reqId": null,
   "needType": null,
-  "orderIdx": 46
+  "orderIdx": 53
  },
  {
   "board": "مزایده",
@@ -747,7 +852,7 @@
   "tableId": "497647",
   "reqId": null,
   "needType": null,
-  "orderIdx": 47
+  "orderIdx": 54
  },
  {
   "board": "مزایده",
@@ -762,7 +867,7 @@
   "tableId": "497647",
   "reqId": null,
   "needType": null,
-  "orderIdx": 48
+  "orderIdx": 55
  },
  {
   "board": "مزایده",
@@ -777,7 +882,7 @@
   "tableId": "497647",
   "reqId": null,
   "needType": null,
-  "orderIdx": 49
+  "orderIdx": 56
  },
  {
   "board": "مزایده",
@@ -792,7 +897,7 @@
   "tableId": "497647",
   "reqId": null,
   "needType": null,
-  "orderIdx": 50
+  "orderIdx": 57
  },
  {
   "board": "مزایده",
@@ -807,7 +912,7 @@
   "tableId": "497647",
   "reqId": null,
   "needType": null,
-  "orderIdx": 51
+  "orderIdx": 58
  },
  {
   "board": "مزایده",
@@ -822,7 +927,7 @@
   "tableId": "497647",
   "reqId": null,
   "needType": null,
-  "orderIdx": 52
+  "orderIdx": 59
  },
  {
   "board": "مزایده",
@@ -837,7 +942,7 @@
   "tableId": "497647",
   "reqId": null,
   "needType": null,
-  "orderIdx": 53
+  "orderIdx": 60
  },
  {
   "board": "مزایده",
@@ -852,7 +957,7 @@
   "tableId": "497647",
   "reqId": null,
   "needType": null,
-  "orderIdx": 54
+  "orderIdx": 61
  },
  {
   "board": "مزایده",
@@ -867,7 +972,7 @@
   "tableId": "497647",
   "reqId": null,
   "needType": null,
-  "orderIdx": 55
+  "orderIdx": 62
  },
  {
   "board": "مزایده",
@@ -882,7 +987,7 @@
   "tableId": "497647",
   "reqId": null,
   "needType": null,
-  "orderIdx": 56
+  "orderIdx": 63
  },
  {
   "board": "مزایده",
@@ -897,7 +1002,7 @@
   "tableId": "497647",
   "reqId": null,
   "needType": null,
-  "orderIdx": 57
+  "orderIdx": 64
  },
  {
   "board": "مزایده",
@@ -912,7 +1017,7 @@
   "tableId": "497647",
   "reqId": null,
   "needType": null,
-  "orderIdx": 58
+  "orderIdx": 65
  },
  {
   "board": "مزایده",
@@ -927,7 +1032,7 @@
   "tableId": "497647",
   "reqId": null,
   "needType": null,
-  "orderIdx": 59
+  "orderIdx": 66
  },
  {
   "board": "مزایده",
@@ -942,7 +1047,7 @@
   "tableId": "497647",
   "reqId": null,
   "needType": null,
-  "orderIdx": 60
+  "orderIdx": 67
  },
  {
   "board": "مزایده",
@@ -957,7 +1062,7 @@
   "tableId": "497647",
   "reqId": null,
   "needType": null,
-  "orderIdx": 61
+  "orderIdx": 68
  },
  {
   "board": "مزایده",
@@ -972,7 +1077,7 @@
   "tableId": "497647",
   "reqId": null,
   "needType": null,
-  "orderIdx": 62
+  "orderIdx": 69
  },
  {
   "board": "مزایده",
@@ -987,7 +1092,7 @@
   "tableId": "497647",
   "reqId": null,
   "needType": null,
-  "orderIdx": 63
+  "orderIdx": 70
  },
  {
   "board": "مزایده",
@@ -1002,7 +1107,7 @@
   "tableId": "497647",
   "reqId": null,
   "needType": null,
-  "orderIdx": 64
+  "orderIdx": 71
  },
  {
   "board": "مزایده",
@@ -1017,7 +1122,7 @@
   "tableId": "497647",
   "reqId": null,
   "needType": null,
-  "orderIdx": 65
+  "orderIdx": 72
  },
  {
   "board": "مزایده",
@@ -1032,7 +1137,7 @@
   "tableId": "497647",
   "reqId": null,
   "needType": null,
-  "orderIdx": 66
+  "orderIdx": 73
  },
  {
   "board": "مزایده",
@@ -1047,7 +1152,7 @@
   "tableId": "497647",
   "reqId": null,
   "needType": null,
-  "orderIdx": 67
+  "orderIdx": 74
  },
  {
   "board": "مزایده",
@@ -1062,7 +1167,7 @@
   "tableId": "497647",
   "reqId": null,
   "needType": null,
-  "orderIdx": 68
+  "orderIdx": 75
  },
  {
   "board": "مزایده",
@@ -1077,7 +1182,7 @@
   "tableId": "497647",
   "reqId": null,
   "needType": null,
-  "orderIdx": 69
+  "orderIdx": 76
  },
  {
   "board": "مزایده",
@@ -1092,7 +1197,7 @@
   "tableId": "497647",
   "reqId": null,
   "needType": null,
-  "orderIdx": 70
+  "orderIdx": 77
  },
  {
   "board": "مزایده",
@@ -1107,7 +1212,7 @@
   "tableId": "497647",
   "reqId": null,
   "needType": null,
-  "orderIdx": 71
+  "orderIdx": 78
  },
  {
   "board": "مزایده",
@@ -1122,7 +1227,7 @@
   "tableId": "497647",
   "reqId": null,
   "needType": null,
-  "orderIdx": 72
+  "orderIdx": 79
  },
  {
   "board": "مزایده",
@@ -1137,7 +1242,7 @@
   "tableId": "497647",
   "reqId": null,
   "needType": null,
-  "orderIdx": 73
+  "orderIdx": 80
  },
  {
   "board": "مزایده",
@@ -1152,7 +1257,7 @@
   "tableId": "497647",
   "reqId": null,
   "needType": null,
-  "orderIdx": 74
+  "orderIdx": 81
  },
  {
   "board": "مناقصه",
@@ -1167,7 +1272,7 @@
   "tableId": "661918",
   "reqId": null,
   "needType": null,
-  "orderIdx": 75,
+  "orderIdx": 82,
   "tender": {
    "subject": "کالا",
    "setupType": "یک مرحله ای",
@@ -1203,7 +1308,7 @@
   "tableId": "497310",
   "reqId": null,
   "needType": null,
-  "orderIdx": 76
+  "orderIdx": 83
  },
  {
   "board": "مزایده",
@@ -1218,7 +1323,7 @@
   "tableId": "497646",
   "reqId": null,
   "needType": null,
-  "orderIdx": 77
+  "orderIdx": 84
  },
  {
   "board": "مزایده",
@@ -1233,7 +1338,7 @@
   "tableId": "497834",
   "reqId": null,
   "needType": null,
-  "orderIdx": 78
+  "orderIdx": 85
  },
  {
   "board": "مزایده",
@@ -1248,7 +1353,7 @@
   "tableId": "497438",
   "reqId": null,
   "needType": null,
-  "orderIdx": 79
+  "orderIdx": 86
  },
  {
   "board": "مزایده",
@@ -1263,7 +1368,7 @@
   "tableId": "497555",
   "reqId": null,
   "needType": null,
-  "orderIdx": 80
+  "orderIdx": 87
  },
  {
   "board": "مزایده",
@@ -1278,7 +1383,7 @@
   "tableId": "496513",
   "reqId": null,
   "needType": null,
-  "orderIdx": 81
+  "orderIdx": 88
  },
  {
   "board": "مناقصه",
@@ -1293,7 +1398,7 @@
   "tableId": "660585",
   "reqId": null,
   "needType": null,
-  "orderIdx": 82,
+  "orderIdx": 89,
   "tender": {
    "subject": "خدمات بدون فهرست بها",
    "setupType": "یک مرحله ای",
@@ -1329,7 +1434,7 @@
   "tableId": "494326",
   "reqId": null,
   "needType": null,
-  "orderIdx": 83
+  "orderIdx": 90
  },
  {
   "board": "مزایده",
@@ -1344,7 +1449,7 @@
   "tableId": "494326",
   "reqId": null,
   "needType": null,
-  "orderIdx": 84
+  "orderIdx": 91
  },
  {
   "board": "مزایده",
@@ -1359,21 +1464,6 @@
   "tableId": "494326",
   "reqId": null,
   "needType": null,
-  "orderIdx": 85
- },
- {
-  "board": "مزایده",
-  "number": 5105090738000170,
-  "title": "اجاره زمین چمن مصنوعی شماره2پارک ولیعصر( به مدت 12 ماه 0 روز)",
-  "org": "شهرداری قدس استان تهران",
-  "province": "تهران",
-  "city": "قدس",
-  "sendDeadline": "1405/06/18 - 12:00",
-  "docDeadline": "1405/06/05 - 19:00",
-  "basePrice": 4200000000,
-  "tableId": "490998",
-  "reqId": null,
-  "needType": null,
-  "orderIdx": 86
+  "orderIdx": 92
  }
 ]
