@@ -1,6 +1,36 @@
 [
  {
   "board": "خرید",
+  "number": 1105003062000173,
+  "title": "نیاز کالا-خرید کاغذ 70 گرمی 60*90 به مقدار 10000 بند",
+  "org": "سازمان سنجش و اموزش کشور",
+  "province": "البرز",
+  "city": "فردیس",
+  "sendDeadline": "1405/06/22 - 15:00",
+  "docDeadline": null,
+  "basePrice": null,
+  "tableId": "5350473",
+  "reqId": "7446030",
+  "needType": "1431",
+  "orderIdx": 0
+ },
+ {
+  "board": "خرید",
+  "number": 1105003062000172,
+  "title": "نیاز کالا-خرید زینک 1030*790 ضخامت 3 میکرون به تعداد 2100 ورق",
+  "org": "سازمان سنجش و اموزش کشور",
+  "province": "البرز",
+  "city": "فردیس",
+  "sendDeadline": "1405/06/22 - 14:00",
+  "docDeadline": null,
+  "basePrice": null,
+  "tableId": "5350441",
+  "reqId": "7445978",
+  "needType": "1431",
+  "orderIdx": 1
+ },
+ {
+  "board": "خرید",
   "number": 1105003062000170,
   "title": "نیاز خدمات-تعمیر کیسه برزنتی (کف،طلق،دور کیسه) حدود 3000 عدد",
   "org": "سازمان سنجش و اموزش کشور",
@@ -12,7 +42,7 @@
   "tableId": "5350152",
   "reqId": "7445437",
   "needType": "1432",
-  "orderIdx": 0,
+  "orderIdx": 2,
   "purchase": {
    "items": [
     {
@@ -42,7 +72,7 @@
   "tableId": "5349788",
   "reqId": "7444855",
   "needType": "1431",
-  "orderIdx": 1
+  "orderIdx": 3
  },
  {
   "board": "مزایده",
@@ -57,7 +87,7 @@
   "tableId": "499510",
   "reqId": null,
   "needType": null,
-  "orderIdx": 2
+  "orderIdx": 4
  },
  {
   "board": "مزایده",
@@ -72,7 +102,7 @@
   "tableId": "499530",
   "reqId": null,
   "needType": null,
-  "orderIdx": 3
+  "orderIdx": 5
  },
  {
   "board": "مزایده",
@@ -87,7 +117,7 @@
   "tableId": "500251",
   "reqId": null,
   "needType": null,
-  "orderIdx": 4
+  "orderIdx": 6
  },
  {
   "board": "خرید",
@@ -102,7 +132,7 @@
   "tableId": "5349161",
   "reqId": "7443982",
   "needType": "1432",
-  "orderIdx": 5,
+  "orderIdx": 7,
   "purchase": {
    "items": [
     {
@@ -132,7 +162,7 @@
   "tableId": "5349156",
   "reqId": "7443974",
   "needType": "1431",
-  "orderIdx": 6
+  "orderIdx": 8
  },
  {
   "board": "خرید",
@@ -147,7 +177,7 @@
   "tableId": "5349131",
   "reqId": "7443941",
   "needType": "1432",
-  "orderIdx": 7,
+  "orderIdx": 9,
   "purchase": {
    "items": [
     {
@@ -177,7 +207,7 @@
   "tableId": "5348102",
   "reqId": "7442405",
   "needType": "1431",
-  "orderIdx": 8
+  "orderIdx": 10
  },
  {
   "board": "مزایده",
@@ -192,7 +222,7 @@
   "tableId": "504779",
   "reqId": null,
   "needType": null,
-  "orderIdx": 9
+  "orderIdx": 11
  },
  {
   "board": "مزایده",
@@ -207,7 +237,7 @@
   "tableId": "504545",
   "reqId": null,
   "needType": null,
-  "orderIdx": 10
+  "orderIdx": 12
  },
  {
   "board": "مزایده",
@@ -222,7 +252,7 @@
   "tableId": "504027",
   "reqId": null,
   "needType": null,
-  "orderIdx": 11
+  "orderIdx": 13
  },
  {
   "board": "خرید",
@@ -237,7 +267,7 @@
   "tableId": "5345994",
   "reqId": "7439228",
   "needType": "1431",
-  "orderIdx": 12
+  "orderIdx": 14
  },
  {
   "board": "مزایده",
@@ -252,7 +282,7 @@
   "tableId": "502953",
   "reqId": null,
   "needType": null,
-  "orderIdx": 13
+  "orderIdx": 15
  },
  {
   "board": "مزایده",
@@ -267,7 +297,7 @@
   "tableId": "503023",
   "reqId": null,
   "needType": null,
-  "orderIdx": 14
+  "orderIdx": 16
  },
  {
   "board": "مزایده",
@@ -282,7 +312,7 @@
   "tableId": "503477",
   "reqId": null,
   "needType": null,
-  "orderIdx": 15
+  "orderIdx": 17
  },
  {
   "board": "خرید",
@@ -297,7 +327,7 @@
   "tableId": "5345578",
   "reqId": "7438613",
   "needType": "1431",
-  "orderIdx": 16
+  "orderIdx": 18
  },
  {
   "board": "خرید",
@@ -312,7 +342,7 @@
   "tableId": "5345550",
   "reqId": "7438575",
   "needType": "1431",
-  "orderIdx": 17
+  "orderIdx": 19
  },
  {
   "board": "خرید",
@@ -327,7 +357,7 @@
   "tableId": "5344013",
   "reqId": "7436167",
   "needType": "1431",
-  "orderIdx": 18
+  "orderIdx": 20
  },
  {
   "board": "مزایده",
@@ -342,7 +372,7 @@
   "tableId": "498668",
   "reqId": null,
   "needType": null,
-  "orderIdx": 19
+  "orderIdx": 21
  },
  {
   "board": "مزایده",
@@ -357,7 +387,7 @@
   "tableId": "502677",
   "reqId": null,
   "needType": null,
-  "orderIdx": 20
+  "orderIdx": 22
  },
  {
   "board": "مزایده",
@@ -372,7 +402,7 @@
   "tableId": "498668",
   "reqId": null,
   "needType": null,
-  "orderIdx": 21
+  "orderIdx": 23
  },
  {
   "board": "خرید",
@@ -387,7 +417,7 @@
   "tableId": "5338296",
   "reqId": "7427540",
   "needType": "1432",
-  "orderIdx": 22,
+  "orderIdx": 24,
   "purchase": {
    "items": [
     {
@@ -417,7 +447,7 @@
   "tableId": "501835",
   "reqId": null,
   "needType": null,
-  "orderIdx": 23
+  "orderIdx": 25
  },
  {
   "board": "مزایده",
@@ -432,7 +462,7 @@
   "tableId": "501709",
   "reqId": null,
   "needType": null,
-  "orderIdx": 24
+  "orderIdx": 26
  },
  {
   "board": "مناقصه",
@@ -447,7 +477,7 @@
   "tableId": "664261",
   "reqId": null,
   "needType": null,
-  "orderIdx": 25,
+  "orderIdx": 27,
   "tender": {
    "subject": "خدمات با فهرست بها",
    "setupType": "یک مرحله ای",
@@ -484,7 +514,7 @@
   "tableId": "664300",
   "reqId": null,
   "needType": null,
-  "orderIdx": 26,
+  "orderIdx": 28,
   "tender": {
    "subject": "خدمات با فهرست بها",
    "setupType": "یک مرحله ای",
@@ -521,7 +551,7 @@
   "tableId": "664316",
   "reqId": null,
   "needType": null,
-  "orderIdx": 27,
+  "orderIdx": 29,
   "tender": {
    "subject": "خدمات بدون فهرست بها",
    "setupType": "یک مرحله ای",
@@ -558,7 +588,7 @@
   "tableId": "664326",
   "reqId": null,
   "needType": null,
-  "orderIdx": 28,
+  "orderIdx": 30,
   "tender": {
    "subject": "خدمات بدون فهرست بها",
    "setupType": "یک مرحله ای",
@@ -595,7 +625,7 @@
   "tableId": "501976",
   "reqId": null,
   "needType": null,
-  "orderIdx": 29
+  "orderIdx": 31
  },
  {
   "board": "مناقصه",
@@ -610,7 +640,7 @@
   "tableId": "663937",
   "reqId": null,
   "needType": null,
-  "orderIdx": 30,
+  "orderIdx": 32,
   "tender": {
    "subject": "خدمات بدون فهرست بها",
    "setupType": "یک مرحله ای",
@@ -647,7 +677,7 @@
   "tableId": "663940",
   "reqId": null,
   "needType": null,
-  "orderIdx": 31,
+  "orderIdx": 33,
   "tender": {
    "subject": "خدمات با فهرست بها",
    "setupType": "یک مرحله ای",
@@ -684,7 +714,7 @@
   "tableId": "663942",
   "reqId": null,
   "needType": null,
-  "orderIdx": 32,
+  "orderIdx": 34,
   "tender": {
    "subject": "خدمات با فهرست بها",
    "setupType": "یک مرحله ای",
@@ -721,7 +751,7 @@
   "tableId": "663692",
   "reqId": null,
   "needType": null,
-  "orderIdx": 33,
+  "orderIdx": 35,
   "tender": {
    "subject": "خدمات با فهرست بها",
    "setupType": "یک مرحله ای",
@@ -757,7 +787,7 @@
   "tableId": "500896",
   "reqId": null,
   "needType": null,
-  "orderIdx": 34
+  "orderIdx": 36
  },
  {
   "board": "مزایده",
@@ -772,7 +802,7 @@
   "tableId": "500823",
   "reqId": null,
   "needType": null,
-  "orderIdx": 35
+  "orderIdx": 37
  },
  {
   "board": "مزایده",
@@ -787,7 +817,7 @@
   "tableId": "500856",
   "reqId": null,
   "needType": null,
-  "orderIdx": 36
+  "orderIdx": 38
  },
  {
   "board": "مزایده",
@@ -802,7 +832,7 @@
   "tableId": "499517",
   "reqId": null,
   "needType": null,
-  "orderIdx": 37
+  "orderIdx": 39
  },
  {
   "board": "مناقصه",
@@ -817,7 +847,7 @@
   "tableId": "662460",
   "reqId": null,
   "needType": null,
-  "orderIdx": 38,
+  "orderIdx": 40,
   "tender": {
    "subject": "کالا،خدمات با فهرست بها",
    "setupType": "یک مرحله ای",
@@ -841,716 +871,6 @@
  },
  {
   "board": "مناقصه",
-  "number": 2005095121000006,
-  "title": "مناقصه عمومی یک مرحله ای احداث میدان شهدا و المان روستای فرخ آباد و زیبادشت",
-  "org": "دهیاری فرخ اباد بخش مشکین دشت شهرستان فردیس",
-  "province": "البرز",
-  "city": "فردیس",
-  "sendDeadline": "1405/06/19 - 19:00",
-  "docDeadline": "1405/06/09 - 19:00",
-  "basePrice": null,
-  "tableId": "662406",
-  "reqId": null,
-  "needType": null,
-  "orderIdx": 39,
-  "tender": {
-   "subject": "کالا،خدمات با فهرست بها",
-   "setupType": "یک مرحله ای",
-   "registrar": "محمد احمدی قاجاری",
-   "postalCode": "3178816647",
-   "address": "فردیس - مشکین دشت - بلوار جلال لو - فرخ آباد - دهیاری فرخ آباد و زیبادشت",
-   "desc": "احداث میدان شهدا و المان روستای فرخ آباد و زیبادشت",
-   "domainsDesc": "احداث میدان شهدا و المان روستای فرخ آباد و زیبادشت",
-   "operationProvince": "البرز",
-   "operationCity": "فردیس",
-   "docsPrice": "",
-   "guaranty": "2443102942",
-   "guarantyDesc": "",
-   "docDeadlineFull": "1405/06/09 19:00",
-   "proposalDeadlineFull": "1405/06/19 19:00",
-   "opening": "1405/06/22 08:00",
-   "validUntil": "1405/12/29 19:00",
-   "domains": []
-  },
-  "url": "https://etend.setadiran.ir/etend/centralBoardTenderDetails-execute.action?tenderId=662406"
- },
- {
-  "board": "مزایده",
-  "number": 5105000228000019,
-  "title": "اجاره پیش دبستانی امید آینده پسرانه( به مدت 12 ماه 0 روز)",
-  "org": "مدیریت اموزش و پرورش کرج .ناحیه 2",
-  "province": "البرز",
-  "city": "فردیس",
-  "sendDeadline": "1405/06/19 - 18:00",
-  "docDeadline": "1405/06/07 - 18:00",
-  "basePrice": 156000000,
-  "tableId": "496162",
-  "reqId": null,
-  "needType": null,
-  "orderIdx": 40
- },
- {
-  "board": "مزایده",
-  "number": 5105000228000020,
-  "title": "اجاره پیش دبستانی امید آینده دخترانه( به مدت 12 ماه 0 روز)",
-  "org": "مدیریت اموزش و پرورش کرج .ناحیه 2",
-  "province": "البرز",
-  "city": "فردیس",
-  "sendDeadline": "1405/06/19 - 18:00",
-  "docDeadline": "1405/06/07 - 18:00",
-  "basePrice": 138000000,
-  "tableId": "496162",
-  "reqId": null,
-  "needType": null,
-  "orderIdx": 41
- },
- {
-  "board": "مزایده",
-  "number": 5105000228000011,
-  "title": "اجاره پیش دبستانی ابرار 2( به مدت 12 ماه 0 روز)",
-  "org": "مدیریت اموزش و پرورش کرج .ناحیه 2",
-  "province": "البرز",
-  "city": "فردیس",
-  "sendDeadline": "1405/06/19 - 18:00",
-  "docDeadline": "1405/06/07 - 18:00",
-  "basePrice": 110400000,
-  "tableId": "496162",
-  "reqId": null,
-  "needType": null,
-  "orderIdx": 42
- },
- {
-  "board": "مزایده",
-  "number": 5105000228000014,
-  "title": "اجاره پیش دبستانی اطهر( به مدت 12 ماه 0 روز)",
-  "org": "مدیریت اموزش و پرورش کرج .ناحیه 2",
-  "province": "البرز",
-  "city": "فردیس",
-  "sendDeadline": "1405/06/19 - 18:00",
-  "docDeadline": "1405/06/07 - 18:00",
-  "basePrice": 96600000,
-  "tableId": "496162",
-  "reqId": null,
-  "needType": null,
-  "orderIdx": 43
- },
- {
-  "board": "مزایده",
-  "number": 5105000228000026,
-  "title": "اجاره پیش دبستانی بیست فروردین دخترانه( به مدت 12 ماه 0 روز)",
-  "org": "مدیریت اموزش و پرورش کرج .ناحیه 2",
-  "province": "البرز",
-  "city": "فردیس",
-  "sendDeadline": "1405/06/19 - 18:00",
-  "docDeadline": "1405/06/07 - 18:00",
-  "basePrice": 138000000,
-  "tableId": "496162",
-  "reqId": null,
-  "needType": null,
-  "orderIdx": 44
- },
- {
-  "board": "مزایده",
-  "number": 5105000228000031,
-  "title": "اجاره پیش دبستانی پور کاشانی فرخ آباد دخترانه( به مدت 12 ماه 0 روز)",
-  "org": "مدیریت اموزش و پرورش کرج .ناحیه 2",
-  "province": "البرز",
-  "city": "فردیس",
-  "sendDeadline": "1405/06/19 - 18:00",
-  "docDeadline": "1405/06/07 - 18:00",
-  "basePrice": 138000000,
-  "tableId": "496162",
-  "reqId": null,
-  "needType": null,
-  "orderIdx": 45
- },
- {
-  "board": "مزایده",
-  "number": 5105000228000038,
-  "title": "اجاره پیش دبستانی دخترانه خدیجه کبری( به مدت 12 ماه 0 روز)",
-  "org": "مدیریت اموزش و پرورش کرج .ناحیه 2",
-  "province": "البرز",
-  "city": "فردیس",
-  "sendDeadline": "1405/06/19 - 18:00",
-  "docDeadline": "1405/06/07 - 18:00",
-  "basePrice": 828000000,
-  "tableId": "496162",
-  "reqId": null,
-  "needType": null,
-  "orderIdx": 46
- },
- {
-  "board": "مزایده",
-  "number": 5105000228000033,
-  "title": "اجاره پیش دبستانی ابرار 2 دخترانه( به مدت 12 ماه 0 روز)",
-  "org": "مدیریت اموزش و پرورش کرج .ناحیه 2",
-  "province": "البرز",
-  "city": "فردیس",
-  "sendDeadline": "1405/06/19 - 18:00",
-  "docDeadline": "1405/06/07 - 18:00",
-  "basePrice": 138000000,
-  "tableId": "496162",
-  "reqId": null,
-  "needType": null,
-  "orderIdx": 47
- },
- {
-  "board": "مزایده",
-  "number": 5105000228000035,
-  "title": "اجاره پیش دبستانی دخترانه حافظ( به مدت 12 ماه 0 روز)",
-  "org": "مدیریت اموزش و پرورش کرج .ناحیه 2",
-  "province": "البرز",
-  "city": "فردیس",
-  "sendDeadline": "1405/06/19 - 18:00",
-  "docDeadline": "1405/06/07 - 18:00",
-  "basePrice": 248400000,
-  "tableId": "496162",
-  "reqId": null,
-  "needType": null,
-  "orderIdx": 48
- },
- {
-  "board": "مزایده",
-  "number": 5105000228000053,
-  "title": "اجاره پیش دبستانی شهید کشوری پسرانه( به مدت 12 ماه 0 روز)",
-  "org": "مدیریت اموزش و پرورش کرج .ناحیه 2",
-  "province": "البرز",
-  "city": "فردیس",
-  "sendDeadline": "1405/06/19 - 18:00",
-  "docDeadline": "1405/06/07 - 18:00",
-  "basePrice": 138000000,
-  "tableId": "496162",
-  "reqId": null,
-  "needType": null,
-  "orderIdx": 49
- },
- {
-  "board": "مزایده",
-  "number": 5105000228000056,
-  "title": "اجاره پیش دبستانی دخترانه نکونام( به مدت 12 ماه 0 روز)",
-  "org": "مدیریت اموزش و پرورش کرج .ناحیه 2",
-  "province": "البرز",
-  "city": "فردیس",
-  "sendDeadline": "1405/06/19 - 18:00",
-  "docDeadline": "1405/06/07 - 18:00",
-  "basePrice": 96600000,
-  "tableId": "496162",
-  "reqId": null,
-  "needType": null,
-  "orderIdx": 50
- },
- {
-  "board": "مزایده",
-  "number": 5105000228000057,
-  "title": "اجاره پیش دبستانی شهدای کربلا دخترانه 1( به مدت 12 ماه 0 روز)",
-  "org": "مدیریت اموزش و پرورش کرج .ناحیه 2",
-  "province": "البرز",
-  "city": "فردیس",
-  "sendDeadline": "1405/06/19 - 18:00",
-  "docDeadline": "1405/06/07 - 18:00",
-  "basePrice": 96600000,
-  "tableId": "496162",
-  "reqId": null,
-  "needType": null,
-  "orderIdx": 51
- },
- {
-  "board": "مزایده",
-  "number": 5105000228000064,
-  "title": "اجاره کوثر پسرانه( به مدت 12 ماه 0 روز)",
-  "org": "مدیریت اموزش و پرورش کرج .ناحیه 2",
-  "province": "البرز",
-  "city": "فردیس",
-  "sendDeadline": "1405/06/19 - 18:00",
-  "docDeadline": "1405/06/07 - 18:00",
-  "basePrice": 151800000,
-  "tableId": "496162",
-  "reqId": null,
-  "needType": null,
-  "orderIdx": 52
- },
- {
-  "board": "مزایده",
-  "number": 5105000228000058,
-  "title": "اجاره پیش دبستانی دخترانه شهدای کربلا 2( به مدت 12 ماه 0 روز)",
-  "org": "مدیریت اموزش و پرورش کرج .ناحیه 2",
-  "province": "البرز",
-  "city": "فردیس",
-  "sendDeadline": "1405/06/19 - 18:00",
-  "docDeadline": "1405/06/07 - 18:00",
-  "basePrice": 179400000,
-  "tableId": "496162",
-  "reqId": null,
-  "needType": null,
-  "orderIdx": 53
- },
- {
-  "board": "مزایده",
-  "number": 5105000228000074,
-  "title": "اجاره کاشانی پور پسرانه( به مدت 12 ماه 0 روز)",
-  "org": "مدیریت اموزش و پرورش کرج .ناحیه 2",
-  "province": "البرز",
-  "city": "فردیس",
-  "sendDeadline": "1405/06/19 - 18:00",
-  "docDeadline": "1405/06/07 - 18:00",
-  "basePrice": 103500000,
-  "tableId": "496162",
-  "reqId": null,
-  "needType": null,
-  "orderIdx": 54
- },
- {
-  "board": "مزایده",
-  "number": 5105000228000017,
-  "title": "اجاره پیش دبستانی امیر کبیر 1 دخترانه( به مدت 12 ماه 0 روز)",
-  "org": "مدیریت اموزش و پرورش کرج .ناحیه 2",
-  "province": "البرز",
-  "city": "فردیس",
-  "sendDeadline": "1405/06/19 - 18:00",
-  "docDeadline": "1405/06/07 - 18:00",
-  "basePrice": 107640000,
-  "tableId": "496162",
-  "reqId": null,
-  "needType": null,
-  "orderIdx": 55
- },
- {
-  "board": "مزایده",
-  "number": 5105000228000027,
-  "title": "اجاره پیش دبستانی بیست فروردین پسرانه( به مدت 12 ماه 0 روز)",
-  "org": "مدیریت اموزش و پرورش کرج .ناحیه 2",
-  "province": "البرز",
-  "city": "فردیس",
-  "sendDeadline": "1405/06/19 - 18:00",
-  "docDeadline": "1405/06/07 - 18:00",
-  "basePrice": 138000000,
-  "tableId": "496162",
-  "reqId": null,
-  "needType": null,
-  "orderIdx": 56
- },
- {
-  "board": "مزایده",
-  "number": 5105000228000044,
-  "title": "اجاره پیش دبستانی دخترانه سید الشهدا 1( به مدت 12 ماه 0 روز)",
-  "org": "مدیریت اموزش و پرورش کرج .ناحیه 2",
-  "province": "البرز",
-  "city": "فردیس",
-  "sendDeadline": "1405/06/19 - 18:00",
-  "docDeadline": "1405/06/07 - 18:00",
-  "basePrice": 107640000,
-  "tableId": "496162",
-  "reqId": null,
-  "needType": null,
-  "orderIdx": 57
- },
- {
-  "board": "مزایده",
-  "number": 5105000228000036,
-  "title": "اجاره پیش دبستانی حافظ فرخ آباد پسرانه( به مدت 12 ماه 0 روز)",
-  "org": "مدیریت اموزش و پرورش کرج .ناحیه 2",
-  "province": "البرز",
-  "city": "فردیس",
-  "sendDeadline": "1405/06/19 - 18:00",
-  "docDeadline": "1405/06/07 - 18:00",
-  "basePrice": 240000000,
-  "tableId": "496162",
-  "reqId": null,
-  "needType": null,
-  "orderIdx": 58
- },
- {
-  "board": "مزایده",
-  "number": 5105000228000048,
-  "title": "اجاره پیش دبستانی پناهی ها 1( به مدت 12 ماه 0 روز)",
-  "org": "مدیریت اموزش و پرورش کرج .ناحیه 2",
-  "province": "البرز",
-  "city": "فردیس",
-  "sendDeadline": "1405/06/19 - 18:00",
-  "docDeadline": "1405/06/07 - 18:00",
-  "basePrice": 124200000,
-  "tableId": "496162",
-  "reqId": null,
-  "needType": null,
-  "orderIdx": 59
- },
- {
-  "board": "مزایده",
-  "number": 5105000228000054,
-  "title": "اجاره پیش دبستانی پسرانه قاسم سلیمانی( به مدت 12 ماه 0 روز)",
-  "org": "مدیریت اموزش و پرورش کرج .ناحیه 2",
-  "province": "البرز",
-  "city": "فردیس",
-  "sendDeadline": "1405/06/19 - 18:00",
-  "docDeadline": "1405/06/07 - 18:00",
-  "basePrice": 138000000,
-  "tableId": "496162",
-  "reqId": null,
-  "needType": null,
-  "orderIdx": 60
- },
- {
-  "board": "مزایده",
-  "number": 5105000228000065,
-  "title": "اجاره کوثر دخترانه( به مدت 12 ماه 0 روز)",
-  "org": "مدیریت اموزش و پرورش کرج .ناحیه 2",
-  "province": "البرز",
-  "city": "فردیس",
-  "sendDeadline": "1405/06/19 - 18:00",
-  "docDeadline": "1405/06/07 - 18:00",
-  "basePrice": 110400000,
-  "tableId": "496162",
-  "reqId": null,
-  "needType": null,
-  "orderIdx": 61
- },
- {
-  "board": "مزایده",
-  "number": 5105000228000059,
-  "title": "اجاره صدیقه الزهرا 1 پسرانه( به مدت 12 ماه 0 روز)",
-  "org": "مدیریت اموزش و پرورش کرج .ناحیه 2",
-  "province": "البرز",
-  "city": "فردیس",
-  "sendDeadline": "1405/06/19 - 18:00",
-  "docDeadline": "1405/06/07 - 18:00",
-  "basePrice": 179400000,
-  "tableId": "496162",
-  "reqId": null,
-  "needType": null,
-  "orderIdx": 62
- },
- {
-  "board": "مزایده",
-  "number": 5105000228000018,
-  "title": "اجاره پیش دبستانی امیرکبیر 2 دخترانه( به مدت 12 ماه 0 روز)",
-  "org": "مدیریت اموزش و پرورش کرج .ناحیه 2",
-  "province": "البرز",
-  "city": "فردیس",
-  "sendDeadline": "1405/06/19 - 18:00",
-  "docDeadline": "1405/06/07 - 18:00",
-  "basePrice": 156000000,
-  "tableId": "496162",
-  "reqId": null,
-  "needType": null,
-  "orderIdx": 63
- },
- {
-  "board": "مزایده",
-  "number": 5105000228000022,
-  "title": "اجاره پیش دبستانی ایلیایی 2 دخترانه( به مدت 12 ماه 0 روز)",
-  "org": "مدیریت اموزش و پرورش کرج .ناحیه 2",
-  "province": "البرز",
-  "city": "فردیس",
-  "sendDeadline": "1405/06/19 - 18:00",
-  "docDeadline": "1405/06/07 - 18:00",
-  "basePrice": 138000000,
-  "tableId": "496162",
-  "reqId": null,
-  "needType": null,
-  "orderIdx": 64
- },
- {
-  "board": "مزایده",
-  "number": 5105000228000028,
-  "title": "اجاره پیش دبستانی بینش 1( به مدت 12 ماه 0 روز)",
-  "org": "مدیریت اموزش و پرورش کرج .ناحیه 2",
-  "province": "البرز",
-  "city": "فردیس",
-  "sendDeadline": "1405/06/19 - 18:00",
-  "docDeadline": "1405/06/07 - 18:00",
-  "basePrice": 131100000,
-  "tableId": "496162",
-  "reqId": null,
-  "needType": null,
-  "orderIdx": 65
- },
- {
-  "board": "مزایده",
-  "number": 5105000228000032,
-  "title": "اجاره پیش دبستانی ثارا..1 دخترانه( به مدت 12 ماه 0 روز)",
-  "org": "مدیریت اموزش و پرورش کرج .ناحیه 2",
-  "province": "البرز",
-  "city": "فردیس",
-  "sendDeadline": "1405/06/19 - 18:00",
-  "docDeadline": "1405/06/07 - 18:00",
-  "basePrice": 144000000,
-  "tableId": "496162",
-  "reqId": null,
-  "needType": null,
-  "orderIdx": 66
- },
- {
-  "board": "مزایده",
-  "number": 5105000228000034,
-  "title": "اجاره پیش دبستانی جنت دخترانه( به مدت 12 ماه 0 روز)",
-  "org": "مدیریت اموزش و پرورش کرج .ناحیه 2",
-  "province": "البرز",
-  "city": "فردیس",
-  "sendDeadline": "1405/06/19 - 18:00",
-  "docDeadline": "1405/06/07 - 18:00",
-  "basePrice": 131100000,
-  "tableId": "496162",
-  "reqId": null,
-  "needType": null,
-  "orderIdx": 67
- },
- {
-  "board": "مزایده",
-  "number": 5105000228000042,
-  "title": "اجاره پیش دبستانی دخترانه زمزم (منتظر قائم)( به مدت 12 ماه 0 روز)",
-  "org": "مدیریت اموزش و پرورش کرج .ناحیه 2",
-  "province": "البرز",
-  "city": "فردیس",
-  "sendDeadline": "1405/06/19 - 18:00",
-  "docDeadline": "1405/06/07 - 18:00",
-  "basePrice": 345000000,
-  "tableId": "496162",
-  "reqId": null,
-  "needType": null,
-  "orderIdx": 68
- },
- {
-  "board": "مزایده",
-  "number": 5105000228000043,
-  "title": "اجاره پیش دبستانی دخترانه زمزم 2( به مدت 12 ماه 0 روز)",
-  "org": "مدیریت اموزش و پرورش کرج .ناحیه 2",
-  "province": "البرز",
-  "city": "فردیس",
-  "sendDeadline": "1405/06/19 - 18:00",
-  "docDeadline": "1405/06/07 - 18:00",
-  "basePrice": 345000000,
-  "tableId": "496162",
-  "reqId": null,
-  "needType": null,
-  "orderIdx": 69
- },
- {
-  "board": "مزایده",
-  "number": 5105000228000045,
-  "title": "اجاره پیش دبستانی سید الشهدا 2 دخترانه( به مدت 12 ماه 0 روز)",
-  "org": "مدیریت اموزش و پرورش کرج .ناحیه 2",
-  "province": "البرز",
-  "city": "فردیس",
-  "sendDeadline": "1405/06/19 - 18:00",
-  "docDeadline": "1405/06/07 - 18:00",
-  "basePrice": 82800000,
-  "tableId": "496162",
-  "reqId": null,
-  "needType": null,
-  "orderIdx": 70
- },
- {
-  "board": "مزایده",
-  "number": 5105000228000047,
-  "title": "اجاره پیش دبستانی دخترانه رحیم رهنمائیان( به مدت 12 ماه 0 روز)",
-  "org": "مدیریت اموزش و پرورش کرج .ناحیه 2",
-  "province": "البرز",
-  "city": "فردیس",
-  "sendDeadline": "1405/06/19 - 18:00",
-  "docDeadline": "1405/06/07 - 18:00",
-  "basePrice": 138000000,
-  "tableId": "496162",
-  "reqId": null,
-  "needType": null,
-  "orderIdx": 71
- },
- {
-  "board": "مزایده",
-  "number": 5105000228000049,
-  "title": "اجاره پیش دبستانی پنا هی ها 2 دخترانه( به مدت 12 ماه 0 روز)",
-  "org": "مدیریت اموزش و پرورش کرج .ناحیه 2",
-  "province": "البرز",
-  "city": "فردیس",
-  "sendDeadline": "1405/06/19 - 18:00",
-  "docDeadline": "1405/06/07 - 18:00",
-  "basePrice": 110400000,
-  "tableId": "496162",
-  "reqId": null,
-  "needType": null,
-  "orderIdx": 72
- },
- {
-  "board": "مزایده",
-  "number": 5105000228000055,
-  "title": "اجاره پیش دبستانی دخترانه شهدای اقتدار( به مدت 12 ماه 0 روز)",
-  "org": "مدیریت اموزش و پرورش کرج .ناحیه 2",
-  "province": "البرز",
-  "city": "فردیس",
-  "sendDeadline": "1405/06/19 - 18:00",
-  "docDeadline": "1405/06/07 - 18:00",
-  "basePrice": 103500000,
-  "tableId": "496162",
-  "reqId": null,
-  "needType": null,
-  "orderIdx": 73
- },
- {
-  "board": "مزایده",
-  "number": 5105000228000061,
-  "title": "اجاره علم و ادب پسرانه 1( به مدت 12 ماه 0 روز)",
-  "org": "مدیریت اموزش و پرورش کرج .ناحیه 2",
-  "province": "البرز",
-  "city": "فردیس",
-  "sendDeadline": "1405/06/19 - 18:00",
-  "docDeadline": "1405/06/07 - 18:00",
-  "basePrice": 144000000,
-  "tableId": "496162",
-  "reqId": null,
-  "needType": null,
-  "orderIdx": 74
- },
- {
-  "board": "مزایده",
-  "number": 5105000228000062,
-  "title": "اجاره علم و ادب 2 پسرانه فرشته آریل( به مدت 12 ماه 0 روز)",
-  "org": "مدیریت اموزش و پرورش کرج .ناحیه 2",
-  "province": "البرز",
-  "city": "فردیس",
-  "sendDeadline": "1405/06/19 - 18:00",
-  "docDeadline": "1405/06/07 - 18:00",
-  "basePrice": 165600000,
-  "tableId": "496162",
-  "reqId": null,
-  "needType": null,
-  "orderIdx": 75
- },
- {
-  "board": "مزایده",
-  "number": 5105000228000063,
-  "title": "اجاره پیش دبستانی کمال پسرانه( به مدت 12 ماه 0 روز)",
-  "org": "مدیریت اموزش و پرورش کرج .ناحیه 2",
-  "province": "البرز",
-  "city": "فردیس",
-  "sendDeadline": "1405/06/19 - 18:00",
-  "docDeadline": "1405/06/07 - 18:00",
-  "basePrice": 151800000,
-  "tableId": "496162",
-  "reqId": null,
-  "needType": null,
-  "orderIdx": 76
- },
- {
-  "board": "مزایده",
-  "number": 5105000228000066,
-  "title": "اجاره معلم دخترانه( به مدت 12 ماه 0 روز)",
-  "org": "مدیریت اموزش و پرورش کرج .ناحیه 2",
-  "province": "البرز",
-  "city": "فردیس",
-  "sendDeadline": "1405/06/19 - 18:00",
-  "docDeadline": "1405/06/07 - 18:00",
-  "basePrice": 110400000,
-  "tableId": "496162",
-  "reqId": null,
-  "needType": null,
-  "orderIdx": 77
- },
- {
-  "board": "مزایده",
-  "number": 5105000228000067,
-  "title": "اجاره معلم 2 دخترانه بشری( به مدت 12 ماه 0 روز)",
-  "org": "مدیریت اموزش و پرورش کرج .ناحیه 2",
-  "province": "البرز",
-  "city": "فردیس",
-  "sendDeadline": "1405/06/19 - 18:00",
-  "docDeadline": "1405/06/07 - 18:00",
-  "basePrice": 82800000,
-  "tableId": "496162",
-  "reqId": null,
-  "needType": null,
-  "orderIdx": 78
- },
- {
-  "board": "مزایده",
-  "number": 5105000228000060,
-  "title": "اجاره صدیقه الزهرا 2 دخترانه( به مدت 12 ماه 0 روز)",
-  "org": "مدیریت اموزش و پرورش کرج .ناحیه 2",
-  "province": "البرز",
-  "city": "فردیس",
-  "sendDeadline": "1405/06/19 - 18:00",
-  "docDeadline": "1405/06/07 - 18:00",
-  "basePrice": 144000000,
-  "tableId": "496162",
-  "reqId": null,
-  "needType": null,
-  "orderIdx": 79
- },
- {
-  "board": "مزایده",
-  "number": 5105000228000070,
-  "title": "اجاره نوبهار دخترانه( به مدت 12 ماه 0 روز)",
-  "org": "مدیریت اموزش و پرورش کرج .ناحیه 2",
-  "province": "البرز",
-  "city": "فردیس",
-  "sendDeadline": "1405/06/19 - 18:00",
-  "docDeadline": "1405/06/07 - 18:00",
-  "basePrice": 89700000,
-  "tableId": "496162",
-  "reqId": null,
-  "needType": null,
-  "orderIdx": 80
- },
- {
-  "board": "مزایده",
-  "number": 5105000228000075,
-  "title": "اجاره صدیقه طاهره دخترانه( به مدت 12 ماه 0 روز)",
-  "org": "مدیریت اموزش و پرورش کرج .ناحیه 2",
-  "province": "البرز",
-  "city": "فردیس",
-  "sendDeadline": "1405/06/19 - 18:00",
-  "docDeadline": "1405/06/07 - 18:00",
-  "basePrice": 120000000,
-  "tableId": "496162",
-  "reqId": null,
-  "needType": null,
-  "orderIdx": 81
- },
- {
-  "board": "مزایده",
-  "number": 5105000228000071,
-  "title": "اجاره هفده شهریور دخترانه( به مدت 12 ماه 0 روز)",
-  "org": "مدیریت اموزش و پرورش کرج .ناحیه 2",
-  "province": "البرز",
-  "city": "فردیس",
-  "sendDeadline": "1405/06/19 - 18:00",
-  "docDeadline": "1405/06/07 - 18:00",
-  "basePrice": 131100000,
-  "tableId": "496162",
-  "reqId": null,
-  "needType": null,
-  "orderIdx": 82
- },
- {
-  "board": "مزایده",
-  "number": 5105000228000072,
-  "title": "اجاره ارم 1 پسرانه( به مدت 12 ماه 0 روز)",
-  "org": "مدیریت اموزش و پرورش کرج .ناحیه 2",
-  "province": "البرز",
-  "city": "فردیس",
-  "sendDeadline": "1405/06/19 - 18:00",
-  "docDeadline": "1405/06/07 - 18:00",
-  "basePrice": 96600000,
-  "tableId": "496162",
-  "reqId": null,
-  "needType": null,
-  "orderIdx": 83
- },
- {
-  "board": "مزایده",
-  "number": 5105000228000073,
-  "title": "اجاره ارم پسرانه 2( به مدت 12 ماه 0 روز)",
-  "org": "مدیریت اموزش و پرورش کرج .ناحیه 2",
-  "province": "البرز",
-  "city": "فردیس",
-  "sendDeadline": "1405/06/19 - 18:00",
-  "docDeadline": "1405/06/07 - 18:00",
-  "basePrice": 103500000,
-  "tableId": "496162",
-  "reqId": null,
-  "needType": null,
-  "orderIdx": 84
- },
- {
-  "board": "مناقصه",
   "number": 2005050288000062,
   "title": "مناقصه عمومی یک مرحله ای رنگ آمیزی ترافیکی(خط کشی محوری،بلوک عابر پیاده و سرعتکاه)در معابر سطح شهر",
   "org": "شهرداری فردیس استان البرز",
@@ -1562,7 +882,7 @@
   "tableId": "661620",
   "reqId": null,
   "needType": null,
-  "orderIdx": 85,
+  "orderIdx": 41,
   "tender": {
    "subject": "خدمات با فهرست بها",
    "setupType": "یک مرحله ای",
@@ -1599,7 +919,7 @@
   "tableId": "661586",
   "reqId": null,
   "needType": null,
-  "orderIdx": 86,
+  "orderIdx": 42,
   "tender": {
    "subject": "خدمات با فهرست بها",
    "setupType": "یک مرحله ای",
@@ -1636,7 +956,7 @@
   "tableId": "661557",
   "reqId": null,
   "needType": null,
-  "orderIdx": 87,
+  "orderIdx": 43,
   "tender": {
    "subject": "کالا",
    "setupType": "یک مرحله ای",
@@ -1673,7 +993,7 @@
   "tableId": "661541",
   "reqId": null,
   "needType": null,
-  "orderIdx": 88,
+  "orderIdx": 44,
   "tender": {
    "subject": "خدمات بدون فهرست بها",
    "setupType": "یک مرحله ای",
@@ -1710,7 +1030,7 @@
   "tableId": "661575",
   "reqId": null,
   "needType": null,
-  "orderIdx": 89,
+  "orderIdx": 45,
   "tender": {
    "subject": "خدمات بدون فهرست بها",
    "setupType": "یک مرحله ای",
@@ -1747,7 +1067,7 @@
   "tableId": "660373",
   "reqId": null,
   "needType": null,
-  "orderIdx": 90,
+  "orderIdx": 46,
   "tender": {
    "subject": "خدمات بدون فهرست بها",
    "setupType": "یک مرحله ای",

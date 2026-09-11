@@ -204,9 +204,16 @@ function methodNote() {
 }
 
 // ---------- گام ۱: measure.html ----------
-const heightsPath = path.join(process.cwd(), 'heights.json');
-const measurePath = path.join(process.cwd(), 'measure.html');
-if (!fs.existsSync(heightsPath)) {
+// ارتفاع‌ها per-city داخل پوشه داده خود شهر ذخیره می‌شوند تا اجرای شهر دیگر (مثلاً قدس) فایل مشترک را بازنویسی نکند
+const heightsPath = path.join(dataDir, 'heights.json');
+const measurePath = path.join(dataDir, 'measure.html');
+// ارتفاع‌های ذخیره‌شده فقط وقتی معتبرند که همه اجزای همین مجموعه‌داده را پوشش دهند
+const needIds = ['hB1', ...tenders.map((_, i) => 't' + (i + 1)), 'hB2', ...services.map((_, i) => 's' + (i + 1)), 'method'];
+const heightsValid = () => {
+  try { const H = JSON.parse(fs.readFileSync(heightsPath, 'utf8')); return needIds.every(id => H[id] != null); }
+  catch { return false; }
+};
+if (!heightsValid()) {
   const html = `<!DOCTYPE html>
 <html lang="fa" dir="rtl"><head><meta charset="UTF-8"><title>measure</title>
 <style>

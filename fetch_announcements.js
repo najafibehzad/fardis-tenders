@@ -25,6 +25,16 @@ function apiGet(pathname, params) {
   for (const [k, v] of Object.entries(params || {})) u.searchParams.set(k, v);
   return request(u);
 }
+// درخواست JSON با تلاش مجدد — خطا/تایم‌اوت شبکه گذراست و کل فهرست را نمی‌کشد
+const sleep = ms => new Promise(r => setTimeout(r, ms));
+async function apiGetJson(pathname, params, tries = 3) {
+  let last;
+  for (let t = 0; t < tries; t++) {
+    try { return JSON.parse(await apiGet(pathname, params)); }
+    catch (e) { last = e; if (t < tries - 1) await sleep(900); }
+  }
+  throw last;
+}
 
 const province = process.argv[2];
 const city = process.argv[3] || null;
@@ -39,11 +49,10 @@ if (!outDir.startsWith(dataRoot + path.sep)) { console.error('bad folder path');
 fs.mkdirSync(outDir, { recursive: true });
 
 const norm = s => String(s || '').replace(/\u200c/g, ' ').replace(/\s+/g, ' ').trim();
-const sleep = ms => new Promise(r => setTimeout(r, ms));
 
 (async () => {
   // ۱) کد استان و شهر
-  const raw = JSON.parse(await apiGet('/api/centralboard/cards/setadCity', { pageNumber: '', pageSize: '', sort: 'id,desc' }));
+  const raw = await apiGetJson('/api/centralboard/cards/setadCity', { pageNumber: '', pageSize: '', sort: 'id,desc' });
   const rows = Array.isArray(raw) ? raw : (raw.content || []);
   const pick = (r, keys) => { for (const k of keys) if (r[k] != null) return r[k]; return undefined; };
   const nameOf = r => norm(pick(r, ['cityName', 'name', 'title', 'locName']));
@@ -64,7 +73,7 @@ const sleep = ms => new Promise(r => setTimeout(r, ms));
   let cityId = null;
   if (city) {
     let kids;
-    try { kids = JSON.parse(await apiGet('/api/centralboard/cards/setadCity', { parentLocId: provId, pageNumber: '', pageSize: '', sort: 'id,desc' })); }
+    try { kids = await apiGetJson('/api/centralboard/cards/setadCity', { parentLocId: provId, pageNumber: '', pageSize: '', sort: 'id,desc' }); }
     catch (e) { kids = null; }
     const kidRows = Array.isArray(kids) ? kids : ((kids && kids.content) || []);
     const pool = kidRows.length ? kidRows : rows.filter(r => String(parentOf(r)) === String(provId));
@@ -79,13 +88,13 @@ const sleep = ms => new Promise(r => setTimeout(r, ms));
   // ۲) صفحه‌بندی فهرست (سقف pageSize=10)
   const seen = new Set(); const out = [];
   for (let p = 0; p < 200; p++) {
-    const j = JSON.parse(await apiGet('/api/centralboard/cards/', {
+    const j = await apiGetJson('/api/centralboard/cards/', {
       searchTypeCode: '0', selectedCities: selectedCities, queryText: '',
       pageNumber: String(p), pageSize: '10', sort: 'insertDate,desc',
-    }));
+    });
     for (const it of (j.content || [])) if (!seen.has(it.number)) { seen.add(it.number); out.push(it); }
     if (out.length >= j.totalElements || !(j.content || []).length) break;
-    await sleep(300);
+    await sleep(150);
   }
 
   // ۳) نسخه قبلی برای نشان «جدید» + تاریخچه اولین مشاهده (زمان انتشار تقریبی) + ترتیب جدابت

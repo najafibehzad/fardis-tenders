@@ -50,7 +50,16 @@ const cleanId = v => {
   return /^\d{1,15}$/.test(s) ? s : null;
 };
 
+// درخواست با تلاش مجدد — یک اگهی موقت قطع نشده کل گزارش را خراب نمی‌کند
 const sleep = ms => new Promise(r => setTimeout(r, ms));
+async function fetchRetry(fn, label, tries = 3) {
+  let last;
+  for (let t = 0; t < tries; t++) {
+    try { return await fn(); }
+    catch (e) { last = e; console.log('RETRY(' + (t + 1) + ')', label, e.message); if (t < tries - 1) await sleep(700 * (t + 1)); }
+  }
+  throw last;
+}
 const decode = s => (s || '').replace(/&amp;/g, '&').replace(/&quot;/g, '"').replace(/&#39;/g, "'")
   .replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&nbsp;/g, ' ').trim();
 
@@ -120,7 +129,7 @@ function parseEproc(html) {
         if (it.boardName === 'مناقصه') {
           if (!tableId) { console.log('FAIL', it.number, 'bad tableId'); }
           else {
-            const html = await etendGet(tableId);
+            const html = await fetchRetry(() => etendGet(tableId), it.number);
             const p = parseTender(html); const f = p.fields;
             rec.tender = {
               subject: f['tenderDto.tender.subjectAllowedName'], setupType: f['tenderDto.tender.setupType'],
@@ -144,7 +153,7 @@ function parseEproc(html) {
           }
         } else if (it.boardName === 'خرید' && it.needType === '1432' && reqId) {
           // فقط خدمات (1432) — کالا (1431) به درخواست کاربر حذف شده
-          const html = await eprocGet(reqId);
+          const html = await fetchRetry(() => eprocGet(reqId), it.number);
           rec.purchase = parseEproc(html);
           rec.url = 'https://eproc.setadiran.ir/eproc/purchaseNeedViewBoardIntegration.do?method=showNeedDetailInfo&requestId=' + reqId;
           console.log('EPROC OK', reqId);
@@ -153,27 +162,13 @@ function parseEproc(html) {
           console.log('SKIP-KALA', reqId);
         }
       } catch (e) {
-        console.log('RETRY', it.number, e.message);
-        try { await sleep(800);
-          if (it.boardName === 'مناقصه' && tableId) {
-            const html = await etendGet(tableId);
-            const p = parseTender(html); const f = p.fields;
-            rec.tender = { subject: f['tenderDto.tender.subjectAllowedName'], setupType: f['tenderDto.tender.setupType'], registrar: f['tenderRegistrarEmployeeFullName'], postalCode: f['tenderDto.tender.postalCode'], address: f['tenderDto.tender.address'], desc: f['tenderDto.tender.description'], domainsDesc: f['tenderDto.tender.domainsDescription'], operationProvince: f['tenderDto.tender.tenderAdditionalInfo.operationProvinceId'], operationCity: f['tenderDto.tender.tenderAdditionalInfo.operationCityId'], financialEstimate: f['tenderDto.tender.financialEstimatePrice'], docsPrice: f['tenderDto.tender.tenderDocumentsPrice'], docsAccount: f['tenderDto.tender.tenderDocumentsPriceAccount.id'], guaranty: f['tenderDto.tender.guarantyPrice'], guarantyDesc: f['tenderDto.tender.guarantyDescription'], docDeadlineFull: (f['tenderDto.documentsDeadlineDateEx'] || '') + ' ' + (f['tenderDto.documentsDeadlineTimeEx'] || ''), proposalDeadlineFull: (f['tenderDto.proposalDeadlineDateEx'] || '') + ' ' + (f['tenderDto.proposalDeadlineTimeEx'] || ''), opening: (f['tenderDto.openingDateEx'] || '') + ' ' + (f['tenderDto.openingTimeEx'] || ''), validUntil: (f['tenderDto.offersValidDateEx'] || '') + ' ' + (f['tenderDto.offersValidTimeEx'] || ''), domains: p.domains };
-            rec.url = 'https://etend.setadiran.ir/etend/centralBoardTenderDetails-execute.action?tenderId=' + tableId;
-            console.log('TENDER OK(retry)', tableId);
-          } else if (it.boardName === 'خرید' && reqId) {
-            const html = await eprocGet(reqId);
-            rec.purchase = parseEproc(html);
-            rec.url = 'https://eproc.setadiran.ir/eproc/purchaseNeedViewBoardIntegration.do?method=showNeedDetailInfo&requestId=' + reqId;
-            console.log('EPROC OK(retry)', reqId);
-          }
-        } catch (e2) { console.log('FAIL', it.number, e2.message); }
+        console.log('FAIL', it.number, e.message);
       }
       data[idx] = rec;
-      await sleep(200);
+      await sleep(120);
     }
   }
-  await Promise.all([worker(), worker(), worker()]);
+  await Promise.all([worker(), worker(), worker(), worker(), worker(), worker()]);
   const ordered = data.filter(Boolean);
   fs.writeFileSync(path.join(outDir, 'final_data.json'), JSON.stringify(ordered, null, 1), 'utf8');
   console.log('WROTE', path.join(outDir, 'final_data.json'),
