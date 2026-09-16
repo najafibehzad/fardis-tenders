@@ -198,10 +198,10 @@ async function reportFlow(send, province, city) {
     return send({ text: 'اجرای زمان‌بندی‌شدهٔ امروز همین حالا در جریان است؛ نتیجه‌اش خودش ارسال می‌شود.' });
   fs.writeFileSync(LOCK_PATH, String(process.pid));
   try {
-    await send({ text: `در حال اجرای پایپ‌لاین برای «${province} / ${city}»… چند دقیقه طول می‌کشد.` });
+    await send({ text: `در حال اجرای گزارش برای «${province} / ${city}»…` });
     const env = { ...process.env, CHROME_PATH: process.env.CHROME_PATH || 'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe' };
-    const p = await run(process.execPath, ['run_pipeline.mjs', province, city], 20 * 60 * 1000, env);
-    if (p.code !== 0) { log('pipeline FAIL ' + p.out); return send({ text: 'پایپ‌لاین شکست خورد:\n' + p.out }); }
+    const p = await run(process.execPath, ['city_report.mjs', city, province, '--fast', '--no-open'], 20 * 60 * 1000, env);
+    if (p.code !== 0) { log('pipeline FAIL ' + p.out); return send({ text: 'خطا در تولید گزارش:\n' + p.out }); }
     const q = await run(BASH, ['scheduled_push.sh'], 5 * 60 * 1000, env);
     const pushOk = q.code === 0;
     if (!pushOk) log('push FAIL ' + q.out);
