@@ -1,7 +1,8 @@
 #!/usr/bin/env node
 // گزارش لحظه‌ای آگهی‌های هر شهر از سامانه ستاد ایران — با یک دستور
-// Usage: node city_report.mjs "<شهر>" [استان] [--open] [--no-open]
+// Usage: node city_report.mjs "<شهر>" [استان] [--fast] [--no-open]
 //   شهر: نام فارسی شهر (الزامی) — استان: اختیاری، خودش از لیست شهرهای سامانه حل می‌شود
+//   --fast : اگر آگهی جدیدی نسبت به اجرای قبلی نیست، جزئیات افرادی دریافت نمی‌کند و فقط PDF را به‌روز می‌کند
 //   --no-open : PDF بعد از ساخت باز نشود
 // همه‌چیز از cwd این فایل اجرا می‌شود؛ خروجی: PDF روی دسکتاپ + report.pdf/html داخل ریپو
 import { spawnSync } from 'node:child_process';
@@ -16,9 +17,10 @@ process.chdir(HERE); // همه اسکریپت‌ها از cwd می‌خوانن�
 // ---------- آرگومان‌ها ----------
 const args = process.argv.slice(2);
 const open = !args.includes('--no-open');
+const fastMode = args.includes('--fast');
 const positional = args.filter(a => !a.startsWith('--'));
 if (!positional.length) {
-  console.error('Usage: node city_report.mjs "<شهر>" [استان] [--no-open]');
+  console.error('Usage: node city_report.mjs "<شهر>" [استان] [--fast] [--no-open]');
   process.exit(1);
 }
 const city = positional[0];
@@ -129,7 +131,33 @@ console.log(`CITY REPORT: ${province} / ${city} — ${new Date().toLocaleString(
 
 const t0 = Date.now();
 run('fetch_announcements.js', [province, city]);
-run('fetch_details.js');
+
+// --fast: پریدایش جزئیات افرادی وقتی آگهی جدیدی نسبت به اجرای قبلی نیست
+if (fastMode) {
+  const lastFolder = fs.readFileSync(path.join(HERE, 'setadiran-data', 'LAST.txt'), 'utf8').trim();
+  const dataDir = path.join(HERE, 'setadiran-data', lastFolder);
+  const prevPath = path.join(dataDir, 'prev_items.json');
+  const finalPath = path.join(dataDir, 'final_data.json');
+  const allPath = path.join(dataDir, 'all_items.json');
+  if (fs.existsSync(prevPath) && fs.existsSync(finalPath) && fs.existsSync(allPath)) {
+    const prev = JSON.parse(fs.readFileSync(prevPath, 'utf8'));
+    const curr = JSON.parse(fs.readFileSync(allPath, 'utf8'));
+    const prevSet = new Set(prev.map(i => String(i.number)));
+    const newCount = curr.filter(i => !prevSet.has(String(i.number))).length;
+    if (newCount === 0) {
+      console.log('FAST: آگهی جدیدی نیست — جزئیات دریافت نمی‌شود (final_data.json قبلی استفاده می‌شود)');
+    } else {
+      console.log('FAST: ' + newCount + ' آگهی جدید — جزئیات دریافت می‌شود');
+      run('fetch_details.js');
+    }
+  } else {
+    console.log('FAST: دادهٔ قبلی موجود نیست — جزئیات دریافت می‌شود');
+    run('fetch_details.js');
+  }
+} else {
+  run('fetch_details.js');
+}
+
 const g1 = runCapture('gen_city_report.js');
 if (g1.includes('MEASURE_FIRST')) {
   run('measure.js', [], envChrome);   // ارتفاع کارت‌ها با Chrome اندازه‌گیری شد
@@ -138,7 +166,7 @@ if (g1.includes('MEASURE_FIRST')) {
   console.log('(ارتفاع‌های این شهر از قبل معتبرند — از اندازه‌گیری صرف‌نظر شد)');
 }
 run('qa_report.js', [], envChrome);  // کنترل کیفی قطعی — exit 1 روی خطا
-run('render.js', [], envChrome);
+run('render.js', ['--no-png'], envChrome);
 
 // ---------- تحویل: PDF نام‌دار روی دسکتاپ + باز شدن ----------
 const desktop = 'C:\\Desktop';
@@ -154,7 +182,7 @@ const dateStr = `${jGet('year')}-${String(jGet('month')).padStart(2, '0')}-${Str
 const out = path.join(desktop, `گزارش آگهی‌های ${city} ${dateStr}.pdf`);
 fs.copyFileSync(path.join(HERE, 'report.pdf'), out);
 const secs = ((Date.now() - t0) / 1000).toFixed(0);
-console.log(`\nDONE in ${secs}s — مناقصه: ${tenders} | استعلام خدمات: ${services}`);
+console.log(`\nDONE in ${secs}s${fastMode ? ' (fast)' : ''} — مناقصه: ${tenders} | استعلام خدمات: ${services}`);
 console.log('PDF:', out);
 
 if (open) {

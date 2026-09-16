@@ -129,8 +129,10 @@ const newItems = rendered.filter(isNew);
   }
 
   // ۷) ستون زمان اعلام در همه صفحات محتوایی
-  const noPub = pages.filter(p => p.i > 1 && (p.text.includes('بخش ۱') || p.text.includes('بخش ۲')) && !p.hasPublishCol).map(p => p.i);
-  check('publish-column-present', noPub.length === 0, 'pages: ' + noPub.join(','));
+  const noPub = rendered.length
+    ? pages.filter(p => p.i > 1 && (p.text.includes('بخش ۱') || p.text.includes('بخش ۲')) && !p.hasPublishCol).map(p => p.i)
+    : [];
+  check('publish-column-present', noPub.length === 0, rendered.length ? 'pages: ' + noPub.join(',') : 'not applicable (no rendered items)');
 
   // ۸) نام شهر در سند
   const city = (items.find(i => i.city) || {}).city || '';

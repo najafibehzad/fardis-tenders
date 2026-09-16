@@ -6,6 +6,8 @@ const path = require('path');
 const CHROME = process.env.CHROME_PATH || '';
 const launchOpts = { headless: true };
 if (CHROME) launchOpts.executablePath = CHROME;
+const args = process.argv.slice(2);
+const generatePng = !args.includes('--no-png');
 
 // Usage: node render.js   (از پوشه کاری پایپ‌لاین؛ ورودی/خروجی ثابت)
 // Renders report.html → report.pdf (vector, system Chrome via CHROME_PATH or playwright chromium),
@@ -16,7 +18,6 @@ const OUT = path.join(WORK, 'report.pdf');
 
 (async () => {
   const pngDir = path.join(WORK, 'pages-report');
-  fs.mkdirSync(pngDir, { recursive: true });
   const browser = await chromium.launch(launchOpts);
   const ctx = await browser.newContext({ deviceScaleFactor: 2, viewport: { width: 900, height: 1300 } });
   const page = await ctx.newPage();
@@ -33,10 +34,13 @@ const OUT = path.join(WORK, 'report.pdf');
   );
   console.log('OVERFLOW-DIAG ' + JSON.stringify(diag));
 
-  // per-page PNGs (2x) for visual review
+  // per-page PNGs (2x) for visual review — skip with --no-png
   const els = await page.$$('.page');
-  for (let i = 0; i < els.length; i++) {
-    await els[i].screenshot({ path: path.join(pngDir, `page-${i + 1}.png`) });
+  if (generatePng) {
+    fs.mkdirSync(pngDir, { recursive: true });
+    for (let i = 0; i < els.length; i++) {
+      await els[i].screenshot({ path: path.join(pngDir, `page-${i + 1}.png`) });
+    }
   }
 
   // vector PDF (page.pdf — never screenshots)
@@ -61,6 +65,7 @@ const OUT = path.join(WORK, 'report.pdf');
   }
 
   const size = (fs.statSync(OUT).size / 1024).toFixed(0);
-  console.log('DONE pdf=' + OUT + ' sizeKB=' + size + ' pages=' + els.length + ' pngs=' + pngDir);
+  const pngInfo = generatePng ? ' pngs=' + pngDir : '';
+  console.log('DONE pdf=' + OUT + ' sizeKB=' + size + ' pages=' + els.length + pngInfo);
   await browser.close();
 })().catch((e) => { console.error(e); process.exit(1); });

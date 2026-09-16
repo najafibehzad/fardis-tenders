@@ -131,6 +131,15 @@ function kv(label, value) {
 }
 function tenderCard(it, idx) {
   const t = it.tender;
+  const specialties = (t.specialties && t.specialties.length) ? t.specialties : [];
+  const reshte = specialties.length ? specialties.join('، ') : '';
+  const grade = t.gradeFromText ? toFa(t.gradeFromText) : '';
+  const chips =
+    (isNew(it) ? '<div class="tchip new">جدید — انتشار امروز</div>' : '') +
+    (isExpired(it) ? '<div class="tchip exp">مهلت دریافت اسناد گذشته</div>' : '') +
+    (reshte ? `<div class="tchip reshte">رشته: ${esc(specialties.slice(0, 2).join('، '))}${specialties.length > 2 ? '…' : ''}</div>` : '') +
+    (grade ? `<div class="tchip grade">${grade}</div>` : '') +
+    `<div class="tchip">${dash(t.subject)}</div>`;
   const domains = (t.domains && t.domains.length)
     ? t.domains.map(d => `<div class="domrow"><b>${dash(d.cls)}</b> — ${dash(d.desc)}</div>`).join('')
     : '';
@@ -138,12 +147,14 @@ function tenderCard(it, idx) {
   <div class="tcard" data-m="t${idx}">
     <div class="thead">
       <div class="tnum"><a class="nlink" href="${esc(it.url)}" target="_blank" rel="noopener">مناقصه ${toFa(idx)} — شماره ${toFa(it.number)}</a></div>
-      <div class="chips">${isNew(it) ? '<div class="tchip new">جدید — انتشار امروز</div>' : ''}${isExpired(it) ? '<div class="tchip exp">مهلت دریافت اسناد گذشته</div>' : ''}<div class="tchip">${dash(t.subject)}</div></div>
+      <div class="chips">${chips}</div>
     </div>
     <div class="ttitle">${faTitle(it.title)}</div>
     <div class="kv-grid">
       ${kv('دستگاه مناقصه‌گزار', dash(it.org))}
       ${kv('نوع فرآیند', dash(t.setupType))}
+      ${reshte ? kv('رشته مورد نیاز', esc(reshte)) : ''}
+      ${grade ? kv('رتبه/پایه مورد نیاز', grade) : ''}
       ${kv('استان / شهر عملیات', dash(t.operationProvince) + ' / ' + dash(t.operationCity))}
       ${kv('حوزه فعالیت', dash(t.domainsDesc))}
       ${kv('برآورد مالی', rial(t.financialEstimate))}
@@ -199,23 +210,25 @@ function methodNote() {
       '.'
     : '';
   return `<div class="method" data-m="method">
-      <b>روش گردآوری:</b> داده‌ها مستقیماً از «تابلوی اعلانات مرکزی سامانه تدارکات الکترونیکی دولت» (fe.setadiran.ir/centralboard) با فیلتر استان ${esc(PROV)} و شهر ${esc(CITY)} و از صفحات رسمی جزئیات اگهی در سامانه‌های etend.setadiran.ir و eproc.setadiran.ir استخراج شده است. ترتیب همه بخش‌ها «جدیدترین در بالا» بر اساس ترتیب انتشار خود سامانه است و شماره فراخوان نیز لحاظ شده. شماره هر اگهی به صفحه رسمی همان اگهی لینک است (لینک مزایده‌ها پس از ورود به سامانه باز می‌شود). به درخواست کاربر، مزایده‌ها و استعلام‌های خرید کالا از این گزارش حذف شده و فقط مناقصات و استعلام‌های خدمات می‌آید. مهلت‌های دریافت/ارسال گذشته با رنگ قرمز مشخص شده‌اند. ستون «زمان ارسال به صفحه اعلام» از تاریخچه پایش ثبت می‌شود؛ برای اگهی‌های قدیمی‌تر از شروع پایش «—» درج شده چون زمان دقیق انتشار آن‌ها در دسترس عمومی سامانه نیست. تاریخ تهیه گزارش: ${esc(NOW.date)}، ساعت ${esc(NOW.time)} برابر ${esc(NOW.g)}.${addedList} برای مشاهده و دانلود اسناد کامل هر اگهی، ورود به حساب کاربری در سامانه ستاد ایران لازم است.
+      <b>روش گردآوری:</b> داده‌ها مستقیماً از «تابلوی اعلانات مرکزی سامانه تدارکات الکترونیکی دولت» (fe.setadiran.ir/centralboard) با فیلتر استان ${esc(PROV)} و شهر ${esc(CITY)} و از صفحات رسمی جزئیات اگهی در سامانه‌های etend.setadiran.ir و eproc.setadiran.ir استخراج شده است. «رشته مورد نیاز» از فهرست حوزه‌های فعالیت رسمی همان اگهی در سامانه استخراج می‌شود؛ «رتبه/پایه مورد نیاز» هیچ فیلد جداگانه‌ای در سامانه ندارد و فقط وقتی درج می‌شود که در متن خود اگهی (عنوان، شرح یا توضیح تضمین) ذکر شده باشد — نبود آن یعنی اگهی رتبه صریح تعیین نکرده و شرایط صلاحیت را اسناد مناقصه تعیین می‌کند. ترتیب همه بخش‌ها «جدیدترین در بالا» بر اساس ترتیب انتشار خود سامانه است و شماره فراخوان نیز لحاظ شده. شماره هر اگهی به صفحه رسمی همان اگهی لینک است (لینک مزایده‌ها پس از ورود به سامانه باز می‌شود). به درخواست کاربر، مزایده‌ها و استعلام‌های خرید کالا از این گزارش حذف شده و فقط مناقصات و استعلام‌های خدمات می‌آید. مهلت‌های دریافت/ارسال گذشته با رنگ قرمز مشخص شده‌اند. ستون «زمان ارسال به صفحه اعلام» از تاریخچه پایش ثبت می‌شود؛ برای اگهی‌های قدیمی‌تر از شروع پایش «—» درج شده چون زمان دقیق انتشار آن‌ها در دسترس عمومی سامانه نیست. تاریخ تهیه گزارش: ${esc(NOW.date)}، ساعت ${esc(NOW.time)} برابر ${esc(NOW.g)}.${addedList} برای مشاهده و دانلود اسناد کامل هر اگهی، ورود به حساب کاربری در سامانه ستاد ایران لازم است.
     </div>`;
 }
 
 // ---------- گام ۱: measure.html ----------
 // ارتفاع‌ها per-city داخل پوشه داده خود شهر ذخیره می‌شوند تا اجرای شهر دیگر (مثلاً قدس) فایل مشترک را بازنویسی نکند
+// LAYOUT با هر تغییر چیدمان کارت‌ها بالا می‌رود تا ارتفاع‌های قدیمی بی‌اعتبار شوند و measure.js دوباره اجرا شود
+const LAYOUT = 2; // v2: افزودن رشته/رتبه به کارت مناقصه
 const heightsPath = path.join(dataDir, 'heights.json');
 const measurePath = path.join(dataDir, 'measure.html');
 // ارتفاع‌های ذخیره‌شده فقط وقتی معتبرند که همه اجزای همین مجموعه‌داده را پوشش دهند
 const needIds = ['hB1', ...tenders.map((_, i) => 't' + (i + 1)), 'hB2', ...services.map((_, i) => 's' + (i + 1)), 'method'];
 const heightsValid = () => {
-  try { const H = JSON.parse(fs.readFileSync(heightsPath, 'utf8')); return needIds.every(id => H[id] != null); }
+  try { const H = JSON.parse(fs.readFileSync(heightsPath, 'utf8')); return String(H.__layout) === String(LAYOUT) && needIds.every(id => H[id] != null); }
   catch { return false; }
 };
 if (!heightsValid()) {
   const html = `<!DOCTYPE html>
-<html lang="fa" dir="rtl"><head><meta charset="UTF-8"><title>measure</title>
+<html lang="fa" dir="rtl"><head><meta charset="UTF-8"><meta name="layout-v" content="${LAYOUT}"><title>measure</title>
 <style>
   @font-face { font-family: 'Vazirmatn'; src: url('fonts/Vazirmatn-Regular.woff2') format('woff2'); font-weight: 400; }
   @font-face { font-family: 'Vazirmatn'; src: url('fonts/Vazirmatn-Medium.woff2') format('woff2'); font-weight: 500; }
@@ -237,6 +250,8 @@ if (!heightsValid()) {
   .tchip { font-size: 7.2pt; font-weight: 700; color: var(--teal-ink); background: var(--teal-tint); border: 0.7px solid var(--teal-line); border-radius: 999px; padding: 0.8mm 3mm; white-space: nowrap; }
   .tchip.new { color: var(--amber-ink); background: var(--amber-tint); border-color: var(--amber-line); }
   .tchip.exp { color: var(--red-ink); background: var(--red-tint); border-color: var(--red-line); }
+  .tchip.reshte { color: #1d4ed8; background: #eef2ff; border-color: #c7d2fe; }
+  .tchip.grade { color: #6d28d9; background: #f5f3ff; border-color: #ddd6fe; }
   .expired { color: var(--red); font-weight: 700; }
   .exptag { display: inline-block; font-size: 6.6pt; font-weight: 700; color: var(--red-ink); background: var(--red-tint); border: 0.6px solid var(--red-line); border-radius: 999px; padding: 0.2mm 2mm; vertical-align: middle; margin-right: 1mm; white-space: nowrap; }
   .row-expired td { background: var(--red-tint) !important; }

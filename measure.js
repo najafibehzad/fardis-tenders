@@ -32,7 +32,9 @@ if (CHROME) launchOpts.executablePath = CHROME;
     });
     return out;
   });
-  fs.writeFileSync(OUT, JSON.stringify(heights), 'utf8');
+  // نسخهٔ چیدمان از gen (تگ layout-v در measure.html) همراه ارتفاع‌ها ذخیره می‌شود تا بی‌اعتباری ارتفاع‌های قدیمی قابل تشخیص باشد
+  const layoutV = await page.evaluate(() => (document.querySelector('meta[name="layout-v"]') || {}).content || null);
+  fs.writeFileSync(OUT, JSON.stringify(layoutV ? Object.assign({ __layout: layoutV }, heights) : heights), 'utf8');
   const keys = Object.keys(heights);
   console.log('MEASURED', keys.length, 'elements');
   await browser.close();

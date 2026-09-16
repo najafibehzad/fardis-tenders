@@ -10,13 +10,18 @@ const UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/
 // میزبان‌ها ثابت‌اند؛ توابع درخواست فقط «مسیر» می‌گیرند و اوریجن هرگز از ورودی نمی‌آید
 const ETEND_ORIGIN = 'https://etend.setadiran.ir';
 const EPROC_ORIGIN = 'https://eproc.setadiran.ir';
+const ALLOWED_HOSTS = ['gw.setadiran.ir', 'etend.setadiran.ir', 'eproc.setadiran.ir'];
 
 function request(u) {
+  const url = new URL(u);
+  if (url.protocol !== 'https:' || !ALLOWED_HOSTS.includes(url.hostname)) {
+    return Promise.reject(new Error('host not allowed: ' + url.hostname));
+  }
   return new Promise((res, rej) => {
     const r = https.get(u, { headers: { 'User-Agent': UA } }, x => {
       let d = ''; x.on('data', c => d += c); x.on('end', () => res(d));
     });
-    r.on('error', rej); r.setTimeout(40000, () => { r.destroy(); rej(new Error('timeout: ' + u.href)); });
+    r.on('error', rej); r.setTimeout(25000, () => { r.destroy(); rej(new Error('timeout: ' + u.href)); });
   });
 }
 function etendGet(tenderId) {
@@ -24,6 +29,28 @@ function etendGet(tenderId) {
   u.searchParams.set('tenderId', String(tenderId));
   if (u.origin !== ETEND_ORIGIN || u.protocol !== 'https:') throw new Error('bad request target');
   return request(u);
+}
+// لیست رشته‌های مناقصه (حوزه‌های فعالیت) از گرید JSON خود صفحه جزئیات
+function etendDomainsGet(tenderId) {
+  const u = new URL(ETEND_ORIGIN + '/etend/centralBoardTenderDetails-loadTenderDomainsList.action');
+  u.searchParams.set('tenderId', String(tenderId));
+  if (u.origin !== ETEND_ORIGIN || u.protocol !== 'https:') throw new Error('bad request target');
+  return request(u);
+}
+// رشته‌ها = نام والد هر حوزه؛ «رشته X» پیشوند استاندارد سامانه است و برای نمایش کوتاه می‌شود
+function parseDomainsJson(raw) {
+  try {
+    const j = JSON.parse(raw);
+    const arr = Array.isArray(j.tenderActivityDomains) ? j.tenderActivityDomains : [];
+    const fields = [];
+    for (const d of arr) {
+      if (d.parentName) {
+        const short = String(d.parentName).replace(/^رشته\s+/, '').trim();
+        if (short && !fields.includes(short)) fields.push(short);
+      }
+    }
+    return fields;
+  } catch { return []; }
 }
 function eprocGet(reqId) {
   const u = new URL(EPROC_ORIGIN + '/eproc/purchaseNeedViewBoardIntegration.do');
@@ -62,6 +89,24 @@ async function fetchRetry(fn, label, tries = 3) {
 }
 const decode = s => (s || '').replace(/&amp;/g, '&').replace(/&quot;/g, '"').replace(/&#39;/g, "'")
   .replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&nbsp;/g, ' ').trim();
+
+// «رتبه» پیمانکاری هیچ فیلد جداگانه‌ای در سامانه ندارد؛ در متن اگهی (عنوان/شرح/توضیح تضمین) درج می‌شود
+// الگوها: «رتبه 5»، «رتبه ۵»، «حداقل رتبه 5»، «رتبه بندی 1تا3»، «رتبه 4 آب» — رقم اجباری است تا «رتبه بندی شرکت‌ها» مچ نشود
+// هر متن جداگانه بررسی می‌شود تا کلمات انتهایی یک فیلد به فیلد بعدی نچسبند
+function extractGradeFromText(...texts) {
+  const re = /(?:حداقل\s+)?رتبه\s*(?:بندی\s*)?(?:حداقل\s*)?\d+(?:\s*(?:تا|و)\s*\d+)?(?:\s+[^\s،.;:()"]{1,20}){0,2}/g;
+  const found = [];
+  const trimEdge = s => s.replace(/\s+(?:و|تا)$/, '').trim(); // «رتبه 5 راه و» → «رتبه 5 راه»
+  for (const raw of texts) {
+    if (!raw) continue;
+    const norm = raw.replace(/\u200c/g, ' ').replace(/\s+/g, ' ').replace(/[۰-۹]/g, d => String('۰۱۲۳۴۵۶۷۸۹'.indexOf(d)));
+    for (const m of norm.match(re) || []) {
+      const t = trimEdge(m);
+      if (t && !found.includes(t)) found.push(t);
+    }
+  }
+  return found.length ? found.join('؛ ') : null;
+}
 
 // ---------- پارس صفحه مناقصه (etend): مقادیر داخل input/textarea/select هستند ----------
 function parseTender(html) {
@@ -131,11 +176,18 @@ function parseEproc(html) {
           else {
             const html = await fetchRetry(() => etendGet(tableId), it.number);
             const p = parseTender(html); const f = p.fields;
+            // رشته‌ها مکمل‌اند — شکست در واکشی‌شان نباید کل جزئیات مناقصه را از بین ببرد
+            let specialties = [];
+            try {
+              specialties = parseDomainsJson(await fetchRetry(() => etendDomainsGet(tableId), it.number + '/domains'));
+            } catch (e) { console.log('DOMAINS-FAIL', it.number, e.message); }
             rec.tender = {
               subject: f['tenderDto.tender.subjectAllowedName'], setupType: f['tenderDto.tender.setupType'],
               registrar: f['tenderRegistrarEmployeeFullName'], postalCode: f['tenderDto.tender.postalCode'],
               address: f['tenderDto.tender.address'], desc: f['tenderDto.tender.description'],
               domainsDesc: f['tenderDto.tender.domainsDescription'],
+              specialties,
+              gradeFromText: extractGradeFromText(it.title, f['tenderDto.tender.description'], f['tenderDto.tender.guarantyDescription']),
               operationProvince: f['tenderDto.tender.tenderAdditionalInfo.operationProvinceId'],
               operationCity: f['tenderDto.tender.tenderAdditionalInfo.operationCityId'],
               financialEstimate: f['tenderDto.tender.financialEstimatePrice'],
@@ -165,7 +217,7 @@ function parseEproc(html) {
         console.log('FAIL', it.number, e.message);
       }
       data[idx] = rec;
-      await sleep(120);
+      await sleep(80);
     }
   }
   await Promise.all([worker(), worker(), worker(), worker(), worker(), worker()]);
