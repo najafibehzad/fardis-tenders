@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<Task version="1.4" xmlns="http://schemas.microsoft.com/windows/2004/02/mit/task">
+<Task version="1.4" xmlns="http://schemas.microsoft.com/2004/02/mit/task">
   <RegistrationInfo>
     <Description>Fardis Bale two-way bot - poll inbox every 1 minute, run commands (report/status/link/help)</Description>
   </RegistrationInfo>
@@ -20,10 +20,12 @@
     <StartWhenAvailable>true</StartWhenAvailable>
     <WakeToRun>false</WakeToRun>
     <ExecutionTimeLimit>PT30M</ExecutionTimeLimit>
+    <Hidden>true</Hidden>
   </Settings>
   <Actions Context="Author">
     <Exec>
-      <Command>C:\Users\behzad\.zcode\workspace\default\fardis-tenders\bale_bot.cmd</Command>
+      <Command>wscript.exe</Command>
+      <Arguments>"C:\Users\behzad\.zcode\workspace\default\fardis-tenders\bale_bot.vbs"</Arguments>
       <WorkingDirectory>C:\Users\behzad\.zcode\workspace\default\fardis-tenders</WorkingDirectory>
     </Exec>
   </Actions>
